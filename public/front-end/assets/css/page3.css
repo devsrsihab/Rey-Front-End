@@ -1,0 +1,466 @@
+/* presets ========= */
+.containers_sections {
+  max-width: 1660px;
+  padding: 0 20px;
+  width: 100%;
+  margin: auto;
+}
+
+/* Pagination section  */
+.pagination {
+  text-transform: capitalize;
+  margin-top: 50px;
+  margin-bottom: 130px;
+  color: gray;
+  font-size: 24px;
+  line-height: 24px;
+}
+.pagination span {
+  font-weight: 600;
+  color: black;
+}
+/* Why choose us section  */
+
+.line {
+  margin: 47px 0;
+  width: 111px;
+  height: 2px;
+  background-color: #d4a244;
+}
+
+.why_choose_us_cards {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+.choose_us_card {
+  max-width: 375px;
+  width: 100%;
+  background-color: #7f7f42;
+  color: #fff;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+/* image section  */
+.choose_us_card_image {
+  max-width: 176px;
+  width: 100%;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.choose_us_card_image img {
+  width: 100%;
+}
+
+.choose_us_card_text h3 {
+  color: #ffffff;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+}
+.choose_us_card_text p {
+  margin-top: 15px;
+  color: #ffffff;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 400;
+}
+.choose_account {
+  margin-top: 100px;
+}
+.choose_account h3 {
+  font-size: 42px;
+  line-height: 51px;
+  margin-bottom: 45px;
+  font-weight: 700;
+}
+
+/* Account Categories section  */
+.account_category {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+.account_category_div {
+  max-width: 780px;
+  width: 100%;
+  background-color: #ecebe9;
+  padding: 60px 50px;
+}
+.choose_account h2 {
+  font-size: 38px;
+  line-height: 51px;
+  font-weight: 700;
+}
+.account_category_div p {
+  margin-top: 25px;
+  font-size: 34px;
+  line-height: 41px;
+  color: #222222;
+}
+/* Account Categories Radio button  start ********************************/
+.account_category_radio_div input[type="radio"] {
+  display: none;
+}
+.labels {
+  display: block;
+  font-weight: 400;
+}
+.spans {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 20px 10px 10px;
+  transition: 0.25s ease;
+}
+.labels .spans:before {
+  content: "";
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+  transition: 0.25s ease;
+  box-shadow: inset 0 0 0 2px #00005c;
+}
+.account_category_radio_div input[type="radio"]:checked + .spans:before {
+  box-shadow: inset 0 0 0 8px #222222;
+}
+/* Account Categories Radio button  end*****************************/
+.account_category_radio_div {
+  margin-top: 30px;
+}
+.account_category_radio_div label {
+  font-size: 33px;
+  line-height: 52px;
+}
+
+.account_category_input_div input {
+  border: none;
+  max-width: 520px;
+  height: 62px;
+  width: 100%;
+  outline: none;
+  padding: 10px 18px;
+  font-size: 33px;
+  line-height: 52px;
+  margin-top: 15px;
+  margin-left: 60px;
+}
+.account_category_radio_div div {
+  margin-top: 7px;
+}
+/* Account information section start====================== */
+.account_information_parent input {
+  margin-top: 5px;
+}
+.create_new_account_info {
+  margin-top: 80px;
+}
+.new_account_email input {
+  width: 100%;
+  padding: 10px;
+  height: 70px;
+  font-size: 18px;
+  outline: none;
+  border: 2px solid #222222;
+}
+.new_account_email label {
+  font-size: 18px;
+  line-height: 36px;
+}
+.new_account_names {
+  display: flex;
+  align-items: end;
+  width: 100%;
+  gap: 28px;
+  margin-top: 21px;
+}
+.new_account_first_name,
+.new_account_last_name {
+  width: 100%;
+  font-size: 18px;
+}
+.new_account_first_name input,
+.new_account_last_name input {
+  width: 100%;
+  padding: 10px;
+  height: 70px;
+  font-size: 18px;
+  outline: none;
+  border: 2px solid #222222;
+}
+.new_account_first_name small {
+  font-size: 15px;
+}
+/* company_info_section */
+.company_info_section {
+  margin-top: 60px;
+}
+.company_info_section h2 {
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* Account information section end====================== */
+
+/* Footer section ==================== */
+
+.main_footer {
+  background-color: #2e2c2c;
+  color: #ffffff;
+  padding: 2rem;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 2rem 3rem;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.footer_heading {
+  color: #bc6d3d;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+  margin-bottom: 18px;
+  border-bottom: 2px solid #bc6d3d;
+}
+.sub_footer_section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.sub_footer_section div {
+  padding-right: 50px;
+}
+
+/* media query --------------------------------------------------------------------------------------------- */
+@media (max-width: 640px) {
+  /* Pagination section  */
+  .pagination {
+    text-transform: capitalize;
+    margin-top: 30px;
+    margin-bottom: 48px;
+    color: gray;
+    letter-spacing: 0.5px;
+  }
+  .pagination span {
+    font-weight: 600;
+    color: black;
+  }
+  /* Why choose us section  */
+
+  .line {
+    margin: 17px 0;
+    width: 42px;
+  }
+
+  .why_choose_us_cards {
+    margin-top: 50px;
+    gap: 13px;
+  }
+  .choose_us_card {
+    max-width: 175px;
+    padding: 20px;
+  }
+  /* image section  */
+  .choose_us_card_image {
+    max-width: 176px;
+    width: 100%;
+    height: 100px;
+  }
+  .choose_us_card_image img {
+    width: 100%;
+  }
+
+  .choose_us_card_text h3 {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .choose_us_card_text p {
+    margin-top: 13px;
+    color: #e4ddc7;
+    font-size: 13px;
+    line-height: 16px;
+  }
+  .choose_account {
+    margin-top: 65px;
+  }
+  .choose_account h3 {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 16px;
+    font-weight: 400;
+    max-width: 250px;
+  }
+  /* _________________________--------------------------------  */
+
+  /* Account Categories section  */
+  .account_category {
+    flex-wrap: wrap;
+    gap: 14px;
+  }
+  .account_category_div {
+    max-width: 781px;
+    width: 100%;
+    background-color: #edecea;
+    padding: 31px 19px;
+  }
+  .choose_account h2 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .account_category_div p {
+    margin-top: 14px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  /* Account Categories Radio button  start ********************************/
+
+  .labels {
+    display: block;
+    font-weight: 400;
+    margin-bottom: 5px;
+  }
+  .spans {
+    display: inline-flex;
+    align-items: center;
+    padding: 0px;
+    transition: 0.25s ease;
+  }
+  .labels .spans:before {
+    content: "";
+    background-color: #fff;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: 0.25s ease;
+    box-shadow: inset 0 0 0 1px #00005c;
+  }
+  .account_category_radio_div input[type="radio"]:checked + .spans:before {
+    box-shadow: inset 0 0 0 5px #222222;
+  }
+  /* Account Categories Radio button  end*****************************/
+  .account_category_radio_div {
+    margin-top: 14px;
+  }
+  .account_category_radio_div label {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .account_category_input_div input {
+    border: none;
+    max-width: 337px;
+    width: 100%;
+    height: 38px;
+    outline: none;
+    padding: 10px 18px;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: #fff;
+    margin-top: 15px;
+    margin-left: 20px;
+  }
+  .account_category_radio_div div {
+    margin-top: 7px;
+  }
+  /* Account information section start====================== */
+  .account_information_parent input {
+    margin-top: 2px;
+  }
+  .create_new_account_info {
+    margin-top: 62px;
+  }
+  .new_account_email input {
+    height: 26px;
+    font-size: 11px;
+    line-height: 13px;
+    padding: 10px;
+    border: 1px solid #222222;
+  }
+  .new_account_email label {
+    font-size: 11px;
+    line-height: 13px;
+  }
+  .new_account_names {
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 9px;
+  }
+  .new_account_first_name,
+  .new_account_last_name {
+    font-size: 11px;
+    line-height: 13px;
+  }
+  .new_account_first_name input,
+  .new_account_last_name input {
+    width: 100%;
+    padding: 10px;
+    height: 26px;
+    font-size: 11px;
+    line-height: 13px;
+    border: 1px solid #222222;
+  }
+  /* company_info_section */
+  .company_info_section {
+    margin-top: 45px;
+  }
+  .company_info_section h2 {
+    margin-bottom: 17px;
+  }
+  .new_account_first_name small {
+    font-size: 7px;
+  }
+  .company_info_section h2 {
+    font-size: 13px;
+    line-height: 19px;
+    font-weight: 700;
+  }
+  /* Account information section end====================== */
+
+  /* Footer section ==================== */
+
+  .main_footer {
+    background-color: #2e2c2c;
+    color: #ffffff;
+    padding: 2rem;
+  }
+  footer {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 2rem 3rem;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .footer_heading {
+    color: #bc6d3d;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    margin-bottom: 18px;
+    border-bottom: 2px solid #bc6d3d;
+  }
+  .sub_footer_section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .sub_footer_section div {
+    padding-right: 50px;
+  }
+}
+/* Nav Border */
+.navlinks.active {
+  border-bottom: 10px solid #bb6c3e;
+  transition: all 0.2s ease;
+}

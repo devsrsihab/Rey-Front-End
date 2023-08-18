@@ -1,0 +1,127 @@
+/* The policy_checkbox_container */
+.policy_checkbox_container {
+  display: flex;
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.policy_checkbox_container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.policy_checkmark {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+@media (max-width: 640px) {
+  /* The policy_checkbox_container */
+  .policy_checkbox_container {
+    display: flex;
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  /* Create a custom checkbox */
+  .policy_checkmark {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+  }
+}
+
+/* On mouse-over, add a grey background color */
+.policy_checkbox_container:hover input ~ .policy_checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.policy_checkbox_container input:checked ~ .policy_checkmark {
+  background-color: #2196f3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.policy_checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.policy_checkbox_container input:checked ~ .policy_checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.policy_checkbox_container .policy_checkmark:after {
+  left: 10px;
+  top: 4px;
+  width: 6px;
+  height: 15px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* parent  */
+.policy_checkbox_parent label {
+  display: flex;
+  align-items: center;
+}
+
+.policy_checkbox_parent label {
+  margin-top: 47px;
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+.policy_checkbox_parent span {
+  color: #d4a244;
+}
+
+@media (max-width: 640px) {
+  .policy_checkbox_parent label {
+    margin-top: 18px;
+    margin-bottom: 12px;
+    font-size: 11px;
+    line-height: 14px;
+  }
+  .policy_checkbox_parent span {
+    color: #d4a244;
+  }
+
+  /* Style the checkmark/indicator */
+  .policy_checkbox_container .policy_checkmark:after {
+    left: 5px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid rgb(255, 255, 255);
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+}

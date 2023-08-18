@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+}
+:root {
+  --blackText: #222222; /* Texts, Color blocks */
+  --whiteText: #ffffff; /* Texts, Color blocks */
+  --logoColor: #9e5643; /* Rey-Xpress Logo */
+  --lemonColor: #cad878; /* Accent color used sitewide */
+  --lemonDarkColor: #808041; /* Accent color used sitewide, Illustration highlights */
+  --buttonColor: #bc6d3e; /*  Linked Text, Buttons, Accent color used sitewide  */
+  --grayColor: #9a999a; /* Accent color used sitewide, Social logos at footer, • Rey-Xpress logo at footer  */
+  --mainFontFamily: "Roboto", sans-serif; /* Brandon font paid, Lato is similar*/
+  --footer: #b7a8a2; /*Footer terms ans condition text color*/
+  --minWidth: 428px;
+  --maxWidth: 1920px;
+}
+
+/* text sizes start--------------- */
+.head1 {
+  font-size: 50px;
+  line-height: 55px;
+}
+.copy1 {
+  font-size: 28px;
+  line-height: 38px;
+}
+.copy2 {
+  font-size: 38px;
+  line-height: 48px;
+}
+@media (max-width: 768px) {
+  .head1 {
+    font-size: 22px;
+    line-height: 24px;
+  }
+  .copy1 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .copy2 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+@media (max-width: 1200px) {
+  .headmobile1 {
+    font-size: 22px;
+    line-height: 24px;
+  }
+  .copymobile1 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+/* footer text  */
+.fLinks {
+  font-size: 22px;
+  line-height: 32px;
+}
+@media (max-width: 768px) {
+  .fLinks {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+/* text sizes End --------------- */
+
+/* containers start --------------- */
+
+/* left right space  */
+.box1 {
+  max-width: 1920px;
+  width: 100%;
+  padding: 0 150px;
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .box1 {
+    padding: 0 35px;
+  }
+}
+
+/* Right side attached */
+.box2 {
+  max-width: 1920px;
+  width: 100%;
+  padding-left: 150px;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .box2 {
+    padding-left: 35px;
+  }
+}
+/* Left side attached */
+.box3 {
+  max-width: 1920px;
+  width: 100%;
+  padding-right: 150px;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .box3 {
+    padding-right: 35px;
+  }
+}
+
+/* another  */
+.box_full {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Why choose us section  */
+
+.text_line {
+  margin: 47px 0;
+  width: 111px;
+  height: 2px;
+  background-color: #d4a244;
+}
+
+@media (max-width: 640px) {
+  /* Pagination section  */
+  .pagination {
+    text-transform: capitalize;
+    margin-top: 30px;
+    margin-bottom: 48px;
+    color: gray;
+    letter-spacing: 0.5px;
+  }
+  .pagination span {
+    font-weight: 600;
+    color: black;
+  }
+  /* Why choose us section  */
+
+  .text_line {
+    margin: 17px 0;
+    width: 42px;
+  }
+}
+/* heading size  */
+.hading_size {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 55px;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+@media (max-width: 768px) {
+  .hading_size {
+    font-size: 22px;
+    line-height: 24px;
+    margin-bottom: 15px;
+  }
+}
+
+/* paragraph size  */
+.paragraph_size {
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 48px;
+}
+@media (max-width: 768px) {
+  .paragraph_size {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+}
+
+/* bg_white_btn  */
+.bg_white_btn {
+  text-transform: uppercase;
+  font-size: 21px;
+  letter-spacing: 3px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  padding: 20px 71px;
+  transition: all 0.4s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #bb6c3e;
+  color: #ffffff;
+}
+.bg_white_btn:hover {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+@media (max-width: 868px) {
+  .bg_white_btn {
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 16px;
+    padding: 9px 30px;
+    letter-spacing: 1.5px;
+  }
+}
+/* bg_black_btn  */
+.bg_black_btn {
+  text-transform: uppercase;
+  font-size: 21px;
+  letter-spacing: 3px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  padding: 20px 71px;
+  transition: all 0.4s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg_black_btn:hover {
+  color: #ffffff;
+  background-color: #bb6c3e;
+}
+
+@media (max-width: 868px) {
+  .bg_black_btn {
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 16px;
+    padding: 9px 30px;
+    letter-spacing: 1.5px;
+  }
+}

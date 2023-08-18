@@ -1,0 +1,405 @@
+/* Account Categories Radio button  start ********************************/
+.account_category_radio_div input[type="radio"] {
+  display: none;
+}
+.labels {
+  display: block;
+  font-weight: 400;
+  /* margin-bottom: 10px; */
+}
+.labels:hover {
+  background-color: #ebe8e8;
+}
+.spans {
+  display: flex;
+  align-items: center;
+  padding: 7px;
+  transition: 0.25s ease;
+  font-size: 34px;
+  line-height: 60px;
+}
+.labels .spans:before {
+  content: "";
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+  transition: 0.25s ease;
+  box-shadow: inset 0 0 0 2px #00005c;
+}
+.account_category_radio_div input[type="radio"]:checked + .spans:before {
+  box-shadow: inset 0 0 0 8px #222222;
+}
+/* Account Categories Radio button  end*****************************/
+
+@media (max-width: 640px) {
+  .spans {
+    padding: 4px;
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .labels .spans:before {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 1px #00005c;
+  }
+  .account_category_radio_div input[type="radio"]:checked + .spans:before {
+    box-shadow: inset 0 0 0 4px #222222;
+  }
+}
+
+/* Tab section ---------------------------------------------------------------------------------------- start */
+
+.tabContainer {
+  width: 100%;
+}
+.tabContainer .buttonContainer button {
+  width: 25%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+}
+.tabContainer .buttonContainer button:hover {
+  background-color: #f1f1f1;
+}
+
+.tab_content {
+  display: none;
+}
+.tab_button.active {
+  background-color: #ecebe9;
+}
+
+.tab_content.active {
+  display: block;
+}
+
+@media (max-width: 640px) {
+  .tabContainer .buttonContainer button {
+    width: 32%;
+    padding: 10px;
+  }
+}
+
+/* sub section  */
+
+.sub_tab_content {
+  display: none;
+}
+.sub_tab_content.active {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 15px;
+}
+.select_cabinet.active {
+  background-color: #ecebe9;
+}
+.select_cabinet {
+  background-color: #f9f9f9;
+}
+
+/* Select button background changing  */
+.cabinet_btn.active {
+  background-color: #000;
+  color: #fff;
+}
+.cabinet_btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.cabinet_btn {
+  background-color: #fff;
+  color: #000;
+}
+
+/*   Radio list and it Content Div */
+.radio_list_content.active {
+  display: block;
+}
+.radio_list_content {
+  display: none;
+}
+/* steps_container */
+.steps_container {
+  overflow-x: auto;
+  padding-bottom: 30px;
+}
+@media (max-width: 1280px) {
+  .steps_container {
+    display: none;
+  }
+}
+.mobile_steps_container {
+  overflow-x: auto;
+  padding-bottom: 30px;
+}
+/*  step by step Mobile lines start  */
+.polygon_shapes_box {
+  background-color: #ecebe9;
+  width: 190px;
+  min-width: max-content;
+  height: 130px;
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.polygon_shapes_box:hover,
+.polygon_shapes_box2:hover {
+  background-color: #7f7f41;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.polygon_shapes_box2 {
+  background-color: #ecebe9;
+  width: 190px;
+  height: 130px;
+  min-width: max-content;
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -30px;
+}
+.polygon_shapes {
+  display: flex;
+  min-width: max-content;
+}
+
+/* select box  inches ====================================================================*/
+.select_box_container {
+  min-width: 177px;
+  height: 58px;
+  background-color: #edecea;
+  border: none;
+  outline: none;
+  font-size: 25px;
+  line-height: 41px;
+  padding: 0 25px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: relative;
+  z-index: 0;
+  background-image: url(../images/page5/select-arrow-down.png);
+  background-position: right 15px bottom 20px;
+  background-repeat: no-repeat;
+  background-size: 25px;
+}
+
+@media (max-width: 640px) {
+  .select_box_container {
+    min-width: 84px;
+    height: 24px;
+    font-size: 11px;
+    line-height: 17px;
+    padding: 0 10px;
+    background-image: url(../images/page5/select-arrow-down.png);
+    background-position: right 10px bottom 8px;
+    background-size: 10px;
+  }
+}
+/* Nav Border */
+.navlinks.active {
+  border-bottom: 10px solid #bb6c3e;
+  transition: all 0.2s ease;
+}
+
+.wrapper {
+  border-bottom: 1px solid #222;
+}
+
+.toggle {
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #111130;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px 0;
+}
+.content {
+  position: relative;
+  text-align: justify;
+  line-height: 30px;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.2s;
+}
+
+/* selected image section ---------------------------------------------------------------------------------------- End */
+
+.checkboxes[type="radio"] {
+  display: none;
+}
+.checkbox_label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  background-color: #000000;
+}
+
+:checked + .checkbox_label img {
+  opacity: 0.5;
+  background: rgb(255, 255, 255);
+  transition: 0.1s;
+}
+
+/* selected image section overlay  select icon ---------------------------------------------------------------------------------------- End */
+
+.checkboxes[type="radio"] {
+  display: none;
+}
+.checkbox_label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  background-color: #000000;
+}
+
+.checkbox_label::before {
+  color: #fff;
+  content: "";
+  background: url("../images/page5/select.svg");
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  width: 25px;
+  height: 25px;
+  inset: 0;
+  margin: auto;
+  text-align: center;
+  transition: all 0.2s linear;
+  transform: scale(0);
+}
+
+:checked + .checkbox_label::before {
+  content: "";
+  color: #000;
+  background-color: #ffffff;
+  transform: scale(1);
+  z-index: 99999;
+  opacity: 1;
+}
+
+:checked + .checkbox_label img {
+  opacity: 0.5;
+  background: rgb(255, 255, 255);
+  transition: 0.1s;
+}
+
+@media (max-width: 768px) {
+  .checkbox_label::before {
+    color: #fff;
+    content: "";
+    background: url("../images/page5/select.svg");
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    width: 15px;
+    height: 15px;
+    inset: 0;
+    margin: auto;
+    text-align: center;
+    transition: all 0.2s linear;
+    transform: scale(0);
+  }
+}
+/* Checkbox label 2 ----------------------------------------------------------------------------------------------- */
+/* .checkboxes[type="radio"] {
+  display: none;
+} */
+.checkbox_label2 {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  width: 100%;
+}
+.sub_checkbox_title.active {
+  background-color: #dfddda;
+}
+
+.checkbox_label2::before {
+  color: #fff;
+  display: block;
+  border-radius: 50%;
+  border: 2px solid #222;
+  position: absolute;
+  left: -40px;
+  text-align: center;
+  transition: all 0.2s linear;
+  transform: scale(0);
+  z-index: 999;
+}
+
+:checked + .checkbox_label2::before {
+  content: "";
+  background: url("../images/page5/select.svg");
+  color: #000;
+  transform: scale(1);
+  z-index: 99999;
+  opacity: 1;
+}
+.sub_checkbox_title:last-child {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .checkbox_label2::before {
+    color: #fff;
+    display: block;
+    border-radius: 50%;
+    border: 1px solid #222;
+    position: absolute;
+    left: -30px;
+    text-align: center;
+    transition: all 0.2s linear;
+    transform: scale(0);
+    z-index: 999;
+  }
+}
+
+/* Image zoom effect --------------- */
+.Container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* // remember, place content doesn't work on IE */
+  /* // use standard align/justify props */
+  place-content: center;
+  place-items: center;
+
+  .ImageWrapper {
+    overflow: hidden;
+
+    .AnimatedImage {
+      transform: scale(1);
+      background: url("../images/page5/add to cart.png") transparent no-repeat
+        center;
+      background-size: contain;
+      transition: transform 0.25s cubic-bezier(0.075, 0.82, 0.165, 1);
+      /* /// default origin is in center */
+      transform-origin: 50% 50%;
+      pointer-events: none;
+    }
+
+    &:hover {
+      cursor: crosshair;
+      .AnimatedImage {
+        transform: scale(1.5);
+      }
+    }
+  }
+}
