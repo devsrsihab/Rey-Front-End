@@ -21,7 +21,7 @@
       @include('frontend-views.components.home.competitor')
       @include('frontend-views.components.home.warranty')
       @include('frontend-views.components.global.CTA')
-      @include('frontend-views.components.global.finishing',['finishing_title'=>'Products and Finishes'])
+      @include('frontend-views.components.global.finishing',['finishing_title'=>'Products and Finishes','finishing_bg'=>'front-end/assets/images/homeHero/Rey-Xpress-Products-Finishes-Footer.png'])
       @include('frontend-views.components.global.footer')
   
 @endsection

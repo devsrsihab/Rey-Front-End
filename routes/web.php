@@ -19,3 +19,9 @@ Route::get('/', function () {
 Route::get('/products', function () {
     return view('frontend-views.pages.product');
 });
+Route::get('/create-account', function () {
+    return view('frontend-views.pages.createAccount');
+});
+Route::get('/product-details', function () {
+    return view('frontend-views.pages.productDetails');
+});

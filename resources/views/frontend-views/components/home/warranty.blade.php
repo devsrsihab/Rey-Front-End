@@ -1,6 +1,6 @@
     <!-- Warranty section start -->
-    <section
-        class="relative bg-center bg-no-repeat bg-cover bg-[url('{{ asset( "front-end/assets/images/homeHero/25year-background.jpg" ) }}')] md:h-[1100px] h-[653px]">
+    <section style="background-image: url('{{ asset( "front-end/assets/images/homeHero/25year-background.jpg" ) }}')"
+        class="relative bg-center bg-no-repeat bg-cover  md:h-[1100px] h-[653px]">
         <div
             class="max-w-[1620px] w-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex justify-center">
             <!-- desktop view  -->

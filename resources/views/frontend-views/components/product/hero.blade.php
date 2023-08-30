@@ -1,5 +1,5 @@
 <!-- Hero section start  -->
-<div class="bg-left bg-no-repeat bg-cover bg-[url('../images/page2/Rey-Xpress-Painted-Colors-Finishes.jpg')]">
+<div style="background-image: url('{{ asset('front-end/assets/images/page2/Rey-Xpress-Painted-Colors-Finishes.jpg') }}')" class="bg-left bg-no-repeat bg-cover )]">
 
     <section class="max-w-[1920px] w-full px-[35px] md:px-[150px] mx-auto home_hero h-[600px] md:h-screen relative ">
         <h2

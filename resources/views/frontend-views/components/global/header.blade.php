@@ -6,7 +6,7 @@
             <section class="mx-auto max-w-[1920px] px-[100px] flex justify-between gap-[20px] max-[1000px]:flex-col">
                 <!-- logo -->
                 <div class="logo">
-                    <a href="#">
+                    <a href="{{ url('/') }}">
                         <img class="md:w-[440px] w-[165px]"
                             src="{{ asset('front-end/assets/images/navbar/Rey-Xpress-Color-Logo.svg') }} "
                             alt="logo" />
@@ -19,7 +19,7 @@
                         <div
                             class="min-[1700px]:text-[14px] xl:text-[15px] text-[14px] sm:leading-[14px] leading-[32px] flex items-center max-[1000px]:flex-col max-[1000px]:block">
                             <!-- items  -->
-                            <a class="flex items-center gap-[10px] max-[1000px]:py-[20px]" href="/pages/page3.html">
+                            <a class="flex items-center gap-[10px] max-[1000px]:py-[20px]" href="{{ url('create-account') }}">
                                 <img class="sm:w-[23px] w-[20px]"
                                     src="{{ asset('front-end/assets/images/navbar/Rey-Xpress-Account-Icon.svg') }}"
                                     alt="account" /> SIGN IN / CREATE ACCOUNT </a>
@@ -41,7 +41,7 @@
                         <ul id="navbar"
                             class="nav flex 2xl:gap-[60px] xl:gap-[40px] gap-[20px] min-[1700px]:text-[22px] text-[18px] leading-[32px] text-[#9a999a] uppercase">
                             <li class="hover:text-[#666666]">
-                                <a class="navlinks pb-[28px]" href="/pages/page2.html">PRODUCT & FINISHES</a>
+                                <a class="navlinks pb-[28px]" href="{{ url('products') }}">PRODUCT & FINISHES</a>
                             </li>
                             <li class="hover:text-[#666666]">
                                 <a class="navlinks pb-[28px]" href="./pages/page5.html">SHOP</a>

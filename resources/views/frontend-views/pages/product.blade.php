@@ -15,7 +15,7 @@
     @include('frontend-views.components.product.hero')
     @include('frontend-views.components.product.main')
     @include('frontend-views.components.global.cta')
-    @include('frontend-views.components.global.finishing',['finishing_title'=>'Shop'])
+    @include('frontend-views.components.global.finishing',['finishing_title'=>'Products and Finishes','finishing_bg'=>'front-end/assets/images/homeHero/Rey-Xpress-Products-Finishes-Footer.png'])
     @include('frontend-views.components.global.footer')
 
   

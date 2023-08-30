@@ -21,6 +21,12 @@
     <!-- Shop Page css-->
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/shop-page.css') }}"/>
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/hover-image.css') }}">
+    <!-- Create Account css-->
+    <link rel="stylesheet" href="{{ asset('front-end/assets/css/policy-checkbox.css') }}">
+    <link rel="stylesheet" href="{{ asset('front-end/assets/css/page3.css') }}">
+    <!-- Product Details css-->
+    <link rel="stylesheet" href="{{ asset('front-end/assets/css/page4.css') }}">
+
 
 </head>
 
@@ -34,6 +40,9 @@
     <script src="{{ asset('front-end/assets/js/shop-page.js') }}"></script>
     <script src="{{ asset('front-end/assets/js/hover-image.js') }}"></script>
     <script src="{{ asset('front-end/assets/js/index.js') }}"></script>
+    <script src="{{ asset('front-end/assets/navbar/navbar.js') }}"></script>
+    <script src="{{ asset('front-end/assets/js/page4.js') }}"></script>
+
 </body>
 
 </html>
