@@ -26,6 +26,9 @@
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/page3.css') }}">
     <!-- Product Details css-->
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/page4.css') }}">
+    <!-- Contact css-->
+    <link rel="stylesheet" href="{{ asset('front-end/assets/css/contact.css') }}">
+
 
 
 </head>

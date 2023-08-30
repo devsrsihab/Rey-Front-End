@@ -25,3 +25,6 @@ Route::get('/create-account', function () {
 Route::get('/product-details', function () {
     return view('frontend-views.pages.productDetails');
 });
+Route::get('/contact', function () {
+    return view('frontend-views.pages.contact');
+});
