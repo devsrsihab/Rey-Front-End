@@ -50,7 +50,7 @@
                                 <a class="navlinks pb-[28px]" href="#">WHY REY-XPRESS</a>
                             </li>
                             <li class="hover:text-[#666666]">
-                                <a class="navlinks pb-[28px]" href="#">TUTORIALS</a>
+                                <a class="navlinks pb-[28px]" href="{{ url('tutorials') }}">TUTORIALS</a>
                             </li>
                             <li class="hover:text-[#666666]">
                                 <a class="navlinks pb-[28px]" href="{{ url('contact') }}">CONTACT</a>

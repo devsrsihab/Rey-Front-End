@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+}
+
+/* paragraph size  */
+.paragraph_size {
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 48px;
+}
+@media (max-width: 768px) {
+  .paragraph_size {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+}
+.paragraph_size2 {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 38px;
+}
+@media (max-width: 768px) {
+  .paragraph_size2 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+}
+/* heading size  */
+.hading_size {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 55px;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+@media (max-width: 768px) {
+  .hading_size {
+    font-size: 22px;
+    line-height: 24px;
+    margin-bottom: 15px;
+  }
+}
+
+/* num_toggle_size  */
+.num_toggle_size {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 41px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .num_toggle_size {
+    font-size: 18px;
+    line-height: 15px;
+  }
+}
+/* num_toggle_size  */
+.title_toggle_size {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 41px;
+  text-transform: capitalize;
+}
+
+@media (max-width: 768px) {
+  .title_toggle_size {
+    font-size: 16px;
+    line-height: 15px;
+  }
+}
+
+/* toggle  */
+.toggle {
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #111130;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px 0;
+}
+.content {
+  position: relative;
+  text-align: justify;
+  line-height: 30px;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.2s;
+}
+
+/* button  */
+/* bg_white_btn  */
+.bg_white_btn {
+  text-transform: uppercase;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  background-color: #fff;
+  padding: 20px 71px;
+  transition: all 0.4s ease;
+}
+.bg_white_btn:hover {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+@media (max-width: 768px) {
+  .bg_white_btn {
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 16px;
+    padding: 9px 30px;
+  }
+}

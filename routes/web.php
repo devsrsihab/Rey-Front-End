@@ -35,3 +35,6 @@ Route::get('/home2', function () {
 Route::get('/shop', function () {
     return view('frontend-views.pages2.shop');
 });
+Route::get('/tutorials', function () {
+    return view('frontend-views.pages2.Tutorials');
+});

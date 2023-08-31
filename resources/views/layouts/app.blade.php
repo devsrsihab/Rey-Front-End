@@ -29,6 +29,9 @@
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/contact.css') }}">
     <!-- Shop css-->
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/shop-page.css') }}">
+    <!-- Tutorial css-->
+    <link rel="stylesheet" href="{{ asset('front-end/assets/css/tutorials-page.css') }}">
+
     <!--Tailwind css CDN -->
     @vite('resources/css/app.css')
 
