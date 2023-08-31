@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@yield('title')</title>
 
-    <!--Tailwind css CDN -->
-    @vite('resources/css/app.css')
+
     <!-- Navbar css file -->
     <link rel="stylesheet" href="{{ asset('front-end/assets/navbar/mobile_navbar.css') }}" />
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/navbar.css') }}" />
@@ -28,7 +27,10 @@
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/page4.css') }}">
     <!-- Contact css-->
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/contact.css') }}">
-
+    <!-- Shop css-->
+    <link rel="stylesheet" href="{{ asset('front-end/assets/css/shop-page.css') }}">
+    <!--Tailwind css CDN -->
+    @vite('resources/css/app.css')
 
 
 </head>

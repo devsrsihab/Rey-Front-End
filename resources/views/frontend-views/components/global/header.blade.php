@@ -44,7 +44,7 @@
                                 <a class="navlinks pb-[28px]" href="{{ url('products') }}">PRODUCT & FINISHES</a>
                             </li>
                             <li class="hover:text-[#666666]">
-                                <a class="navlinks pb-[28px]" href="./pages/page5.html">SHOP</a>
+                                <a class="navlinks pb-[28px]" href="{{ url('shop') }}">SHOP</a>
                             </li>
                             <li class="hover:text-[#666666]">
                                 <a class="navlinks pb-[28px]" href="#">WHY REY-XPRESS</a>

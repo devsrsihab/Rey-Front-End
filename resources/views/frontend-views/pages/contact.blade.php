@@ -1,5 +1,6 @@
 @extends('layouts.app')
-@section('title', 'CONTACT')
+@section('title', 'CREATE ACCOUNT')
+
 @section('content')
 
     {{--  =====Component flowChart=====

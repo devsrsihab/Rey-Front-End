@@ -28,3 +28,10 @@ Route::get('/product-details', function () {
 Route::get('/contact', function () {
     return view('frontend-views.pages.contact');
 });
+// page two pages
+Route::get('/home2', function () {
+    return view('frontend-views.pages2.home');
+});
+Route::get('/shop', function () {
+    return view('frontend-views.pages2.shop');
+});
