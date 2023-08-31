@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@section('title','Rey-Xpress')
 
 @section('content')
 

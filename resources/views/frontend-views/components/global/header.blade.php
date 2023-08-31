@@ -53,7 +53,7 @@
                                 <a class="navlinks pb-[28px]" href="#">TUTORIALS</a>
                             </li>
                             <li class="hover:text-[#666666]">
-                                <a class="navlinks pb-[28px]" href="#">CONTACT</a>
+                                <a class="navlinks pb-[28px]" href="{{ url('contact') }}">CONTACT</a>
                             </li>
                         </ul>
                     </div>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rey-Xpress</title>
+    <title>@yield('title')</title>
 
     <!--Tailwind css CDN -->
     @vite('resources/css/app.css')

@@ -1,6 +1,5 @@
 @extends('layouts.app')
-
-
+@section('title', 'PRODUCT DETAILS')
 @section('content')
 
         {{--  =====Component flowChart=====
