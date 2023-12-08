@@ -25,15 +25,15 @@ minus.addEventListener("click", () => {
 //
 //
 //
-const btn_image = document.querySelectorAll(".btn_image");
-btn_image.forEach((btn) => {
-  btn.addEventListener("click", () => {
-    btn_image.forEach((tab) => {
-      tab.classList.remove("active");
-    });
-    btn.classList.add("active");
-  });
-});
+// const btn_image = document.querySelectorAll(".btn_image");
+// btn_image.forEach((btn) => {
+//   btn.addEventListener("click", () => {
+//     btn_image.forEach((tab) => {
+//       tab.classList.remove("active");
+//     });
+//     btn.classList.add("active");
+//   });
+// });
 
 const productItem = document.querySelectorAll(".item");
 

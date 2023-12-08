@@ -25,37 +25,21 @@
   margin: 47px 0;
   width: 111px;
   height: 2px;
-  background-color: #d4a244;
+  background-color: #c96d3e;
 }
 
 .why_choose_us_cards {
   margin-top: 100px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   gap: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
-.choose_us_card {
-  max-width: 375px;
-  width: 100%;
-  background-color: #7f7f42;
-  color: #fff;
-  padding: 40px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-/* image section  */
-.choose_us_card_image {
-  max-width: 176px;
-  width: 100%;
-  height: 240px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.choose_us_card_image img {
-  width: 100%;
+
+@media (max-width: 900px) {
+  .why_choose_us_cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .choose_us_card_text h3 {
@@ -71,6 +55,59 @@
   line-height: 36px;
   font-weight: 400;
 }
+@media (max-width: 1280px) {
+  .why_choose_us_cards {
+    margin-top: 50px;
+    gap: 13px;
+  }
+
+  .choose_us_card_text h3 {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .choose_us_card_text p {
+    margin-top: 13px;
+    color: #e4ddc7;
+    font-size: 13px;
+    line-height: 16px;
+  }
+}
+.choose_us_card {
+  width: 100%;
+  background-color: #7f7f42;
+  color: #fff;
+  padding: 40px;
+}
+.cardImageCenter {
+  display: grid;
+  justify-content: center;
+}
+/* image section  */
+.choose_us_card_image {
+  max-width: 176px;
+  height: 240px;
+}
+.choose_us_card_image img {
+  /* max-width: 176px; */
+  width: 100%;
+}
+@media (max-width: 1080px) {
+  .choose_us_card_image img {
+    max-width: 66px;
+  }
+  .choose_us_card_image {
+    height: 100px;
+  }
+}
+
+.experience_image {
+  max-width: 146px;
+}
+@media (max-width: 1080px) {
+  .experience_image {
+    max-width: 46px;
+  }
+}
 .choose_account {
   margin-top: 100px;
 }
@@ -83,10 +120,16 @@
 
 /* Account Categories section  */
 .account_category {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 60px;
-  flex-wrap: wrap;
+}
+
+@media (max-width: 900px) {
+  .account_category {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 .account_category_div {
   max-width: 780px;
@@ -105,6 +148,28 @@
   line-height: 41px;
   color: #222222;
 }
+
+@media (max-width: 1200px) {
+  /* Account Categories section  */
+  .account_category {
+    gap: 14px;
+  }
+  .account_category_div {
+    max-width: 781px;
+    width: 100%;
+    background-color: #edecea;
+    padding: 31px 19px;
+  }
+  .choose_account h2 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .account_category_div p {
+    margin-top: 14px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
 /* Account Categories Radio button  start ********************************/
 .account_category_radio_div input[type="radio"] {
   display: none;
@@ -122,12 +187,12 @@
 .labels .spans:before {
   content: "";
   background-color: #fff;
-  width: 30px;
-  height: 30px;
+  min-width: 22px;
+  min-height: 22px;
   border-radius: 50%;
   margin-right: 10px;
   transition: 0.25s ease;
-  box-shadow: inset 0 0 0 2px #00005c;
+  box-shadow: inset 0 0 0 2px #000000;
 }
 .account_category_radio_div input[type="radio"]:checked + .spans:before {
   box-shadow: inset 0 0 0 8px #222222;
@@ -139,6 +204,13 @@
 .account_category_radio_div label {
   font-size: 33px;
   line-height: 52px;
+}
+
+@media (max-width: 1200px) {
+  .account_category_radio_div label {
+    font-size: 14px;
+    line-height: 20px;
+  }
 }
 
 .account_category_input_div input {
@@ -153,6 +225,38 @@
   margin-top: 15px;
   margin-left: 60px;
 }
+
+@media (max-width: 1380px) {
+  .account_category_input_div input {
+    border: none;
+    max-width: 337px;
+    width: 100%;
+    height: 38px;
+    outline: none;
+    padding: 10px 18px;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: #fff;
+    margin-top: 15px;
+    margin-left: 20px;
+  }
+}
+@media (max-width: 640px) {
+  .account_category_input_div input {
+    border: none;
+    max-width: 300px;
+    width: 100%;
+    height: 38px;
+    outline: none;
+    padding: 10px 18px;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: #fff;
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+}
+
 .account_category_radio_div div {
   margin-top: 7px;
 }
@@ -253,7 +357,6 @@ footer {
     letter-spacing: 0.5px;
   }
   .pagination span {
-    font-weight: 600;
     color: black;
   }
   /* Why choose us section  */
@@ -263,34 +366,10 @@ footer {
     width: 42px;
   }
 
-  .why_choose_us_cards {
-    margin-top: 50px;
-    gap: 13px;
-  }
   .choose_us_card {
-    max-width: 175px;
     padding: 20px;
   }
-  /* image section  */
-  .choose_us_card_image {
-    max-width: 176px;
-    width: 100%;
-    height: 100px;
-  }
-  .choose_us_card_image img {
-    width: 100%;
-  }
 
-  .choose_us_card_text h3 {
-    font-size: 16px;
-    line-height: 16px;
-  }
-  .choose_us_card_text p {
-    margin-top: 13px;
-    color: #e4ddc7;
-    font-size: 13px;
-    line-height: 16px;
-  }
   .choose_account {
     margin-top: 65px;
   }
@@ -303,26 +382,6 @@ footer {
   }
   /* _________________________--------------------------------  */
 
-  /* Account Categories section  */
-  .account_category {
-    flex-wrap: wrap;
-    gap: 14px;
-  }
-  .account_category_div {
-    max-width: 781px;
-    width: 100%;
-    background-color: #edecea;
-    padding: 31px 19px;
-  }
-  .choose_account h2 {
-    font-size: 18px;
-    line-height: 20px;
-  }
-  .account_category_div p {
-    margin-top: 14px;
-    font-size: 14px;
-    line-height: 20px;
-  }
   /* Account Categories Radio button  start ********************************/
 
   .labels {
@@ -339,8 +398,8 @@ footer {
   .labels .spans:before {
     content: "";
     background-color: #fff;
-    width: 14px;
-    height: 14px;
+    min-width: 14px;
+    min-height: 14px;
     border-radius: 50%;
     margin-right: 10px;
     transition: 0.25s ease;
@@ -353,24 +412,7 @@ footer {
   .account_category_radio_div {
     margin-top: 14px;
   }
-  .account_category_radio_div label {
-    font-size: 14px;
-    line-height: 20px;
-  }
 
-  .account_category_input_div input {
-    border: none;
-    max-width: 337px;
-    width: 100%;
-    height: 38px;
-    outline: none;
-    padding: 10px 18px;
-    font-size: 14px;
-    line-height: 20px;
-    background-color: #fff;
-    margin-top: 15px;
-    margin-left: 20px;
-  }
   .account_category_radio_div div {
     margin-top: 7px;
   }

@@ -23,6 +23,8 @@
     <!-- Create Account css-->
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/policy-checkbox.css') }}">
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/page3.css') }}">
+    <!-- Product And Finishes css-->
+    <link rel="stylesheet" href="{{ asset('front-end/assets/css/productsAndFinishes.css') }}">
     <!-- Product Details css-->
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/page4.css') }}">
     <!-- Contact css-->
@@ -34,22 +36,25 @@
 
     <!--Tailwind css CDN -->
     @vite('resources/css/app.css')
-
+    <!-- Navbar javascript file  -->
+    <script defer src="{{ asset('front-end/assets/navbar/mobile-navbar.js') }}"></script>
 
 </head>
 
 <body>
+    @include('frontend-views.rey-website-part-1.components.global.header')
+
     @yield('content')
 
+    @include('frontend-views.rey-website-part-1.components.global.footer')
 
-    <!-- Navbar javascript file  -->
-    <script defer src="{{ asset('front-end/assets/navbar/mobile-navbar.js') }}"></script>
     <!-- component js -->
     <script src="{{ asset('front-end/assets/js/shop-page.js') }}"></script>
     <script src="{{ asset('front-end/assets/js/hover-image.js') }}"></script>
     <script src="{{ asset('front-end/assets/js/index.js') }}"></script>
     <script src="{{ asset('front-end/assets/navbar/navbar.js') }}"></script>
     <script src="{{ asset('front-end/assets/js/page4.js') }}"></script>
+    <script src="{{ asset('front-end/assets/js/productsAndFinishes.js') }}"></script>
 
 </body>
 
