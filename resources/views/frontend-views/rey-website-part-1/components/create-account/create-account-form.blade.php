@@ -154,7 +154,8 @@
         <div class="mt-[80px] md:mt-[160px] mb-[82px] md:mb-[180px] flex justify-center items-center">
             <a href="#">
                 <img class="w-[123px] md:w-[270px]"
-                    src="{{ asset('front-end/assets/images/create-account/Rey-Xpress-Button-Submit-Application-Black.svg') }}" alt="submit button">
+                    src="{{ asset('front-end/assets/images/createAccount/Rey-Xpress-Button-Submit-Application-Black.svg') }}"
+                    alt="submit button">
             </a>
         </div>
     </section>

@@ -15,7 +15,7 @@ Route::get('/create-account', function () {
     return view('frontend-views.rey-website-part-1.pages.create-account');
 });
 Route::get('/product-details', function () {
-    return view('frontend-views.pages.productDetails');
+    return view('frontend-views.rey-website-part-1.pages.product-details');
 });
 Route::get('/contact', function () {
     return view('frontend-views.pages.contact');
