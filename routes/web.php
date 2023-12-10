@@ -12,7 +12,7 @@ Route::get('/products-&-finishes', function () {
     ');
 });
 Route::get('/create-account', function () {
-    return view('frontend-views.pages.createAccount');
+    return view('frontend-views.rey-website-part-1.pages.create-account');
 });
 Route::get('/product-details', function () {
     return view('frontend-views.pages.productDetails');

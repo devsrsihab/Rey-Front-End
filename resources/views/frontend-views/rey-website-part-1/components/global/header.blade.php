@@ -27,7 +27,7 @@
                   <div class="min-[1700px]:text-[14px] xl:text-[15px] text-[14px] sm:leading-[14px] leading-[32px] flex items-center max-[1000px]:flex-col max-[1000px]:block"
                   >
                     <!-- items  -->
-                    <a class="flex items-center gap-[10px] max-[1000px]:py-[20px]" href="#" >
+                    <a class="flex items-center gap-[10px] max-[1000px]:py-[20px]" href="{{ url('/create-account') }}" >
                       <img class="sm:w-[23px] w-[20px]" src="{{ asset('front-end/assets/images/navbar/Rey-Xpress-Account-Icon.svg') }}" alt="account"/>
                       SIGN IN / CREATE ACCOUNT
                       </a>
