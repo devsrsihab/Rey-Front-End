@@ -23,11 +23,11 @@
  --}}
 
 
-    @include('frontend-views.rey-website-part-1.components.shop-kitchen-cabinets.hero')
-    @include('frontend-views.rey-website-part-1.components.shop-kitchen-cabinets.main')
-    @include('frontend-views.rey-website-part-1.components.shop-kitchen-cabinets.add-new-button')
-    @include('frontend-views.rey-website-part-1.components.global.CTA')
-    @include('frontend-views.rey-website-part-1.components.global.finishing', [
+    @include('frontend-views.components.shop-kitchen-cabinets.hero')
+    @include('frontend-views.components.shop-kitchen-cabinets.main')
+    @include('frontend-views.components.shop-kitchen-cabinets.add-new-button')
+    @include('frontend-views.components.global.CTA')
+    @include('frontend-views.components.global.finishing', [
         'finishing_bg' => 'front-end/assets/images/shopKitchenCabinets/footer-page-5.png',
         'finishing_title' => 'Why Rey-Xpress',
     ])
@@ -36,5 +36,5 @@
 
 @endsection
 @section('js')
-<script src="{{ asset('front-end/assets/js/shopKitchenCabinets.js') }}"></script>
+    <script src="{{ asset('front-end/assets/js/shopKitchenCabinets.js') }}"></script>
 @endsection

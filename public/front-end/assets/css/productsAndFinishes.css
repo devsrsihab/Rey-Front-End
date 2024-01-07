@@ -71,7 +71,7 @@
 .checkbox_label::before {
   color: #fff;
   content: "";
-  background: url("../images/page5/select.svg");
+  background: url("../images/shopKitchenCabinets/select.svg");
   display: block;
   border-radius: 50%;
   position: absolute;
@@ -104,7 +104,7 @@
   .checkbox_label::before {
     color: #fff;
     content: "";
-    background: url("../images/page5/select.svg");
+    background: url("../images/shopKitchenCabinets/select.svg");
     display: block;
     border-radius: 50%;
     position: absolute;
@@ -149,7 +149,7 @@
 
 :checked + .checkbox_label2::before {
   content: "";
-  background: url("../images/page5/select.svg");
+  background: url("../images/shopKitchenCabinets/select.svg");
   background-position: center;
   color: #000;
   transform: scale(1);

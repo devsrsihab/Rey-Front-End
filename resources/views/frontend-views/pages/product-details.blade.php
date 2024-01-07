@@ -20,12 +20,12 @@
     
  --}}
 
-    @include('frontend-views.rey-website-part-1.components.product-details.hero')
-    @include('frontend-views.rey-website-part-1.components.product-details.breadcumn')
-    @include('frontend-views.rey-website-part-1.components.product-details.cart-summary')
-    @include('frontend-views.rey-website-part-1.components.product-details.product-carousel')
-    @include('frontend-views.rey-website-part-1.components.global.CTA')
-    @include('frontend-views.rey-website-part-1.components.global.finishing', [
+    @include('frontend-views.components.product-details.hero')
+    @include('frontend-views.components.product-details.breadcumn')
+    @include('frontend-views.components.product-details.cart-summary')
+    @include('frontend-views.components.product-details.product-carousel')
+    @include('frontend-views.components.global.CTA')
+    @include('frontend-views.components.global.finishing', [
         'finishing_bg' => 'front-end/assets/images/productsAndFinishes/Rey-Xpress-Shop-Footer.jpg',
         'finishing_title' => 'Shop',
     ])

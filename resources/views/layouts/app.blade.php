@@ -23,11 +23,11 @@
 </head>
 
 <body>
-    @include('frontend-views.rey-website-part-1.components.global.header')
+    @include('frontend-views.components.global.header')
 
     @yield('content')
 
-    @include('frontend-views.rey-website-part-1.components.global.footer')
+    @include('frontend-views.components.global.footer')
 
     <!-- component js -->
     @yield('js')
