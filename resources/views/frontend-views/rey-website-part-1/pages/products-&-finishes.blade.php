@@ -1,6 +1,11 @@
 @extends('layouts.app')
 @section('title', 'Products & Finishes')
 
+@section('css')
+    <!-- Product And Finishes css-->
+    <link rel="stylesheet" href="{{ asset('front-end/assets/css/productsAndFinishes.css') }}">
+@endsection
+
 @section('content')
 
     {{--  =====Component flowChart=====
@@ -22,5 +27,10 @@
     ])
 
 
+
+@endsection
+
+@section('js')
+<script src="{{ asset('front-end/assets/js/productsAndFinishes.js') }}"></script>
 
 @endsection

@@ -1,13 +1,20 @@
 @extends('layouts.app')
 @section('title', 'Product Details')
 
+@section('css')
+    <!-- Product Details css-->
+    <link rel="stylesheet" href="{{ asset('front-end/assets/css/page4.css') }}">
+
+@endsection
+
+
 @section('content')
 
     {{--  =====Component flowChart=====
       1.hero section
       2.breadcumn section
-      3.why-choose-us section
-      4.createAccount-form section
+      3.cart-summary section
+      4.product-carousel section
       5.CTA section
       6.finishing section
     
@@ -25,4 +32,8 @@
 
 
 
+@endsection
+
+@section('js')
+    <script src="{{ asset('front-end/assets/js/product-details.js') }}"></script>
 @endsection

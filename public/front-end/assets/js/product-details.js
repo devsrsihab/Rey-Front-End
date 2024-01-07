@@ -10,6 +10,7 @@ plus.addEventListener("click", () => {
   num.innerText = a;
 });
 
+
 minus.addEventListener("click", () => {
   if (a > 1) {
     a--;

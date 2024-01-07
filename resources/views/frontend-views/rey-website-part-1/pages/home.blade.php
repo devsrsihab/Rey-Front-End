@@ -1,5 +1,9 @@
 @extends('layouts.app')
 @section('title', 'Rey-Xpress')
+@section('css')
+<link rel="stylesheet" href="{{ asset('front-end/assets/css/homeHero.css') }}" />
+    
+@endsection
 
 @section('content')
 

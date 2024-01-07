@@ -17,6 +17,9 @@ Route::get('/create-account', function () {
 Route::get('/product-details', function () {
     return view('frontend-views.rey-website-part-1.pages.product-details');
 });
+Route::get('/shop-kitchen-cabinets', function () {
+    return view('frontend-views.rey-website-part-1.pages.shop-kitchen-cabinets');
+});
 Route::get('/contact', function () {
     return view('frontend-views.pages.contact');
 });

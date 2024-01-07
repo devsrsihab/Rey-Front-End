@@ -1,6 +1,12 @@
 @extends('layouts.app')
 @section('title', 'Create Account')
 
+@section('css')
+    <!-- Create Account css-->
+    <link rel="stylesheet" href="{{ asset('front-end/assets/css/policy-checkbox.css') }}">
+    <link rel="stylesheet" href="{{ asset('front-end/assets/css/page3.css') }}">
+@endsection
+
 @section('content')
 
     {{--  =====Component flowChart=====
