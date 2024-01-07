@@ -6,7 +6,7 @@
         <section class="mx-auto max-w-[1920px] px-[100px] flex justify-between gap-[20px] max-[1000px]:flex-col">
             <!-- logo -->
             <div class="logo">
-                <a href="#"><img class="md:w-[440px] w-[165px]"
+                <a href="{{ url('/') }}"><img class="md:w-[440px] w-[165px]"
                         src="{{ asset('front-end/assets/images/navbar/Rey-Xpress-Color-Logo.svg') }}"
                         alt="logo" /></a>
             </div>
@@ -22,7 +22,7 @@
                     <div
                         class="min-[1700px]:text-[14px] xl:text-[15px] text-[14px] sm:leading-[14px] leading-[32px] flex items-center max-[1000px]:flex-col max-[1000px]:block">
                         <!-- items  -->
-                        <a class="flex items-center gap-[10px] max-[1000px]:py-[20px]"
+                        <a class="flex items-center gap-[10px]  max-[1000px]:py-[20px]"
                             href="{{ url('/create-account') }}">
                             <img class="sm:w-[23px] w-[20px]"
                                 src="{{ asset('front-end/assets/images/navbar/Rey-Xpress-Account-Icon.svg') }}"
@@ -59,10 +59,10 @@
                     <ul id="navbar"
                         class="nav flex 2xl:gap-[60px] xl:gap-[40px] gap-[20px] min-[1700px]:text-[20px] text-[18px] leading-[32px] text-[#808080] uppercase font-[700]">
                         <li>
-                            <a class="navlinks pb-[28px]" href={{ url('products-&-finishes') }}>PRODUCT & FINISHES</a>
+                            <a class="navlinks {{ request()->is('products-&-finishes') ? 'active' : '' }} pb-[28px]" href={{ url('products-&-finishes') }}>PRODUCT & FINISHES</a>
                         </li>
                         <li>
-                            <a class="navlinks pb-[28px]" href="../pages/page5.html">SHOP</a>
+                            <a class="navlinks {{ request()->is('shop-kitchen-cabinets') ? 'active' : '' }}  pb-[28px]" href={{ url('shop-kitchen-cabinets') }}>SHOP</a>
                         </li>
                         <li>
                             <a class="navlinks pb-[28px]" href="#">WHY REY-XPRESS</a>
@@ -227,7 +227,7 @@
                 </section>
 
                 <section class="uppercase mt-[40px] pb-[35px] border-b-[1px] border-[#fff]">
-                    <a href="#" class="flex gap-[6px] mb-[14px]">
+                    <a  href="{{ url('/create-account') }}" class="flex gap-[6px] mb-[14px]">
                         <img class="w-[17px]"
                             src="{{ asset('front-end/assets/images/navbar/mobile/Rey-Xpress-Account-Icon.svg') }}"
                             alt="account" />

@@ -10,9 +10,9 @@
 
     {{--  =====Component flowChart=====
       1.hero section
-      1.main section
-      1.CTA section
-      1.finishing section
+      2.main section
+      3.CTA section
+      4.finishing section
     
  --}}
 

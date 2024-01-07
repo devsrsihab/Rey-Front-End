@@ -8,7 +8,7 @@
                 </h2>
             </div>
             <div class="flex items-center gap-[5px] sm:gap-[20px]">
-                <img class="w-[14px] sm:w-[37px]" src="../images/page4/rey-website-start.svg" alt="rey-website-start" />
+                <img class="w-[14px] sm:w-[37px]" src="{{ asset('front-end/assets/images/productDetails/rey-website-start.svg') }}" alt="rey-website-start" />
                 <h3 class="text-[10px] leading-[10px] sm:text-[24px] sm:leading-[24px]">
                     Sign in for faster checkout.
                 </h3>

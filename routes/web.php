@@ -20,16 +20,5 @@ Route::get('/product-details', function () {
 Route::get('/shop-kitchen-cabinets', function () {
     return view('frontend-views.rey-website-part-1.pages.shop-kitchen-cabinets');
 });
-Route::get('/contact', function () {
-    return view('frontend-views.pages.contact');
-});
-// page two pages
-Route::get('/home2', function () {
-    return view('frontend-views.pages2.home');
-});
-Route::get('/shop', function () {
-    return view('frontend-views.pages2.shop');
-});
-Route::get('/tutorials', function () {
-    return view('frontend-views.pages2.Tutorials');
-});
+
+

@@ -16,10 +16,10 @@
 
     {{--  =====Component flowChart=====
       1.hero 
-      3.main section
-
-      9.CTA section
-      10.finishing section       
+      2.main section
+      3.add-new-button
+      4.CTA section
+      5.finishing section       
  --}}
 
 
