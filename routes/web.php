@@ -10,6 +10,9 @@ Route::get('/', function () {
 Route::get('/shop', function () {
     return view('frontend-views.pages.shop');
 });
+Route::get('/tutorials', function () {
+    return view('frontend-views.pages.tutorials');
+});
 Route::get('/home', function () {
     return view('frontend-views.pages.home');
 });

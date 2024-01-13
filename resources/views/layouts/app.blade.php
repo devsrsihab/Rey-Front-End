@@ -7,19 +7,20 @@
     <title>@yield('title')</title>
 
 
-    <!-- Navbar css file -->
-    <link rel="stylesheet" href="{{ asset('front-end/assets/css/navbar.css') }}" />
-    <link rel="stylesheet" href="{{ asset('front-end/assets/navbar/mobile_navbar.css') }}" />
+
     <!-- font-awesome css -->
     <link rel="stylesheet" href="{{ asset('front-end/assets/icons/all.min.css') }}" />
     <!-- custom css -->
     @yield('css')
+    
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/style.css') }}" />
     <!--Tailwind css CDN -->
     @vite('resources/css/app.css')
     <!-- Navbar javascript file  -->
     <script defer src="{{ asset('front-end/assets/navbar/mobile-navbar.js') }}"></script>
-
+    <!-- Navbar css file -->
+    <link rel="stylesheet" href="{{ asset('front-end/assets/css/navbar.css') }}" />
+    <link rel="stylesheet" href="{{ asset('front-end/assets/navbar/mobile_navbar.css') }}" />
 </head>
 
 <body>
