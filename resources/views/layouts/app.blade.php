@@ -23,11 +23,18 @@
 </head>
 
 <body>
-    @include('frontend-views.components.global.header')
+    
+    {{-- Check if the current route is not the root --}}
+    @if (!request()->is('/'))
+        @include('frontend-views.components.global.header')
+    @endif
 
     @yield('content')
 
-    @include('frontend-views.components.global.footer')
+    {{-- Check if the current route is not the root --}}
+    @if (!request()->is('/'))
+        @include('frontend-views.components.global.footer')
+    @endif
 
     <!-- component js -->
     @yield('js')
