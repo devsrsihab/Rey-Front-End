@@ -62,7 +62,7 @@
                             <a class="navlinks {{ request()->is('products-&-finishes') ? 'active' : '' }} pb-[28px]" href={{ url('products-&-finishes') }}>PRODUCT & FINISHES</a>
                         </li>
                         <li>
-                            <a class="navlinks {{ request()->is('shop-kitchen-cabinets') ? 'active' : '' }}  pb-[28px]" href={{ url('shop-kitchen-cabinets') }}>SHOP</a>
+                            <a class="navlinks {{ request()->is('shop') ? 'active' : '' }}  pb-[28px]" href={{ url('shop') }}>SHOP</a>
                         </li>
                         <li>
                             <a class="navlinks pb-[28px]" href="#">WHY REY-XPRESS</a>

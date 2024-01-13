@@ -7,6 +7,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('frontend-views.pages.index');
 });
+Route::get('/shop', function () {
+    return view('frontend-views.pages.shop');
+});
 Route::get('/home', function () {
     return view('frontend-views.pages.home');
 });
