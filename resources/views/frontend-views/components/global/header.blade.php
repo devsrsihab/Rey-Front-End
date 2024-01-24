@@ -31,7 +31,7 @@
                         </a>
                         <!-- items  -->
                         <a class="flex items-center gap-[10px] mx-[32px] px-[32px] border-l-2 border-r-2 border-[#9a999a]"
-                            href="#">
+                            href="{{ url('projects') }}">
                             <img class="sm:w-[28px] w-[20px]"
                                 src="{{ asset('front-end/assets/images/navbar/Rey-Xpress-Projects-Icon.svg') }}"
                                 alt="project" />
@@ -233,7 +233,7 @@
                             alt="account" />
                         <h3>SIGN IN / CREATE ACCOUNT</h3>
                     </a>
-                    <a href="#" class="flex gap-[6px] mb-[14px]">
+                    <a href="{{ url('projects') }}" class="flex gap-[6px] mb-[14px]">
                         <img class="w-[20px]"
                             src="{{ asset('front-end/assets/images/navbar/mobile/Rey-Xpress-Projects-Icon.svg') }}"
                             alt="project" />
