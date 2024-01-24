@@ -9,9 +9,8 @@
     {{--  =====Component flowChart=====
       1.hero 
       2.main 
-      3.CTA section
-      4.finishing section       
- --}}
+      3.finishing section       
+     --}}
 
 
     @include('frontend-views.components.contact.hero')
@@ -21,10 +20,4 @@
         'finishing_title' => 'Home',
     ])
 
-
-
-@endsection
-
-@section('js')
-<script defer src="{{ asset('front-end/assets/js/reyProjects.js') }}"></script>
 @endsection
