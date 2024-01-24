@@ -65,7 +65,7 @@
                             <a class="navlinks {{ request()->is('shop') ? 'active' : '' }}  pb-[28px]" href={{ url('shop') }}>SHOP</a>
                         </li>
                         <li>
-                            <a class="navlinks pb-[28px]" href="#">WHY REY-XPRESS</a>
+                            <a class="navlinks {{ request()->is('why-rey') ? 'active' : '' }} pb-[28px]" href="{{ url('why-rey') }}">WHY REY-XPRESS</a>
                         </li>
                         <li>
                             <a class="navlinks pb-[28px]" href="{{ url('/tutorials') }}">TUTORIALS</a>

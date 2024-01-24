@@ -13,6 +13,9 @@ Route::get('/shop', function () {
 Route::get('/tutorials', function () {
     return view('frontend-views.pages.tutorials');
 });
+Route::get('/why-rey', function () {
+    return view('frontend-views.pages.why-rey');
+});
 Route::get('/home', function () {
     return view('frontend-views.pages.home');
 });
