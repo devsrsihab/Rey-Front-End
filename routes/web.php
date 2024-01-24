@@ -13,6 +13,9 @@ Route::get('/shop', function () {
 Route::get('/projects', function () {
     return view('frontend-views.pages.projects');
 });
+Route::get('/contact', function () {
+    return view('frontend-views.pages.contact');
+});
 Route::get('/tutorials', function () {
     return view('frontend-views.pages.tutorials');
 });

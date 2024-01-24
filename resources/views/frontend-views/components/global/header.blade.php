@@ -68,10 +68,10 @@
                             <a class="navlinks {{ request()->is('why-rey') ? 'active' : '' }} pb-[28px]" href="{{ url('why-rey') }}">WHY REY-XPRESS</a>
                         </li>
                         <li>
-                            <a class="navlinks pb-[28px]" href="{{ url('/tutorials') }}">TUTORIALS</a>
+                            <a class="navlinks {{ request()->is('tutorials') ? 'active' : '' }} pb-[28px]"  href="{{ url('/tutorials') }}">TUTORIALS</a>
                         </li>
                         <li>
-                            <a class="navlinks pb-[28px]" href="#">CONTACT</a>
+                            <a class="navlinks {{ request()->is('contact') ? 'active' : '' }} pb-[28px]" href="{{ url('contact') }} " >CONTACT</a>
                         </li>
                     </ul>
                 </div>
