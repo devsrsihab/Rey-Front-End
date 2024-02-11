@@ -3,12 +3,14 @@
 use Illuminate\Support\Facades\Route;
 
 
-
 Route::get('/', function () {
     return view('frontend-views.pages.index');
 });
 Route::get('/shop', function () {
     return view('frontend-views.pages.shop');
+});
+Route::get('/shop/vanities', function () {
+    return view('frontend-views.pages.vanities');
 });
 Route::get('/projects', function () {
     return view('frontend-views.pages.projects');
