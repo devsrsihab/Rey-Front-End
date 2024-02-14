@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SHOP KITCHEN CABINETS AND VANETIES</title>
     <!--Tailwind css CDN -->
-    @vite('../../../../resources/css/app.css')
+    <script src="https://cdn.tailwindcss.com"></script>
     <!-- page css file -->
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/accountCategoryRadio.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
@@ -33,7 +33,6 @@
 </head>
 
 <body class="overflow-x-hidden">
-
     {{-- header --}}
     @include('frontend-views.components.global.header')
     {{-- content --}}
@@ -47,9 +46,9 @@
     ])
     {{-- footer --}}
     @include('frontend-views.components.global.footer')
-
-
     <script src="{{ asset('front-end/assets/js/tab-cabinet.js') }}"></script>
 </body>
 
 </html>
+
+
