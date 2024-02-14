@@ -21,7 +21,8 @@
             <div>
                 <h3
                     class="font-[400] text-[11px] leading-[20px] lg:text-[24px] lg:leading-[24px] mb-[45px] lg:mb-[115px] text-[#9a999a]">
-                    Home > Kitchen Cabinets/Vanities | <span class="text-[#222222]"> Doors </span> 
+                    Home > Kitchen Cabinets/Vanities | <span class="text-[#222222]"> Doors </span> | Drawers | Fittings |
+                    Organizers | Handles | Crown Mouldings | Tops
                 </h3>
             </div>
             <!--Border Line bottom section end-->

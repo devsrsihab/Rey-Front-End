@@ -17,6 +17,10 @@
     <!-- hover image  -->
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/imageHover.css') }}">
     <script defer src="{{ asset('front-end/assets/js/imageHover.js') }}"></script>
+    <!-- Navbar css file -->
+    <link rel="stylesheet" href="{{ asset('front-end/assets/css/navbar/mobile_navbar.css') }}" />
+    <!-- Navbar javascript file  -->
+    <script defer src="{{ asset('front-end/assets/js/navbar/mobile-navbar.js') }}"></script>
     <script defer src="{{ asset('front-end/assets/js/accountCategoryRadio.js') }}"></script>
     <!--Tailwind css CDN -->
     @vite('../../../../resources/css/app.css')

@@ -15,6 +15,9 @@ Route::get('/shop/vanities', function () {
 Route::get('/shop/doors', function () {
     return view('frontend-views.pages.doors');
 });
+Route::get('/shop/drawers', function () {
+    return view('frontend-views.pages.drawers');
+});
 Route::get('/projects', function () {
     return view('frontend-views.pages.projects');
 });
