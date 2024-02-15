@@ -21,8 +21,8 @@
             <div>
                 <h3
                     class="font-[400] text-[11px] leading-[20px] lg:text-[24px] lg:leading-[24px] mb-[45px] lg:mb-[115px] text-[#9a999a]">
-                    Home > Kitchen Cabinets/Vanities | Doors | Drawers | <span class="text-[#222222]">Fittings </span>|
-                    Organizers | Handles | Crown Mouldings | Tops
+                    Home > Kitchen Cabinets/Vanities | Doors | Drawers | Fittings | <span
+                        class="text-[#222222]">Organizers</span> | Handles | Crown Mouldings | Tops
                 </h3>
             </div>
             <!--Border Line bottom section end-->
@@ -34,19 +34,19 @@
         <section class="mt-[48px] lg:mt-[150px] ">
             <section>
                 <!-- heading  -->
-                <h2 class="text-[22px] leading-[24px] lg:text-[50px] lg:leading-[55px] uppercase font-[700]">FITTINGS
-                    MADE TO LAST A LIFETIME</h2>
+                <h2 class="text-[22px] leading-[24px] lg:text-[50px] lg:leading-[55px] uppercase font-[700]">PRACTICAL
+                    STORAGE SOLUTIONS</h2>
                 <!-- border  -->
                 <div class="w-[43px] lg:w-[110px] h-[2px] bg-[#bc6d3e] my-[16px] lg:my-[58px]"></div>
                 <!-- copy  -->
                 <div class="flex justify-between items-start gap-[25px] xl:flex-row flex-col">
-                    <article class="max-w-[950px] text-[14px] leading-[20px] lg:text-[38px] lg:leading-[48px]">
-                        All our cabinets include high quality Blum fittings, German made and Engineered. We have
-                        everything for the opening and closing of lift systems, pull-out drawers, door hinges and inner
-                        dividing systems for drawers. Outstanding soft closing and motion technologies, that help your
-                        cabinets function worry-free for their lifetime.
+                    <article class="max-w-[990px] text-[14px] leading-[20px] lg:text-[38px] lg:leading-[48px]">
+                        At Rey we offer a multitude of cabinet organization options for your storage cabinets. These
+                        solutions can be a very practical and efficient way to keep your cabinets well organized. Browse
+                        through our selections and, when you’re ready, simply add to your project folder or add to your
+                        cart.
                     </article>
-                    <img src="{{ asset('front-end/assets/images/fitting/blum-ad.png') }}" alt="Ad image">
+                    <img src="{{ asset('front-end/assets/images/organizers/kms.png') }}" alt="Ad image">
                 </div>
             </section>
 
