@@ -10,10 +10,14 @@
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/5.rey-website-shop-blum-fitting.css') }}" />
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/selectImageIcon.css') }}">
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/local.css') }}">
+    <script defer src="{{ asset('front-end/assets/js/counting.js') }}"></script>
     <!-- hover image  -->
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/imageHover.css') }}">
+    <script defer src="{{ asset('front-end/assets/js/imageHover.js') }}"></script>
     <!-- Navbar css file -->
     <link rel="stylesheet" href="{{ asset('front-end/assets/navbar/mobile_navbar.css') }}" />
+    <!-- Navbar javascript file  -->
+    <script defer src="{{ asset('front-end/assets/js/navbar/mobile-navbar.js') }}"></script>
 
     <!--Tailwind css CDN -->
     @vite('../../../../resources/css/app.css')
@@ -25,9 +29,9 @@
     {{-- header --}}
     @include('frontend-views.components.global.header')
     {{-- content --}}
-    @include('frontend-views.components.fittings.hero')
-    @include('frontend-views.components.fittings.breadcumn')
-    @include('frontend-views.components.fittings.main')
+    @include('frontend-views.components.kitchen-organizers.hero')
+    @include('frontend-views.components.kitchen-organizers.breadcumn')
+    @include('frontend-views.components.kitchen-organizers.main')
     @include('frontend-views.components.global.CTA')
     @include('frontend-views.components.global.finishing', [
         'finishing_bg' => 'front-end/assets/images/fitting/fitting-footer.png',
@@ -40,7 +44,7 @@
     <script defer src="{{ asset('front-end/assets/js/imageHover.js') }}"></script>
     <!-- Navbar javascript file  -->
     <script defer src="{{ asset('front-end/assets/navbar/mobile-navbar.js') }}"></script>
-    <script defer src="{{ asset('front-end/assets/js/counting.js') }}"></script>
+    <script defer src="{{ asset('front-end/assets/js/accountCategoryRadio.js') }}"></script>
 
 </body>
 

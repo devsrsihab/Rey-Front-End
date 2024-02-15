@@ -21,6 +21,9 @@ Route::get('/shop/drawers', function () {
 Route::get('/shop/fittings', function () {
     return view('frontend-views.pages.fittings');
 });
+Route::get('/shop/kitchen-organizers', function () {
+    return view('frontend-views.pages.kitchen-organizers');
+});
 Route::get('/projects', function () {
     return view('frontend-views.pages.projects');
 });
