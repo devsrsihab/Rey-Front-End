@@ -6,6 +6,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('frontend-views.pages.index');
 });
+
+// shop routes start
 Route::get('/shop', function () {
     return view('frontend-views.pages.shop');
 });
@@ -24,6 +26,13 @@ Route::get('/shop/fittings', function () {
 Route::get('/shop/kitchen-organizers', function () {
     return view('frontend-views.pages.kitchen-organizers');
 });
+Route::get('/shop/cabinet-handles', function () {
+    return view('frontend-views.pages.cabinet-handles');
+});
+Route::get('/shop-kitchen-cabinets', function () {
+    return view('frontend-views.pages.shop-kitchen-cabinets');
+});
+// shop routes end
 Route::get('/projects', function () {
     return view('frontend-views.pages.projects');
 });
@@ -49,8 +58,6 @@ Route::get('/create-account', function () {
 Route::get('/product-details', function () {
     return view('frontend-views.pages.product-details');
 });
-Route::get('/shop-kitchen-cabinets', function () {
-    return view('frontend-views.pages.shop-kitchen-cabinets');
-});
+
 
 

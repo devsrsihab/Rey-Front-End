@@ -18,10 +18,8 @@
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/imageHover.css') }}">
     <script defer src="{{ asset('front-end/assets/js/imageHover.js') }}"></script>
     <!-- Navbar css file -->
-    <link rel="stylesheet" href="{{ asset('front-end/assets/css/navbar/mobile_navbar.css') }}" />
-    <!-- Navbar javascript file  -->
-    <script defer src="{{ asset('front-end/assets/js/navbar/mobile-navbar.js') }}"></script>
-    <script defer src="{{ asset('front-end/assets/js/accountCategoryRadio.js') }}"></script>
+    <link rel="stylesheet" href="{{ asset('front-end/assets/css/mobile_navbar.css') }}" />
+
     <!--Tailwind css CDN -->
     @vite('../../../../resources/css/app.css')
 
@@ -43,7 +41,9 @@
     {{-- footer --}}
     @include('frontend-views.components.global.footer')
 
-
+    <!-- Navbar javascript file  -->
+    <script defer src="{{ asset('front-end/assets/js/mobile-navbar.js') }}"></script>
+    <script defer src="{{ asset('front-end/assets/js/accountCategoryRadio.js') }}"></script>
 </body>
 
 </html>

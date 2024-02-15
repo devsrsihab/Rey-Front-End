@@ -18,7 +18,7 @@
     <!-- hover image  -->
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/imageHover.css') }}">
     <!-- Navbar css file -->
-    <link rel="stylesheet" href="{{ asset('front-end/assets/css/navbar/mobile_navbar.css') }}" />
+    <link rel="stylesheet" href="{{ asset('front-end/assets/css/mobile_navbar.css') }}" />
     
 
     <!--Tailwind css CDN -->
@@ -45,7 +45,7 @@
 
     <script defer src="{{ asset('front-end/assets/js/imageHover.js') }}"></script>
     <!-- Navbar javascript file  -->
-    <script defer src="{{ asset('front-end/assets/navbar/mobile-navbar.js') }}"></script>
+    <script defer src="{{ asset('front-end/assets/js/mobile-navbar.js') }}"></script>
     <script defer src="{{ asset('front-end/assets/js/accountCategoryRadio.js') }}"></script>
 
 </body>

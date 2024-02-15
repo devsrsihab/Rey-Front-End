@@ -21,8 +21,8 @@
             <div>
                 <h3
                     class="font-[400] text-[11px] leading-[20px] lg:text-[24px] lg:leading-[24px] mb-[45px] lg:mb-[115px] text-[#9a999a]">
-                    Home > Kitchen Cabinets/Vanities | Doors | Drawers | Fittings | Organizers | <span
-                        class="text-[#222222]">Handles</span> | Crown Mouldings | Tops
+                    Home > Kitchen Cabinets/Vanities | Doors | Drawers | <span class="text-[#222222]">Fittings </span>|
+                    Organizers | Handles | Crown Mouldings | Tops
                 </h3>
             </div>
             <!--Border Line bottom section end-->
@@ -34,22 +34,19 @@
         <section class="mt-[48px] lg:mt-[150px] ">
             <section>
                 <!-- heading  -->
-                <h2 class="text-[22px] leading-[24px] lg:text-[50px] lg:leading-[55px] uppercase font-[700]">CABINET
-                    PULLS AND CABINET KNOBS</h2>
+                <h2 class="text-[22px] leading-[24px] lg:text-[50px] lg:leading-[55px] uppercase font-[700]">FITTINGS
+                    MADE TO LAST A LIFETIME</h2>
                 <!-- border  -->
                 <div class="w-[43px] lg:w-[110px] h-[2px] bg-[#bc6d3e] my-[16px] lg:my-[58px]"></div>
-
-
                 <!-- copy  -->
                 <div class="flex justify-between items-start gap-[25px] xl:flex-row flex-col">
-                    <article class="max-w-[990px] text-[14px] leading-[20px] lg:text-[38px] lg:leading-[48px]">
-                        Rey-Xpress offers a collection of cabinet knobs and cabinet pulls ranging from classic drawer
-                        pulls to sleek, modern cabinet door knobs. Explore our hardware gallery and, when you’re ready,
-                        find a Kitchen Craft cabinet dealer near you to order.
+                    <article class="max-w-[950px] text-[14px] leading-[20px] lg:text-[38px] lg:leading-[48px]">
+                        All our cabinets include high quality Blum fittings, German made and Engineered. We have
+                        everything for the opening and closing of lift systems, pull-out drawers, door hinges and inner
+                        dividing systems for drawers. Outstanding soft closing and motion technologies, that help your
+                        cabinets function worry-free for their lifetime.
                     </article>
-
-                    <img src="{{ asset('front-end/assets/images/handle/kms7.png') }}" alt="Ad image">
-
+                    <img src="{{ asset('front-end/assets/images/fitting/blum-ad.png') }}" alt="Ad image">
                 </div>
             </section>
 
