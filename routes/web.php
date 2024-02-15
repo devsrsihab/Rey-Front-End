@@ -18,6 +18,9 @@ Route::get('/shop/doors', function () {
 Route::get('/shop/drawers', function () {
     return view('frontend-views.pages.drawers');
 });
+Route::get('/shop/fittings', function () {
+    return view('frontend-views.pages.fittings');
+});
 Route::get('/projects', function () {
     return view('frontend-views.pages.projects');
 });
