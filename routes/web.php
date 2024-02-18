@@ -40,6 +40,9 @@ Route::get('/shop-kitchen-cabinets', function () {
     return view('frontend-views.pages.shop-kitchen-cabinets');
 });
 // shop routes end
+Route::get('/company-policies', function () {
+    return view('frontend-views.pages.company-policies');
+});
 Route::get('/projects', function () {
     return view('frontend-views.pages.projects');
 });
