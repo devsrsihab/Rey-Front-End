@@ -43,6 +43,9 @@ Route::get('/shop-kitchen-cabinets', function () {
 Route::get('/company-policies', function () {
     return view('frontend-views.pages.company-policies');
 });
+Route::get('/terms-of-service', function () {
+    return view('frontend-views.pages.terms-of-service');
+});
 Route::get('/projects', function () {
     return view('frontend-views.pages.projects');
 });
