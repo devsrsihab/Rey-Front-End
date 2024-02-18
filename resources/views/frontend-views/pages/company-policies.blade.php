@@ -9,14 +9,8 @@
 
     {{--  =====Component flowChart=====
       1.hero 
-      3.main section
-      4.advantage section
-      5.circle-button section
-      6.price-guarantee section
-      7.competitor section
-      8.warranty section
-      9.CTA section
-      10.finishing section       
+      2.main
+      3.finishing section       
  --}}
 
 
