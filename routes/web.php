@@ -33,6 +33,9 @@ Route::get('/shop/cabinet-handles', function () {
 Route::get('/shop/crown-moulding', function () {
     return view('frontend-views.pages.crown-moulding');
 });
+Route::get('/shop/counter-tops', function () {
+    return view('frontend-views.pages.counter-tops');
+});
 Route::get('/shop-kitchen-cabinets', function () {
     return view('frontend-views.pages.shop-kitchen-cabinets');
 });
