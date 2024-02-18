@@ -15,7 +15,7 @@
     <!-- hover image  -->
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/imageHover.css') }}">
     <!-- Navbar css file -->
-    <link rel="stylesheet" href="{{ asset('front-end/assets/js/mobile_navbar.css') }}" />
+    <link rel="stylesheet" href="{{ asset('front-end/assets/css/mobile_navbar.css') }}" />
 
 
     <!--Tailwind css CDN -->
