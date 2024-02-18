@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'Rey-Xpress')
+@section('title', 'COMPANY POLICIES')
 @section('css')
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/termsAndPolicies.css') }}" />
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/local.css') }}" />
