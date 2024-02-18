@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 
+
 Route::get('/', function () {
     return view('frontend-views.pages.index');
 });
@@ -28,6 +29,9 @@ Route::get('/shop/kitchen-organizers', function () {
 });
 Route::get('/shop/cabinet-handles', function () {
     return view('frontend-views.pages.cabinet-handles');
+});
+Route::get('/shop/crown-moulding', function () {
+    return view('frontend-views.pages.crown-moulding');
 });
 Route::get('/shop-kitchen-cabinets', function () {
     return view('frontend-views.pages.shop-kitchen-cabinets');
