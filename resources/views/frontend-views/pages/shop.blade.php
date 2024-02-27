@@ -2,7 +2,7 @@
 @section('title', 'shop')
 @push('css')
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/shop-page.css') }}" />
-@endsection
+@endpush
 
 @section('content')
     {{--  =====Component flowChart=====
