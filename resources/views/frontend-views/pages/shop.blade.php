@@ -5,15 +5,6 @@
 @endpush
 
 @section('content')
-    {{--  =====Component flowChart=====
-      1.hero section
-      2.breadcumn section
-      2.category-grid section
-      3.CTA section
-      4.finishing section       
- --}}
-
-
     @include('frontend-views.components.shop.hero')
     @include('frontend-views.components.shop.breadcumn')
     @include('frontend-views.components.shop.category-grid')

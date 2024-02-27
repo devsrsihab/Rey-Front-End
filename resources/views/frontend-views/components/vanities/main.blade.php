@@ -462,22 +462,6 @@
       <div class="colorSampleSmall">
           <!--  door design -->
           <li class="list-none">
-            <input class="checkboxes" type="radio" name="doorColorSection2" id="doorColorSection2image1">
-            <label class="checkbox_label" for="doorColorSection2image1">
-            <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
-                <img
-                class="doorProductImage"
-                  src=" {{ asset('front-end/assets/images/doors/frontColor/MDF Painted Doors/Chantilly Lace.png') }} "
-                  alt="door"
-                />
-              </div>
-              </label>
-              <h3 class="colorSampleTitle">
-                Chantilly Lace <br>
-                OC-65</h3>
-          </li>
-          <!--  door design -->
-          <li class="list-none">
             <input class="checkboxes" type="radio" name="doorColorSection2" id="doorColorSection2image2">
             <label class="checkbox_label" for="doorColorSection2image2">
             <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
@@ -1420,21 +1404,6 @@
           </li>
           <!--  door design -->
           <li class="list-none">
-            <input class="checkboxes" type="radio" name="doorColorSection6" id="doorColorSection6image3">
-            <label class="checkbox_label" for="doorColorSection6image3">
-            <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]  ">
-                <img
-                class="doorProductImage"
-                  src=" {{ asset('front-end/assets/images/doors/frontColor/High Gloss/Light Beige Gloss.png.png') }} ."
-                  alt="door"
-                />
-              </div>
-              </label>
-              <h3 class="colorSampleTitle">Light Beige 
-                High Gloss</h3>
-          </li>
-          <!--  door design -->
-          <li class="list-none">
             <input class="checkboxes" type="radio" name="doorColorSection6" id="doorColorSection6image4">
             <label class="checkbox_label" for="doorColorSection6image4">
             <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]  ">
@@ -1884,20 +1853,6 @@
               </div>
               </label>
               <h3 class="colorSampleTitle">Oyster Urban Oak</h3>
-          </li>
-          <!--  door design -->
-          <li class="list-none">
-            <input class="checkboxes" type="radio" name="doorColorSection7" id="doorColorSection7image21">
-            <label class="checkbox_label" for="doorColorSection7image21">
-            <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
-                <img
-                class="doorProductImage"
-                  src=" {{ asset('front-end/assets/images/doors/frontColor/Wood Grain/Pure Surfside Ash.png') }} ."
-                  alt="door"
-                />
-              </div>
-              </label>
-              <h3 class="colorSampleTitle">Pure Surfside Ash</h3>
           </li>
           <!--  door design -->
           <li class="list-none">
@@ -2362,22 +2317,6 @@
           <div class="radio_list_content3 md:mt-[55px] mt-[30px] w-full">
             <!-- doors container  -->
             <div class="colorSampleSmall">
-                <!--  door design -->
-                <li class="list-none">
-                  <input class="checkboxes" type="radio" name="interiorColorSection2" id="interiorColorSection2image1">
-                  <label class="checkbox_label" for="interiorColorSection2image1">
-                  <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
-                      <img
-                      class="doorProductImage"
-                        src=" {{ asset('front-end/assets/images/doors/frontColor/MDF Painted Doors/Chantilly Lace.png') }} ."
-                        alt="door"
-                      />
-                    </div>
-                    </label>
-                    <h3 class="colorSampleTitle">
-                      Chantilly Lace <br>
-                      OC-65</h3>
-                </li>
                 <!--  door design -->
                 <li class="list-none">
                   <input class="checkboxes" type="radio" name="interiorColorSection2" id="interiorColorSection2image2">
@@ -3322,21 +3261,6 @@
                 </li>
                 <!--  door design -->
                 <li class="list-none">
-                  <input class="checkboxes" type="radio" name="interiorColorSection6" id="interiorColorSection6image3">
-                  <label class="checkbox_label" for="interiorColorSection6image3">
-                  <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]  ">
-                      <img
-                      class="doorProductImage"
-                        src=" {{ asset('front-end/assets/images/doors/frontColor/High Gloss/Light Beige Gloss.png.png') }} "
-                        alt="door"
-                      />
-                    </div>
-                    </label>
-                    <h3 class="colorSampleTitle">Light Beige 
-                      High Gloss</h3>
-                </li>
-                <!--  door design -->
-                <li class="list-none">
                   <input class="checkboxes" type="radio" name="interiorColorSection6" id="interiorColorSection6image4">
                   <label class="checkbox_label" for="interiorColorSection6image4">
                   <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]  ">
@@ -3789,20 +3713,6 @@
                 </li>
                 <!--  door design -->
                 <li class="list-none">
-                  <input class="checkboxes" type="radio" name="interiorColorSection7" id="interiorColorSection7image21">
-                  <label class="checkbox_label" for="interiorColorSection7image21">
-                  <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
-                      <img
-                      class="doorProductImage"
-                        src=" {{ asset('front-end/assets/images/doors/frontColor/Wood Grain/Pure Surfside Ash.png') }} "
-                        alt="door"
-                      />
-                    </div>
-                    </label>
-                    <h3 class="colorSampleTitle">Pure Surfside Ash</h3>
-                </li>
-                <!--  door design -->
-                <li class="list-none">
                   <input class="checkboxes" type="radio" name="interiorColorSection7" id="interiorColorSection7image22">
                   <label class="checkbox_label" for="interiorColorSection7image22">
                   <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
@@ -4170,7 +4080,7 @@
               
               <button class="toggle text-[11px] leading-[17px] sm:text-[21px] sm:leading-[36px]">
               STANDARD BASES
-                <i class="fas fa-plus icon"></i>
+                <i >+</i>
               </button>
               <div class="content">
                 
@@ -4200,7 +4110,7 @@
             <div class="w-full px-[20px] border-b-[2px] border-[#222] ">
               <button class="toggle text-[11px] leading-[17px] sm:text-[21px] sm:leading-[36px]">
               FULL HEIGHT BASES
-                <i class="fas fa-plus icon"></i>
+                <i >+</i>
               </button>
               <div class="content">
                 
@@ -4505,7 +4415,7 @@
             <div class="w-full px-[20px] border-b-[2px] border-[#222] ">
                 <button class="toggle text-[11px] leading-[17px] sm:text-[21px] sm:leading-[36px] uppercase">
                   OPEN CABINET
-                  <i class="fas fa-plus icon"></i>
+                  <i >+</i>
                 </button>
                 <div class="content">
               
@@ -4525,7 +4435,7 @@
             <div class="w-full px-[20px] border-b-[2px] border-[#222] ">
               <button class="toggle text-[11px] leading-[17px] sm:text-[21px] sm:leading-[36px] uppercase">
                 WITH DOORS
-                <i class="fas fa-plus icon"></i>
+                <i >+</i>
               </button>
               <div class="content">
                 
@@ -4768,7 +4678,7 @@
                 class="toggle text-[11px] leading-[17px] sm:text-[21px] sm:leading-[36px]"
               >
                 Tab 3 What is the return policy?
-                <i class="fas fa-plus icon"></i>
+                <i >+</i>
               </button>
               <div class="content">
                 <p class="text-[11px] leading-[14px] sm:text-[21px] sm:leading-[36px] mb-[15px] mt-[19] sm:mt-[22px] uppercase">
@@ -4803,7 +4713,7 @@
                 class="toggle text-[11px] leading-[17px] sm:text-[21px] sm:leading-[36px]"
               >
               tab 3 FULL HEIGHT BASES
-                <i class="fas fa-plus icon"></i>
+                <i >+</i>
               </button>
               <div class="content">
                 <p
@@ -5114,7 +5024,7 @@
                 class="toggle text-[11px] leading-[17px] sm:text-[21px] sm:leading-[36px]"
               >
                 tab 4 What is the return policy?
-                <i class="fas fa-plus icon"></i>
+                <i >+</i>
               </button>
               <div class="content">
                 <p
@@ -5151,7 +5061,7 @@
                 class="toggle text-[11px] leading-[17px] sm:text-[21px] sm:leading-[36px]"
               >
               tab 4 FULL HEIGHT BASES
-                <i class="fas fa-plus icon"></i>
+                <i >+</i>
               </button>
               <div class="content">
                 <p

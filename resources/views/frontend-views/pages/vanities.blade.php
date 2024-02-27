@@ -9,7 +9,6 @@
     @vite('../../../../resources/css/app.css')
     <!-- page css file -->
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/accountCategoryRadio.css') }}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <!-- Font awesome icons 1 -->
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/page5.css') }}" />
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/3.Rey_website_shop_doors.css') }}">
