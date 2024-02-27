@@ -1,32 +1,22 @@
-@extends('layouts.app')
+@extends('layouts.app-navbar')
 @section('title', 'Products & Finishes')
 
-@section('css')
+@push('css')
     <!-- Product And Finishes css-->
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/productsAndFinishes.css') }}">
-@endsection
+@endpush
 
 @section('content')
 
-    {{--  =====Component flowChart=====
-      1.hero section
-      2.main section
-      3.CTA section
-      4.finishing section  --}}
-
-    @include('frontend-views.components.products-&-finishes.hero')
-    @include('frontend-views.components.products-&-finishes.main')
+    @include('frontend-views.components.products-and-finishes.hero')
+    @include('frontend-views.components.products-and-finishes.main')
     @include('frontend-views.components.global.CTA')
     @include('frontend-views.components.global.finishing', [
         'finishing_bg' => 'front-end/assets/images/productsAndFinishes/Rey-Xpress-Shop-Footer.jpg',
         'finishing_title' => 'Shop',
     ])
-
-
-
 @endsection
 
-@section('js')
+@push('js')
     <script src="{{ asset('front-end/assets/js/productsAndFinishes.js') }}"></script>
-
-@endsection
+@endpush

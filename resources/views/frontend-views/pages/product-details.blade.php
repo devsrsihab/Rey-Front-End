@@ -1,15 +1,13 @@
-@extends('layouts.app')
+@extends('layouts.app-navbar')
 @section('title', 'Product Details')
 
-@section('css')
+@push('css')
     <!-- Product Details css-->
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/page4.css') }}">
-
 @endsection
 
 
 @section('content')
-
     {{--  =====Component flowChart=====
       1.hero section
       2.breadcumn section
@@ -29,11 +27,8 @@
         'finishing_bg' => 'front-end/assets/images/productsAndFinishes/Rey-Xpress-Shop-Footer.jpg',
         'finishing_title' => 'Shop',
     ])
-
-
-
 @endsection
 
-@section('js')
+@push('js')
     <script src="{{ asset('front-end/assets/js/product-details.js') }}"></script>
 @endsection

@@ -11,10 +11,16 @@
     <!-- font-awesome css -->
     <link rel="stylesheet" href="{{ asset('front-end/assets/icons/font-awesome-all.min.css') }}" />
     <!-- custom css -->
-    @yield('css')
+    @stack('css')
+    
+    <link rel="stylesheet" href="{{ asset('front-end/assets/css/style.css') }}" />
     <!--Tailwind css CDN -->
     @vite('resources/css/app.css')
-
+    <!-- Navbar javascript file  -->
+    <script defer src="{{ asset('front-end/assets/navbar/mobile-navbar.js') }}"></script>
+    <!-- Navbar css file -->
+    <link rel="stylesheet" href="{{ asset('front-end/assets/css/navbar.css') }}" />
+    <link rel="stylesheet" href="{{ asset('front-end/assets/navbar/mobile_navbar.css') }}" />
 </head>
 
 <body>
@@ -26,9 +32,14 @@
 
     @yield('content')
 
+    {{-- Check if the current route is not the root --}}
+    @if (!request()->is('/'))
+        @include('frontend-views.components.global.footer')
+    @endif
 
     <!-- component js -->
-    @yield('js')
+    @stack('js')
+
 
 </body>
 

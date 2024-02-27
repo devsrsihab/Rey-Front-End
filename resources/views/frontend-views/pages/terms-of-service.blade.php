@@ -1,11 +1,10 @@
-@extends('layouts.app')
+@extends('layouts.app-navbar')
 @section('title', 'TERMS OF SERVICE')
-@section('css')
+@push('css')
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/termsAndPolicies.css') }}" />
 @endsection
 
 @section('content')
-
     {{--  =====Component flowChart=====
       1.hero 
       3.main 
@@ -19,9 +18,4 @@
         'finishing_bg' => 'front-end/assets/images/terms-of-service/terms-of-policies-footer.png',
         'finishing_title' => 'Home',
     ])
-
-
-
 @endsection
-
-

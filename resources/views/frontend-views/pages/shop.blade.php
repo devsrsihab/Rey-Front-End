@@ -1,11 +1,10 @@
-@extends('layouts.app')
+@extends('layouts.app-navbar')
 @section('title', 'shop')
-@section('css')
+@push('css')
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/shop-page.css') }}" />
 @endsection
 
 @section('content')
-
     {{--  =====Component flowChart=====
       1.hero section
       2.breadcumn section
@@ -23,7 +22,4 @@
         'finishing_bg' => 'front-end/assets/images/shop-page/footer-shop-page.png',
         'finishing_title' => 'Why Rey-Xpress',
     ])
-
-
-
 @endsection

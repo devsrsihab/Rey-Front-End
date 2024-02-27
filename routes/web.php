@@ -61,8 +61,8 @@ Route::get('/why-rey', function () {
 Route::get('/home', function () {
     return view('frontend-views.pages.home');
 });
-Route::get('/products-&-finishes', function () {
-    return view('frontend-views.pages.products-&-finishes
+Route::get('/products-and-finishes', function () {
+    return view('frontend-views.pages.products-and-finishes
     ');
 });
 Route::get('/create-account', function () {

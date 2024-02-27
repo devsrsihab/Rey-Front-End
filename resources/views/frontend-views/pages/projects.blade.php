@@ -1,11 +1,10 @@
-@extends('layouts.app')
+@extends('layouts.app-navbar')
 @section('title', 'Rey Projects')
-@section('css')
+@push('css')
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/local.css') }}" />
 @endsection
 
 @section('content')
-
     {{--  =====Component flowChart=====
       1.hero 
       2.breadcumn 
@@ -23,11 +22,8 @@
         'finishing_bg' => 'front-end/assets/images/rey-projects/footer-shop.png',
         'finishing_title' => 'Shop',
     ])
-
-
-
 @endsection
 
-@section('js')
-<script defer src="{{ asset('front-end/assets/js/reyProjects.js') }}"></script>
+@push('js')
+    <script defer src="{{ asset('front-end/assets/js/reyProjects.js') }}"></script>
 @endsection

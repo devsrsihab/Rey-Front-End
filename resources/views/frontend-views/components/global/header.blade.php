@@ -59,19 +59,24 @@
                     <ul id="navbar"
                         class="nav flex 2xl:gap-[60px] xl:gap-[40px] gap-[20px] min-[1700px]:text-[20px] text-[18px] leading-[32px] text-[#808080] uppercase font-[700]">
                         <li>
-                            <a class="navlinks {{ request()->is('products-&-finishes') ? 'active' : '' }} pb-[28px]" href={{ url('products-&-finishes') }}>PRODUCT & FINISHES</a>
+                            <a class="navlinks {{ request()->is('products-and-finishes') ? 'active' : '' }} pb-[28px]"
+                                href={{ url('products-and-finishes') }}>PRODUCT & FINISHES</a>
                         </li>
                         <li>
-                            <a class="navlinks {{ request()->is('shop') ? 'active' : '' }}  pb-[28px]" href={{ url('shop') }}>SHOP</a>
+                            <a class="navlinks {{ request()->is('shop') ? 'active' : '' }}  pb-[28px]"
+                                href={{ url('shop') }}>SHOP</a>
                         </li>
                         <li>
-                            <a class="navlinks {{ request()->is('why-rey') ? 'active' : '' }} pb-[28px]" href="{{ url('why-rey') }}">WHY REY-XPRESS</a>
+                            <a class="navlinks {{ request()->is('why-rey') ? 'active' : '' }} pb-[28px]"
+                                href="{{ url('why-rey') }}">WHY REY-XPRESS</a>
                         </li>
                         <li>
-                            <a class="navlinks {{ request()->is('tutorials') ? 'active' : '' }} pb-[28px]"  href="{{ url('/tutorials') }}">TUTORIALS</a>
+                            <a class="navlinks {{ request()->is('tutorials') ? 'active' : '' }} pb-[28px]"
+                                href="{{ url('/tutorials') }}">TUTORIALS</a>
                         </li>
                         <li>
-                            <a class="navlinks {{ request()->is('contact') ? 'active' : '' }} pb-[28px]" href="{{ url('contact') }} " >CONTACT</a>
+                            <a class="navlinks {{ request()->is('contact') ? 'active' : '' }} pb-[28px]"
+                                href="{{ url('contact') }} ">CONTACT</a>
                         </li>
                     </ul>
                 </div>
@@ -227,7 +232,7 @@
                 </section>
 
                 <section class="uppercase mt-[40px] pb-[35px] border-b-[1px] border-[#fff]">
-                    <a  href="{{ url('/create-account') }}" class="flex gap-[6px] mb-[14px]">
+                    <a href="{{ url('/create-account') }}" class="flex gap-[6px] mb-[14px]">
                         <img class="w-[17px]"
                             src="{{ asset('front-end/assets/images/navbar/mobile/Rey-Xpress-Account-Icon.svg') }}"
                             alt="account" />

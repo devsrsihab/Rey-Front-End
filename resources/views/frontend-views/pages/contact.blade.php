@@ -1,11 +1,10 @@
-@extends('layouts.app')
+@extends('layouts.app-navbar')
 @section('title', 'Contact')
-@section('css')
+@push('css')
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/contact.css') }}" />
 @endsection
 
 @section('content')
-
     {{--  =====Component flowChart=====
       1.hero 
       2.main 
@@ -19,5 +18,4 @@
         'finishing_bg' => 'front-end/assets/images/contact/contact-footer.png',
         'finishing_title' => 'Home',
     ])
-
 @endsection
