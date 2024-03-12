@@ -213,7 +213,7 @@
                 <section class="flex justify-between max-md:flex-col max-md:gap-[12px] pb-[150px]">
                     <div class="max-w-[650px] w-full lg:px-[25px]">
                         <img class="lg:max-w-[247px] max-w-[120px] w-full"
-                            src="{{ asset('front-end/assets/') }}../images/fitting/Rey-Xpress-High-Quality-Products.svg" alt="high-quality-product">
+                            src="{{ asset('front-end/assets/images/fitting/Rey-Xpress-High-Quality-Products.svg') }}" alt="high-quality-product">
                         <p class="font24 my-[12px] lg:my-[25px]">Crafted with quality to withstand a lifetime of daily
                             use.</p>
                         <article class="font24">To order actual product samples, please contact us at: <span
