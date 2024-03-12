@@ -7,8 +7,7 @@
             <!-- logo -->
             <div class="logo">
                 <a href="{{ url('/') }}"><img class="md:w-[440px] w-[165px]"
-                        src="{{ asset('front-end/assets/images/navbar/Rey-Xpress-Color-Logo.svg') }}"
-                        alt="logo" /></a>
+                        src="{{ asset('frontend/assets/images/navbar/Rey-Xpress-Color-Logo.svg') }}" alt="logo" /></a>
             </div>
 
 
@@ -25,7 +24,7 @@
                         <a class="flex items-center gap-[10px]  max-[1000px]:py-[20px]"
                             href="{{ url('/create-account') }}">
                             <img class="sm:w-[23px] w-[20px]"
-                                src="{{ asset('front-end/assets/images/navbar/Rey-Xpress-Account-Icon.svg') }}"
+                                src="{{ asset('frontend/assets/images/navbar/Rey-Xpress-Account-Icon.svg') }}"
                                 alt="account" />
                             SIGN IN / CREATE ACCOUNT
                         </a>
@@ -33,7 +32,7 @@
                         <a class="flex items-center gap-[10px] mx-[32px] px-[32px] border-l-2 border-r-2 border-[#9a999a]"
                             href="{{ url('projects') }}">
                             <img class="sm:w-[28px] w-[20px]"
-                                src="{{ asset('front-end/assets/images/navbar/Rey-Xpress-Projects-Icon.svg') }}"
+                                src="{{ asset('frontend/assets/images/navbar/Rey-Xpress-Projects-Icon.svg') }}"
                                 alt="project" />
                             PROJECTS
                         </a>
@@ -41,7 +40,7 @@
                         <!-- items  -->
                         <a class="flex items-center gap-[10px]" href="#">
                             <img class="sm:w-[24px] w-[20px]"
-                                src="{{ asset('front-end/assets/images/navbar/Rey-Xpress-Shopping-Cart-Icon.svg') }}"
+                                src="{{ asset('frontend/assets/images/navbar/Rey-Xpress-Shopping-Cart-Icon.svg') }}"
                                 alt="cart" />
                             SHOPPING CART
                         </a>
@@ -92,10 +91,10 @@
             <section class="flex justify-between items-center ">
                 <div>
                     <a href="#"><img id="nav_logo_white" class="w-[165px] active"
-                            src="{{ asset('front-end/assets/images/navbar/Rey-Xpress-White-Logo.svg') }}"
+                            src="{{ asset('frontend/assets/images/navbar/Rey-Xpress-White-Logo.svg') }}"
                             alt="logo" />
                         <img id="nav_logo_red" class="w-[165px] "
-                            src="{{ asset('front-end/assets/images/navbar/Rey-Xpress-Color-Logo.svg') }}"
+                            src="{{ asset('frontend/assets/images/navbar/Rey-Xpress-Color-Logo.svg') }}"
                             alt="logo" /></a>
                 </div>
                 <div>
@@ -234,19 +233,19 @@
                 <section class="uppercase mt-[40px] pb-[35px] border-b-[1px] border-[#fff]">
                     <a href="{{ url('/create-account') }}" class="flex gap-[6px] mb-[14px]">
                         <img class="w-[17px]"
-                            src="{{ asset('front-end/assets/images/navbar/mobile/Rey-Xpress-Account-Icon.svg') }}"
+                            src="{{ asset('frontend/assets/images/navbar/mobile/Rey-Xpress-Account-Icon.svg') }}"
                             alt="account" />
                         <h3>SIGN IN / CREATE ACCOUNT</h3>
                     </a>
                     <a href="{{ url('projects') }}" class="flex gap-[6px] mb-[14px]">
                         <img class="w-[20px]"
-                            src="{{ asset('front-end/assets/images/navbar/mobile/Rey-Xpress-Projects-Icon.svg') }}"
+                            src="{{ asset('frontend/assets/images/navbar/mobile/Rey-Xpress-Projects-Icon.svg') }}"
                             alt="project" />
                         <h3>PROJECTS</h3>
                     </a>
                     <a href="#" class="flex gap-[6px] mb-[14px]">
                         <img class="w-[18px]"
-                            src="{{ asset('front-end/assets/images/navbar/mobile/Rey-Xpress-Shopping-Cart-Icon.svg') }}"
+                            src="{{ asset('frontend/assets/images/navbar/mobile/Rey-Xpress-Shopping-Cart-Icon.svg') }}"
                             alt="add to cart" />
                         <h3>SHOPPING CART</h3>
                     </a>

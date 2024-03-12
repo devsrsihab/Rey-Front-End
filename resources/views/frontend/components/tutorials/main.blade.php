@@ -1,6 +1,6 @@
 <!-- cabinet transparent text start-->
 <section class="max-w-[1920px] mx-auto w-full">
-    <img class="w-3/5" src="{{ asset('front-end/assets/images/tutorials-page/cabinats-transparent.png') }}" alt="cabinet">
+    <img class="w-3/5" src="{{ asset('frontend/assets/images/tutorials-page/cabinats-transparent.png') }}" alt="cabinet">
 </section>
 <!-- cabinet transparent text end-->
 
@@ -9,7 +9,7 @@
     <!-- image and text section start 1-->
     <section class="pt-[60px] md:pt-[200px] px-[30px]">
         <section class="flex xl:flex-row flex-col justify-center items-center gap-[40px] md:gap-[110px]">
-            <div><img src="{{ asset('front-end/assets/images/tutorials-page/order1.png') }}" alt="kitchen"></div>
+            <div><img src="{{ asset('frontend/assets/images/tutorials-page/order1.png') }}" alt="kitchen"></div>
             <div class="max-w-[670px] w-full">
                 <h2 class="hading_size">START WITH DOOR STYLES</h2>
                 <p class="paragraph_size2">Your kitchen, bathroom, ensuing or powder room are places in your living
@@ -24,8 +24,10 @@
 
     <!-- couples of wood sample start  -->
     <section class="flex justify-center items-center px-[30px] py-[60px] md:py-[140px]">
-        <img class="max-[768px]:hidden" src="{{ asset('front-end/assets/images/tutorials-page/sample-wood.png') }}" alt="sample door">
-        <img class="min-[768px]:hidden" src="{{ asset('front-end/assets/images/tutorials-page/sample-door-mobile.png') }}" alt="sample door mobile">
+        <img class="max-[768px]:hidden" src="{{ asset('frontend/assets/images/tutorials-page/sample-wood.png') }}"
+            alt="sample door">
+        <img class="min-[768px]:hidden"
+            src="{{ asset('frontend/assets/images/tutorials-page/sample-door-mobile.png') }}" alt="sample door mobile">
     </section>
     <!-- couples of wood sample end  -->
 </section>
@@ -45,7 +47,8 @@
             general wear and tear. Textured finishes that last and add
             beautiful rich textures that beyhold the eye. </p>
     </div>
-    <div class="pl-[30px] ml-auto"><img src="{{ asset('front-end/assets/images/tutorials-page/order2.png') }}" alt="door hands"></div>
+    <div class="pl-[30px] ml-auto"><img src="{{ asset('frontend/assets/images/tutorials-page/order2.png') }}"
+            alt="door hands"></div>
 </section>
 <!-- image and text section end 2-->
 
@@ -54,7 +57,7 @@
     <!-- image and text section start 3 -->
     <section class="pt-[60px] md:pt-[200px] px-[30px]">
         <section class="flex xl:flex-row flex-col justify-center items-center gap-[40px] md:gap-[110px]">
-            <div><img src="{{ asset('front-end/assets/images/tutorials-page/order3.png') }}" alt="kitchen"></div>
+            <div><img src="{{ asset('frontend/assets/images/tutorials-page/order3.png') }}" alt="kitchen"></div>
             <div class="max-w-[670px] w-full">
                 <h2 class="hading_size">CABINET CONSTRUCTION</h2>
                 <p class="paragraph_size2">Rey-Xpress kitchen and vanity cabinets are durable, high-quality cabinets
@@ -68,8 +71,7 @@
 
     <!-- image and text section start 4 -->
     <section class="pt-[60px] md:pt-[200px] px-[30px] text-white">
-        <section
-           id="drawers-section"
+        <section id="drawers-section"
             class="max-w-[1620px] w-full px-[18px] md:pl-[120px] pt-[60px] pb-[190px] md:pt-[170px] md:pb-[250px] mx-auto bg-cover bg-left-bottom sm:bg-right-bottom bg-no-repeat  
 
             ">
@@ -88,7 +90,8 @@
 <!-- image and text section start 5-->
 <section
     class="bg-[#ecebe9] mx-auto max-w-[1920px] gap-[40px] md:gap-[110px] flex xl:flex-row flex-col-reverse items-center">
-    <div class="max-md:pr-[30px]"><img src="{{ asset('front-end/assets/images/tutorials-page/order5.png') }}" alt="door hands"></div>
+    <div class="max-md:pr-[30px]"><img src="{{ asset('frontend/assets/images/tutorials-page/order5.png') }}"
+            alt="door hands"></div>
     <div class="px-[30px] max-w-[692px] w-full">
         <h2 class="hading_size">CUSTOM DIMENSIONS</h2>
         <p class="paragraph_size2">Our system provides a simple step-by-step approach to ordering cabinets. You can
@@ -110,7 +113,7 @@
                     preference, and is strategically cut to create the perfect match. Grain pattern in Walnut, Maple,
                     Hickory and other wood species can enhance the beauty of any design. </p>
             </div>
-            <div><img src="{{ asset('front-end/assets/images/tutorials-page/order6.png') }}" alt="kitchen"></div>
+            <div><img src="{{ asset('frontend/assets/images/tutorials-page/order6.png') }}" alt="kitchen"></div>
         </section>
     </section>
     <!-- image and text section end 6-->
@@ -118,7 +121,7 @@
     <!-- image and text section start 7-->
     <section class="pt-[60px] md:pt-[200px] px-[30px]">
         <section class="flex xl:flex-row flex-col justify-center items-center gap-[40px] md:gap-[110px]">
-            <div><img src="{{ asset('front-end/assets/images/tutorials-page/order7.png') }}" alt="kitchen"></div>
+            <div><img src="{{ asset('frontend/assets/images/tutorials-page/order7.png') }}" alt="kitchen"></div>
             <div class="max-w-[670px] w-full">
                 <h2 class="hading_size">SELECT FINISHED SIDE(S)</h2>
                 <p class="paragraph_size2">Our framed cabinets have unfinished sides. For these cabinets, any sides that
@@ -146,7 +149,8 @@
             configuration. We use premium Hettich brand cabinet hardware solutions, made in Germany and carry a 25 year,
             lifetime warranty.</p>
     </div>
-    <div class="pl-[30px] ml-auto"><img src="{{ asset('front-end/assets/images/tutorials-page/order8.png') }}" alt="door hands"></div>
+    <div class="pl-[30px] ml-auto"><img src="{{ asset('frontend/assets/images/tutorials-page/order8.png') }}"
+            alt="door hands"></div>
 </section>
 <!-- image and text section end 8-->
 
@@ -157,8 +161,7 @@
     <section
         class="pt-[60px] md:pt-[200px] px-[30px] text-white pb-[77px] md:pb-[580px] relative max-[768px]:mb-[50px]">
 
-        <section
-            id="base-section"
+        <section id="base-section"
             class="max-w-[1720px] md:h-[748px] w-full px-[18px] md:pl-[120px] pt-[60px] pb-[190px] md:pt-[170px] md:pb-[250px] mx-auto bg-cover bg-left-bottom sm:bg-right-bottom bg-no-repeat ">
             <h2 class="hading_size">BASE AND TOEKICK STYLE</h2>
             <p class="paragraph_size2 max-w-[1020px]">Rey-Xpress offers numerous options for toekicks to help you create
@@ -167,7 +170,8 @@
 
         <div class="absolute max-[768px]:bottom-0 md:mt-[100px] max-[768px]:mb-[-50px]  left-1/2 -translate-x-1/2">
             <a href="#"><img class="w-[100px] md:w-[270px]"
-                    src="{{ asset('front-end/assets/images/tutorials-page/Rey-Xpress-Button-Order-Now-Black.svg') }}" alt="order now"></a>
+                    src="{{ asset('frontend/assets/images/tutorials-page/Rey-Xpress-Button-Order-Now-Black.svg') }}"
+                    alt="order now"></a>
         </div>
     </section>
     <!-- image and text section end 10-->
@@ -177,26 +181,27 @@
 <!-- doors transparent text section start-------------------- -->
 <section class="max-w-[1920px] mx-auto max-md:px-[30px]">
     <section class="mt-[70px] md:mt-[227px]">
-        <img class="w-1/2" src="{{ asset('front-end/assets/images/tutorials-page/door-transparent-text.png') }}" alt="door text">
+        <img class="w-1/2" src="{{ asset('frontend/assets/images/tutorials-page/door-transparent-text.png') }}"
+            alt="door text">
     </section>
     <!-- doors transparent text section end--------------------- -->
 
     <!-- image and text section start 11-->
     <section class="pt-[60px] md:pt-[200px] px-[30px] bg-[#ecebe9] relative pb-[90px] md:pb-[200px]">
         <section class="flex xl:flex-row flex-col justify-center items-center gap-[40px] md:gap-[110px]">
-            <div><img src="{{ asset('front-end/assets/images/tutorials-page/order11.png') }}" alt="kitchen"></div>
+            <div><img src="{{ asset('frontend/assets/images/tutorials-page/order11.png') }}" alt="kitchen"></div>
             <div class="max-w-[670px] w-full">
                 <h2 class="hading_size">CUSTOM DOORS <span class="font-[400]">(STANDALONE)</span></h2>
                 <p class="paragraph_size2">We understand that every home and project is unique, which is why we offer a
                     wide range of customizable cabinet doors to fit your specific needs. From traditional to modern
                     styles, our doors and drawers are available in a variety of designs and materials to suit your
                     taste.</p>
-                    <ul class="list">
-                        <li class="paragraph_size2 mt-[7px] md:mt-[15px]">Custom Doors</li>
-                        <li class="paragraph_size2 md:pb-[140px]">Custom Drawer Fronts</li>
-                    </ul>
-                    
-                    
+                <ul class="list">
+                    <li class="paragraph_size2 mt-[7px] md:mt-[15px]">Custom Doors</li>
+                    <li class="paragraph_size2 md:pb-[140px]">Custom Drawer Fronts</li>
+                </ul>
+
+
             </div>
         </section>
 
@@ -204,7 +209,8 @@
         <div
             class="absolute max-[768px]:bottom-0 mt-[60px] max-[768px]:mb-[-50px]  left-1/2 -translate-x-1/2 md:left-2/3 md:-translate-x-1/3">
             <a href="#"><img class="w-[100px] md:w-[270px]"
-                    src="{{ asset('front-end/assets/images/tutorials-page/Rey-Xpress-Button-Order-Now-Black.svg') }}" alt="order now"></a>
+                    src="{{ asset('frontend/assets/images/tutorials-page/Rey-Xpress-Button-Order-Now-Black.svg') }}"
+                    alt="order now"></a>
         </div>
     </section>
 </section>
@@ -214,14 +220,15 @@
 <!-- drawers transparent text section start--------------- -->
 <section class="max-w-[1920px] mx-auto max-md:px-[30px]">
     <section class="mt-[70px] md:mt-[227px]">
-        <img class="w-3/5" src="{{ asset('front-end/assets/images/tutorials-page/deawers-transprent-text.png') }}" alt="drawer text">
+        <img class="w-3/5" src="{{ asset('frontend/assets/images/tutorials-page/deawers-transprent-text.png') }}"
+            alt="drawer text">
     </section>
     <!-- drawers transparent text section end------------ -->
 
     <!-- image and text section start 11-->
     <section class="pt-[60px] md:pt-[200px] px-[30px] bg-[#ecebe9] relative pb-[90px] md:pb-[200px]">
         <section class="flex xl:flex-row flex-col justify-center items-center gap-[40px] md:gap-[110px]">
-            <div><img src="{{ asset('front-end/assets') }}/images/tutorials-page/order12.png" alt="kitchen"></div>
+            <div><img src="{{ asset('frontend/assets') }}/images/tutorials-page/order12.png" alt="kitchen"></div>
             <div class="max-w-[670px] w-full">
                 <h2 class="hading_size">CUSTOM DRAWERS <span class="font-[400]">(STANDALONE)</span></h2>
                 <p class="paragraph_size2">Taking on a kitchen cabinet refacing project is a cost-effective way to
@@ -237,7 +244,8 @@
         <div
             class="absolute max-[768px]:bottom-0 mt-[60px] max-[768px]:mb-[-50px]  left-1/2 -translate-x-1/2 md:left-2/3 md:-translate-x-1/3">
             <a href="#"><img class="w-[100px] md:w-[270px]"
-                    src="{{ asset('front-end/assets/images/tutorials-page/Rey-Xpress-Button-Order-Now-Black.svg') }}" alt="order now"></a>
+                    src="{{ asset('frontend/assets/images/tutorials-page/Rey-Xpress-Button-Order-Now-Black.svg') }}"
+                    alt="order now"></a>
         </div>
     </section>
     <!-- image and text section end 11-->
@@ -248,7 +256,9 @@
 <!-- Accessories transparent text section start----------------- -->
 <section class="max-w-[1920px] mx-auto max-md:px-[30px]">
     <section class="mt-[70px] md:mt-[227px]">
-        <img class="w-11/12" src="{{ asset('front-end/assets/images/tutorials-page/accessories-transparent-text.png') }}" alt="Accessories text">
+        <img class="w-11/12"
+            src="{{ asset('frontend/assets/images/tutorials-page/accessories-transparent-text.png') }}"
+            alt="Accessories text">
     </section>
     <!-- Accessories transparent text section end------------------ -->
 
@@ -256,7 +266,7 @@
     <!-- image and text section start 11-->
     <section class="pt-[60px] md:pt-[200px] px-[30px] bg-[#ecebe9] relative pb-[90px] md:pb-[200px]">
         <section class="flex xl:flex-row flex-col justify-center items-center gap-[40px] md:gap-[110px]">
-            <div><img src="{{ asset('front-end/assets/images/tutorials-page/order13.png') }}" alt="kitchen"></div>
+            <div><img src="{{ asset('frontend/assets/images/tutorials-page/order13.png') }}" alt="kitchen"></div>
             <div class="max-w-[670px] w-full">
                 <h2 class="hading_size">MUST HAVE ACCESSORIES</span></h2>
                 <p class="paragraph_size2">We’ve got accessorize to optimize your kitchen’s or
@@ -281,7 +291,8 @@
         <div
             class="absolute max-[768px]:bottom-0 mt-[60px] max-[768px]:mb-[-50px]  left-1/2 -translate-x-1/2 md:left-2/3 md:-translate-x-1/3">
             <a href="#"><img class="w-[100px] md:w-[270px]"
-                    src="{{ asset('front-end/assets/images/tutorials-page/Rey-Xpress-Button-Order-Now-Black.svg') }}" alt="order now"></a>
+                    src="{{ asset('frontend/assets/images/tutorials-page/Rey-Xpress-Button-Order-Now-Black.svg') }}"
+                    alt="order now"></a>
         </div>
 
 

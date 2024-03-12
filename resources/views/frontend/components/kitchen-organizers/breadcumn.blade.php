@@ -46,7 +46,7 @@
                         through our selections and, when you’re ready, simply add to your project folder or add to your
                         cart.
                     </article>
-                    <img src="{{ asset('front-end/assets/images/organizers/kms.png') }}" alt="Ad image">
+                    <img src="{{ asset('frontend/assets/images/organizers/kms.png') }}" alt="Ad image">
                 </div>
             </section>
 

@@ -1,5 +1,5 @@
 <!-- ========== Hero section Start ========== -->
-<div style="background-image: url('{{ asset('front-end/assets/images/shopKitchenCabinets/Rey-Xpress-Shop-Cabinets-Hero.jpg') }}')"
+<div style="background-image: url('{{ asset('frontend/assets/images/shopKitchenCabinets/Rey-Xpress-Shop-Cabinets-Hero.jpg') }}')"
     class="h-[600px] md:h-screen relative bg-left bg-no-repeat bg-cover ">
     <div class="max-w-[1920px] px-[35px] lg:px-[150px] mx-auto">
         <h2

@@ -3,7 +3,8 @@
     <section class="pt-[60px] md:pt-[200px] max-w-[1920px] mx-auto px-[30px] xl:px-[150px]">
         <section class="flex xl:flex-row flex-col justify-center items-center gap-[40px] md:gap-[120px]">
             <div>
-                <img src="{{ asset('front-end/assets/images/why-rey-page/Rey-Xpress-Easy-123-Kitchen.jpg') }}" alt="kitchen" />
+                <img src="{{ asset('frontend/assets/images/why-rey-page/Rey-Xpress-Easy-123-Kitchen.jpg') }}"
+                    alt="kitchen" />
             </div>
             <div class="max-w-[670px] w-full">
                 <h2 class="hading_size">START WITH DOOR STYLES</h2>
@@ -46,7 +47,8 @@
                 </a>
             </div>
             <div class="ml-auto">
-                <img src="{{ asset('front-end/assets/images/why-rey-page/Rey-Xpress-High-Quality-Products-Hero.jpg') }}" alt="kitchen" />
+                <img src="{{ asset('frontend/assets/images/why-rey-page/Rey-Xpress-High-Quality-Products-Hero.jpg') }}"
+                    alt="kitchen" />
             </div>
         </section>
     </section>
@@ -54,7 +56,8 @@
 
     <!-- Product quality section start -->
     <section class="max-w-[1920px] mx-auto px-[30px] xl:px-[150px] mt-[55px] md:mt-[195px]">
-        <img class="w-full md:max-w-[1241px] mx-auto" src="{{ asset('front-end/assets/images/why-rey-page/Base with Drawer_Pair Doors 2.png') }}"
+        <img class="w-full md:max-w-[1241px] mx-auto"
+            src="{{ asset('frontend/assets/images/why-rey-page/Base with Drawer_Pair Doors 2.png') }}"
             alt="product quality" />
 
         <section class="mt-[30px] flex flex-col lg:flex-row basis-1/2 gap-[20px] md:gap-[40px]">
@@ -338,7 +341,7 @@
     <section
         class="max-w-[1920px] mx-auto pr-[30px] xl:pr-[150px] mt-[60px] md:mt-[180px] w-full flex xl:flex-row flex-col justify-center items-center gap-[40px] md:gap-[110px]">
         <div class="mr-auto">
-            <img src="{{ asset('front-end/assets/images/why-rey-page/Rey-Xpress-Shipping.jpg') }}" alt="door hands" />
+            <img src="{{ asset('frontend/assets/images/why-rey-page/Rey-Xpress-Shipping.jpg') }}" alt="door hands" />
         </div>
         <div class="px-[30px] max-w-[670px] w-full">
             <h2 class="hading_size">COUNT TO 10…</h2>
@@ -371,13 +374,15 @@
                 </p>
             </div>
             <div>
-                <img src="{{ asset('front-end/assets/images/why-rey-page/Rey-Xpress-Environment.jpg') }}" alt="kitchen" />
+                <img src="{{ asset('frontend/assets/images/why-rey-page/Rey-Xpress-Environment.jpg') }}"
+                    alt="kitchen" />
             </div>
         </section>
 
         <div class="absolute md:bottom-0 md:mb-[-135px] max-xl:mb-[-50px] left-1/2 -translate-x-1/2">
             <a href="#"><img class="w-[100px] md:w-[270px]"
-                    src="{{ asset('front-end/assets/images/tutorials-page/Rey-Xpress-Button-Order-Now-Black.svg') }}" alt="order now" /></a>
+                    src="{{ asset('frontend/assets/images/tutorials-page/Rey-Xpress-Button-Order-Now-Black.svg') }}"
+                    alt="order now" /></a>
         </div>
     </section>
     <!-- TEXT IMAGE SECTION 2 END -->

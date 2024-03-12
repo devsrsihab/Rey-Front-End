@@ -1,7 +1,7 @@
 @extends('layouts.app-navbar')
 @section('title', 'Rey-Xpress')
 @push('css')
-    <link rel="stylesheet" href="{{ asset('front-end/assets/css/homeHero.css') }}" />
+    <link rel="stylesheet" href="{{ asset('frontend/assets/css/homeHero.css') }}" />
 @endpush
 
 @section('content')
@@ -14,7 +14,7 @@
     @include('frontend.components.home.warranty')
     @include('frontend.components.global.CTA')
     @include('frontend.components.global.finishing', [
-        'finishing_bg' => 'front-end/assets/images/homeHero/Rey-Xpress-Products-Finishes-Footer.png',
+        'finishing_bg' => 'frontend/assets/images/homeHero/Rey-Xpress-Products-Finishes-Footer.png',
         'finishing_title' => 'Products and Finishes',
     ])
 @endsection

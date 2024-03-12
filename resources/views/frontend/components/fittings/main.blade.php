@@ -19,7 +19,8 @@
                         <li class="list-none">
                             <input class="checkboxes" type="radio" name="radio1" id="radio1image1" />
                             <label class="checkbox_label" for="radio1image1">
-                                <img class="w-full object-cover" src="{{ asset('front-end/assets/images/handle/products/Asset 1.png') }}"
+                                <img class="w-full object-cover"
+                                    src="{{ asset('frontend/assets/images/handle/products/Asset 1.png') }}"
                                     alt="door" />
                             </label>
                             <h3
@@ -32,7 +33,8 @@
                         <li class="list-none">
                             <input class="checkboxes" type="radio" name="radio1" id="radio1image2" />
                             <label class="checkbox_label" for="radio1image2">
-                                <img class="w-full object-cover" src="{{ asset('front-end/assets/images/handle/products/Asset 2.png') }}"
+                                <img class="w-full object-cover"
+                                    src="{{ asset('frontend/assets/images/handle/products/Asset 2.png') }}"
                                     alt="door" />
                             </label>
                             <h3
@@ -45,7 +47,8 @@
                         <li class="list-none">
                             <input class="checkboxes" type="radio" name="radio1" id="radio1image3" />
                             <label class="checkbox_label" for="radio1image3">
-                                <img class="w-full object-cover" src="{{ asset('front-end/assets/images/handle/products/Asset 3.png') }}"
+                                <img class="w-full object-cover"
+                                    src="{{ asset('frontend/assets/images/handle/products/Asset 3.png') }}"
                                     alt="door" />
                             </label>
                             <h3
@@ -58,7 +61,8 @@
                         <li class="list-none">
                             <input class="checkboxes" type="radio" name="radio1" id="radio1image4" />
                             <label class="checkbox_label" for="radio1image4">
-                                <img class="w-full object-cover" src="{{ asset('front-end/assets/images/handle/products/Asset 4.png') }}"
+                                <img class="w-full object-cover"
+                                    src="{{ asset('frontend/assets/images/handle/products/Asset 4.png') }}"
                                     alt="door" />
                             </label>
                             <h3
@@ -71,7 +75,8 @@
                         <li class="list-none">
                             <input class="checkboxes" type="radio" name="radio1" id="radio1image5" />
                             <label class="checkbox_label" for="radio1image5">
-                                <img class="w-full object-cover" src="{{ asset('front-end/assets/images/handle/products/Asset 5.png') }}"
+                                <img class="w-full object-cover"
+                                    src="{{ asset('frontend/assets/images/handle/products/Asset 5.png') }}"
                                     alt="door" />
                             </label>
                             <h3
@@ -84,7 +89,8 @@
                         <li class="list-none">
                             <input class="checkboxes" type="radio" name="radio1" id="radio1image6" />
                             <label class="checkbox_label" for="radio1image6">
-                                <img class="w-full object-cover" src="{{ asset('front-end/assets/images/handle/products/Asset 6.png') }}"
+                                <img class="w-full object-cover"
+                                    src="{{ asset('frontend/assets/images/handle/products/Asset 6.png') }}"
                                     alt="door" />
                             </label>
                             <h3
@@ -100,7 +106,8 @@
                         <li class="list-none">
                             <input class="checkboxes" type="radio" name="radio1" id="radio1image7" />
                             <label class="checkbox_label" for="radio1image7">
-                                <img class="w-full object-cover" src="{{ asset('front-end/assets/images/handle/products/Asset 7.png') }}"
+                                <img class="w-full object-cover"
+                                    src="{{ asset('frontend/assets/images/handle/products/Asset 7.png') }}"
                                     alt="door" />
                             </label>
                             <h3
@@ -113,7 +120,8 @@
                         <li class="list-none">
                             <input class="checkboxes" type="radio" name="radio1" id="radio1image8" />
                             <label class="checkbox_label" for="radio1image8">
-                                <img class="w-full object-cover" src="{{ asset('front-end/assets/images/handle/products/Asset 8.png') }}"
+                                <img class="w-full object-cover"
+                                    src="{{ asset('frontend/assets/images/handle/products/Asset 8.png') }}"
                                     alt="door" />
                             </label>
                             <h3
@@ -126,7 +134,8 @@
                         <li class="list-none">
                             <input class="checkboxes" type="radio" name="radio1" id="radio1image9" />
                             <label class="checkbox_label" for="radio1image9">
-                                <img class="w-full object-cover" src="{{ asset('front-end/assets/images/handle/products/Asset 9.png') }}"
+                                <img class="w-full object-cover"
+                                    src="{{ asset('frontend/assets/images/handle/products/Asset 9.png') }}"
                                     alt="door" />
                             </label>
                             <h3
@@ -139,7 +148,8 @@
                         <li class="list-none">
                             <input class="checkboxes" type="radio" name="radio1" id="radio1image10" />
                             <label class="checkbox_label" for="radio1image10">
-                                <img class="w-full object-cover" src="{{ asset('front-end/assets/images/handle/products/Asset 10.png') }}"
+                                <img class="w-full object-cover"
+                                    src="{{ asset('frontend/assets/images/handle/products/Asset 10.png') }}"
                                     alt="door" />
                             </label>
                             <h3
@@ -152,7 +162,8 @@
                         <li class="list-none">
                             <input class="checkboxes" type="radio" name="radio1" id="radio1image11" />
                             <label class="checkbox_label" for="radio1image11">
-                                <img class="w-full object-cover" src="{{ asset('front-end/assets/images/handle/products/Asset 11.png') }}"
+                                <img class="w-full object-cover"
+                                    src="{{ asset('frontend/assets/images/handle/products/Asset 11.png') }}"
                                     alt="door" />
                             </label>
                             <h3
@@ -165,7 +176,8 @@
                         <li class="list-none">
                             <input class="checkboxes" type="radio" name="radio1" id="radio1image12" />
                             <label class="checkbox_label" for="radio1image12">
-                                <img class="w-full object-cover" src="{{ asset('front-end/assets/images/handle/products/Asset 12.png') }}"
+                                <img class="w-full object-cover"
+                                    src="{{ asset('frontend/assets/images/handle/products/Asset 12.png') }}"
                                     alt="door" />
                             </label>
                             <h3
@@ -178,7 +190,8 @@
                         <li class="list-none">
                             <input class="checkboxes" type="radio" name="radio1" id="radio1image13" />
                             <label class="checkbox_label" for="radio1image13">
-                                <img class="w-full object-cover" src="{{ asset('front-end/assets/images/handle/products/Asset 13.png') }}"
+                                <img class="w-full object-cover"
+                                    src="{{ asset('frontend/assets/images/handle/products/Asset 13.png') }}"
                                     alt="door" />
                             </label>
                             <h3
@@ -191,7 +204,8 @@
                         <li class="list-none">
                             <input class="checkboxes" type="radio" name="radio1" id="radio1image14" />
                             <label class="checkbox_label" for="radio1image14">
-                                <img class="w-full object-cover" src="{{ asset('front-end/assets/images/handle/products/Asset 14.png') }}"
+                                <img class="w-full object-cover"
+                                    src="{{ asset('frontend/assets/images/handle/products/Asset 14.png') }}"
                                     alt="door" />
                             </label>
                             <h3
@@ -204,7 +218,8 @@
                         <li class="list-none">
                             <input class="checkboxes" type="radio" name="radio1" id="radio1image15" />
                             <label class="checkbox_label" for="radio1image15">
-                                <img class="w-full object-cover" src="{{ asset('front-end/assets/images/handle/products/Asset 15.png') }}"
+                                <img class="w-full object-cover"
+                                    src="{{ asset('frontend/assets/images/handle/products/Asset 15.png') }}"
                                     alt="door" />
                             </label>
                             <h3
@@ -217,7 +232,8 @@
                         <li class="list-none">
                             <input class="checkboxes" type="radio" name="radio1" id="radio1image16" />
                             <label class="checkbox_label" for="radio1image16">
-                                <img class="w-full object-cover" src="{{ asset('front-end/assets/images/handle/products/Asset 16.png') }}"
+                                <img class="w-full object-cover"
+                                    src="{{ asset('frontend/assets/images/handle/products/Asset 16.png') }}"
                                     alt="door" />
                             </label>
                             <h3
@@ -230,7 +246,8 @@
                         <li class="list-none">
                             <input class="checkboxes" type="radio" name="radio1" id="radio1image17" />
                             <label class="checkbox_label" for="radio1image17">
-                                <img class="w-full object-cover" src="{{ asset('front-end/assets/images/handle/products/Asset 17.png') }}"
+                                <img class="w-full object-cover"
+                                    src="{{ asset('frontend/assets/images/handle/products/Asset 17.png') }}"
                                     alt="door" />
                             </label>
                             <h3
@@ -243,7 +260,8 @@
                         <li class="list-none">
                             <input class="checkboxes" type="radio" name="radio1" id="radio1image18" />
                             <label class="checkbox_label" for="radio1image18">
-                                <img class="w-full object-cover" src="{{ asset('front-end/assets/images/handle/products/Asset 18.png') }}"
+                                <img class="w-full object-cover"
+                                    src="{{ asset('frontend/assets/images/handle/products/Asset 18.png') }}"
                                     alt="door" />
                             </label>
                             <h3
@@ -256,7 +274,8 @@
                         <li class="list-none">
                             <input class="checkboxes" type="radio" name="radio1" id="radio1image19" />
                             <label class="checkbox_label" for="radio1image19">
-                                <img class="w-full object-cover" src="{{ asset('front-end/assets/images/handle/products/Asset 19.png') }}"
+                                <img class="w-full object-cover"
+                                    src="{{ asset('frontend/assets/images/handle/products/Asset 19.png') }}"
                                     alt="door" />
                             </label>
                             <h3
@@ -269,7 +288,8 @@
                         <li class="list-none">
                             <input class="checkboxes" type="radio" name="radio1" id="radio1image20" />
                             <label class="checkbox_label" for="radio1image20">
-                                <img class="w-full object-cover" src="{{ asset('front-end/assets/images/handle/products/Asset 20.png') }}"
+                                <img class="w-full object-cover"
+                                    src="{{ asset('frontend/assets/images/handle/products/Asset 20.png') }}"
                                     alt="door" />
                             </label>
                             <h3
@@ -299,7 +319,7 @@
             <section class="mt-[12px] lg:mt-[47px] bg-[#f5f4f3] p-[30px] lg:p-[70px] relative">
                 <div class="flex xl:justify-between justify-center items-center xl:flex-row flex-col relative">
                     <img class="md:hidden w-[18px] h-[18px] cursor-pointer absolute top-[24px] right-[18px]"
-                        src="{{ asset('front-end/assets/images/plus.png') }}" alt="plus">
+                        src="{{ asset('frontend/assets/images/plus.png') }}" alt="plus">
                     <div class="w-full">
                         <p
                             class="sm:hidden mt-[23px] ml-[18px] font-[700] text-[16px] leading-[24px] lg:text-[42px] lg:leading-[41px]">
@@ -307,11 +327,12 @@
 
                         <div class="flex justify-center items-center">
                             <div class="imageHoverContainer">
-                                <img src="{{ asset('front-end/assets/images/handle/products/Asset 7.png') }}" alt="add to cart">
+                                <img src="{{ asset('frontend/assets/images/handle/products/Asset 7.png') }}"
+                                    alt="add to cart">
                             </div>
                         </div>
-                        <img class="max-lg:hidden w-[48px] h-[48px] mt-[60px] cursor-pointer" src="{{ asset('front-end/assets/images/plus.png') }}"
-                            alt="plus">
+                        <img class="max-lg:hidden w-[48px] h-[48px] mt-[60px] cursor-pointer"
+                            src="{{ asset('frontend/assets/images/plus.png') }}" alt="plus">
 
                     </div>
 
@@ -385,7 +406,8 @@
                 <section class="flex justify-between max-md:flex-col max-md:gap-[12px] pb-[150px]">
                     <div class="max-w-[600px] w-full lg:px-[25px]">
                         <img class="lg:max-w-[247px] max-w-[120px] w-full"
-                            src="{{ asset('front-end/assets/images/fitting/Rey-Xpress-High-Quality-Products.svg') }}" alt="high-quality-product">
+                            src="{{ asset('frontend/assets/images/fitting/Rey-Xpress-High-Quality-Products.svg') }}"
+                            alt="high-quality-product">
                         <p class="font24 my-[12px] lg:my-[25px]">Crafted with quality to withstand a lifetime of daily
                             use.</p>
                         <article class="font24">To order actual product samples, please contact us at: <span
@@ -411,7 +433,8 @@
                 <div class="absolute md:bottom-0 md:mb-[-135px] max-xl:mb-[-50px] left-1/2 -translate-x-1/2">
                     <a href="#">
                         <img class="w-[100px] md:w-[270px]"
-                            src="{{ asset('front-end/assets/images/fitting/Rey-Xpress-Button-Add-Item-Black.svg') }}" alt="add a item" />
+                            src="{{ asset('frontend/assets/images/fitting/Rey-Xpress-Button-Add-Item-Black.svg') }}"
+                            alt="add a item" />
                     </a>
                 </div>
 

@@ -23,7 +23,8 @@
             </button>
         </div>
         <div class="max-w-[960px] md:mt-0 mt-[30px]">
-            <img src="{{ asset('front-end/assets/images/homeHero/Rey-Xpress-Home-Simplified-Process.jpg') }}" alt="a girls pic here" />
+            <img src="{{ asset('frontend/assets/images/homeHero/Rey-Xpress-Home-Simplified-Process.jpg') }}"
+                alt="a girls pic here" />
         </div>
     </div>
     <!-- 01 image text section end -->
@@ -40,7 +41,8 @@
     <!-- 02 image text section start -->
     <div class="box1 flex justify-between gap-[35px] md:gap-[120px] xl:flex-row flex-col">
         <div class="max-w-[960px]">
-            <img src="{{ asset('front-end/assets/images/homeHero/Rey-Xpress-Home-Contractors.jpg') }}" alt="a girls pic here" />
+            <img src="{{ asset('frontend/assets/images/homeHero/Rey-Xpress-Home-Contractors.jpg') }}"
+                alt="a girls pic here" />
         </div>
         <div class="max-w-[700px] w-full">
             <h1 class="head1 mb-[12px] md:mb-[35px] max-w-[470px] w-full">
@@ -92,7 +94,8 @@
             </button>
         </div>
         <div class="max-w-[960px]">
-            <img src="{{ asset('front-end/assets/images/homeHero/Rey-Xpress-Home-Cabinets-Millwork.jpg') }}" alt="a girls pic here" />
+            <img src="{{ asset('frontend/assets/images/homeHero/Rey-Xpress-Home-Cabinets-Millwork.jpg') }}"
+                alt="a girls pic here" />
         </div>
     </div>
 </main>

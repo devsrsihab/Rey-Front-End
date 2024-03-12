@@ -25,12 +25,15 @@
         <section class="flex max-[1300px]:flex-col md:gap-[35px] text-white">
             <!-- outer image  -->
             <div class="bg-[#7f7f42] w-full max-w-[520px] flex items-center justify-center max-[1300px]:hidden">
-                <img class="w-full" src="{{ asset('front-end/assets/images/tutorials-page/Rey-Xpress-Create-Account-Icon.svg') }}" alt="account" />
+                <img class="w-full"
+                    src="{{ asset('frontend/assets/images/tutorials-page/Rey-Xpress-Create-Account-Icon.svg') }}"
+                    alt="account" />
             </div>
             <div class="bg-[#7f7f42] md:px-[100px] md:py-[115px] px-[20px] py-[15px] w-full max-w-[1070px]">
                 <!-- inner  image-->
                 <div class="bg-[#7f7f42] flex items-center justify-end min-[1300px]:hidden">
-                    <img class="w-[53px] mt-[17px] mr-[22px]" src="{{ asset('front-end/assets/images/tutorials-page/accounts2.png') }}" alt="account2" />
+                    <img class="w-[53px] mt-[17px] mr-[22px]"
+                        src="{{ asset('frontend/assets/images/tutorials-page/accounts2.png') }}" alt="account2" />
                 </div>
                 <h4 class="text-[12px] leading-[15px] md:text-[34px] md:leading-[41px]">
                     Step 1
@@ -55,7 +58,8 @@
             <div class="bg-[#bb6c3e] md:px-[100px] md:py-[115px] px-[20px] py-[15px] w-full max-w-[1070px]">
                 <!-- inner  image-->
                 <div class="bg-[#bb6c3e] flex items-center justify-end min-[1300px]:hidden">
-                    <img class="w-[53px] mt-[17px] mr-[22px]" src="{{ asset('front-end/assets/images/tutorials-page/folder2.png') }}" alt="account2" />
+                    <img class="w-[53px] mt-[17px] mr-[22px]"
+                        src="{{ asset('frontend/assets/images/tutorials-page/folder2.png') }}" alt="account2" />
                 </div>
 
                 <h4 class="text-[12px] leading-[15px] md:text-[34px] md:leading-[41px]">
@@ -74,7 +78,9 @@
             </div>
             <!-- outer image  -->
             <div class="bg-[#bb6c3e] w-full max-w-[520px] flex items-center justify-center max-[1300px]:hidden">
-                <img class="w-full" src="{{ asset('front-end/assets/images/tutorials-page/Rey-Xpress-Start-Project-Icon.svg') }}" alt="account" />
+                <img class="w-full"
+                    src="{{ asset('frontend/assets/images/tutorials-page/Rey-Xpress-Start-Project-Icon.svg') }}"
+                    alt="account" />
         </section>
         <!-- div end-->
 
@@ -84,13 +90,14 @@
             <!-- outer image  -->
             <div class="bg-[#9ca4ab] w-full max-w-[520px] flex items-center justify-center max-[1300px]:hidden">
                 <img class="w-full"
-                    src="{{ asset('front-end/assets/images/tutorials-page/Rey-Xpress-Shopping-Cart-Icon-Gray.svg') }}"alt="account" />
+                    src="{{ asset('frontend/assets/images/tutorials-page/Rey-Xpress-Shopping-Cart-Icon-Gray.svg') }}"alt="account" />
             </div>
 
             <div class="bg-[#9ca4ab] md:px-[100px] md:py-[115px] px-[20px] py-[15px] w-full max-w-[1070px]">
                 <!-- inner  image-->
                 <div class="bg-[#9ca4ab] flex items-center justify-end min-[1300px]:hidden">
-                    <img class="w-[53px] mt-[17px] mr-[22px]" src="{{ asset('front-end/assets/images/tutorials-page/cart2.png') }}" alt="account2" />
+                    <img class="w-[53px] mt-[17px] mr-[22px]"
+                        src="{{ asset('frontend/assets/images/tutorials-page/cart2.png') }}" alt="account2" />
                 </div>
 
                 <h4 class="text-[12px] leading-[15px] md:text-[34px] md:leading-[41px]">

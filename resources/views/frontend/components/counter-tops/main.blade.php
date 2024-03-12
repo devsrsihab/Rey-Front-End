@@ -17,7 +17,8 @@
                   </h2>
               </div>
               <div>
-                  <img class="w-[13px] h-[13px] md:w-[50px] md:h-[50px]" src="{{ asset('front-end/assets/images/doors/plus.png') }}" alt="plus icon" />
+                  <img class="w-[13px] h-[13px] md:w-[50px] md:h-[50px]"
+                      src="{{ asset('frontend/assets/images/doors/plus.png') }}" alt="plus icon" />
               </div>
           </div>
 
@@ -59,7 +60,8 @@
                           id="drawerContentSection1image1">
                       <label class="checkbox_label" for="drawerContentSection1image1">
                           <div class="border-[3px] border-[#ffffff]  ">
-                              <img class="doorProductImage" src="{{ asset('front-end/assets/images/counter/product/product1.png') }}"
+                              <img class="doorProductImage"
+                                  src="{{ asset('frontend/assets/images/counter/product/product1.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -71,7 +73,8 @@
                           id="drawerContentSection1image2">
                       <label class="checkbox_label" for="drawerContentSection1image2">
                           <div class="border-[3px] border-[#ffffff]  ">
-                              <img class="doorProductImage" src="{{ asset('front-end/assets/images/counter/product/product2.png') }}"
+                              <img class="doorProductImage"
+                                  src="{{ asset('frontend/assets/images/counter/product/product2.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -83,7 +86,8 @@
                           id="drawerContentSection1image3">
                       <label class="checkbox_label" for="drawerContentSection1image3">
                           <div class="border-[3px] border-[#ffffff]  ">
-                              <img class="doorProductImage" src="{{ asset('front-end/assets/images/counter/product/product3.png') }}"
+                              <img class="doorProductImage"
+                                  src="{{ asset('frontend/assets/images/counter/product/product3.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -95,7 +99,8 @@
                           id="drawerContentSection1image4">
                       <label class="checkbox_label" for="drawerContentSection1image4">
                           <div class="border-[3px] border-[#ffffff]  ">
-                              <img class="doorProductImage" src="{{ asset('front-end/assets/images/counter/product/product4.png') }}"
+                              <img class="doorProductImage"
+                                  src="{{ asset('frontend/assets/images/counter/product/product4.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -107,7 +112,8 @@
                           id="drawerContentSection1image5">
                       <label class="checkbox_label" for="drawerContentSection1image5">
                           <div class="border-[3px] border-[#ffffff]  ">
-                              <img class="doorProductImage" src="{{ asset('front-end/assets/images/counter/product/product5.png') }}"
+                              <img class="doorProductImage"
+                                  src="{{ asset('frontend/assets/images/counter/product/product5.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -127,7 +133,8 @@
                           id="drawerContentSection2image1">
                       <label class="checkbox_label" for="drawerContentSection2image1">
                           <div class="border-[3px] border-[#ffffff]  ">
-                              <img src="{{ asset('front-end/assets/images/counter/product/product6.png') }}" alt="door" />
+                              <img src="{{ asset('frontend/assets/images/counter/product/product6.png') }}"
+                                  alt="door" />
                           </div>
                       </label>
                       <h3 class="doorProductTitle">MISSING</h3>
@@ -146,7 +153,8 @@
                           id="drawerContentSection3image1">
                       <label class="checkbox_label" for="drawerContentSection3image1">
                           <div class="border-[3px] border-[#ffffff]  ">
-                              <img class="doorProductImage" src="{{ asset('front-end/assets/images/counter/product/product7.png') }}"
+                              <img class="doorProductImage"
+                                  src="{{ asset('frontend/assets/images/counter/product/product7.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -158,7 +166,8 @@
                           id="drawerContentSection3image2">
                       <label class="checkbox_label" for="drawerContentSection3image2">
                           <div class="border-[3px] border-[#ffffff]  ">
-                              <img class="doorProductImage" src="{{ asset('front-end/assets/images/counter/product/product8.png') }}"
+                              <img class="doorProductImage"
+                                  src="{{ asset('frontend/assets/images/counter/product/product8.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -170,7 +179,8 @@
                           id="drawerContentSection3image3">
                       <label class="checkbox_label" for="drawerContentSection3image3">
                           <div class="border-[3px] border-[#ffffff]  ">
-                              <img class="doorProductImage" src="{{ asset('front-end/assets/images/counter/product/product9.png') }}"
+                              <img class="doorProductImage"
+                                  src="{{ asset('frontend/assets/images/counter/product/product9.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -200,8 +210,8 @@
                   </h2>
               </div>
               <div>
-                  <img class="w-[13px] h-[13px] md:w-[50px] md:h-[50px]" src="{{ asset('front-end/assets/images/doors/plus.png') }}"
-                      alt="plus icon" />
+                  <img class="w-[13px] h-[13px] md:w-[50px] md:h-[50px]"
+                      src="{{ asset('frontend/assets/images/doors/plus.png') }}" alt="plus icon" />
               </div>
           </div>
 
@@ -339,8 +349,8 @@
                   </h2>
               </div>
               <div>
-                  <img class="w-[13px] h-[13px] md:w-[50px] md:h-[50px]" src="{{ asset('front-end/assets/images/doors/plus.png') }}"
-                      alt="plus icon" />
+                  <img class="w-[13px] h-[13px] md:w-[50px] md:h-[50px]"
+                      src="{{ asset('frontend/assets/images/doors/plus.png') }}" alt="plus icon" />
               </div>
           </div>
 
@@ -377,7 +387,9 @@
               <h3 class="spans">Right L Shaped Counter Top</h3>
               <section class="dimension_section">
                   <!-- section 1 start  -->
-                  <div><img class="w-full" src="{{ asset('front-end/assets/images/counter/dimension/dimension1.png') }}" alt="dimension"></div>
+                  <div><img class="w-full"
+                          src="{{ asset('frontend/assets/images/counter/dimension/dimension1.png') }}"
+                          alt="dimension"></div>
                   <!-- section 1 end -->
                   <section class="pl-[0] lg:pl-[55px]">
 
@@ -456,7 +468,9 @@
               <h3 class="spans">Left L Shaped Counter Top</h3>
               <section class="dimension_section">
                   <!-- section 1 start  -->
-                  <div><img class="w-full" src="{{ asset('front-end/assets/images/counter/dimension/dimension2.png') }}" alt="dimension"></div>
+                  <div><img class="w-full"
+                          src="{{ asset('frontend/assets/images/counter/dimension/dimension2.png') }}"
+                          alt="dimension"></div>
                   <!-- section 1 end -->
                   <section class="pl-[0] lg:pl-[55px]">
 
@@ -535,7 +549,9 @@
               <h3 class="spans">U Shaped Counter Top</h3>
               <section class="dimension_section">
                   <!-- section 1 start  -->
-                  <div><img class="w-full" src="{{ asset('front-end/assets/images/counter/dimension/dimension3.png') }}" alt="dimension"></div>
+                  <div><img class="w-full"
+                          src="{{ asset('frontend/assets/images/counter/dimension/dimension3.png') }}"
+                          alt="dimension"></div>
                   <!-- section 1 end -->
                   <section class="pl-[0] lg:pl-[55px]">
 
@@ -649,7 +665,9 @@
               <h3 class="spans">Straight Counter Top for Islands, Vanities or Bars</h3>
               <section class="dimension_section">
                   <!-- section 1 start  -->
-                  <div><img class="w-full" src="{{ asset('front-end/assets/images/counter/dimension/dimension4.png') }}" alt="dimension"></div>
+                  <div><img class="w-full"
+                          src="{{ asset('frontend/assets/images/counter/dimension/dimension4.png') }}"
+                          alt="dimension"></div>
                   <!-- section 1 end -->
                   <section class="pl-[0] lg:pl-[55px]">
 
@@ -739,8 +757,8 @@
               </h2>
           </div>
           <div>
-              <img class="w-[13px] h-[13px] md:w-[50px] md:h-[50px]" src="{{ asset('front-end/assets/images/doors/plus.png') }}"
-                  alt="plus icon" />
+              <img class="w-[13px] h-[13px] md:w-[50px] md:h-[50px]"
+                  src="{{ asset('frontend/assets/images/doors/plus.png') }}" alt="plus icon" />
           </div>
       </div>
 
@@ -791,7 +809,8 @@
               <!-- circle logo  -->
               <div class="absolute md:bottom-0 md:mb-[-135px] left-1/2 -translate-x-1/2">
                   <a href="#">
-                      <img class="w-[100px] md:w-[270px]" src="{{ asset('front-end/assets/images/fitting/Rey-Xpress-Button-Add-Item-Black.svg') }}"
+                      <img class="w-[100px] md:w-[270px]"
+                          src="{{ asset('frontend/assets/images/fitting/Rey-Xpress-Button-Add-Item-Black.svg') }}"
                           alt="add a item" />
                   </a>
               </div>
@@ -806,7 +825,8 @@
           <section class="flex justify-between max-md:flex-col max-md:gap-[12px] mt-[120px] lg:mt-[300px]">
               <div class="max-w-[650px] w-full lg:px-[25px]">
                   <img class="lg:max-w-[247px] max-w-[120px] w-full"
-                      src="{{ asset('front-end/assets/images/fitting/Rey-Xpress-High-Quality-Products.svg') }}" alt="high-quality-product">
+                      src="{{ asset('frontend/assets/images/fitting/Rey-Xpress-High-Quality-Products.svg') }}"
+                      alt="high-quality-product">
                   <p class="font24 my-[12px] lg:my-[25px]">Crafted with quality to withstand a lifetime of daily use.
                   </p>
                   <article class="font24">To order actual product samples, please contact us at: <span

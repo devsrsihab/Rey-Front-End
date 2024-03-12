@@ -48,7 +48,7 @@
                         find a Kitchen Craft cabinet dealer near you to order.
                     </article>
 
-                    <img src="{{ asset('front-end/assets/images/handle/kms7.png') }}" alt="Ad image">
+                    <img src="{{ asset('frontend/assets/images/handle/kms7.png') }}" alt="Ad image">
 
                 </div>
             </section>

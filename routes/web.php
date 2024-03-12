@@ -75,7 +75,11 @@ Route::get('/product-details', function () {
 
 // admin routes
 Route::prefix('admin')->group(function () {
-   return view('frontend.pages.product-details');
+  Route::get('/dashboard', function () {
+    // return view('backend.pages.dashboard');
+    return view('backend.pages.dashboard');
+});
+
 
 });
 

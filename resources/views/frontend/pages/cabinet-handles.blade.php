@@ -7,13 +7,13 @@
     <title>CABINET HANDLES</title>
 
     <!-- page css file -->
-    <link rel="stylesheet" href="{{ asset('front-end/assets/css/5.rey-website-shop-blum-fitting.css') }}" />
-    <link rel="stylesheet" href="{{ asset('front-end/assets/css/selectImageIcon.css') }}">
-    <link rel="stylesheet" href="{{ asset('front-end/assets/css/local.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/assets/css/5.rey-website-shop-blum-fitting.css') }}" />
+    <link rel="stylesheet" href="{{ asset('frontend/assets/css/selectImageIcon.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/assets/css/local.css') }}">
     <!-- hover image  -->
-    <link rel="stylesheet" href="{{ asset('front-end/assets/css/imageHover.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/assets/css/imageHover.css') }}">
     <!-- Navbar css file -->
-    <link rel="stylesheet" href="{{ asset('front-end/assets/css/mobile_navbar.css') }}" />
+    <link rel="stylesheet" href="{{ asset('frontend/assets/css/mobile_navbar.css') }}" />
 
     <!--Tailwind css CDN -->
     @vite('../../../../resources/css/app.css')
@@ -30,17 +30,17 @@
     @include('frontend.components.fittings.main')
     @include('frontend.components.global.CTA')
     @include('frontend.components.global.finishing', [
-        'finishing_bg' => 'front-end/assets/images/handle/handle-footer.png',
+        'finishing_bg' => 'frontend/assets/images/handle/handle-footer.png',
         'finishing_title' => 'Counter Tops',
     ])
     {{-- footer --}}
     @include('frontend.components.global.footer')
 
 
-    <script defer src="{{ asset('front-end/assets/js/imageHover.js') }}"></script>
+    <script defer src="{{ asset('frontend/assets/js/imageHover.js') }}"></script>
     <!-- Navbar javascript file  -->
-    <script defer src="{{ asset('front-end/assets/js/mobile-navbar.js') }}"></script>
-    <script defer src="{{ asset('front-end/assets/js/counting.js') }}"></script>
+    <script defer src="{{ asset('frontend/assets/js/mobile-navbar.js') }}"></script>
+    <script defer src="{{ asset('frontend/assets/js/counting.js') }}"></script>
 
 </body>
 

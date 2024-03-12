@@ -5,7 +5,8 @@
                 class="flex justify-between flex-col md:flex-row mx-auto flex-wrap gap-[40px] pt-[60px] md:pt-[122px]">
                 <div>
                     <a href="#"><img class="w-[124px] md:w-[331px]"
-                            src="{{ asset('front-end/assets/images/homeHero/Rey-Xpress-Logo-Gray-Footer.svg') }}" alt="logo" /></a>
+                            src="{{ asset('frontend/assets/images/homeHero/Rey-Xpress-Logo-Gray-Footer.svg') }}"
+                            alt="logo" /></a>
                 </div>
 
                 <div class="flex justify-between flex-wrap gap-[55px] md:gap-[90px]">
@@ -67,27 +68,30 @@
                 <div class="flex gap-[23px] mt-[50px] mb-[12px] md:mb-[45px]">
                     <!-- Another -->
                     <div>
-                        <a href="#"><img class="w-[23px] md:w-[40px]" src="{{ asset('front-end/assets/images/soicalLogo/linkedin.svg') }}"
+                        <a href="#"><img class="w-[23px] md:w-[40px]"
+                                src="{{ asset('frontend/assets/images/soicalLogo/linkedin.svg') }}"
                                 alt="LinkedIn" /></a>
                     </div>
                     <!-- Another -->
                     <div>
-                        <a href="#"><img class="w-[23px] md:w-[40px]" src="{{ asset('front-end/assets/images/soicalLogo/facebook.svg') }}"
+                        <a href="#"><img class="w-[23px] md:w-[40px]"
+                                src="{{ asset('frontend/assets/images/soicalLogo/facebook.svg') }}"
                                 alt="Facebook" /></a>
                     </div>
                     <!-- Another -->
                     <div>
-                        <a href="#"><img class="w-[23px] md:w-[40px]" src="{{ asset('front-end/assets/images/soicalLogo/twitter.svg') }}"
-                                alt="Twitter" /></a>
+                        <a href="#"><img class="w-[23px] md:w-[40px]"
+                                src="{{ asset('frontend/assets/images/soicalLogo/twitter.svg') }}" alt="Twitter" /></a>
                     </div>
                     <!-- Another -->
                     <div>
-                        <a href="#"><img class="w-[23px] md:w-[40px]" src="{{ asset('front-end/assets/images/soicalLogo/youtube.svg') }}"
-                                alt="Youtube" /></a>
+                        <a href="#"><img class="w-[23px] md:w-[40px]"
+                                src="{{ asset('frontend/assets/images/soicalLogo/youtube.svg') }}" alt="Youtube" /></a>
                     </div>
                     <!-- Another -->
                     <div>
-                        <a href="#"><img class="w-[23px] md:w-[40px]" src="{{ asset('front-end/assets/images/soicalLogo/instagram.svg') }}"
+                        <a href="#"><img class="w-[23px] md:w-[40px]"
+                                src="{{ asset('frontend/assets/images/soicalLogo/instagram.svg') }}"
                                 alt="Instagram" /></a>
                     </div>
                 </div>
@@ -98,8 +102,8 @@
             </section>
         </section>
         <div>
-            <a href="#"><img class="bg-gray-400 ml-auto w-[43px] md:hidden" src="{{ asset('front-end/assets/images/homeHero/up.png') }}"
-                    alt="up" /></a>
+            <a href="#"><img class="bg-gray-400 ml-auto w-[43px] md:hidden"
+                    src="{{ asset('frontend/assets/images/homeHero/up.png') }}" alt="up" /></a>
         </div>
     </section>
     <!--   Footer section End -->

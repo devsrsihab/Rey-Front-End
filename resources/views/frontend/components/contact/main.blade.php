@@ -80,8 +80,8 @@
     </section>
 
     <div class="mt-[25px] md:mt-[115px] mb-[35px] md:mb-[190px] flex justify-center">
-        <a href="#"><img class="w-[120px] md:w-[319px]" src="{{ asset('front-end/assets/images/contact/submit-form.svg') }}"
-                alt="submit"></a>
+        <a href="#"><img class="w-[120px] md:w-[319px]"
+                src="{{ asset('frontend/assets/images/contact/submit-form.svg') }}" alt="submit"></a>
     </div>
 
 </main>

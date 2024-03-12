@@ -1,7 +1,9 @@
 <!-- Advantage screener message section start============================ -->
 <section class="bg-center bg-no-repeat relative bg-cover">
-    <img class="max-[430px]:hidden w-full" src="{{ asset('front-end/assets/images/homeHero/advantage-desktop.png') }}" alt="advantage desktop" />
-    <img class="min-[430px]:hidden" src="{{ asset('front-end/assets/images/homeHero/advantage-mobile.png') }}" alt="advantage mobile" />
+    <img class="max-[430px]:hidden w-full" src="{{ asset('frontend/assets/images/homeHero/advantage-desktop.png') }}"
+        alt="advantage desktop" />
+    <img class="min-[430px]:hidden" src="{{ asset('frontend/assets/images/homeHero/advantage-mobile.png') }}"
+        alt="advantage mobile" />
     <div
         class="absolute left-1/2 -translate-x-1/2 bottom-0 mb-[-50px] md:mb-[-90px] xl:mb-[-100px] xl:py-[50px] bg-[#fff]">
 

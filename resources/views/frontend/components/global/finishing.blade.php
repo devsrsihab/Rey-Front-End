@@ -5,7 +5,8 @@
             <button
                 class="ml-auto text-[10px] leading-[22px] md:text-[27px] md:leading-[60px] flex items-center gap-2 justify-end">
                 Next
-                <img class="w-[10px] md:w-[27px]" src="{{ asset('front-end/assets/images/Arrow_Right_White.svg') }}" alt="right arrow" />
+                <img class="w-[10px] md:w-[27px]" src="{{ asset('frontend/assets/images/Arrow_Right_White.svg') }}"
+                    alt="right arrow" />
             </button>
 
             <h3 class="text-[27px] leading-[30px] md:text-[74px] md:leading-[80px]">{{ $finishing_title }}</h3>
