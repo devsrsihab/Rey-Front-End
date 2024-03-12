@@ -32,18 +32,9 @@
             }
         }
     </style>
-@endsection
+@endpush
 
 @section('content')
-    {{--  =====Component flowChart=====
-      1.hero section
-      2.breadcumn section
-      2.category-grid section
-      3.CTA section
-      4.finishing section       
- --}}
-
-
     @include('frontend-views.components.tutorials.hero')
     @include('frontend-views.components.tutorials.steps')
     @include('frontend-views.components.tutorials.main')

@@ -28,17 +28,6 @@
 @endpush
 
 @section('content')
-    {{--  =====Component flowChart=====
-      1.hero 
-      1.breadcumn 
-      1.advance 
-      1.main 
-      1.sample-gurantee 
-      9.CTA section
-      10.finishing section       
- --}}
-
-
     @include('frontend-views.components.why-rey.hero')
     @include('frontend-views.components.why-rey.breadcumn')
     @include('frontend-views.components.why-rey.advance')
