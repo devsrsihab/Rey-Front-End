@@ -3,7 +3,7 @@
 @push('css')
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/shop-page.css') }}" />
 @endpush
-
+  
 @section('content')
     @include('frontend-views.components.shop.hero')
     @include('frontend-views.components.shop.breadcumn')
