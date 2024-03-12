@@ -42,10 +42,9 @@
     {{-- footer --}}
     @include('frontend-views.components.global.footer')
 
-    <script defer src="{{ asset('front-end/assets/js/counting.js') }}"></script>
     <script defer src="{{ asset('front-end/assets/js/imageHover.js') }}"></script>
     <!-- Navbar javascript file  -->
-    <script defer src="{{ asset('front-end/assets/najsvbar/mobile-navbar.js') }}"></script>
+    <script defer src="{{ asset('front-end/assets/js/mobile-navbar.js') }}"></script>
     <script defer src="{{ asset('front-end/assets/js/accountCategoryRadio.js') }}"></script>
 
 </body>
