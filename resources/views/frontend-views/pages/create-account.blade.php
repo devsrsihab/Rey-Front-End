@@ -4,7 +4,7 @@
     <!-- Create Account css-->
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/policy-checkbox.css') }}">
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/page3.css') }}">
-@endsection
+@endpush
 
 @section('content')
     @include('frontend-views.components.create-account.hero')
