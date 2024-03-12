@@ -2,18 +2,9 @@
 @section('title', 'Rey Projects')
 @push('css')
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/local.css') }}" />
-@endsection
+@endpush
 
 @section('content')
-    {{--  =====Component flowChart=====
-      1.hero 
-      2.breadcumn 
-      3.main 
-      4.CTA section
-      5.finishing section       
- --}}
-
-
     @include('frontend-views.components.projects.hero')
     @include('frontend-views.components.projects.breadcumn')
     @include('frontend-views.components.projects.main')
@@ -26,4 +17,4 @@
 
 @push('js')
     <script defer src="{{ asset('front-end/assets/js/reyProjects.js') }}"></script>
-@endsection
+@endpush
