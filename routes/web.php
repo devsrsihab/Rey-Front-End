@@ -73,4 +73,9 @@ Route::get('/product-details', function () {
 });
 
 
+// admin routes
+Route::prefix('admin')->group(function () {
+   return view('frontend.pages.product-details');
+
+});
 
