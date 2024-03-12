@@ -412,21 +412,6 @@
                   <!--  door design -->
                   <li class="list-none">
                       <input class="checkboxes" type="radio" name="doorColorSection2"
-                          id="doorColorSection2image4">
-                      <label class="checkbox_label" for="doorColorSection2image4">
-                          <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
-                              <img class="doorProductImage"
-                                  src="{{ asset('front-end/assets/images/doors/frontColor/MDF Painted Doors/Simply White.png"') }}
-                                  alt="door" />
-                          </div>
-                      </label>
-                      <h3 class="colorSampleTitle">
-                          Simply White <br>
-                          OC-117</h3>
-                  </li>
-                  <!--  door design -->
-                  <li class="list-none">
-                      <input class="checkboxes" type="radio" name="doorColorSection2"
                           id="doorColorSection2image5">
                       <label class="checkbox_label" for="doorColorSection2image5">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
@@ -617,19 +602,6 @@
           <!-- 4. Super Matt Panels  ------------------------------------------------------------->
           <div class="radio_list_content2 md:mt-[55px] mt-[30px] w-full">
               <div class="colorSampleSmall">
-                  <!--  door design -->
-                  <li class="list-none">
-                      <input class="checkboxes" type="radio" name="doorColorSection4"
-                          id="doorColorSection4image1">
-                      <label class="checkbox_label" for="doorColorSection4image1">
-                          <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
-                              <img class="doorProductImage"
-                                  src="{{ asset('front-end/assets/images/doors/frontColor/Super Matt Panels/White Matte.png"') }} alt="door" />
-                          </div>
-                      </label>
-                      <h3 class="colorSampleTitle">
-                          White Super Matte</h3>
-                  </li>
                   <!--  door design -->
                   <li class="list-none">
                       <input class="checkboxes" type="radio" name="doorColorSection4"
@@ -1222,19 +1194,6 @@
                   <!--  door design -->
                   <li class="list-none">
                       <input class="checkboxes" type="radio" name="doorColorSection6"
-                          id="doorColorSection6image1">
-                      <label class="checkbox_label" for="doorColorSection6image1">
-                          <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
-                              <img class="doorProductImage"
-                                  src="{{ asset('front-end/assets/images/doors/frontColor/High Gloss/White Gloss.png"') }} 
-                                  alt="door" />
-                          </div>
-                      </label>
-                      <h3 class="colorSampleTitle">White High Gloss</h3>
-                  </li>
-                  <!--  door design -->
-                  <li class="list-none">
-                      <input class="checkboxes" type="radio" name="doorColorSection6"
                           id="doorColorSection6image2">
                       <label class="checkbox_label" for="doorColorSection6image2">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
@@ -1548,32 +1507,6 @@
                           </div>
                       </label>
                       <h3 class="colorSampleTitle">Dark Select Walnut</h3>
-                  </li>
-                  <!--  door design -->
-                  <li class="list-none">
-                      <input class="checkboxes" type="radio" name="doorColorSection7"
-                          id="doorColorSection7image12">
-                      <label class="checkbox_label" for="doorColorSection7image12">
-                          <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
-                              <img class="doorProductImage"
-                                  src="{{ asset('front-end/assets/images/doors/frontColor/Wood Grain/Grey Craft Oak.png"') }} 
-                                  alt="door" />
-                          </div>
-                      </label>
-                      <h3 class="colorSampleTitle">Grey Craft Oak</h3>
-                  </li>
-                  <!--  door design -->
-                  <li class="list-none">
-                      <input class="checkboxes" type="radio" name="doorColorSection7"
-                          id="doorColorSection7image13">
-                      <label class="checkbox_label" for="doorColorSection7image13">
-                          <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
-                              <img class="doorProductImage"
-                                  src="{{ asset('front-end/assets/images/doors/frontColor/Wood Grain/Grey Nordic Wood.png"') }} 
-                                  alt="door" />
-                          </div>
-                      </label>
-                      <h3 class="colorSampleTitle">Grey Nordic Wood</h3>
                   </li>
                   <!--  door design -->
                   <li class="list-none">
