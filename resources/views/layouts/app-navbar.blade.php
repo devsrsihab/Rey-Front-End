@@ -6,10 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@yield('title')</title>
 
-
-
-    <!-- font-awesome css -->
-    <link rel="stylesheet" href="{{ asset('front-end/assets/icons/font-awesome-all.min.css') }}" />
     <!-- custom css -->
     @stack('css')
     
