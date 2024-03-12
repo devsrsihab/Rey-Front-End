@@ -3,16 +3,9 @@
 @push('css')
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/termsAndPolicies.css') }}" />
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/local.css') }}" />
-@endsection
+@endpush
 
 @section('content')
-    {{--  =====Component flowChart=====
-      1.hero 
-      2.main
-      3.finishing section       
- --}}
-
-
     @include('frontend-views.components.company-policies.hero')
     @include('frontend-views.components.company-policies.main')
     @include('frontend-views.components.global.finishing', [
