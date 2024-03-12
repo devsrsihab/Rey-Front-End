@@ -4,16 +4,22 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>KITCHEN ORGANIZERS</title>
-
+    <title>Counter Tops</title>
     <!-- page css file -->
+    <link rel="stylesheet" href="{{ asset('front-end/assets/css/accountCategoryRadio.css') }}">
+
+    <link rel="stylesheet" href="{{ asset('front-end/assets/css/3.Rey_website_shop_doors.css') }}">
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/5.rey-website-shop-blum-fitting.css') }}" />
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/selectImageIcon.css') }}">
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/local.css') }}">
+
     <!-- hover image  -->
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/imageHover.css') }}">
+
     <!-- Navbar css file -->
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/mobile_navbar.css') }}" />
+
+
 
     <!--Tailwind css CDN -->
     @vite('../../../../resources/css/app.css')
@@ -23,24 +29,23 @@
 <body class="overflow-x-hidden">
 
     {{-- header --}}
-    @include('frontend-views.components.global.header')
+    @include('frontend.components.global.header')
     {{-- content --}}
-    @include('frontend-views.components.kitchen-organizers.hero')
-    @include('frontend-views.components.kitchen-organizers.breadcumn')
-    @include('frontend-views.components.kitchen-organizers.main')
-    @include('frontend-views.components.global.CTA')
-    @include('frontend-views.components.global.finishing', [
-        'finishing_bg' => 'front-end/assets/images/fitting/fitting-footer.png',
-        'finishing_title' => 'Organizers',
+    @include('frontend.components.counter-tops.hero')
+    @include('frontend.components.counter-tops.breadcumn')
+    @include('frontend.components.counter-tops.main')
+    @include('frontend.components.global.CTA')
+    @include('frontend.components.global.finishing', [
+        'finishing_bg' => 'front-end/assets/images/counter/counter-footer.png',
+        'finishing_title' => 'Why Rey-Xpress',
     ])
     {{-- footer --}}
-    @include('frontend-views.components.global.footer')
+    @include('frontend.components.global.footer')
 
-
-    <script defer src="{{ asset('front-end/assets/js/counting.js') }}"></script>
+    <script defer src="{{ asset('front-end/assets/js/imageHover.js') }}"></script>
     <!-- Navbar javascript file  -->
     <script defer src="{{ asset('front-end/assets/js/mobile-navbar.js') }}"></script>
-    <script defer src="{{ asset('front-end/assets/js/imageHover.js') }}"></script>
+    <script defer src="{{ asset('front-end/assets/js/accountCategoryRadio.js') }}"></script>
 
 </body>
 

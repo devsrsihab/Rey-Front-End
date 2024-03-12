@@ -28,18 +28,18 @@
 <body class="overflow-x-hidden">
 
     {{-- header --}}
-    @include('frontend-views.components.global.header')
+    @include('frontend.components.global.header')
     {{-- content --}}
-    @include('frontend-views.components.doors.hero')
-    @include('frontend-views.components.doors.breadcumn')
-    @include('frontend-views.components.doors.main')
-    @include('frontend-views.components.global.CTA')
-    @include('frontend-views.components.global.finishing', [
+    @include('frontend.components.doors.hero')
+    @include('frontend.components.doors.breadcumn')
+    @include('frontend.components.doors.main')
+    @include('frontend.components.global.CTA')
+    @include('frontend.components.global.finishing', [
         'finishing_bg' => 'front-end/assets/images/doors/door-footer.png',
         'finishing_title' => 'Drawers',
     ])
     {{-- footer --}}
-    @include('frontend-views.components.global.footer')
+    @include('frontend.components.global.footer')
 
     <!-- Navbar javascript file  -->
     <script defer src="{{ asset('front-end/assets/js/mobile-navbar.js') }}"></script>

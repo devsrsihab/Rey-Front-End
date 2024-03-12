@@ -14,10 +14,10 @@
 </head>
 
 <body>
-    
+
     {{-- Check if the current route is not the root --}}
     @if (!request()->is('/'))
-        @include('frontend-views.components.global.header')
+        @include('frontend.components.global.header')
     @endif
 
     @yield('content')

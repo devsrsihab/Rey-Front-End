@@ -3,13 +3,13 @@
 @push('css')
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/shop-page.css') }}" />
 @endpush
-  
+
 @section('content')
-    @include('frontend-views.components.shop.hero')
-    @include('frontend-views.components.shop.breadcumn')
-    @include('frontend-views.components.shop.category-grid')
-    @include('frontend-views.components.global.CTA')
-    @include('frontend-views.components.global.finishing', [
+    @include('frontend.components.shop.hero')
+    @include('frontend.components.shop.breadcumn')
+    @include('frontend.components.shop.category-grid')
+    @include('frontend.components.global.CTA')
+    @include('frontend.components.global.finishing', [
         'finishing_bg' => 'front-end/assets/images/shop-page/footer-shop-page.png',
         'finishing_title' => 'Why Rey-Xpress',
     ])

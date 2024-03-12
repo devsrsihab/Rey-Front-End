@@ -5,71 +5,71 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-    return view('frontend-views.pages.index');
+    return view('frontend.pages.index');
 });
 
 // shop routes start
 Route::get('/shop', function () {
-    return view('frontend-views.pages.shop');
+    return view('frontend.pages.shop');
 });
 Route::get('/shop/vanities', function () {
-    return view('frontend-views.pages.vanities');
+    return view('frontend.pages.vanities');
 });
 Route::get('/shop/doors', function () {
-    return view('frontend-views.pages.doors');
+    return view('frontend.pages.doors');
 });
 Route::get('/shop/drawers', function () {
-    return view('frontend-views.pages.drawers');
+    return view('frontend.pages.drawers');
 });
 Route::get('/shop/fittings', function () {
-    return view('frontend-views.pages.fittings');
+    return view('frontend.pages.fittings');
 });
 Route::get('/shop/kitchen-organizers', function () {
-    return view('frontend-views.pages.kitchen-organizers');
+    return view('frontend.pages.kitchen-organizers');
 });
 Route::get('/shop/cabinet-handles', function () {
-    return view('frontend-views.pages.cabinet-handles');
+    return view('frontend.pages.cabinet-handles');
 });
 Route::get('/shop/crown-moulding', function () {
-    return view('frontend-views.pages.crown-moulding');
+    return view('frontend.pages.crown-moulding');
 });
 Route::get('/shop/counter-tops', function () {
-    return view('frontend-views.pages.counter-tops');
+    return view('frontend.pages.counter-tops');
 });
 Route::get('/shop-kitchen-cabinets', function () {
-    return view('frontend-views.pages.shop-kitchen-cabinets');
+    return view('frontend.pages.shop-kitchen-cabinets');
 });
 // shop routes end
 Route::get('/company-policies', function () {
-    return view('frontend-views.pages.company-policies');
+    return view('frontend.pages.company-policies');
 });
 Route::get('/terms-of-service', function () {
-    return view('frontend-views.pages.terms-of-service');
+    return view('frontend.pages.terms-of-service');
 });
 Route::get('/projects', function () {
-    return view('frontend-views.pages.projects');
+    return view('frontend.pages.projects');
 });
 Route::get('/contact', function () {
-    return view('frontend-views.pages.contact');
+    return view('frontend.pages.contact');
 });
 Route::get('/tutorials', function () {
-    return view('frontend-views.pages.tutorials');
+    return view('frontend.pages.tutorials');
 });
 Route::get('/why-rey', function () {
-    return view('frontend-views.pages.why-rey');
+    return view('frontend.pages.why-rey');
 });
 Route::get('/home', function () {
-    return view('frontend-views.pages.home');
+    return view('frontend.pages.home');
 });
 Route::get('/products-and-finishes', function () {
-    return view('frontend-views.pages.products-and-finishes
+    return view('frontend.pages.products-and-finishes
     ');
 });
 Route::get('/create-account', function () {
-    return view('frontend-views.pages.create-account');
+    return view('frontend.pages.create-account');
 });
 Route::get('/product-details', function () {
-    return view('frontend-views.pages.product-details');
+    return view('frontend.pages.product-details');
 });
 
 

@@ -35,11 +35,11 @@
 @endpush
 
 @section('content')
-    @include('frontend-views.components.tutorials.hero')
-    @include('frontend-views.components.tutorials.steps')
-    @include('frontend-views.components.tutorials.main')
-    @include('frontend-views.components.global.CTA')
-    @include('frontend-views.components.global.finishing', [
+    @include('frontend.components.tutorials.hero')
+    @include('frontend.components.tutorials.steps')
+    @include('frontend.components.tutorials.main')
+    @include('frontend.components.global.CTA')
+    @include('frontend.components.global.finishing', [
         'finishing_bg' => 'front-end/assets/images/tutorials-page/footer-end.png',
         'finishing_title' => 'Shop',
     ])

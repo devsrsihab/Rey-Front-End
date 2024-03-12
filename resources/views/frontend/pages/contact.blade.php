@@ -5,9 +5,9 @@
 @endpush
 
 @section('content')
-    @include('frontend-views.components.contact.hero')
-    @include('frontend-views.components.contact.main')
-    @include('frontend-views.components.global.finishing', [
+    @include('frontend.components.contact.hero')
+    @include('frontend.components.contact.main')
+    @include('frontend.components.global.finishing', [
         'finishing_bg' => 'front-end/assets/images/contact/contact-footer.png',
         'finishing_title' => 'Home',
     ])

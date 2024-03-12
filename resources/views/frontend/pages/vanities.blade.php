@@ -34,18 +34,18 @@
 <body class="overflow-x-hidden">
 
     {{-- header --}}
-    @include('frontend-views.components.global.header')
+    @include('frontend.components.global.header')
     {{-- content --}}
-    @include('frontend-views.components.vanities.hero')
-    @include('frontend-views.components.vanities.breadcumn')
-    @include('frontend-views.components.vanities.main')
-    @include('frontend-views.components.global.CTA')
-    @include('frontend-views.components.global.finishing', [
+    @include('frontend.components.vanities.hero')
+    @include('frontend.components.vanities.breadcumn')
+    @include('frontend.components.vanities.main')
+    @include('frontend.components.global.CTA')
+    @include('frontend.components.global.finishing', [
         'finishing_bg' => 'front-end/assets/images/vanities/vaneties-footer.png',
         'finishing_title' => 'Drawers',
     ])
     {{-- footer --}}
-    @include('frontend-views.components.global.footer')
+    @include('frontend.components.global.footer')
 
 
     <script src="{{ asset('front-end/assets/js/tab-cabinet.js') }}"></script>

@@ -8,10 +8,10 @@
 
 @section('content')
 
-    @include('frontend-views.components.products-and-finishes.hero')
-    @include('frontend-views.components.products-and-finishes.main')
-    @include('frontend-views.components.global.CTA')
-    @include('frontend-views.components.global.finishing', [
+    @include('frontend.components.products-and-finishes.hero')
+    @include('frontend.components.products-and-finishes.main')
+    @include('frontend.components.global.CTA')
+    @include('frontend.components.global.finishing', [
         'finishing_bg' => 'front-end/assets/images/productsAndFinishes/Rey-Xpress-Shop-Footer.jpg',
         'finishing_title' => 'Shop',
     ])

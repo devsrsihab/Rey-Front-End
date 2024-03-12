@@ -28,13 +28,13 @@
 @endpush
 
 @section('content')
-    @include('frontend-views.components.why-rey.hero')
-    @include('frontend-views.components.why-rey.breadcumn')
-    @include('frontend-views.components.why-rey.advance')
-    @include('frontend-views.components.why-rey.main')
-    @include('frontend-views.components.why-rey.sample-gurantee')
-    @include('frontend-views.components.global.CTA')
-    @include('frontend-views.components.global.finishing', [
+    @include('frontend.components.why-rey.hero')
+    @include('frontend.components.why-rey.breadcumn')
+    @include('frontend.components.why-rey.advance')
+    @include('frontend.components.why-rey.main')
+    @include('frontend.components.why-rey.sample-gurantee')
+    @include('frontend.components.global.CTA')
+    @include('frontend.components.global.finishing', [
         'finishing_bg' => 'front-end/assets/images/why-rey-page/why-rey-footer.png',
         'finishing_title' => 'Tutorial',
     ])

@@ -8,7 +8,7 @@
 
     <!-- custom css -->
     @stack('css')
-    
+
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/style.css') }}" />
     <!--Tailwind css CDN -->
     @vite('resources/css/app.css')
@@ -20,17 +20,17 @@
 </head>
 
 <body>
-    
+
     {{-- Check if the current route is not the root --}}
     @if (!request()->is('/'))
-        @include('frontend-views.components.global.header')
+        @include('frontend.components.global.header')
     @endif
 
     @yield('content')
 
     {{-- Check if the current route is not the root --}}
     @if (!request()->is('/'))
-        @include('frontend-views.components.global.footer')
+        @include('frontend.components.global.footer')
     @endif
 
     <!-- component js -->

@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CROWN MOULDING</title>
-    
+
     <!-- page css file -->
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/accountCategoryRadio.css') }}">
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/3.Rey_website_shop_doors.css') }}">
@@ -26,18 +26,18 @@
 <body class="overflow-x-hidden">
 
     {{-- header --}}
-    @include('frontend-views.components.global.header')
+    @include('frontend.components.global.header')
     {{-- content --}}
-    @include('frontend-views.components.crown-moulding.hero')
-    @include('frontend-views.components.crown-moulding.breadcumn')
-    @include('frontend-views.components.crown-moulding.main')
-    @include('frontend-views.components.global.CTA')
-    @include('frontend-views.components.global.finishing', [
+    @include('frontend.components.crown-moulding.hero')
+    @include('frontend.components.crown-moulding.breadcumn')
+    @include('frontend.components.crown-moulding.main')
+    @include('frontend.components.global.CTA')
+    @include('frontend.components.global.finishing', [
         'finishing_bg' => 'front-end/assets/images/crown/crown-moulding-footer.png',
         'finishing_title' => 'Counter Tops',
     ])
     {{-- footer --}}
-    @include('frontend-views.components.global.footer')
+    @include('frontend.components.global.footer')
 
     <script defer src="{{ asset('front-end/assets/js/accountCategoryRadio.js') }}"></script>
     <script defer src="{{ asset('front-end/assets/js/imageHover.js') }}"></script>

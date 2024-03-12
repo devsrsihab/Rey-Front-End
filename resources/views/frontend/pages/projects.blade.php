@@ -5,11 +5,11 @@
 @endpush
 
 @section('content')
-    @include('frontend-views.components.projects.hero')
-    @include('frontend-views.components.projects.breadcumn')
-    @include('frontend-views.components.projects.main')
-    @include('frontend-views.components.global.CTA')
-    @include('frontend-views.components.global.finishing', [
+    @include('frontend.components.projects.hero')
+    @include('frontend.components.projects.breadcumn')
+    @include('frontend.components.projects.main')
+    @include('frontend.components.global.CTA')
+    @include('frontend.components.global.finishing', [
         'finishing_bg' => 'front-end/assets/images/rey-projects/footer-shop.png',
         'finishing_title' => 'Shop',
     ])

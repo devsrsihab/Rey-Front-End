@@ -5,9 +5,9 @@
 @endpush
 
 @section('content')
-    @include('frontend-views.components.terms-of-service.hero')
-    @include('frontend-views.components.terms-of-service.main')
-    @include('frontend-views.components.global.finishing', [
+    @include('frontend.components.terms-of-service.hero')
+    @include('frontend.components.terms-of-service.main')
+    @include('frontend.components.global.finishing', [
         'finishing_bg' => 'front-end/assets/images/terms-of-service/terms-of-policies-footer.png',
         'finishing_title' => 'Home',
     ])

@@ -7,12 +7,12 @@
 @endpush
 
 @section('content')
-    @include('frontend-views.components.create-account.hero')
-    @include('frontend-views.components.create-account.breadcumn')
-    @include('frontend-views.components.create-account.why-choose-us')
-    @include('frontend-views.components.create-account.create-account-form')
-    @include('frontend-views.components.global.CTA')
-    @include('frontend-views.components.global.finishing', [
+    @include('frontend.components.create-account.hero')
+    @include('frontend.components.create-account.breadcumn')
+    @include('frontend.components.create-account.why-choose-us')
+    @include('frontend.components.create-account.create-account-form')
+    @include('frontend.components.global.CTA')
+    @include('frontend.components.global.finishing', [
         'finishing_bg' => 'front-end/assets/images/productsAndFinishes/Rey-Xpress-Shop-Footer.jpg',
         'finishing_title' => 'Shop',
     ])
