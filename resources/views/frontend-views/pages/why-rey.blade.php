@@ -25,7 +25,7 @@
             }
         }
     </style>
-@endsection
+@endpush
 
 @section('content')
     {{--  =====Component flowChart=====
@@ -53,4 +53,4 @@
 
 @push('js')
     <script src="{{ asset('front-end/assets/js/why-rey-page.js') }}"></script>
-@endsection
+@endpush
