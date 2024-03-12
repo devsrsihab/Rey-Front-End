@@ -2,16 +2,9 @@
 @section('title', 'Contact')
 @push('css')
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/contact.css') }}" />
-@endsection
+@endpush
 
 @section('content')
-    {{--  =====Component flowChart=====
-      1.hero 
-      2.main 
-      3.finishing section       
-     --}}
-
-
     @include('frontend-views.components.contact.hero')
     @include('frontend-views.components.contact.main')
     @include('frontend-views.components.global.finishing', [

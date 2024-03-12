@@ -2,16 +2,9 @@
 @section('title', 'TERMS OF SERVICE')
 @push('css')
     <link rel="stylesheet" href="{{ asset('front-end/assets/css/termsAndPolicies.css') }}" />
-@endsection
+@endpush
 
 @section('content')
-    {{--  =====Component flowChart=====
-      1.hero 
-      3.main 
-      5.finishing section       
- --}}
-
-
     @include('frontend-views.components.terms-of-service.hero')
     @include('frontend-views.components.terms-of-service.main')
     @include('frontend-views.components.global.finishing', [
