@@ -29,24 +29,21 @@
 			<!-- Inner content -->
 			<div class="content-inner">
 
-				@include('backend.components.global._page-header')
+				@include('backend.components.global.page-header')
 
 				<!-- Content area -->
 				<div class="content">
 
 					<!-- Dashboard content -->
 					<div class="row">
-
                           @yield('content')
-
-
 					</div>
 					<!-- /dashboard content -->
-
+					
 				</div>
 				<!-- /content area -->
 
-                @include('backend.components.global._footer')
+                @include('backend.components.global.footer')
 
 			</div>
 			<!-- /inner content -->
