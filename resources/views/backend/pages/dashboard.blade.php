@@ -1,5 +1,5 @@
 @extends('layouts.backend.app')
-@section('title', 'Rey-Xpress')
+@section('title', 'Dahsboard')
 
 
 @section('content')

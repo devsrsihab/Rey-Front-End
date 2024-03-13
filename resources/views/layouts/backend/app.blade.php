@@ -40,13 +40,13 @@
 
 <body>
 
-	@include('backend.components.header._header')
+	@include('backend.components.global.header._header')
 
 
 	<!-- Page content -->
 	<div class="page-content">
 
-        @include('backend.components.sidebar._sidebar')
+        @include('backend.components.global.sidebar._sidebar')
 
 		<!-- Main content -->
 		<div class="content-wrapper">
@@ -54,7 +54,7 @@
 			<!-- Inner content -->
 			<div class="content-inner">
 
-				@include('backend.components.pageHeader._page-header')
+				@include('backend.components.global._page-header')
 
 				<!-- Content area -->
 				<div class="content">
@@ -71,7 +71,7 @@
 				</div>
 				<!-- /content area -->
 
-                @include('backend.components.footer._footer')
+                @include('backend.components.global._footer')
 
 			</div>
 			<!-- /inner content -->
@@ -82,7 +82,7 @@
 	</div>
 	<!-- /page content -->
 
-    @include('backend.components.colorChange.color-change')
+    @include('backend.components.global.color-change')
 
 </body>
 </html>
