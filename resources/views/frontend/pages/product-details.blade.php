@@ -3,7 +3,7 @@
 
 @push('css')
     <!-- Product Details css-->
-    <link rel="stylesheet" href="{{ asset('frontend/assets/css/page4.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/page4.css') }}">
 @endpush
 
 
@@ -14,11 +14,11 @@
     @include('frontend.components.product-details.product-carousel')
     @include('frontend.components.global.CTA')
     @include('frontend.components.global.finishing', [
-        'finishing_bg' => 'frontend/assets/images/productsAndFinishes/Rey-Xpress-Shop-Footer.jpg',
+        'finishing_bg' => 'assets/images/productsAndFinishes/Rey-Xpress-Shop-Footer.jpg',
         'finishing_title' => 'Shop',
     ])
 @endsection
 
 @push('js')
-    <script src="{{ asset('frontend/assets/js/product-details.js') }}"></script>
+    <script src="{{ asset('assets/js/product-details.js') }}"></script>
 @endpush

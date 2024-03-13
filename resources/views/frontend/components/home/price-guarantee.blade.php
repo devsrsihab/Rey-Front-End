@@ -1,10 +1,10 @@
 <!-- 04 PRICE GUARANTEE section start -->
 <div class="box3 flex justify-between items-center gap-[35px] md:gap-[120px] xl:flex-row flex-col">
     <div class="max-w-[960px] md:mr-0">
-        <img class="max-[430px]:hidden" src=" {{ asset('frontend/assets/images/homeHero/logo-images.png') }} "
+        <img class="max-[430px]:hidden" src=" {{ asset('assets/images/homeHero/logo-images.png') }} "
             alt="logo and image" />
-        <img class="min-[430px]:hidden w-full"
-            src=" {{ asset('frontend/assets/images/homeHero/rey-white-bg-mobile.png') }} " alt="logo and image" />
+        <img class="min-[430px]:hidden w-full" src=" {{ asset('assets/images/homeHero/rey-white-bg-mobile.png') }} "
+            alt="logo and image" />
     </div>
     <div class="max-w-[700px] xl:ml-0 ml-[30px]">
         <h1 class="head1 mb-[15px] md:mb-[35px] max-w-[210px] md:max-w-[470px] w-full">

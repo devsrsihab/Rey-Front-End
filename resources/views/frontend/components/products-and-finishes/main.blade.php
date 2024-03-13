@@ -28,8 +28,7 @@
     </div>
 
     <!-- Head Banner start 1  -->
-    <section
-        style="background-image: url('{{ asset('frontend/assets/images/productsAndFinishes/banners/banner1.jpg') }}') "
+    <section style="background-image: url('{{ asset('assets/images/productsAndFinishes/banners/banner1.jpg') }}') "
         class="headBannerTitle  my-[20px] lg:my-[50px] bg-no-repeat bg-cover bg-center h-[185px] md:h-[300px] xl:h-[500px] relative">
         <h3 class="headBannerTitle">KITCHEN CABINETS</h3>
     </section>
@@ -40,8 +39,7 @@
         class="min-h-[800px] flex xl:items-start items-center xl:flex-row flex-col gap-[30px] bg-[#ecebe9] mt-[30px] md:mt-[60px] md:py-[100px] py-[50px] md:px-[60px] relative">
         <!-- first image beside toggle  -->
         <div class="sm:w-[320px] w-[121px] xl:mt-[65px]">
-            <img src="{{ asset('frontend/assets/images/productsAndFinishes/Rey-Xpress-Wall-Cabinets.svg') }}"
-                alt="asset1" />
+            <img src="{{ asset('assets/images/productsAndFinishes/Rey-Xpress-Wall-Cabinets.svg') }}" alt="asset1" />
         </div>
         <!-- toggle section  -->
         <div class="w-full">
@@ -116,13 +114,13 @@
                     <img class="h-full object-contain hover_img src=''">
 
                     <img class="product_image active h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/showProducts/Products_Upper_Cabinets.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/showProducts/Products_Upper_Cabinets.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/2and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/2and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/3and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/3and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/4and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/4and2.png') }}" />
                 </div>
                 <!-- 01 end toggle  -->
 
@@ -196,13 +194,13 @@
                     <img class="h-full object-contain hover_img src=''">
 
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/1and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/1and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/2and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/2and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/3and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/3and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/4and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/4and2.png') }}" />
                 </div>
                 <!-- 02 end toggle  -->
             </section>
@@ -216,8 +214,7 @@
         class="min-h-[800px] flex xl:items-start items-center xl:flex-row flex-col gap-[30px] bg-[#ecebe9] mt-[30px] md:mt-[60px] md:py-[100px] py-[50px] md:px-[60px] relative">
         <!-- first image beside toggle  -->
         <div class="sm:w-[320px] w-[121px] xl:mt-[65px]">
-            <img src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/1and1.png') }}"
-                alt="asset1" />
+            <img src="{{ asset('assets/images/productsAndFinishes/1and1-section/1and1.png') }}" alt="asset1" />
         </div>
         <!-- toggle section  -->
         <div class="w-full">
@@ -296,13 +293,13 @@
                     <img class="h-full object-contain hover_img src=''">
 
                     <img
-                        class="product_image active h-full object-contain"src="{{ asset('frontend/assets/images/productsAndFinishes/showProducts/Products_Base_Cabinets.png') }}" />
+                        class="product_image active h-full object-contain"src="{{ asset('assets/images/productsAndFinishes/showProducts/Products_Base_Cabinets.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/2and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/2and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/3and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/3and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/4and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/4and2.png') }}" />
                 </div>
                 <!-- 01 end toggle  -->
 
@@ -374,13 +371,13 @@
                     <img class="h-full object-contain hover_img src=''">
 
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/1and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/1and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/2and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/2and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/3and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/3and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/4and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/4and2.png') }}" />
                 </div>
                 <!-- 02 end toggle  -->
             </section>
@@ -394,8 +391,7 @@
         class="min-h-[800px] flex xl:items-start items-center xl:flex-row flex-col gap-[30px] bg-[#ecebe9] mt-[30px] md:mt-[60px] md:py-[100px] py-[50px] md:px-[60px] relative">
         <!-- first image beside toggle  -->
         <div class="sm:w-[320px] w-[121px] xl:mt-[65px]">
-            <img src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/2and1.png') }}"
-                alt="asset1" />
+            <img src="{{ asset('assets/images/productsAndFinishes/1and1-section/2and1.png') }}" alt="asset1" />
         </div>
         <!-- toggle section  -->
         <div class="w-full">
@@ -474,13 +470,13 @@
                     <img class="h-full object-contain hover_img src=''">
 
                     <img class="product_image active h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/showProducts/Products_Tall_Cabinets.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/showProducts/Products_Tall_Cabinets.png') }}" />
                     <img class="product_image  h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/2and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/2and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/3and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/3and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/4and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/4and2.png') }}" />
                 </div>
                 <!-- 01 end toggle  -->
 
@@ -552,13 +548,13 @@
                     <img class="h-full object-contain hover_img src=''">
 
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/1and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/1and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/2and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/2and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/3and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/3and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/4and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/4and2.png') }}" />
                 </div>
                 <!-- 02 end toggle  -->
             </section>
@@ -568,8 +564,7 @@
 
     <!-- ========== 04 cabinet Start ========== -->
     <!-- Head Banner start 1  -->
-    <section
-        style="background-image: url('{{ asset('frontend/assets/images/productsAndFinishes/banners/banner2.jpg') }}') "
+    <section style="background-image: url('{{ asset('assets/images/productsAndFinishes/banners/banner2.jpg') }}') "
         class="headBannerTitle  my-[20px] lg:my-[50px] bg-no-repeat bg-cover bg-center h-[185px] md:h-[300px] xl:h-[500px] relative">
         <h3 class="headBannerTitle">VANITIES</h3>
     </section>
@@ -580,8 +575,7 @@
         class="min-h-[800px] flex xl:items-start items-center xl:flex-row flex-col gap-[30px] bg-[#ecebe9] mt-[30px] md:mt-[60px] md:py-[100px] py-[50px] md:px-[60px] relative">
         <!-- first image beside toggle  -->
         <div class="sm:w-[320px] w-[121px] xl:mt-[65px]">
-            <img src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/3and1.png') }}"
-                alt="asset1" />
+            <img src="{{ asset('assets/images/productsAndFinishes/1and1-section/3and1.png') }}" alt="asset1" />
         </div>
         <!-- toggle section  -->
         <div class="w-full">
@@ -660,13 +654,13 @@
                     <img class="h-full object-contain hover_img src=''">
 
                     <img class="product_image active h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/showProducts/Products_Vanities.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/showProducts/Products_Vanities.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/2and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/2and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/3and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/3and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/4and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/4and2.png') }}" />
                 </div>
                 <!-- 01 end toggle  -->
 
@@ -738,13 +732,13 @@
                     <img class="h-full object-contain hover_img src=''">
 
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/1and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/1and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/2and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/2and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/3and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/3and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/4and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/4and2.png') }}" />
                 </div>
                 <!-- 02 end toggle  -->
             </section>
@@ -754,8 +748,7 @@
 
     <!-- ========== 06 cabinet Start ========== -->
     <!-- Head Banner start 1  -->
-    <section
-        style="background-image: url('{{ asset('frontend/assets/images/productsAndFinishes/banners/banner3.jpg') }}') "
+    <section style="background-image: url('{{ asset('assets/images/productsAndFinishes/banners/banner3.jpg') }}') "
         class="headBannerTitle  my-[20px] lg:my-[50px] bg-no-repeat bg-cover bg-center h-[185px] md:h-[300px] xl:h-[500px] relative">
         <h3 class="headBannerTitle">DOORS</h3>
     </section>
@@ -766,8 +759,7 @@
         class="min-h-[800px] flex xl:items-start items-center xl:flex-row flex-col gap-[30px] bg-[#ecebe9] mt-[30px] md:mt-[60px] md:py-[100px] py-[50px] md:px-[60px] relative">
         <!-- first image beside toggle  -->
         <div class="sm:w-[320px] w-[121px] xl:mt-[65px]">
-            <img src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/5and1.png') }}"
-                alt="asset1" />
+            <img src="{{ asset('assets/images/productsAndFinishes/1and1-section/5and1.png') }}" alt="asset1" />
         </div>
         <!-- toggle section  -->
         <div class="w-full">
@@ -846,13 +838,13 @@
                     <img class="h-full object-contain hover_img src=''">
 
                     <img class="product_image active h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/showProducts/Products_Doors.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/showProducts/Products_Doors.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/2and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/2and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/3and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/3and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/5and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/5and2.png') }}" />
                 </div>
                 <!-- 01 end toggle  -->
 
@@ -925,13 +917,13 @@
 
 
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/1and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/1and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/2and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/2and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/3and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/3and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/4and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/4and2.png') }}" />
                 </div>
                 <!-- 02 end toggle  -->
             </section>
@@ -942,8 +934,7 @@
     <!-- ========== 07 cabinet Start ==========-->
 
     <!-- Head Banner start 1  -->
-    <section
-        style="background-image: url('{{ asset('frontend/assets/images/productsAndFinishes/banners/banner4.jpg') }}') "
+    <section style="background-image: url('{{ asset('assets/images/productsAndFinishes/banners/banner4.jpg') }}') "
         class="headBannerTitle  my-[20px] lg:my-[50px] bg-no-repeat bg-cover bg-center h-[185px] md:h-[300px] xl:h-[500px] relative">
         <h3 class="headBannerTitle">DRAWERS</h3>
     </section>
@@ -954,8 +945,7 @@
         class="min-h-[800px] flex xl:items-start items-center xl:flex-row flex-col gap-[30px] bg-[#ecebe9] mt-[30px] md:mt-[60px] md:py-[100px] py-[50px] md:px-[60px] relative">
         <!-- first image beside toggle  -->
         <div class="sm:w-[320px] w-[121px] xl:mt-[65px]">
-            <img src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/6and1.png') }}"
-                alt="asset1" />
+            <img src="{{ asset('assets/images/productsAndFinishes/1and1-section/6and1.png') }}" alt="asset1" />
         </div>
         <!-- toggle section  -->
         <div class="w-full">
@@ -1034,13 +1024,13 @@
                     <img class="h-full object-contain hover_img src=''">
 
                     <img class="product_image active h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/showProducts/Products_Drawers.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/showProducts/Products_Drawers.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/2and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/2and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/3and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/3and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/6and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/6and2.png') }}" />
                 </div>
                 <!-- 01 end toggle  -->
 
@@ -1112,13 +1102,13 @@
                     <img class="h-full object-contain hover_img src=''">
 
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/1and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/1and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/2and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/2and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/3and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/3and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/4and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/4and2.png') }}" />
                 </div>
                 <!-- 02 end toggle  -->
             </section>
@@ -1128,8 +1118,7 @@
 
     <!-- 05 cabinet Start ========== -->
     <!-- Head Banner start 1  -->
-    <section
-        style="background-image: url('{{ asset('frontend/assets/images/productsAndFinishes/banners/banner5.jpg') }}') "
+    <section style="background-image: url('{{ asset('assets/images/productsAndFinishes/banners/banner5.jpg') }}') "
         class="headBannerTitle  my-[20px] lg:my-[50px] bg-no-repeat bg-cover bg-center h-[185px] md:h-[300px] xl:h-[500px] relative">
         <h3 class="headBannerTitle">Fittings</h3>
     </section>
@@ -1140,8 +1129,7 @@
         class="min-h-[800px] flex xl:items-start items-center xl:flex-row flex-col gap-[30px] bg-[#ecebe9] mt-[30px] md:mt-[60px] md:py-[100px] py-[50px] md:px-[60px] relative">
         <!-- first image beside toggle  -->
         <div class="sm:w-[320px] w-[121px] xl:mt-[65px]">
-            <img src="{{ asset('frontend/assets/images/productsAndFinishes/showProducts/fitting1.png') }}"
-                alt="asset1" />
+            <img src="{{ asset('assets/images/productsAndFinishes/showProducts/fitting1.png') }}" alt="asset1" />
         </div>
         <!-- toggle section  -->
         <div class="w-full">
@@ -1220,13 +1208,13 @@
                     <img class="h-full object-contain hover_img src=''">
 
                     <img class="product_image active h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/showProducts/fitting2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/showProducts/fitting2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/2and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/2and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/3and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/3and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/4and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/4and2.png') }}" />
                 </div>
                 <!-- 01 end toggle  -->
             </section>
@@ -1236,8 +1224,7 @@
 
     <!-- ========== 05 cabinet Start ========== -->
     <!-- Head Banner start 1  -->
-    <section
-        style="background-image: url('{{ asset('frontend/assets/images/productsAndFinishes/banners/banner6.jpg') }}') "
+    <section style="background-image: url('{{ asset('assets/images/productsAndFinishes/banners/banner6.jpg') }}') "
         class="headBannerTitle  my-[20px] lg:my-[50px] bg-no-repeat bg-cover bg-center h-[185px] md:h-[300px] xl:h-[500px] relative">
         <h3 class="headBannerTitle">ORGANIZERS</h3>
     </section>
@@ -1248,8 +1235,7 @@
         class="min-h-[800px] flex xl:items-start items-center xl:flex-row flex-col gap-[30px] bg-[#ecebe9] mt-[30px] md:mt-[60px] md:py-[100px] py-[50px] md:px-[60px] relative">
         <!-- first image beside toggle  -->
         <div class="sm:w-[320px] w-[121px] xl:mt-[65px]">
-            <img src="{{ asset('frontend/assets/images/productsAndFinishes/showProducts/organizer.png') }}"
-                alt="asset1" />
+            <img src="{{ asset('assets/images/productsAndFinishes/showProducts/organizer.png') }}" alt="asset1" />
         </div>
         <!-- toggle section  -->
         <div class="w-full">
@@ -1328,13 +1314,13 @@
                     <img class="h-full object-contain hover_img src=''">
 
                     <img class="product_image active h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/showProducts/Products_Organizers.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/showProducts/Products_Organizers.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/2and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/2and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/3and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/3and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/4and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/4and2.png') }}" />
                 </div>
                 <!-- 01 end toggle  -->
             </section>
@@ -1344,8 +1330,7 @@
 
     <!-- ========== 05 cabinet Start ========== -->
     <!-- Head Banner start 1  -->
-    <section
-        style="background-image: url('{{ asset('frontend/assets/images/productsAndFinishes/banners/banner7.jpg') }}') "
+    <section style="background-image: url('{{ asset('assets/images/productsAndFinishes/banners/banner7.jpg') }}') "
         class="headBannerTitle  my-[20px] lg:my-[50px] bg-no-repeat bg-cover bg-center h-[185px] md:h-[300px] xl:h-[500px] relative">
         <h3 class="headBannerTitle">HANDLES</h3>
     </section>
@@ -1356,8 +1341,7 @@
         class="min-h-[800px] flex xl:items-start items-center xl:flex-row flex-col gap-[30px] bg-[#ecebe9] mt-[30px] md:mt-[60px] md:py-[100px] py-[50px] md:px-[60px] relative">
         <!-- first image beside toggle  -->
         <div class="sm:w-[320px] w-[121px] xl:mt-[65px]">
-            <img src="{{ asset('frontend/assets/images/productsAndFinishes/showProducts/handle1.png') }}"
-                alt="asset1" />
+            <img src="{{ asset('assets/images/productsAndFinishes/showProducts/handle1.png') }}" alt="asset1" />
         </div>
         <!-- toggle section  -->
         <div class="w-full">
@@ -1436,13 +1420,13 @@
                     <img class="h-full object-contain hover_img src=''">
 
                     <img class="product_image active h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/showProducts/Products_Handles.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/showProducts/Products_Handles.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/2and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/2and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/3and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/3and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/4and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/4and2.png') }}" />
                 </div>
                 <!-- 01 end toggle  -->
             </section>
@@ -1452,8 +1436,7 @@
 
     <!-- ========== 05 cabinet Start ========== -->
     <!-- Head Banner start 1  -->
-    <section
-        style="background-image: url('{{ asset('frontend/assets/images/productsAndFinishes/banners/banner8.jpg') }}') "
+    <section style="background-image: url('{{ asset('assets/images/productsAndFinishes/banners/banner8.jpg') }}') "
         class="headBannerTitle  my-[20px] lg:my-[50px] bg-no-repeat bg-cover bg-center h-[185px] md:h-[300px] xl:h-[500px] relative">
         <h3 class="headBannerTitle">MOULDINGS</h3>
     </section>
@@ -1464,7 +1447,7 @@
         class="min-h-[800px] flex xl:items-start items-center xl:flex-row flex-col gap-[30px] bg-[#ecebe9] mt-[30px] md:mt-[60px] md:py-[100px] py-[50px] md:px-[60px] relative">
         <!-- first image beside toggle  -->
         <div class="sm:w-[320px] w-[121px] xl:mt-[65px]">
-            <img src="{{ asset('frontend/assets/images/productsAndFinishes/showProducts/Products_Mouldings.svg') }}"
+            <img src="{{ asset('assets/images/productsAndFinishes/showProducts/Products_Mouldings.svg') }}"
                 alt="asset1" />
         </div>
         <!-- toggle section  -->
@@ -1544,13 +1527,13 @@
                     <img class="h-full object-contain hover_img src=''">
 
                     <img class="product_image active h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/showProducts/M450.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/showProducts/M450.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/2and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/2and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/3and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/3and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/4and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/4and2.png') }}" />
                 </div>
                 <!-- 01 end toggle  -->
 
@@ -1562,8 +1545,7 @@
     <!-- 08 cabinet Start ========== -->
 
     <!-- Head Banner start 1  -->
-    <section
-        style="background-image: url('{{ asset('frontend/assets/images/productsAndFinishes/banners/banner9.jpg') }}') "
+    <section style="background-image: url('{{ asset('assets/images/productsAndFinishes/banners/banner9.jpg') }}') "
         class="headBannerTitle  my-[20px] lg:my-[50px] bg-no-repeat bg-cover bg-center h-[185px] md:h-[300px] xl:h-[500px] relative">
         <h3 class="headBannerTitle">COUNTER TOPS</h3>
     </section>
@@ -1574,11 +1556,10 @@
         class="min-h-[800px] flex xl:items-start items-center xl:flex-row flex-col gap-[30px] bg-[#ecebe9] mt-[30px] md:mt-[60px] md:py-[100px] py-[50px] md:px-[60px] relative">
         <!-- first image beside toggle  -->
         <div class="sm:w-[320px] w-[121px] xl:mt-[65px]">
-            <img class="max-lg:hidden"
-                src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/7and1.png') }}"
+            <img class="max-lg:hidden" src="{{ asset('assets/images/productsAndFinishes/1and1-section/7and1.png') }}"
                 alt="asset1" />
             <img class="lg:hidden"
-                src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/7and1mobile.png') }}"
+                src="{{ asset('assets/images/productsAndFinishes/1and1-section/7and1mobile.png') }}"
                 alt="asset1" />
         </div>
         <!-- toggle section  -->
@@ -1658,13 +1639,13 @@
                     <img class="h-full object-contain hover_img src=''">
 
                     <img class="product_image active h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/showProducts/Products_Counter_Tops.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/showProducts/Products_Counter_Tops.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/2and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/2and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/3and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/3and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/7and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/7and2.png') }}" />
                 </div>
                 <!-- 01 end toggle  -->
 
@@ -1736,13 +1717,13 @@
                     <img class="h-full object-contain hover_img src=''">
 
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/1and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/1and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/2and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/2and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/3and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/3and2.png') }}" />
                     <img class="product_image h-full object-contain"
-                        src="{{ asset('frontend/assets/images/productsAndFinishes/1and1-section/4and2.png') }}" />
+                        src="{{ asset('assets/images/productsAndFinishes/1and1-section/4and2.png') }}" />
                 </div>
                 <!-- 02 end toggle  -->
             </section>

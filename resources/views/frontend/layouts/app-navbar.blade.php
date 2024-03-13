@@ -9,14 +9,14 @@
     <!-- custom css -->
     @stack('css')
 
-    <link rel="stylesheet" href="{{ asset('frontend/assets/css/style.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" />
     <!--Tailwind css CDN -->
     @vite('resources/css/app.css')
     <!-- Navbar javascript file  -->
-    <script defer src="{{ asset('frontend/assets/navbar/mobile-navbar.js') }}"></script>
+    <script defer src="{{ asset('assets/navbar/mobile-navbar.js') }}"></script>
     <!-- Navbar css file -->
-    <link rel="stylesheet" href="{{ asset('frontend/assets/css/navbar.css') }}" />
-    <link rel="stylesheet" href="{{ asset('frontend/assets/navbar/mobile_navbar.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/css/navbar.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/navbar/mobile_navbar.css') }}" />
 </head>
 
 <body>

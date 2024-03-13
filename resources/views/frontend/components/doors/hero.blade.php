@@ -1,5 +1,5 @@
     <!-- Hero image section start ----------------- -->
-    <div style="background-image: url('{{ asset('frontend/assets/images/doors/doors-banner.png') }}')"
+    <div style="background-image: url('{{ asset('assets/images/doors/doors-banner.png') }}')"
         class="h-[600px] lg:h-[1100px] relative bg-left bg-no-repeat bg-cover ">
         <div class="max-w-[1920px] px-[35px] lg:px-[150px] mx-auto">
             <h2

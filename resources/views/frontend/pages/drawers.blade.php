@@ -7,18 +7,18 @@
     <title>Drawers</title>
 
     <!-- page css file -->
-    <link rel="stylesheet" href="{{ asset('frontend/assets/css/accountCategoryRadio.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/accountCategoryRadio.css') }}">
 
 
-    <link rel="stylesheet" href="{{ asset('frontend/assets/css/3.Rey_website_shop_doors.css') }}">
-    <link rel="stylesheet" href="{{ asset('frontend/assets/css/5.rey-website-shop-blum-fitting.css') }}" />
-    <link rel="stylesheet" href="{{ asset('frontend/assets/css/selectImageIcon.css') }}">
-    <link rel="stylesheet" href="{{ asset('frontend/assets/css/local.css') }}">
-    <script defer src="{{ asset('frontend/assets/js/counting.js') }}"></script>
+    <link rel="stylesheet" href="{{ asset('assets/css/3.Rey_website_shop_doors.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/5.rey-website-shop-blum-fitting.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/css/selectImageIcon.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/local.css') }}">
+    <script defer src="{{ asset('assets/js/counting.js') }}"></script>
     <!-- hover image  -->
-    <link rel="stylesheet" href="{{ asset('frontend/assets/css/imageHover.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/imageHover.css') }}">
     <!-- Navbar css file -->
-    <link rel="stylesheet" href="{{ asset('frontend/assets/css/mobile_navbar.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/css/mobile_navbar.css') }}" />
 
 
     <!--Tailwind css CDN -->
@@ -36,17 +36,17 @@
     @include('frontend.components.drawers.main')
     @include('frontend.components.global.CTA')
     @include('frontend.components.global.finishing', [
-        'finishing_bg' => 'frontend/assets/images/drawers/drawers-footer.png',
+        'finishing_bg' => 'assets/images/drawers/drawers-footer.png',
         'finishing_title' => 'Fittings',
     ])
     {{-- footer --}}
     @include('frontend.components.global.footer')
 
 
-    <script defer src="{{ asset('frontend/assets/js/imageHover.js') }}"></script>
+    <script defer src="{{ asset('assets/js/imageHover.js') }}"></script>
     <!-- Navbar javascript file  -->
-    <script defer src="{{ asset('frontend/assets/js/mobile-navbar.js') }}"></script>
-    <script defer src="{{ asset('frontend/assets/js/accountCategoryRadio.js') }}"></script>
+    <script defer src="{{ asset('assets/js/mobile-navbar.js') }}"></script>
+    <script defer src="{{ asset('assets/js/accountCategoryRadio.js') }}"></script>
 
 </body>
 

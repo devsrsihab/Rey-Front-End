@@ -1,5 +1,5 @@
 <!-- ======== Warranty section start ======== -->
-<section style=" background-image: url('{{ asset('frontend/assets/images/homeHero/25year-background.jpg') }}') "
+<section style=" background-image: url('{{ asset('assets/images/homeHero/25year-background.jpg') }}') "
     class="relative bg-center bg-no-repeat bg-cover  md:h-[1100px] h-[653px]">
     <div
         class="max-w-[1620px] w-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex justify-center">
@@ -7,7 +7,7 @@
 
         <!-- desktop view  -->
         <section class="flex justify-center max-[1200px]:hidden text-[#ffffff]">
-            <div><img src="{{ asset('frontend/assets/images/homeHero/25desktop.png') }} " alt="25year"></div>
+            <div><img src="{{ asset('assets/images/homeHero/25desktop.png') }} " alt="25year"></div>
 
             <div class="ml-[-2px] pr-[145px] flex justify-center max-w-[847px] w-full flex-col bg-[#808041]">
                 <h2 class="head1">BUILT TO LAST A LIFETIME</h2>
@@ -24,7 +24,7 @@
 
         <!-- Mobile view  -->
         <section class="min-[1200px]:hidden text-[#ffffff]">
-            <div><img src="{{ asset('frontend/assets/images/homeHero/25mobile.png') }} " alt="25year"></div>
+            <div><img src="{{ asset('assets/images/homeHero/25mobile.png') }} " alt="25year"></div>
 
             <div class="mt-[-2px] px-[45px] pb-[55px] flex justify-center max-w-[328px] w-full flex-col bg-[#808041]">
                 <h2 class="headmobile1">BUILT TO LAST A LIFETIME</h2>

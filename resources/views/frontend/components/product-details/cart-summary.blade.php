@@ -14,7 +14,7 @@
 
                 <div class="max-w-[200px] w-full order-2 sm:order-1">
                     <img class="max-w-[100px] sm:max-w-[200px] w-full bg-[#f5f4f3]"
-                        src="{{ asset('frontend/assets/images/productDetails/door-cabinate.png') }}" alt="doorCarinate" />
+                        src="{{ asset('assets/images/productDetails/door-cabinate.png') }}" alt="doorCarinate" />
                 </div>
 
                 <!-- sub section -->
@@ -68,7 +68,7 @@
                         Save for Later
                     </h2>
                     <img class="w-[11px] sm:w-[25px] h-[11px] sm:h-[25px] cursor-pointer"
-                        src="{{ asset('frontend/assets/images/productDetails/download-icon.png') }}" alt="download" />
+                        src="{{ asset('assets/images/productDetails/download-icon.png') }}" alt="download" />
                 </div>
 
 
@@ -77,7 +77,7 @@
                         Remove
                     </h2>
                     <img class="w-[11px] sm:w-[20px] h-[11px] sm:h-[20px] cursor-pointer"
-                        src="{{ asset('frontend/assets/images/productDetails/remove-icon.png') }}" alt="remove" />
+                        src="{{ asset('assets/images/productDetails/remove-icon.png') }}" alt="remove" />
                 </div>
             </div>
 
@@ -123,8 +123,8 @@
             <!-- up coming sections 03  -->
             <div>
                 <div class="flex items-center gap-[10px] pt-[10px] sm:pt-[30px] pb-[9px] md:pb-[36px]">
-                    <img class="w-[14px] sm:w-[32px]"
-                        src="{{ asset('frontend/assets/images/productDetails/plus.png') }}" alt="plusIcon" />
+                    <img class="w-[14px] sm:w-[32px]" src="{{ asset('assets/images/productDetails/plus.png') }}"
+                        alt="plusIcon" />
                     <h2 class="text-[14px] sm:text-[24px] font-[700]">Add More Items</h2>
                 </div>
                 <!-- box  -->
@@ -157,8 +157,8 @@
             <!-- up coming sections end  -->
             <div class="flex items-center gap-[10px] mb-[13px]">
                 <div>
-                    <img class="w-[16px] sm:w-[31px]"
-                        src="{{ asset('frontend/assets/images/productDetails/padlock.png') }}" alt="lock" />
+                    <img class="w-[16px] sm:w-[31px]" src="{{ asset('assets/images/productDetails/padlock.png') }}"
+                        alt="lock" />
                 </div>
                 <div>
                     <h3 class="font-[700] text-[9px] leading-[12px] sm:text-[20px] sm:leading-[24px]">
@@ -177,7 +177,7 @@
         <div class="max-w-[710px] w-full border border-[#9a999a] px-[20px] sm:px-[28px]">
             <!-- up coming div ^^^^^^^^^^^ -->
             <div class="flex items-center gap-[7px] sm:gap-[20px] pt-[30px] sm:pt-[44px] pb-[13px] sm:pb-[35px]">
-                <img class="w-[14px] sm:w-[35px]" src="{{ asset('frontend/assets/images/productDetails/padlock.png') }}"
+                <img class="w-[14px] sm:w-[35px]" src="{{ asset('assets/images/productDetails/padlock.png') }}"
                     alt="lock" />
                 <h2 class="font-[700] text-[15px] leading-[15px] sm:text-[42px] sm:leading-[41px]">
                     Cart Summery
@@ -254,19 +254,17 @@
 
                 <div class="flex justify-between my-[12px] sm:my-[36px]">
                     <img class="w-[46px] sm:w-[124px]"
-                        src="{{ asset('frontend/assets/images/productDetails/Rey-Xpress-Visa-Logo.svg') }}"
-                        alt="visa" />
+                        src="{{ asset('assets/images/productDetails/Rey-Xpress-Visa-Logo.svg') }}" alt="visa" />
                     <img class="w-[30px] sm:w-[80px]"
-                        src="{{ asset('frontend/assets/images/productDetails/Rey-Xpress-Mastercard-Logo.svg') }}"
+                        src="{{ asset('assets/images/productDetails/Rey-Xpress-Mastercard-Logo.svg') }}"
                         alt="mastercard" />
                     <img class="w-[66px] sm:w-[177px]"
-                        src="{{ asset('frontend/assets/images/productDetails/Rey-Xpress-PayPal-Logo.svg') }}"
-                        alt="paypal" />
+                        src="{{ asset('assets/images/productDetails/Rey-Xpress-PayPal-Logo.svg') }}" alt="paypal" />
                 </div>
 
                 <div class="flex items-center gap-[12px] sm:gap-[18px]">
                     <img class="w-[35px] sm:w-[94px]"
-                        src="{{ asset('frontend/assets/images/productDetails/Rey-Xpress-Apple-Pay-Logo.svg') }}"
+                        src="{{ asset('assets/images/productDetails/Rey-Xpress-Apple-Pay-Logo.svg') }}"
                         alt="apple" />
                     <p class="text-[11px] leading-[16px] sm:text-[24px] sm:leading-[41px]">
                         Apple Pay available for Apple Pay account holders. Sign up for

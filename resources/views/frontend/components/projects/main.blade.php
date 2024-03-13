@@ -24,10 +24,10 @@
     <section
         class="mt-[30px] lg:mt-[50px] xl:mt-[80px] mb-[15px] lg:mb-[30px] xl:mb-[50px] border-[2px] border-[#ff0000] py-[15px] px-[20px] lg:py-[30px] lg:px-[55px] xl:py-[50px] xl:px-[75px] relative">
         <img class="absolute -top-[1px] -right-[1px] cursor-pointer w-[15px] h-[15px] lg:w-[35px] lg:h-[35px]"
-            src="{{ asset('frontend/assets/images/rey-projects/alert-cross.png') }}" alt="cross">
+            src="{{ asset('assets/images/rey-projects/alert-cross.png') }}" alt="cross">
         <div class="flex items-start gap-[10px] lg:gap-[27px]">
             <img class="cursor-pointer w-[30px] h-[30px] lg:w-[62px] lg:h-[62px]"
-                src="{{ asset('frontend/assets/images/rey-projects/alert.png') }}" alt="alert">
+                src="{{ asset('assets/images/rey-projects/alert.png') }}" alt="alert">
             <article
                 class="text-[#fc5441] text-[12px] lg:text-[20px] xl:text-[28px] leading-[20px] lg:leading-[28px] xl:leading-[36px]">
                 Error with your dimensions, cabinet interior material or door/drawer front color, see items indicated in
@@ -50,7 +50,7 @@
             <!-- Image section start -->
             <div>
                 <img class="min-[700px]:max-w-[350px] max-[700px]:max-w-[180px] max-[580px]:max-w-[130px] w-full aspect-square"
-                    src="{{ asset('frontend/assets/images/rey-projects/projects/Asset 1.png') }}" alt="Project">
+                    src="{{ asset('assets/images/rey-projects/projects/Asset 1.png') }}" alt="Project">
             </div> <!--Image section end -->
             <!-- Text section start  -->
             <div>
@@ -86,16 +86,14 @@
                     <button
                         class="cursor-pointer flex items-center gap-[5px] lg:gap-[10px] text-[11px] lg:text-[24px]">Remove
                         <img class="w-[10px] h-[10px] lg:w-[17px] lg:h-[17px]"
-                            src="{{ asset('frontend/assets/images/rey-projects/remove-btn.png') }}"
-                            alt="Remove"></button>
+                            src="{{ asset('assets/images/rey-projects/remove-btn.png') }}" alt="Remove"></button>
 
                     <div class="w-[2px] h-[20px] lg:h-[34px] bg-[#222]"></div>
 
                     <button
                         class="cursor-pointer flex items-center gap-[5px] lg:gap-[10px] text-[11px] lg:text-[24px]">Modify
                         <img class="w-[12px] h-[10px] lg:w-[19px] lg:h-[17px]"
-                            src="{{ asset('frontend/assets/images/rey-projects/arrow-right-btn.png') }}"
-                            alt="Modify"></button>
+                            src="{{ asset('assets/images/rey-projects/arrow-right-btn.png') }}" alt="Modify"></button>
                 </div>
 
             </div> <!-- text section end  -->
@@ -113,7 +111,7 @@
             <!-- Image section start -->
             <div>
                 <img class="min-[700px]:max-w-[350px] max-[700px]:max-w-[180px] max-[580px]:max-w-[130px] w-full aspect-square"
-                    src="{{ asset('frontend/assets') }}/images/rey-projects/projects/Asset 2.png" alt="Project">
+                    src="{{ asset('assets') }}/images/rey-projects/projects/Asset 2.png" alt="Project">
             </div> <!--Image section end -->
             <!-- Text section start  -->
             <div>
@@ -150,16 +148,14 @@
                     <button
                         class="cursor-pointer flex items-center gap-[5px] lg:gap-[10px] text-[11px] lg:text-[24px]">Remove
                         <img class="w-[10px] h-[10px] lg:w-[17px] lg:h-[17px]"
-                            src="{{ asset('frontend/assets/images/rey-projects/remove-btn.png') }}"
-                            alt="Remove"></button>
+                            src="{{ asset('assets/images/rey-projects/remove-btn.png') }}" alt="Remove"></button>
 
                     <div class="w-[2px] h-[20px] lg:h-[34px] bg-[#222]"></div>
 
                     <button
                         class="cursor-pointer flex items-center gap-[5px] lg:gap-[10px] text-[11px] lg:text-[24px]">Modify
                         <img class="w-[12px] h-[10px] lg:w-[19px] lg:h-[17px]"
-                            src="{{ asset('frontend/assets/images/rey-projects/arrow-right-btn.png') }}"
-                            alt="Modify"></button>
+                            src="{{ asset('assets/images/rey-projects/arrow-right-btn.png') }}" alt="Modify"></button>
                 </div>
 
             </div> <!-- text section end  -->
@@ -177,7 +173,7 @@
             <!-- Image section start -->
             <div>
                 <img class="min-[700px]:max-w-[350px] max-[700px]:max-w-[180px] max-[580px]:max-w-[130px] w-full aspect-square"
-                    src="{{ asset('frontend/assets/images/rey-projects/projects/Asset 3.png') }}" alt="Project">
+                    src="{{ asset('assets/images/rey-projects/projects/Asset 3.png') }}" alt="Project">
             </div> <!--Image section end -->
             <!-- Text section start  -->
             <div>
@@ -214,15 +210,14 @@
                     <button
                         class="cursor-pointer flex items-center gap-[5px] lg:gap-[10px] text-[11px] lg:text-[24px]">Remove
                         <img class="w-[10px] h-[10px] lg:w-[17px] lg:h-[17px]"
-                            src="{{ asset('frontend/assets/images/rey-projects/remove-btn.png') }}"
-                            alt="Remove"></button>
+                            src="{{ asset('assets/images/rey-projects/remove-btn.png') }}" alt="Remove"></button>
 
                     <div class="w-[2px] h-[20px] lg:h-[34px] bg-[#222]"></div>
 
                     <button
                         class="cursor-pointer flex items-center gap-[5px] lg:gap-[10px] text-[11px] lg:text-[24px]">Modify
                         <img class="w-[12px] h-[10px] lg:w-[19px] lg:h-[17px]"
-                            src="{{ asset('frontend/assets/images/rey-projects/arrow-right-btn.png') }}"
+                            src="{{ asset('assets/images/rey-projects/arrow-right-btn.png') }}"
                             alt="Modify"></button>
                 </div>
 
@@ -241,7 +236,7 @@
             <!-- Image section start -->
             <div>
                 <img class="min-[700px]:max-w-[350px] max-[700px]:max-w-[180px] max-[580px]:max-w-[130px] w-full aspect-square"
-                    src="{{ asset('frontend/assets/images/rey-projects/projects/Asset 4.png') }}" alt="Project">
+                    src="{{ asset('assets/images/rey-projects/projects/Asset 4.png') }}" alt="Project">
             </div> <!--Image section end -->
             <!-- Text section start  -->
             <div>
@@ -277,15 +272,14 @@
                     <button
                         class="cursor-pointer flex items-center gap-[5px] lg:gap-[10px] text-[11px] lg:text-[24px]">Remove
                         <img class="w-[10px] h-[10px] lg:w-[17px] lg:h-[17px]"
-                            src="{{ asset('frontend/assets/images/rey-projects/remove-btn.png') }}"
-                            alt="Remove"></button>
+                            src="{{ asset('assets/images/rey-projects/remove-btn.png') }}" alt="Remove"></button>
 
                     <div class="w-[2px] h-[20px] lg:h-[34px] bg-[#222]"></div>
 
                     <button
                         class="cursor-pointer flex items-center gap-[5px] lg:gap-[10px] text-[11px] lg:text-[24px]">Modify
                         <img class="w-[12px] h-[10px] lg:w-[19px] lg:h-[17px]"
-                            src="{{ asset('frontend/assets/images/rey-projects/arrow-right-btn.png') }}"
+                            src="{{ asset('assets/images/rey-projects/arrow-right-btn.png') }}"
                             alt="Modify"></button>
                 </div>
 
@@ -303,7 +297,7 @@
             <!-- Image section start -->
             <div>
                 <img class="min-[700px]:max-w-[350px] max-[700px]:max-w-[180px] max-[580px]:max-w-[130px] w-full aspect-square"
-                    src="{{ asset('frontend/assets/images/rey-projects/projects/Asset 5.png') }}" alt="Project">
+                    src="{{ asset('assets/images/rey-projects/projects/Asset 5.png') }}" alt="Project">
             </div> <!--Image section end -->
             <!-- Text section start  -->
             <div>
@@ -340,15 +334,14 @@
                     <button
                         class="cursor-pointer flex items-center gap-[5px] lg:gap-[10px] text-[11px] lg:text-[24px]">Remove
                         <img class="w-[10px] h-[10px] lg:w-[17px] lg:h-[17px]"
-                            src="{{ asset('frontend/assets/images/rey-projects/remove-btn.png') }}"
-                            alt="Remove"></button>
+                            src="{{ asset('assets/images/rey-projects/remove-btn.png') }}" alt="Remove"></button>
 
                     <div class="w-[2px] h-[20px] lg:h-[34px] bg-[#222]"></div>
 
                     <button
                         class="cursor-pointer flex items-center gap-[5px] lg:gap-[10px] text-[11px] lg:text-[24px]">Modify
                         <img class="w-[12px] h-[10px] lg:w-[19px] lg:h-[17px]"
-                            src="{{ asset('frontend/assets/images/rey-projects/arrow-right-btn.png') }}"
+                            src="{{ asset('assets/images/rey-projects/arrow-right-btn.png') }}"
                             alt="Modify"></button>
                 </div>
 
@@ -367,7 +360,7 @@
             <!-- Image section start -->
             <div>
                 <img class="min-[700px]:max-w-[350px] max-[700px]:max-w-[180px] max-[580px]:max-w-[130px] w-full aspect-square"
-                    src="{{ asset('frontend/assets/images/rey-projects/projects/Asset 6.png') }}" alt="Project">
+                    src="{{ asset('assets/images/rey-projects/projects/Asset 6.png') }}" alt="Project">
             </div> <!--Image section end -->
             <!-- Text section start  -->
             <div>
@@ -403,15 +396,14 @@
                     <button
                         class="cursor-pointer flex items-center gap-[5px] lg:gap-[10px] text-[11px] lg:text-[24px]">Remove
                         <img class="w-[10px] h-[10px] lg:w-[17px] lg:h-[17px]"
-                            src="{{ asset('frontend/assets/images/rey-projects/remove-btn.png') }}"
-                            alt="Remove"></button>
+                            src="{{ asset('assets/images/rey-projects/remove-btn.png') }}" alt="Remove"></button>
 
                     <div class="w-[2px] h-[20px] lg:h-[34px] bg-[#222]"></div>
 
                     <button
                         class="cursor-pointer flex items-center gap-[5px] lg:gap-[10px] text-[11px] lg:text-[24px]">Modify
                         <img class="w-[12px] h-[10px] lg:w-[19px] lg:h-[17px]"
-                            src="{{ asset('frontend/assets/images/rey-projects/arrow-right-btn.png') }}"
+                            src="{{ asset('assets/images/rey-projects/arrow-right-btn.png') }}"
                             alt="Modify"></button>
                 </div>
 
@@ -429,7 +421,7 @@
             <!-- Image section start -->
             <div>
                 <img class="min-[700px]:max-w-[350px] max-[700px]:max-w-[180px] max-[580px]:max-w-[130px] w-full aspect-square"
-                    src="{{ asset('frontend/assets/images/rey-projects/projects/Asset 7.png') }}" alt="Project">
+                    src="{{ asset('assets/images/rey-projects/projects/Asset 7.png') }}" alt="Project">
             </div> <!--Image section end -->
             <!-- Text section start  -->
             <div>
@@ -465,15 +457,14 @@
                     <button
                         class="cursor-pointer flex items-center gap-[5px] lg:gap-[10px] text-[11px] lg:text-[24px]">Remove
                         <img class="w-[10px] h-[10px] lg:w-[17px] lg:h-[17px]"
-                            src="{{ asset('frontend/assets/images/rey-projects/remove-btn.png') }}"
-                            alt="Remove"></button>
+                            src="{{ asset('assets/images/rey-projects/remove-btn.png') }}" alt="Remove"></button>
 
                     <div class="w-[2px] h-[20px] lg:h-[34px] bg-[#222]"></div>
 
                     <button
                         class="cursor-pointer flex items-center gap-[5px] lg:gap-[10px] text-[11px] lg:text-[24px]">Modify
                         <img class="w-[12px] h-[10px] lg:w-[19px] lg:h-[17px]"
-                            src="{{ asset('frontend/assets/images/rey-projects/arrow-right-btn.png') }}"
+                            src="{{ asset('assets/images/rey-projects/arrow-right-btn.png') }}"
                             alt="Modify"></button>
                 </div>
 
@@ -492,7 +483,7 @@
             <!-- Image section start -->
             <div>
                 <img class="min-[700px]:max-w-[350px] max-[700px]:max-w-[180px] max-[580px]:max-w-[130px] w-full aspect-square"
-                    src="{{ asset('frontend/assets/images/rey-projects/projects/Asset 8.png') }}" alt="Project">
+                    src="{{ asset('assets/images/rey-projects/projects/Asset 8.png') }}" alt="Project">
             </div> <!--Image section end -->
             <!-- Text section start  -->
             <div>
@@ -526,15 +517,14 @@
                     <button
                         class="cursor-pointer flex items-center gap-[5px] lg:gap-[10px] text-[11px] lg:text-[24px]">Remove
                         <img class="w-[10px] h-[10px] lg:w-[17px] lg:h-[17px]"
-                            src="{{ asset('frontend/assets/images/rey-projects/remove-btn.png') }}"
-                            alt="Remove"></button>
+                            src="{{ asset('assets/images/rey-projects/remove-btn.png') }}" alt="Remove"></button>
 
                     <div class="w-[2px] h-[20px] lg:h-[34px] bg-[#222]"></div>
 
                     <button
                         class="cursor-pointer flex items-center gap-[5px] lg:gap-[10px] text-[11px] lg:text-[24px]">Modify
                         <img class="w-[12px] h-[10px] lg:w-[19px] lg:h-[17px]"
-                            src="{{ asset('frontend/assets/images/rey-projects/arrow-right-btn.png') }}"
+                            src="{{ asset('assets/images/rey-projects/arrow-right-btn.png') }}"
                             alt="Modify"></button>
                 </div>
 
@@ -552,7 +542,7 @@
             <!-- Image section start -->
             <div>
                 <img class="min-[700px]:max-w-[350px] max-[700px]:max-w-[180px] max-[580px]:max-w-[130px] w-full aspect-square"
-                    src="{{ asset('frontend/assets/images/rey-projects/projects/Asset 1.png') }}" alt="Project">
+                    src="{{ asset('assets/images/rey-projects/projects/Asset 1.png') }}" alt="Project">
             </div> <!--Image section end -->
             <!-- Text section start  -->
             <div>
@@ -588,15 +578,14 @@
                     <button
                         class="cursor-pointer flex items-center gap-[5px] lg:gap-[10px] text-[11px] lg:text-[24px]">Remove
                         <img class="w-[10px] h-[10px] lg:w-[17px] lg:h-[17px]"
-                            src="{{ asset('frontend/assets/images/rey-projects/remove-btn.png') }}"
-                            alt="Remove"></button>
+                            src="{{ asset('assets/images/rey-projects/remove-btn.png') }}" alt="Remove"></button>
 
                     <div class="w-[2px] h-[20px] lg:h-[34px] bg-[#222]"></div>
 
                     <button
                         class="cursor-pointer flex items-center gap-[5px] lg:gap-[10px] text-[11px] lg:text-[24px]">Modify
                         <img class="w-[12px] h-[10px] lg:w-[19px] lg:h-[17px]"
-                            src="{{ asset('frontend/assets/images/rey-projects/arrow-right-btn.png') }}"
+                            src="{{ asset('assets/images/rey-projects/arrow-right-btn.png') }}"
                             alt="Modify"></button>
                 </div>
 
@@ -614,7 +603,7 @@
             <!-- Image section start -->
             <div>
                 <img class="min-[700px]:max-w-[350px] max-[700px]:max-w-[180px] max-[580px]:max-w-[130px] w-full aspect-square"
-                    src="{{ asset('frontend/assets/images/rey-projects/projects/Asset 1.png') }}" alt="Project">
+                    src="{{ asset('assets/images/rey-projects/projects/Asset 1.png') }}" alt="Project">
             </div> <!--Image section end -->
             <!-- Text section start  -->
             <div>
@@ -651,15 +640,14 @@
                     <button
                         class="cursor-pointer flex items-center gap-[5px] lg:gap-[10px] text-[11px] lg:text-[24px]">Remove
                         <img class="w-[10px] h-[10px] lg:w-[17px] lg:h-[17px]"
-                            src="{{ asset('frontend/assets/images/rey-projects/remove-btn.png') }}"
-                            alt="Remove"></button>
+                            src="{{ asset('assets/images/rey-projects/remove-btn.png') }}" alt="Remove"></button>
 
                     <div class="w-[2px] h-[20px] lg:h-[34px] bg-[#222]"></div>
 
                     <button
                         class="cursor-pointer flex items-center gap-[5px] lg:gap-[10px] text-[11px] lg:text-[24px]">Modify
                         <img class="w-[12px] h-[10px] lg:w-[19px] lg:h-[17px]"
-                            src="{{ asset('frontend/assets/images/rey-projects/arrow-right-btn.png') }}"
+                            src="{{ asset('assets/images/rey-projects/arrow-right-btn.png') }}"
                             alt="Modify"></button>
                 </div>
 

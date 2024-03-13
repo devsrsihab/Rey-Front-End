@@ -47,7 +47,7 @@
                         size of the crown is typically determined by the height of the ceiling but we also recommend
                         that they work in harmony with the style of your kitchen cabinet exterior color.
                     </article>
-                    <img src="{{ asset('frontend/assets/images/crown/crown-moulding-sub-logo.png') }}" alt="Ad image">
+                    <img src="{{ asset('assets/images/crown/crown-moulding-sub-logo.png') }}" alt="Ad image">
                 </div>
             </section>
 

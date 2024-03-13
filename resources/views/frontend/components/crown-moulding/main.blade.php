@@ -14,8 +14,8 @@
                   </h2>
               </div>
               <div>
-                  <img class="w-[13px] h-[13px] md:w-[50px] md:h-[50px]"
-                      src="{{ asset('frontend/assets/images/doors/plus.png') }}" alt="plus icon" />
+                  <img class="w-[13px] h-[13px] md:w-[50px] md:h-[50px]" src="{{ asset('assets/images/doors/plus.png') }}"
+                      alt="plus icon" />
               </div>
           </div>
 
@@ -87,7 +87,7 @@
                       <label class="checkbox_label" for="doorColorSection2image1">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/MDF Painted Doors/Chantilly Lace.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/MDF Painted Doors/Chantilly Lace.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -101,7 +101,7 @@
                       <label class="checkbox_label" for="doorColorSection2image2">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/MDF Painted Doors/Decorators White.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/MDF Painted Doors/Decorators White.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -116,7 +116,7 @@
                       <label class="checkbox_label" for="doorColorSection2image3">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/MDF Painted Doors/Ultra White.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/MDF Painted Doors/Ultra White.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -131,7 +131,7 @@
                       <label class="checkbox_label" for="doorColorSection2image4">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/MDF Painted Doors/Simply White.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/MDF Painted Doors/Simply White.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -146,7 +146,7 @@
                       <label class="checkbox_label" for="doorColorSection2image5">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/MDF Painted Doors/Cloud White.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/MDF Painted Doors/Cloud White.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -161,7 +161,7 @@
                       <label class="checkbox_label" for="doorColorSection2image6">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/MDF Painted Doors/Oxford White.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/MDF Painted Doors/Oxford White.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -176,7 +176,7 @@
                       <label class="checkbox_label" for="doorColorSection2image7">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/MDF Painted Doors/Cloud White.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/MDF Painted Doors/Cloud White.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -191,7 +191,7 @@
                       <label class="checkbox_label" for="doorColorSection2image8">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/MDF Painted Doors/Seapearl.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/MDF Painted Doors/Seapearl.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -206,7 +206,7 @@
                       <label class="checkbox_label" for="doorColorSection2image9">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/MDF Painted Doors/Snowfall White.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/MDF Painted Doors/Snowfall White.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -221,7 +221,7 @@
                       <label class="checkbox_label" for="doorColorSection2image10">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/MDF Painted Doors/Swiss Coffee.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/MDF Painted Doors/Swiss Coffee.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -236,7 +236,7 @@
                       <label class="checkbox_label" for="doorColorSection2image11">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/MDF Painted Doors/Dove Wing.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/MDF Painted Doors/Dove Wing.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -251,7 +251,7 @@
                       <label class="checkbox_label" for="doorColorSection2image12">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/MDF Painted Doors/White Dove.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/MDF Painted Doors/White Dove.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -275,7 +275,7 @@
                       <label class="checkbox_label" for="doorColorSection3image1">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Standard Finishes/White.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Standard Finishes/White.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -288,7 +288,7 @@
                       <label class="checkbox_label" for="doorColorSection3image2">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Standard Finishes/Hard Rock Maple.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Standard Finishes/Hard Rock Maple.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -301,7 +301,7 @@
                       <label class="checkbox_label" for="doorColorSection3image3">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Standard Finishes/Linen.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Standard Finishes/Linen.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -314,7 +314,7 @@
                       <label class="checkbox_label" for="doorColorSection3image4">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Standard Finishes/Black.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Standard Finishes/Black.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -327,7 +327,7 @@
                       <label class="checkbox_label" for="doorColorSection3image5">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Standard Finishes/Plywood.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Standard Finishes/Plywood.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -347,7 +347,7 @@
                       <label class="checkbox_label" for="doorColorSection4image1">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Super Matt Panels/White Matte.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Super Matt Panels/White Matte.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -361,7 +361,7 @@
                       <label class="checkbox_label" for="doorColorSection4image2">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Super Matt Panels/Natural White Matte.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Super Matt Panels/Natural White Matte.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -375,7 +375,7 @@
                       <label class="checkbox_label" for="doorColorSection4image3">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Super Matt Panels/Cool Grey Matte.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Super Matt Panels/Cool Grey Matte.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -389,7 +389,7 @@
                       <label class="checkbox_label" for="doorColorSection4image4">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Super Matt Panels/Modern Grey Matte.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Super Matt Panels/Modern Grey Matte.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -403,7 +403,7 @@
                       <label class="checkbox_label" for="doorColorSection4image5">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Super Matt Panels/Chrome Grey Matte.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Super Matt Panels/Chrome Grey Matte.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -417,7 +417,7 @@
                       <label class="checkbox_label" for="doorColorSection4image6">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Super Matt Panels/Fume Matte.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Super Matt Panels/Fume Matte.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -431,7 +431,7 @@
                       <label class="checkbox_label" for="doorColorSection4image7">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Super Matt Panels/Light Grey Matte.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Super Matt Panels/Light Grey Matte.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -445,7 +445,7 @@
                       <label class="checkbox_label" for="doorColorSection4image8">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Super Matt Panels/Light Beige Matte.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Super Matt Panels/Light Beige Matte.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -459,7 +459,7 @@
                       <label class="checkbox_label" for="doorColorSection4image9">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Super Matt Panels/Sand Beige Matte.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Super Matt Panels/Sand Beige Matte.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -473,7 +473,7 @@
                       <label class="checkbox_label" for="doorColorSection4image10">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Super Matt Panels/Grey Matte.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Super Matt Panels/Grey Matte.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -487,7 +487,7 @@
                       <label class="checkbox_label" for="doorColorSection4image11">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Super Matt Panels/Lava Matte.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Super Matt Panels/Lava Matte.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -501,7 +501,7 @@
                       <label class="checkbox_label" for="doorColorSection4image12">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Super Matt Panels/Pastel Blue Matte.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Super Matt Panels/Pastel Blue Matte.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -516,7 +516,7 @@
                       <label class="checkbox_label" for="doorColorSection4image13">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Super Matt Panels/Nile Green Matte.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Super Matt Panels/Nile Green Matte.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -531,7 +531,7 @@
                       <label class="checkbox_label" for="doorColorSection4image14">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Super Matt Panels/Pastel Blue Matte.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Super Matt Panels/Pastel Blue Matte.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -546,7 +546,7 @@
                       <label class="checkbox_label" for="doorColorSection4image15">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Super Matt Panels/Tropic Green Matte.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Super Matt Panels/Tropic Green Matte.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -561,7 +561,7 @@
                       <label class="checkbox_label" for="doorColorSection4image16">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Super Matt Panels/Pastel Orange Matte.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Super Matt Panels/Pastel Orange Matte.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -575,7 +575,7 @@
                       <label class="checkbox_label" for="doorColorSection4image17">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Super Matt Panels/Night Blue Matte.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Super Matt Panels/Night Blue Matte.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -589,7 +589,7 @@
                       <label class="checkbox_label" for="doorColorSection4image18">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Super Matt Panels/Ecru Antracite Matte.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Super Matt Panels/Ecru Antracite Matte.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -603,7 +603,7 @@
                       <label class="checkbox_label" for="doorColorSection4image19">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Super Matt Panels/Black Matte.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Super Matt Panels/Black Matte.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -627,7 +627,7 @@
                       <label class="checkbox_label" for="doorColorSection5image1">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Textured Panels/Albero Bianco.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Textured Panels/Albero Bianco.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -641,7 +641,7 @@
                       <label class="checkbox_label" for="doorColorSection5image2">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Textured Panels/Antique Bronze.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Textured Panels/Antique Bronze.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -655,7 +655,7 @@
                       <label class="checkbox_label" for="doorColorSection5image3">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Textured Panels/Antique Gold.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Textured Panels/Antique Gold.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -669,7 +669,7 @@
                       <label class="checkbox_label" for="doorColorSection5image4">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Textured Panels/Black Leather.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Textured Panels/Black Leather.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -682,7 +682,7 @@
                       <label class="checkbox_label" for="doorColorSection5image5">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Textured Panels/Brushed Aluminum.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Textured Panels/Brushed Aluminum.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -695,7 +695,7 @@
                       <label class="checkbox_label" for="doorColorSection5image6">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Textured Panels/Brushed Bronze.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Textured Panels/Brushed Bronze.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -708,7 +708,7 @@
                       <label class="checkbox_label" for="doorColorSection5image7">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Textured Panels/Brushed Copper.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Textured Panels/Brushed Copper.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -721,7 +721,7 @@
                       <label class="checkbox_label" for="doorColorSection5image8">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Textured Panels/Brushed Gold.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Textured Panels/Brushed Gold.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -734,7 +734,7 @@
                       <label class="checkbox_label" for="doorColorSection5image9">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Textured Panels/Brushed Inox.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Textured Panels/Brushed Inox.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -747,7 +747,7 @@
                       <label class="checkbox_label" for="doorColorSection5image10">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Textured Panels/Cactus Textile.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Textured Panels/Cactus Textile.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -760,7 +760,7 @@
                       <label class="checkbox_label" for="doorColorSection5image11">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Textured Panels/Canyon Beige.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Textured Panels/Canyon Beige.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -774,7 +774,7 @@
                       <label class="checkbox_label" for="doorColorSection5image12">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Textured Panels/Canyon Grey.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Textured Panels/Canyon Grey.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -789,7 +789,7 @@
                       <label class="checkbox_label" for="doorColorSection5image13">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Textured Panels/Cosmic Marble.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Textured Panels/Cosmic Marble.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -804,7 +804,7 @@
                       <label class="checkbox_label" for="doorColorSection5image14">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Textured Panels/Darkhaki Textile.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Textured Panels/Darkhaki Textile.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -818,7 +818,7 @@
                       <label class="checkbox_label" for="doorColorSection5image15">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Textured Panels/Dun Grey Leather.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Textured Panels/Dun Grey Leather.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -832,7 +832,7 @@
                       <label class="checkbox_label" for="doorColorSection5image16">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Textured Panels/Tortora Leather.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Textured Panels/Tortora Leather.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -846,7 +846,7 @@
                       <label class="checkbox_label" for="doorColorSection5image17">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Textured Panels/English Grey Leather.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Textured Panels/English Grey Leather.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -860,7 +860,7 @@
                       <label class="checkbox_label" for="doorColorSection5image18">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Textured Panels/Greige Tessea.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Textured Panels/Greige Tessea.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -874,7 +874,7 @@
                       <label class="checkbox_label" for="doorColorSection5image19">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Textured Panels/Grey Line.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Textured Panels/Grey Line.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -889,7 +889,7 @@
                       <label class="checkbox_label" for="doorColorSection5image20">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Textured Panels/White Line.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Textured Panels/White Line.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -904,7 +904,7 @@
                       <label class="checkbox_label" for="doorColorSection5image21">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Textured Panels/Elegant Spike.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Textured Panels/Elegant Spike.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -918,7 +918,7 @@
                       <label class="checkbox_label" for="doorColorSection5image22">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Textured Panels/Mercurio Textile.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Textured Panels/Mercurio Textile.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -932,7 +932,7 @@
                       <label class="checkbox_label" for="doorColorSection5image23">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Textured Panels/White Sahara.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Textured Panels/White Sahara.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -955,7 +955,7 @@
                       <label class="checkbox_label" for="doorColorSection6image1">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/High Gloss/White Gloss.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/High Gloss/White Gloss.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -968,7 +968,7 @@
                       <label class="checkbox_label" for="doorColorSection6image2">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/High Gloss/Natural White Gloss.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/High Gloss/Natural White Gloss.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -982,7 +982,7 @@
                       <label class="checkbox_label" for="doorColorSection6image3">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]  ">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/High Gloss/Light Beige Gloss.png.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/High Gloss/Light Beige Gloss.png.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -996,7 +996,7 @@
                       <label class="checkbox_label" for="doorColorSection6image4">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]  ">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/High Gloss/Grey Gloss.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/High Gloss/Grey Gloss.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1009,7 +1009,7 @@
                       <label class="checkbox_label" for="doorColorSection6image5">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]  ">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/High Gloss/Modern Grey Gloss.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/High Gloss/Modern Grey Gloss.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1023,7 +1023,7 @@
                       <label class="checkbox_label" for="doorColorSection6image6">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]  ">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/High Gloss/Chrome Grey Gloss.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/High Gloss/Chrome Grey Gloss.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1037,7 +1037,7 @@
                       <label class="checkbox_label" for="doorColorSection6image7">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]  ">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/High Gloss/Fume Gloss.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/High Gloss/Fume Gloss.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1050,7 +1050,7 @@
                       <label class="checkbox_label" for="doorColorSection6image8">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]  ">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/High Gloss/Ecru White Gloss.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/High Gloss/Ecru White Gloss.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1064,7 +1064,7 @@
                       <label class="checkbox_label" for="doorColorSection6image9">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]  ">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/High Gloss/Ecru New Grey Gloss.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/High Gloss/Ecru New Grey Gloss.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1078,7 +1078,7 @@
                       <label class="checkbox_label" for="doorColorSection6image10">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]  ">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/High Gloss/Ecru Antracite Gloss.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/High Gloss/Ecru Antracite Gloss.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1092,7 +1092,7 @@
                       <label class="checkbox_label" for="doorColorSection6image11">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]  ">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/High Gloss/Lava Gloss.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/High Gloss/Lava Gloss.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1105,7 +1105,7 @@
                       <label class="checkbox_label" for="doorColorSection6image12">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]  ">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/High Gloss/Ruby Gloss.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/High Gloss/Ruby Gloss.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1118,7 +1118,7 @@
                       <label class="checkbox_label" for="doorColorSection6image13">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]  ">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/High Gloss/Sand Beige Gloss.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/High Gloss/Sand Beige Gloss.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1132,7 +1132,7 @@
                       <label class="checkbox_label" for="doorColorSection6image14">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]  ">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/High Gloss/Black Gloss.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/High Gloss/Black Gloss.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1154,7 +1154,7 @@
                       <label class="checkbox_label" for="doorColorSection7image1">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Wood Grain/Arena Origami.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Wood Grain/Arena Origami.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1167,7 +1167,7 @@
                       <label class="checkbox_label" for="doorColorSection7image2">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Wood Grain/Arslanbob.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Wood Grain/Arslanbob.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1180,7 +1180,7 @@
                       <label class="checkbox_label" for="doorColorSection7image3">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Wood Grain/Augusta Walnut.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Wood Grain/Augusta Walnut.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1193,7 +1193,7 @@
                       <label class="checkbox_label" for="doorColorSection7image4">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Wood Grain/Black Mamut.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Wood Grain/Black Mamut.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1206,7 +1206,7 @@
                       <label class="checkbox_label" for="doorColorSection7image5">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Wood Grain/Bruma Origami.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Wood Grain/Bruma Origami.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1219,7 +1219,7 @@
                       <label class="checkbox_label" for="doorColorSection7image6">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Wood Grain/Casual Borgona.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Wood Grain/Casual Borgona.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1232,7 +1232,7 @@
                       <label class="checkbox_label" for="doorColorSection7image7">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Wood Grain/Coal Oak.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Wood Grain/Coal Oak.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1245,7 +1245,7 @@
                       <label class="checkbox_label" for="doorColorSection7image8">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Wood Grain/Cognac Monument.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Wood Grain/Cognac Monument.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1258,7 +1258,7 @@
                       <label class="checkbox_label" for="doorColorSection7image9">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Wood Grain/Dark Cherry.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Wood Grain/Dark Cherry.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1272,7 +1272,7 @@
                       <label class="checkbox_label" for="doorColorSection7image10">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Wood Grain/Dark Hickory.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Wood Grain/Dark Hickory.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1286,7 +1286,7 @@
                       <label class="checkbox_label" for="doorColorSection7image11">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Wood Grain/Dark Walnut.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Wood Grain/Dark Walnut.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1299,7 +1299,7 @@
                       <label class="checkbox_label" for="doorColorSection7image12">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Wood Grain/Grey Craft Oak.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Wood Grain/Grey Craft Oak.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1312,7 +1312,7 @@
                       <label class="checkbox_label" for="doorColorSection7image13">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Wood Grain/Grey Nordic Wood.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Wood Grain/Grey Nordic Wood.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1325,7 +1325,7 @@
                       <label class="checkbox_label" for="doorColorSection7image14">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Wood Grain/Guernica Grey Oak.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Wood Grain/Guernica Grey Oak.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1338,7 +1338,7 @@
                       <label class="checkbox_label" for="doorColorSection7image15">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Wood Grain/Hazel Oak.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Wood Grain/Hazel Oak.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1351,7 +1351,7 @@
                       <label class="checkbox_label" for="doorColorSection7image16">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Wood Grain/Languedoc Oak.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Wood Grain/Languedoc Oak.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1364,7 +1364,7 @@
                       <label class="checkbox_label" for="doorColorSection7image17">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Wood Grain/Light Hickory.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Wood Grain/Light Hickory.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1378,7 +1378,7 @@
                       <label class="checkbox_label" for="doorColorSection7image18">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Wood Grain/Light Select Walnut.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Wood Grain/Light Select Walnut.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1391,7 +1391,7 @@
                       <label class="checkbox_label" for="doorColorSection7image19">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Wood Grain/Monterrey Oak.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Wood Grain/Monterrey Oak.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1404,7 +1404,7 @@
                       <label class="checkbox_label" for="doorColorSection7image20">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Wood Grain/Oyster Urban Oak.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Wood Grain/Oyster Urban Oak.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1417,7 +1417,7 @@
                       <label class="checkbox_label" for="doorColorSection7image21">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Wood Grain/Pure Surfside Ash.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Wood Grain/Pure Surfside Ash.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1430,7 +1430,7 @@
                       <label class="checkbox_label" for="doorColorSection7image22">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Wood Grain/Ristretto Oak.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Wood Grain/Ristretto Oak.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1443,7 +1443,7 @@
                       <label class="checkbox_label" for="doorColorSection7image23">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Wood Grain/Samoa Oak.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Wood Grain/Samoa Oak.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1456,7 +1456,7 @@
                       <label class="checkbox_label" for="doorColorSection7image24">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Wood Grain/Sand Barbera Oak.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Wood Grain/Sand Barbera Oak.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1469,7 +1469,7 @@
                       <label class="checkbox_label" for="doorColorSection7image25">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Wood Grain/Satin Coastland Oak.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Wood Grain/Satin Coastland Oak.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1482,7 +1482,7 @@
                       <label class="checkbox_label" for="doorColorSection7image26">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Wood Grain/Smoked Eucalyptus.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Wood Grain/Smoked Eucalyptus.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1496,7 +1496,7 @@
                       <label class="checkbox_label" for="doorColorSection7image27">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Wood Grain/Smoked Jarrah.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Wood Grain/Smoked Jarrah.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1510,7 +1510,7 @@
                       <label class="checkbox_label" for="doorColorSection7image28">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Wood Grain/Smoked Kala Ash.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Wood Grain/Smoked Kala Ash.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1524,7 +1524,7 @@
                       <label class="checkbox_label" for="doorColorSection7image29">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Wood Grain/Tribeca Walnut.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Wood Grain/Tribeca Walnut.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1537,7 +1537,7 @@
                       <label class="checkbox_label" for="doorColorSection7image30">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Wood Grain/White Oak.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Wood Grain/White Oak.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1561,7 +1561,7 @@
                       <label class="checkbox_label" for="doorColorSection8image1">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Stained/Black W240.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Stained/Black W240.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1575,7 +1575,7 @@
                       <label class="checkbox_label" for="doorColorSection8image2">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Stained/Brown Mahogany W260A.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Stained/Brown Mahogany W260A.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1589,7 +1589,7 @@
                       <label class="checkbox_label" for="doorColorSection8image3">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Stained/Dark Walnut W210.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Stained/Dark Walnut W210.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1603,7 +1603,7 @@
                       <label class="checkbox_label" for="doorColorSection8image4">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Stained/Golden Oak W201.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Stained/Golden Oak W201.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1617,7 +1617,7 @@
                       <label class="checkbox_label" for="doorColorSection8image5">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Stained/Gunstock Walnut W247.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Stained/Gunstock Walnut W247.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1631,7 +1631,7 @@
                       <label class="checkbox_label" for="doorColorSection8image6">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Stained/Light Walnut W231.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Stained/Light Walnut W231.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1645,7 +1645,7 @@
                       <label class="checkbox_label" for="doorColorSection8image7">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Stained/Pecan W239.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Stained/Pecan W239.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1659,7 +1659,7 @@
                       <label class="checkbox_label" for="doorColorSection8image8">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Stained/Pickled Oak WS200482.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Stained/Pickled Oak WS200482.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1673,7 +1673,7 @@
                       <label class="checkbox_label" for="doorColorSection8image9">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Stained/Sandstorm W253.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Stained/Sandstorm W253.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1687,7 +1687,7 @@
                       <label class="checkbox_label" for="doorColorSection8image10">
                           <div class="border-[3px] border-[#ffffff] ring-[1px] ring-[#c3c3c3]">
                               <img class="doorProductImage"
-                                  src="{{ asset('frontend/assets/images/doors/frontColor/Stained/White W250.png') }}"
+                                  src="{{ asset('assets/images/doors/frontColor/Stained/White W250.png') }}"
                                   alt="door" />
                           </div>
                       </label>
@@ -1720,7 +1720,7 @@
               </div>
               <div>
                   <img class="w-[13px] h-[13px] md:w-[50px] md:h-[50px]"
-                      src="{{ asset('frontend/assets/images/doors/plus.png') }}" alt="plus icon" />
+                      src="{{ asset('assets/images/doors/plus.png') }}" alt="plus icon" />
               </div>
           </div>
 
@@ -1736,8 +1736,7 @@
                               <input class="checkboxes" type="radio" name="radio1" id="radio1image1" />
                               <label class="checkbox_label" for="radio1image1">
                                   <img class="w-full object-cover"
-                                      src="{{ asset('frontend/assets/images/crown/product/74A.png') }}"
-                                      alt="door" />
+                                      src="{{ asset('assets/images/crown/product/74A.png') }}" alt="door" />
                               </label>
                               <h3
                                   class="uppercase text-[8px] leading-[13px] md:text-[21px] md:leading-[36px] mt-[10px] md:mt-[20px]">
@@ -1750,8 +1749,7 @@
                               <input class="checkboxes" type="radio" name="radio1" id="radio1image2" />
                               <label class="checkbox_label" for="radio1image2">
                                   <img class="w-full object-cover"
-                                      src="{{ asset('frontend/assets/images/crown/product/159A.png') }}"
-                                      alt="door" />
+                                      src="{{ asset('assets/images/crown/product/159A.png') }}" alt="door" />
                               </label>
                               <h3
                                   class="uppercase text-[8px] leading-[13px] md:text-[21px] md:leading-[36px] mt-[10px] md:mt-[20px]">
@@ -1764,8 +1762,7 @@
                               <input class="checkboxes" type="radio" name="radio1" id="radio1image3" />
                               <label class="checkbox_label" for="radio1image3">
                                   <img class="w-full object-cover"
-                                      src="{{ asset('frontend/assets/images/crown/product/855A.png') }}"
-                                      alt="door" />
+                                      src="{{ asset('assets/images/crown/product/855A.png') }}" alt="door" />
                               </label>
                               <h3
                                   class="uppercase text-[8px] leading-[13px] md:text-[21px] md:leading-[36px] mt-[10px] md:mt-[20px]">
@@ -1778,8 +1775,7 @@
                               <input class="checkboxes" type="radio" name="radio1" id="radio1image4" />
                               <label class="checkbox_label" for="radio1image4">
                                   <img class="w-full object-cover"
-                                      src="{{ asset('frontend/assets/images/crown/product/1031A.png') }}"
-                                      alt="door" />
+                                      src="{{ asset('assets/images/crown/product/1031A.png') }}" alt="door" />
                               </label>
                               <h3
                                   class="uppercase text-[8px] leading-[13px] md:text-[21px] md:leading-[36px] mt-[10px] md:mt-[20px]">
@@ -1792,8 +1788,7 @@
                               <input class="checkboxes" type="radio" name="radio1" id="radio1image5" />
                               <label class="checkbox_label" for="radio1image5">
                                   <img class="w-full object-cover"
-                                      src="{{ asset('frontend/assets/images/crown/product/M450.png') }}"
-                                      alt="door" />
+                                      src="{{ asset('assets/images/crown/product/M450.png') }}" alt="door" />
                               </label>
                               <h3
                                   class="uppercase text-[8px] leading-[13px] md:text-[21px] md:leading-[36px] mt-[10px] md:mt-[20px]">
@@ -1806,8 +1801,7 @@
                               <input class="checkboxes" type="radio" name="radio1" id="radio1image6" />
                               <label class="checkbox_label" for="radio1image6">
                                   <img class="w-full object-cover"
-                                      src="{{ asset('frontend/assets/images/crown/product/M525.png') }}"
-                                      alt="door" />
+                                      src="{{ asset('assets/images/crown/product/M525.png') }}" alt="door" />
                               </label>
                               <h3
                                   class="uppercase text-[8px] leading-[13px] md:text-[21px] md:leading-[36px] mt-[10px] md:mt-[20px]">
@@ -1820,8 +1814,7 @@
                               <input class="checkboxes" type="radio" name="radio1" id="radio1image7" />
                               <label class="checkbox_label" for="radio1image7">
                                   <img class="w-full object-cover"
-                                      src="{{ asset('frontend/assets/images/crown/product/M550.png') }}"
-                                      alt="door" />
+                                      src="{{ asset('assets/images/crown/product/M550.png') }}" alt="door" />
                               </label>
                               <h3
                                   class="uppercase text-[8px] leading-[13px] md:text-[21px] md:leading-[36px] mt-[10px] md:mt-[20px]">
@@ -1834,8 +1827,7 @@
                               <input class="checkboxes" type="radio" name="radio1" id="radio1image8" />
                               <label class="checkbox_label" for="radio1image8">
                                   <img class="w-full object-cover"
-                                      src="{{ asset('frontend/assets/images/crown/product/M625.png') }}"
-                                      alt="door" />
+                                      src="{{ asset('assets/images/crown/product/M625.png') }}" alt="door" />
                               </label>
                               <h3
                                   class="uppercase text-[8px] leading-[13px] md:text-[21px] md:leading-[36px] mt-[10px] md:mt-[20px]">
@@ -1875,14 +1867,14 @@
               </div>
               <div>
                   <img class="w-[13px] h-[13px] md:w-[50px] md:h-[50px]"
-                      src="{{ asset('frontend/assets/images/doors/plus.png') }}" alt="plus icon" />
+                      src="{{ asset('assets/images/doors/plus.png') }}" alt="plus icon" />
               </div>
           </div>
 
           <!-- start body of dimension  -->
           <section class="dimension_section">
               <!-- section 1 start  -->
-              <div><img src="{{ asset('frontend/assets/images/drawers/drawers-dimention.png') }}" alt="dimension">
+              <div><img src="{{ asset('assets/images/drawers/drawers-dimention.png') }}" alt="dimension">
               </div>
               <!-- section 1 end -->
 
@@ -1974,7 +1966,7 @@
               </div>
               <div>
                   <img class="w-[13px] h-[13px] sm:w-[50px] sm:h-[50px]"
-                      src="{{ asset('frontend/assets/images/doors/plus.png') }}" alt="plus icon" />
+                      src="{{ asset('assets/images/doors/plus.png') }}" alt="plus icon" />
               </div>
           </div>
 
@@ -1983,8 +1975,7 @@
                   <input class="checkboxes" type="radio" name="radio7" id="image1">
                   <label class="checkbox_label" for="image1">
                       <img class="max-w-[790px] w-full"
-                          src="{{ asset('frontend/assets/images/doors/Rey-Xpress-Vertical Grain.jpg') }}"
-                          alt="one">
+                          src="{{ asset('assets/images/doors/Rey-Xpress-Vertical Grain.jpg') }}" alt="one">
                   </label>
                   <h3 class="text-[12px] leading-[22px] md:text-[34px] md:leading-[60px]">Vertical Grain</h3>
               </li>
@@ -1993,8 +1984,7 @@
                   <input class="checkboxes" type="radio" name="radio7" id="image2">
                   <label class="checkbox_label" for="image2">
                       <img class="max-w-[790px] w-full"
-                          src="{{ asset('frontend/assets/images/doors/Rey-Xpress-Horizontal-Grain.jpg') }}"
-                          alt="two">
+                          src="{{ asset('assets/images/doors/Rey-Xpress-Horizontal-Grain.jpg') }}" alt="two">
                   </label>
                   <h3 class="text-[12px] leading-[22px] md:text-[34px] md:leading-[60px]">Horizontal Grain</h3>
               </li>
@@ -2035,7 +2025,7 @@
           <section class="mt-[12px] lg:mt-[47px] bg-[#f5f4f3] p-[30px] lg:p-[70px] relative">
               <div class="flex xl:justify-between justify-center items-center xl:flex-row flex-col relative">
                   <img class="md:hidden w-[18px] h-[18px] cursor-pointer absolute top-[24px] right-[18px]"
-                      src="{{ asset('frontend/assets/images/plus.png') }}" alt="plus">
+                      src="{{ asset('assets/images/plus.png') }}" alt="plus">
                   <div class="w-full">
                       <p
                           class="sm:hidden mt-[23px] ml-[18px] font-[700] text-[16px] leading-[24px] lg:text-[42px] lg:leading-[41px]">
@@ -2043,12 +2033,12 @@
 
                       <div class="flex justify-center items-center">
                           <div class="imageHoverContainer">
-                              <img src="{{ asset('frontend/assets/images/crown/crown-moulding-cart.png') }}"
+                              <img src="{{ asset('assets/images/crown/crown-moulding-cart.png') }}"
                                   alt="add to cart">
                           </div>
                       </div>
                       <img class="max-lg:hidden w-[48px] h-[48px] mt-[60px] cursor-pointer"
-                          src="{{ asset('frontend/assets/images/plus.png') }}" alt="plus">
+                          src="{{ asset('assets/images/plus.png') }}" alt="plus">
 
                   </div>
 
@@ -2132,7 +2122,7 @@
               <section class="flex justify-between max-md:flex-col max-md:gap-[12px] pb-[150px]">
                   <div class="max-w-[600px] w-full lg:px-[25px]">
                       <img class="lg:max-w-[247px] max-w-[120px] w-full"
-                          src="{{ asset('frontend/assets/images/fitting/Rey-Xpress-High-Quality-Products.svg') }}"
+                          src="{{ asset('assets/images/fitting/Rey-Xpress-High-Quality-Products.svg') }}"
                           alt="high-quality-product">
                       <p class="font24 my-[12px] lg:my-[25px]">Crafted with quality to withstand a lifetime of daily
                           use.Due to manufacturing variances, limitations of computer screens and the variation in
@@ -2160,7 +2150,7 @@
               <div class="absolute md:bottom-0 md:mb-[-135px] max-xl:mb-[-50px] left-1/2 -translate-x-1/2">
                   <a href="#">
                       <img class="w-[100px] md:w-[270px]"
-                          src="{{ asset('frontend/assets/images/fitting/Rey-Xpress-Button-Add-Item-Black.svg') }}"
+                          src="{{ asset('assets/images/fitting/Rey-Xpress-Button-Add-Item-Black.svg') }}"
                           alt="add a item" />
                   </a>
               </div>

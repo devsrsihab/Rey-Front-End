@@ -282,7 +282,7 @@
             </div>
             <div>
                 <img class="w-[13px] h-[13px] md:w-[50px] md:h-[50px]"
-                    src="{{ asset('frontend/assets/images/shopKitchenCabinets/plus.png') }}" alt="plus icon" />
+                    src="{{ asset('assets/images/shopKitchenCabinets/plus.png') }}" alt="plus icon" />
             </div>
         </div>
 
@@ -297,7 +297,7 @@
                     <input class="checkboxes" type="radio" name="radio1" id="radio1image1" />
                     <label class="checkbox_label" for="radio1image1">
                         <img class="w-[60px] md:w-[160px]"
-                            src="{{ asset('frontend/assets/images/shopKitchenCabinets/door.svg') }}" alt="door" />
+                            src="{{ asset('assets/images/shopKitchenCabinets/door.svg') }}" alt="door" />
                     </label>
                     <h3
                         class="uppercase text-[8px] leading-[13px] md:text-[21px] md:leading-[36px] mt-[10px] md:mt-[20px]">
@@ -310,7 +310,7 @@
                     <input class="checkboxes" type="radio" name="radio1" id="radio1image2" />
                     <label class="checkbox_label" for="radio1image2">
                         <img class="w-[60px] md:w-[160px]"
-                            src="{{ asset('frontend/assets/images/shopKitchenCabinets/door.svg') }}" alt="door" />
+                            src="{{ asset('assets/images/shopKitchenCabinets/door.svg') }}" alt="door" />
                     </label>
                     <h3
                         class="uppercase text-[8px] leading-[13px] md:text-[21px] md:leading-[36px] mt-[10px] md:mt-[20px]">
@@ -323,7 +323,7 @@
                     <input class="checkboxes" type="radio" name="radio1" id="radio1image3" />
                     <label class="checkbox_label" for="radio1image3">
                         <img class="w-[60px] md:w-[160px]"
-                            src="{{ asset('frontend/assets/images/shopKitchenCabinets/door.svg') }}" alt="door" />
+                            src="{{ asset('assets/images/shopKitchenCabinets/door.svg') }}" alt="door" />
                     </label>
                     <h3
                         class="uppercase text-[8px] leading-[13px] md:text-[21px] md:leading-[36px] mt-[10px] md:mt-[20px]">
@@ -336,7 +336,7 @@
                     <input class="checkboxes" type="radio" name="radio1" id="radio1image4" />
                     <label class="checkbox_label" for="radio1image4">
                         <img class="w-[60px] md:w-[160px]"
-                            src="{{ asset('frontend/assets/images/shopKitchenCabinets/door.svg') }}" alt="door" />
+                            src="{{ asset('assets/images/shopKitchenCabinets/door.svg') }}" alt="door" />
                     </label>
                     <h3
                         class="uppercase text-[8px] leading-[13px] md:text-[21px] md:leading-[36px] mt-[10px] md:mt-[20px]">
@@ -349,7 +349,7 @@
                     <input class="checkboxes" type="radio" name="radio1" id="radio1image5" />
                     <label class="checkbox_label" for="radio1image5">
                         <img class="w-[60px] md:w-[160px]"
-                            src="{{ asset('frontend/assets/images/shopKitchenCabinets/door.svg') }}" alt="door" />
+                            src="{{ asset('assets/images/shopKitchenCabinets/door.svg') }}" alt="door" />
                     </label>
                     <h3
                         class="uppercase text-[8px] leading-[13px] md:text-[21px] md:leading-[36px] mt-[10px] md:mt-[20px]">
@@ -362,7 +362,7 @@
                     <input class="checkboxes" type="radio" name="radio1" id="radio1image6" />
                     <label class="checkbox_label" for="radio1image6">
                         <img class="w-[60px] md:w-[160px]"
-                            src="{{ asset('frontend/assets/images/shopKitchenCabinets/door.svg') }}" alt="door" />
+                            src="{{ asset('assets/images/shopKitchenCabinets/door.svg') }}" alt="door" />
                     </label>
                     <h3
                         class="uppercase text-[8px] leading-[13px] md:text-[21px] md:leading-[36px] mt-[10px] md:mt-[20px]">
@@ -375,7 +375,7 @@
                     <input class="checkboxes" type="radio" name="radio1" id="radio1image7" />
                     <label class="checkbox_label" for="radio1image7">
                         <img class="w-[60px] md:w-[160px]"
-                            src="{{ asset('frontend/assets/images/shopKitchenCabinets/door.svg') }}" alt="door" />
+                            src="{{ asset('assets/images/shopKitchenCabinets/door.svg') }}" alt="door" />
                     </label>
                     <h3
                         class="uppercase text-[8px] leading-[13px] md:text-[21px] md:leading-[36px] mt-[10px] md:mt-[20px]">
@@ -388,7 +388,7 @@
                     <input class="checkboxes" type="radio" name="radio1" id="radio1image8" />
                     <label class="checkbox_label" for="radio1image8">
                         <img class="w-[60px] md:w-[160px]"
-                            src="{{ asset('frontend/assets/images/shopKitchenCabinets/door.svg') }}" alt="door" />
+                            src="{{ asset('assets/images/shopKitchenCabinets/door.svg') }}" alt="door" />
                     </label>
                     <h3
                         class="uppercase text-[8px] leading-[13px] md:text-[21px] md:leading-[36px] mt-[10px] md:mt-[20px]">
@@ -401,7 +401,7 @@
                     <input class="checkboxes" type="radio" name="radio1" id="radio1image9" />
                     <label class="checkbox_label" for="radio1image9">
                         <img class="w-[60px] md:w-[160px]"
-                            src="{{ asset('frontend/assets/images/shopKitchenCabinets/door.svg') }}" alt="door" />
+                            src="{{ asset('assets/images/shopKitchenCabinets/door.svg') }}" alt="door" />
                     </label>
                     <h3
                         class="uppercase text-[8px] leading-[13px] md:text-[21px] md:leading-[36px] mt-[10px] md:mt-[20px]">
@@ -430,7 +430,7 @@
             </div>
             <div>
                 <img class="w-[13px] h-[13px] md:w-[50px] md:h-[50px]"
-                    src="{{ asset('frontend/assets/images/shopKitchenCabinets/plus.png') }}" alt="plus icon" />
+                    src="{{ asset('assets/images/shopKitchenCabinets/plus.png') }}" alt="plus icon" />
             </div>
         </div>
 
@@ -498,8 +498,7 @@
                     <label class="checkbox_label" for="drawerContentSection2image1">
                         <div class="border-[3px] border-[#ffffff] bg-black ring ring-black m-[3px]">
                             <img class="w-[57px] h-[57px]  md:w-[125px] md:h-[125px]"
-                                src="{{ asset('frontend/assets/images/shopKitchenCabinets/door.png') }}"
-                                alt="door" />
+                                src="{{ asset('assets/images/shopKitchenCabinets/door.png') }}" alt="door" />
                         </div>
                     </label>
                     <h3
@@ -513,8 +512,7 @@
                     <label class="checkbox_label" for="drawerContentSection2image2">
                         <div class="border-[3px] border-[#ffffff] bg-black ring ring-black m-[3px]">
                             <img class="w-[57px] h-[57px]  md:w-[125px] md:h-[125px]"
-                                src="{{ asset('frontend/assets/images/shopKitchenCabinets/door.png') }}"
-                                alt="door" />
+                                src="{{ asset('assets/images/shopKitchenCabinets/door.png') }}" alt="door" />
                         </div>
                     </label>
                     <h3
@@ -528,8 +526,7 @@
                     <label class="checkbox_label" for="drawerContentSection2image3">
                         <div class="border-[3px] border-[#ffffff] bg-black ring ring-black m-[3px]">
                             <img class="w-[57px] h-[57px]  md:w-[125px] md:h-[125px]"
-                                src="{{ asset('frontend/assets/images/shopKitchenCabinets/door.png') }}"
-                                alt="door" />
+                                src="{{ asset('assets/images/shopKitchenCabinets/door.png') }}" alt="door" />
                         </div>
                     </label>
                     <h3
@@ -543,8 +540,7 @@
                     <label class="checkbox_label" for="drawerContentSection2image4">
                         <div class="border-[3px] border-[#ffffff] bg-black ring ring-black m-[3px]">
                             <img class="w-[57px] h-[57px]  md:w-[125px] md:h-[125px]"
-                                src="{{ asset('frontend/assets/images/shopKitchenCabinets/door.png') }}"
-                                alt="door" />
+                                src="{{ asset('assets/images/shopKitchenCabinets/door.png') }}" alt="door" />
                         </div>
                     </label>
                     <h3
@@ -558,8 +554,7 @@
                     <label class="checkbox_label" for="drawerContentSection2image5">
                         <div class="border-[3px] border-[#ffffff] bg-black ring ring-black m-[3px]">
                             <img class="w-[57px] h-[57px]  md:w-[125px] md:h-[125px]"
-                                src="{{ asset('frontend/assets/images/shopKitchenCabinets/door.png') }}"
-                                alt="door" />
+                                src="{{ asset('assets/images/shopKitchenCabinets/door.png') }}" alt="door" />
                         </div>
                     </label>
                     <h3
@@ -573,8 +568,7 @@
                     <label class="checkbox_label" for="drawerContentSection2image6">
                         <div class="border-[3px] border-[#ffffff] bg-black ring ring-black m-[3px]">
                             <img class="w-[57px] h-[57px]  md:w-[125px] md:h-[125px]"
-                                src="{{ asset('frontend/assets/images/shopKitchenCabinets/door.png') }}"
-                                alt="door" />
+                                src="{{ asset('assets/images/shopKitchenCabinets/door.png') }}" alt="door" />
                         </div>
                     </label>
                     <h3
@@ -599,8 +593,7 @@
                     <label class="checkbox_label" for="drawerContentSection3image1">
                         <div class="border-[3px] border-[#ffffff] bg-black ring ring-black m-[3px]">
                             <img class="w-[57px] h-[57px]  md:w-[125px] md:h-[125px]"
-                                src="{{ asset('frontend/assets/images/shopKitchenCabinets/door.png') }}"
-                                alt="door" />
+                                src="{{ asset('assets/images/shopKitchenCabinets/door.png') }}" alt="door" />
                         </div>
                     </label>
                     <h3
@@ -614,8 +607,7 @@
                     <label class="checkbox_label" for="drawerContentSection3image2">
                         <div class="border-[3px] border-[#ffffff] bg-black ring ring-black m-[3px]">
                             <img class="w-[57px] h-[57px]  md:w-[125px] md:h-[125px]"
-                                src="{{ asset('frontend/assets/images/shopKitchenCabinets/door.png') }}"
-                                alt="door" />
+                                src="{{ asset('assets/images/shopKitchenCabinets/door.png') }}" alt="door" />
                         </div>
                     </label>
                     <h3
@@ -629,8 +621,7 @@
                     <label class="checkbox_label" for="drawerContentSection3image3">
                         <div class="border-[3px] border-[#ffffff] bg-black ring ring-black m-[3px]">
                             <img class="w-[57px] h-[57px]  md:w-[125px] md:h-[125px]"
-                                src="{{ asset('frontend/assets/images/shopKitchenCabinets/door.png') }}"
-                                alt="door" />
+                                src="{{ asset('assets/images/shopKitchenCabinets/door.png') }}" alt="door" />
                         </div>
                     </label>
                     <h3
@@ -644,8 +635,7 @@
                     <label class="checkbox_label" for="drawerContentSection3image4">
                         <div class="border-[3px] border-[#ffffff] bg-black ring ring-black m-[3px]">
                             <img class="w-[57px] h-[57px]  md:w-[125px] md:h-[125px]"
-                                src="{{ asset('frontend/assets/images/shopKitchenCabinets/door.png') }}"
-                                alt="door" />
+                                src="{{ asset('assets/images/shopKitchenCabinets/door.png') }}" alt="door" />
                         </div>
                     </label>
                     <h3
@@ -671,8 +661,7 @@
                     <label class="checkbox_label" for="drawerContentSection4image1">
                         <div class="border-[3px] border-[#ffffff] bg-black ring ring-black m-[3px]">
                             <img class="w-[57px] h-[57px]  md:w-[125px] md:h-[125px]"
-                                src="{{ asset('frontend/assets/images/shopKitchenCabinets/door.png') }}"
-                                alt="door" />
+                                src="{{ asset('assets/images/shopKitchenCabinets/door.png') }}" alt="door" />
                         </div>
                     </label>
                     <h3
@@ -686,8 +675,7 @@
                     <label class="checkbox_label" for="drawerContentSection4image2">
                         <div class="border-[3px] border-[#ffffff] bg-black ring ring-black m-[3px]">
                             <img class="w-[57px] h-[57px]  md:w-[125px] md:h-[125px]"
-                                src="{{ asset('frontend/assets/images/shopKitchenCabinets/door.png') }}"
-                                alt="door" />
+                                src="{{ asset('assets/images/shopKitchenCabinets/door.png') }}" alt="door" />
                         </div>
                     </label>
                     <h3
@@ -701,8 +689,7 @@
                     <label class="checkbox_label" for="drawerContentSection4image3">
                         <div class="border-[3px] border-[#ffffff] bg-black ring ring-black m-[3px]">
                             <img class="w-[57px] h-[57px]  md:w-[125px] md:h-[125px]"
-                                src="{{ asset('frontend/assets/images/shopKitchenCabinets/door.png') }}"
-                                alt="door" />
+                                src="{{ asset('assets/images/shopKitchenCabinets/door.png') }}" alt="door" />
                         </div>
                     </label>
                     <h3
@@ -716,8 +703,7 @@
                     <label class="checkbox_label" for="drawerContentSection4image4">
                         <div class="border-[3px] border-[#ffffff] bg-black ring ring-black m-[3px]">
                             <img class="w-[57px] h-[57px]  md:w-[125px] md:h-[125px]"
-                                src="{{ asset('frontend/assets/images/shopKitchenCabinets/door.png') }}"
-                                alt="door" />
+                                src="{{ asset('assets/images/shopKitchenCabinets/door.png') }}" alt="door" />
                         </div>
                     </label>
                     <h3
@@ -731,8 +717,7 @@
                     <label class="checkbox_label" for="drawerContentSection4image5">
                         <div class="border-[3px] border-[#ffffff] bg-black ring ring-black m-[3px]">
                             <img class="w-[57px] h-[57px]  md:w-[125px] md:h-[125px]"
-                                src="{{ asset('frontend/assets/images/shopKitchenCabinets/door.png') }}"
-                                alt="door" />
+                                src="{{ asset('assets/images/shopKitchenCabinets/door.png') }}" alt="door" />
                         </div>
                     </label>
                     <h3
@@ -746,8 +731,7 @@
                     <label class="checkbox_label" for="drawerContentSection4image6">
                         <div class="border-[3px] border-[#ffffff] bg-black ring ring-black m-[3px]">
                             <img class="w-[57px] h-[57px]  md:w-[125px] md:h-[125px]"
-                                src="{{ asset('frontend/assets/images/shopKitchenCabinets/door.png') }}"
-                                alt="door" />
+                                src="{{ asset('assets/images/shopKitchenCabinets/door.png') }}" alt="door" />
                         </div>
                     </label>
                     <h3
@@ -761,8 +745,7 @@
                     <label class="checkbox_label" for="drawerContentSection4image7">
                         <div class="border-[3px] border-[#ffffff] bg-black ring ring-black m-[3px]">
                             <img class="w-[57px] h-[57px]  md:w-[125px] md:h-[125px]"
-                                src="{{ asset('frontend/assets/images/shopKitchenCabinets/door.png') }}"
-                                alt="door" />
+                                src="{{ asset('assets/images/shopKitchenCabinets/door.png') }}" alt="door" />
                         </div>
                     </label>
                     <h3
@@ -789,8 +772,7 @@
                     <label class="checkbox_label" for="drawerContentSection5image1">
                         <div class="border-[3px] border-[#ffffff] bg-black ring ring-black m-[3px]">
                             <img class="w-[57px] h-[57px]  md:w-[125px] md:h-[125px]"
-                                src="{{ asset('frontend/assets/images/shopKitchenCabinets/door.png') }}"
-                                alt="door" />
+                                src="{{ asset('assets/images/shopKitchenCabinets/door.png') }}" alt="door" />
                         </div>
                     </label>
                     <h3
@@ -804,8 +786,7 @@
                     <label class="checkbox_label" for="drawerContentSection5image2">
                         <div class="border-[3px] border-[#ffffff] bg-black ring ring-black m-[3px]">
                             <img class="w-[57px] h-[57px]  md:w-[125px] md:h-[125px]"
-                                src="{{ asset('frontend/assets/images/shopKitchenCabinets/door.png') }}"
-                                alt="door" />
+                                src="{{ asset('assets/images/shopKitchenCabinets/door.png') }}" alt="door" />
                         </div>
                     </label>
                     <h3
@@ -819,8 +800,7 @@
                     <label class="checkbox_label" for="drawerContentSection5image3">
                         <div class="border-[3px] border-[#ffffff] bg-black ring ring-black m-[3px]">
                             <img class="w-[57px] h-[57px]  md:w-[125px] md:h-[125px]"
-                                src="{{ asset('frontend/assets/images/shopKitchenCabinets/door.png') }}"
-                                alt="door" />
+                                src="{{ asset('assets/images/shopKitchenCabinets/door.png') }}" alt="door" />
                         </div>
                     </label>
                     <h3
@@ -834,8 +814,7 @@
                     <label class="checkbox_label" for="drawerContentSection5image4">
                         <div class="border-[3px] border-[#ffffff] bg-black ring ring-black m-[3px]">
                             <img class="w-[57px] h-[57px]  md:w-[125px] md:h-[125px]"
-                                src="{{ asset('frontend/assets/images/shopKitchenCabinets/door.png') }}"
-                                alt="door" />
+                                src="{{ asset('assets/images/shopKitchenCabinets/door.png') }}" alt="door" />
                         </div>
                     </label>
                     <h3
@@ -849,8 +828,7 @@
                     <label class="checkbox_label" for="drawerContentSection5image5">
                         <div class="border-[3px] border-[#ffffff] bg-black ring ring-black m-[3px]">
                             <img class="w-[57px] h-[57px]  md:w-[125px] md:h-[125px]"
-                                src="{{ asset('frontend/assets/images/shopKitchenCabinets/door.png') }}"
-                                alt="door" />
+                                src="{{ asset('assets/images/shopKitchenCabinets/door.png') }}" alt="door" />
                         </div>
                     </label>
                     <h3
@@ -864,8 +842,7 @@
                     <label class="checkbox_label" for="drawerContentSection5image6">
                         <div class="border-[3px] border-[#ffffff] bg-black ring ring-black m-[3px]">
                             <img class="w-[57px] h-[57px]  md:w-[125px] md:h-[125px]"
-                                src="{{ asset('frontend/assets/images/shopKitchenCabinets/door.png') }}"
-                                alt="door" />
+                                src="{{ asset('assets/images/shopKitchenCabinets/door.png') }}" alt="door" />
                         </div>
                     </label>
                     <h3
@@ -898,7 +875,7 @@
             </div>
             <div>
                 <img class="w-[13px] h-[13px] md:w-[50px] md:h-[50px]"
-                    src="{{ asset('frontend/assets/images/shopKitchenCabinets/plus.png') }}" alt="plus icon" />
+                    src="{{ asset('assets/images/shopKitchenCabinets/plus.png') }}" alt="plus icon" />
             </div>
         </div>
 
@@ -921,8 +898,7 @@
                     <label class="checkbox_label" for="radio3image1">
                         <div class="border-[3px] border-[#ffffff] bg-black ring ring-black m-[3px]">
                             <img class="w-[57px] h-[57px]  md:w-[125px] md:h-[125px]"
-                                src="{{ asset('frontend/assets/images/shopKitchenCabinets/door.png') }}"
-                                alt="door" />
+                                src="{{ asset('assets/images/shopKitchenCabinets/door.png') }}" alt="door" />
                         </div>
                     </label>
                     <h3
@@ -935,8 +911,7 @@
                     <label class="checkbox_label" for="radio3image2">
                         <div class="border-[3px] border-[#ffffff] bg-black ring ring-black m-[3px]">
                             <img class="w-[57px] h-[57px]  md:w-[125px] md:h-[125px]"
-                                src="{{ asset('frontend/assets/images/shopKitchenCabinets/door.png') }}"
-                                alt="door" />
+                                src="{{ asset('assets/images/shopKitchenCabinets/door.png') }}" alt="door" />
                         </div>
                     </label>
                     <h3
@@ -949,8 +924,7 @@
                     <label class="checkbox_label" for="radio3image3">
                         <div class="border-[3px] border-[#ffffff] bg-black ring ring-black m-[3px]">
                             <img class="w-[57px] h-[57px]  md:w-[125px] md:h-[125px]"
-                                src="{{ asset('frontend/assets/images/shopKitchenCabinets/door.png') }}"
-                                alt="door" />
+                                src="{{ asset('assets/images/shopKitchenCabinets/door.png') }}" alt="door" />
                         </div>
                     </label>
                     <h3
@@ -963,8 +937,7 @@
                     <label class="checkbox_label" for="radio3image4">
                         <div class="border-[3px] border-[#ffffff] bg-black ring ring-black m-[3px]">
                             <img class="w-[57px] h-[57px]  md:w-[125px] md:h-[125px]"
-                                src="{{ asset('frontend/assets/images/shopKitchenCabinets/door.png') }}"
-                                alt="door" />
+                                src="{{ asset('assets/images/shopKitchenCabinets/door.png') }}" alt="door" />
                         </div>
                     </label>
                     <h3
@@ -977,8 +950,7 @@
                     <label class="checkbox_label" for="radio3image5">
                         <div class="border-[3px] border-[#ffffff] bg-black ring ring-black m-[3px]">
                             <img class="w-[57px] h-[57px]  md:w-[125px] md:h-[125px]"
-                                src="{{ asset('frontend/assets/images/shopKitchenCabinets/door.png') }}"
-                                alt="door" />
+                                src="{{ asset('assets/images/shopKitchenCabinets/door.png') }}" alt="door" />
                         </div>
                     </label>
                     <h3
@@ -991,8 +963,7 @@
                     <label class="checkbox_label" for="radio3image6">
                         <div class="border-[3px] border-[#ffffff] bg-black ring ring-black m-[3px]">
                             <img class="w-[57px] h-[57px]  md:w-[125px] md:h-[125px]"
-                                src="{{ asset('frontend/assets/images/shopKitchenCabinets/door.png') }}"
-                                alt="door" />
+                                src="{{ asset('assets/images/shopKitchenCabinets/door.png') }}" alt="door" />
                         </div>
                     </label>
                     <h3
@@ -1021,7 +992,7 @@
             </div>
             <div>
                 <img class="w-[13px] h-[13px] md:w-[50px] md:h-[50px]"
-                    src="{{ asset('frontend/assets/images/shopKitchenCabinets/plus.png') }}" alt="plus icon" />
+                    src="{{ asset('assets/images/shopKitchenCabinets/plus.png') }}" alt="plus icon" />
             </div>
         </div>
 
@@ -1033,7 +1004,7 @@
             <div class="select_cabinet active max-w-[800px] w-full p-[27px] sm:p-[80px]">
 
                 <div class="mb-[25px] md:mb-[60px] flex justify-center"><img class="max-[768px]:max-w-[235px]"
-                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/image1.png') }}" alt="image1">
+                        src="{{ asset('assets/images/shopKitchenCabinets/image1.png') }}" alt="image1">
                 </div>
 
                 <section class="max-[768px]:max-w-[220px] w-full mx-auto">
@@ -1045,7 +1016,7 @@
                     <!-- lists  -->
                     <div class="mt-[7px] md:mt-[22px] flex gap-[6px] md:gap-[18px]">
                         <img class="w-[12px] h-[16px] md:w-[33px] md:h-[43px]"
-                            src="{{ asset('frontend/assets/images/shopKitchenCabinets/icons8-correct-100.png') }}"
+                            src="{{ asset('assets/images/shopKitchenCabinets/icons8-correct-100.png') }}"
                             alt="ok">
                         <h3 class="text-[14px] leading-[15px] md:text-[28px] md:leading-[34px]">Durable construction
                         </h3>
@@ -1053,14 +1024,14 @@
                     <!-- lists  -->
                     <div class="mt-[7px] md:mt-[22px] flex gap-[6px] md:gap-[18px]">
                         <img class="w-[12px] h-[16px] md:w-[33px] md:h-[43px]"
-                            src="{{ asset('frontend/assets/images/shopKitchenCabinets/icons8-correct-100.png') }}"
+                            src="{{ asset('assets/images/shopKitchenCabinets/icons8-correct-100.png') }}"
                             alt="ok">
                         <h3 class="text-[14px] leading-[15px] md:text-[28px] md:leading-[34px]">Full overlay doors</h3>
                     </div>
                     <!-- lists  -->
                     <div class="mt-[7px] md:mt-[22px] flex gap-[6px] md:gap-[18px]">
                         <img class="w-[12px] h-[16px] md:w-[33px] md:h-[43px]"
-                            src="{{ asset('frontend/assets/images/shopKitchenCabinets/icons8-correct-100.png') }}"
+                            src="{{ asset('assets/images/shopKitchenCabinets/icons8-correct-100.png') }}"
                             alt="ok">
                         <h3 class="text-[14px] leading-[15px] md:text-[28px] md:leading-[34px]">3/4" plywood box
                             construction</h3>
@@ -1068,7 +1039,7 @@
                     <!-- lists  -->
                     <div class="mt-[7px] md:mt-[22px] flex gap-[6px] md:gap-[18px]">
                         <img class="w-[12px] h-[16px] md:w-[33px] md:h-[43px]"
-                            src="{{ asset('frontend/assets/images/shopKitchenCabinets/icons8-correct-100.png') }}"
+                            src="{{ asset('assets/images/shopKitchenCabinets/icons8-correct-100.png') }}"
                             alt="ok">
                         <h3 class="text-[14px] leading-[15px] md:text-[28px] md:leading-[34px]">Painted/stained solid
                             wood face frame</h3>
@@ -1076,7 +1047,7 @@
                     <!-- lists  -->
                     <div class="mt-[7px] md:mt-[22px] flex gap-[6px] md:gap-[18px]">
                         <img class="w-[12px] h-[16px] md:w-[33px] md:h-[43px]"
-                            src="{{ asset('frontend/assets/images/shopKitchenCabinets/icons8-correct-100.png') }}"
+                            src="{{ asset('assets/images/shopKitchenCabinets/icons8-correct-100.png') }}"
                             alt="ok">
                         <h3 class="text-[14px] leading-[15px] md:text-[28px] md:leading-[34px]">Frame provides
                             additional support</h3>
@@ -1084,7 +1055,7 @@
                     <!-- lists  -->
                     <div class="mt-[7px] md:mt-[22px] flex gap-[6px] md:gap-[18px]">
                         <img class="w-[12px] h-[16px] md:w-[33px] md:h-[43px]"
-                            src="{{ asset('frontend/assets/images/shopKitchenCabinets/icons8-correct-100.png') }}"
+                            src="{{ asset('assets/images/shopKitchenCabinets/icons8-correct-100.png') }}"
                             alt="ok">
                         <h3 class="text-[14px] leading-[15px] md:text-[28px] md:leading-[34px]">Soft close doors &
                             drawers</h3>
@@ -1094,8 +1065,7 @@
                         <button
                             class="cabinet_btn active uppercase border-[2px] border-[#222]  duration-300  flex items-center gap-[8px] md:gap-[18px] pl-[8px] pr-[18px] py-[5px] md:pl-[23px] md:pr-[48px] md:py-[13px] text-[9px] leading-[15px] md:text-[24px] md:leading-[41px]">
                             <img class="bg-white text-[#000] rounded-full w-[25px] h-[25px] md:w-[67px] md:h-[67px]"
-                                src="{{ asset('frontend/assets/images/shopKitchenCabinets/select.png') }}"
-                                alt="select">
+                                src="{{ asset('assets/images/shopKitchenCabinets/select.png') }}" alt="select">
                             Select
                         </button>
                     </div>
@@ -1107,7 +1077,7 @@
             <div class="select_cabinet max-w-[800px] w-full p-[27px] sm:p-[80px]">
 
                 <div class="mb-[25px] md:mb-[60px] flex justify-center"><img class="max-[768px]:max-w-[235px]"
-                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/image2.png') }}" alt="image2">
+                        src="{{ asset('assets/images/shopKitchenCabinets/image2.png') }}" alt="image2">
                 </div>
 
                 <section class="max-[768px]:max-w-[220px] w-full mx-auto">
@@ -1119,7 +1089,7 @@
                     <!-- lists  -->
                     <div class="mt-[7px] md:mt-[22px] flex gap-[6px] md:gap-[18px]">
                         <img class="w-[12px] h-[16px] md:w-[33px] md:h-[43px]"
-                            src="{{ asset('frontend/assets/images/shopKitchenCabinets/icons8-correct-100.png') }}"
+                            src="{{ asset('assets/images/shopKitchenCabinets/icons8-correct-100.png') }}"
                             alt="ok">
                         <h3 class="text-[14px] leading-[15px] md:text-[28px] md:leading-[34px]">Sleek and modern look
                         </h3>
@@ -1128,7 +1098,7 @@
                     <!-- lists  -->
                     <div class="mt-[7px] md:mt-[22px] flex gap-[6px] md:gap-[18px]">
                         <img class="w-[12px] h-[16px] md:w-[33px] md:h-[43px]"
-                            src="{{ asset('frontend/assets/images/shopKitchenCabinets/icons8-correct-100.png') }}"
+                            src="{{ asset('assets/images/shopKitchenCabinets/icons8-correct-100.png') }}"
                             alt="ok">
                         <h3 class="text-[14px] leading-[15px] md:text-[28px] md:leading-[34px]">European style cabinets
                         </h3>
@@ -1136,7 +1106,7 @@
                     <!-- lists  -->
                     <div class="mt-[7px] md:mt-[22px] flex gap-[6px] md:gap-[18px]">
                         <img class="w-[12px] h-[16px] md:w-[33px] md:h-[43px]"
-                            src="{{ asset('frontend/assets/images/shopKitchenCabinets/icons8-correct-100.png') }}"
+                            src="{{ asset('assets/images/shopKitchenCabinets/icons8-correct-100.png') }}"
                             alt="ok">
                         <h3 class="text-[14px] leading-[15px] md:text-[28px] md:leading-[34px]">3/4" plywood box
                             construction</h3>
@@ -1144,7 +1114,7 @@
                     <!-- lists  -->
                     <div class="mt-[7px] md:mt-[22px] flex gap-[6px] md:gap-[18px]">
                         <img class="w-[12px] h-[16px] md:w-[33px] md:h-[43px]"
-                            src="{{ asset('frontend/assets/images/shopKitchenCabinets/icons8-correct-100.png') }}"
+                            src="{{ asset('assets/images/shopKitchenCabinets/icons8-correct-100.png') }}"
                             alt="ok">
                         <h3 class="text-[14px] leading-[15px] md:text-[28px] md:leading-[34px]">Larger door and drawer
                             fronts</h3>
@@ -1152,7 +1122,7 @@
                     <!-- lists  -->
                     <div class="mt-[7px] md:mt-[22px] flex gap-[6px] md:gap-[18px]">
                         <img class="w-[12px] h-[16px] md:w-[33px] md:h-[43px]"
-                            src="{{ asset('frontend/assets/images/shopKitchenCabinets/icons8-correct-100.png') }}"
+                            src="{{ asset('assets/images/shopKitchenCabinets/icons8-correct-100.png') }}"
                             alt="ok">
                         <h3 class="text-[14px] leading-[15px] md:text-[28px] md:leading-[34px]">More interior drawer
                             space</h3>
@@ -1160,7 +1130,7 @@
                     <!-- lists  -->
                     <div class="mt-[7px] md:mt-[22px] flex gap-[6px] md:gap-[18px]">
                         <img class="w-[12px] h-[16px] md:w-[33px] md:h-[43px]"
-                            src="{{ asset('frontend/assets/images/shopKitchenCabinets/icons8-correct-100.png') }}"
+                            src="{{ asset('assets/images/shopKitchenCabinets/icons8-correct-100.png') }}"
                             alt="ok">
                         <h3 class="text-[14px] leading-[15px] md:text-[28px] md:leading-[34px]">Soft close doors &
                             drawers</h3>
@@ -1170,8 +1140,7 @@
                         <button
                             class="cabinet_btn duration-300 uppercase border-[2px] border-[#222] flex items-center gap-[8px] md:gap-[18px] pl-[7px] pr-[17px] py-[4px] md:pl-[22px] md:pr-[47px] md:py-[12px] text-[8px] leading-[14px] md:text-[23px] md:leading-[40px]">
                             <img class=" bg-white  rounded-full w-[25px] h-[25px] md:w-[67px] md:h-[67px]"
-                                src="{{ asset('frontend/assets/images/shopKitchenCabinets/select.png') }}"
-                                alt="select">
+                                src="{{ asset('assets/images/shopKitchenCabinets/select.png') }}" alt="select">
                             Select
                         </button>
                     </div>
@@ -1203,7 +1172,7 @@
             </div>
             <div>
                 <img class="w-[13px] h-[13px] sm:w-[50px] sm:h-[50px]"
-                    src="{{ asset('frontend/assets/images/shopKitchenCabinets/plus.png') }}" alt="plus icon" />
+                    src="{{ asset('assets/images/shopKitchenCabinets/plus.png') }}" alt="plus icon" />
             </div>
         </div>
 
@@ -1215,35 +1184,35 @@
                     <!-- tab button 1 -->
                     <button class="tab_button active flex flex-col items-center">
                         <img class="w-[53px] md:w-[158px] pt-[10px] md:pt-[20px]"
-                            src="{{ asset('frontend/assets/images/tab-image/tab1.svg') }}" alt="image1">
+                            src="{{ asset('assets/images/tab-image/tab1.svg') }}" alt="image1">
                         <h3 class="text-[9px] leading-[15px] text-[#222] capitalize sm:text-[24px] sm:leading-[41px]">
                             Wall Cabinets</h3>
                     </button>
                     <!-- tab button 2 -->
                     <button class="tab_button flex flex-col items-center">
                         <img class="w-[53px] md:w-[158px] pt-[10px] md:pt-[20px]"
-                            src="{{ asset('frontend/assets/images/tab-image/tab2.png') }}" alt="image1">
+                            src="{{ asset('assets/images/tab-image/tab2.png') }}" alt="image1">
                         <h3 class="text-[9px] leading-[15px] text-[#222] capitalize sm:text-[24px] sm:leading-[41px]">
                             Base Cabinets</h3>
                     </button>
                     <!-- tab button 3 -->
                     <button class="tab_button flex flex-col items-center">
                         <img class="w-[53px] md:w-[158px] pt-[10px] md:pt-[20px]"
-                            src="{{ asset('frontend/assets/images/tab-image/tab3.png') }}" alt="image1">
+                            src="{{ asset('assets/images/tab-image/tab3.png') }}" alt="image1">
                         <h3 class="text-[9px] leading-[15px] text-[#222] capitalize sm:text-[24px] sm:leading-[41px]">
                             Tall Cabinets</h3>
                     </button>
                     <!-- tab button 4 -->
                     <button class="tab_button flex flex-col items-center">
                         <img class="w-[53px] md:w-[158px] pt-[10px] md:pt-[20px]"
-                            src="{{ asset('frontend/assets/images/tab-image/tab4.png') }}" alt="image1">
+                            src="{{ asset('assets/images/tab-image/tab4.png') }}" alt="image1">
                         <h3 class="text-[9px] leading-[15px] text-[#222] capitalize sm:text-[24px] sm:leading-[41px]">
                             Vanity Cabinets</h3>
                     </button>
                     <!-- tab button 5 -->
                     <button class="tab_button flex flex-col items-center">
                         <img class="w-[53px] md:w-[158px] pt-[10px] md:pt-[20px]"
-                            src="{{ asset('frontend/assets/images/tab-image/tab5.png') }}" alt="image1">
+                            src="{{ asset('assets/images/tab-image/tab5.png') }}" alt="image1">
                         <h3 class="text-[9px] leading-[15px] text-[#222] capitalize sm:text-[24px] sm:leading-[28px]">
                             Trim, Details <br>& Accessories</h3>
                     </button>
@@ -1365,7 +1334,7 @@
                             <label class="checkbox_label" for="toggle1content1product1">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -1379,7 +1348,7 @@
                             <label class="checkbox_label" for="toggle1content1product2">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -1393,7 +1362,7 @@
                             <label class="checkbox_label" for="toggle1content1product3">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -1407,7 +1376,7 @@
                             <label class="checkbox_label" for="toggle1content1product4">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -1421,7 +1390,7 @@
                             <label class="checkbox_label" for="toggle1content1product5">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -1435,7 +1404,7 @@
                             <label class="checkbox_label" for="toggle1content1product6">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -1457,7 +1426,7 @@
                             <label class="checkbox_label" for="toggle1content2product1">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -1471,7 +1440,7 @@
                             <label class="checkbox_label" for="toggle1content2product2">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -1485,7 +1454,7 @@
                             <label class="checkbox_label" for="toggle1content2product3">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -1499,7 +1468,7 @@
                             <label class="checkbox_label" for="toggle1content2product4">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -1520,7 +1489,7 @@
                             <label class="checkbox_label" for="toggle1content3product1">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -1534,7 +1503,7 @@
                             <label class="checkbox_label" for="toggle1content3product2">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -1548,7 +1517,7 @@
                             <label class="checkbox_label" for="toggle1content3product3">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -1576,7 +1545,7 @@
                             <label class="checkbox_label" for="toggle2content1product1">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -1596,7 +1565,7 @@
                             <label class="checkbox_label" for="toggle2content2product1">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -1610,7 +1579,7 @@
                             <label class="checkbox_label" for="toggle2content2product2">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -1624,7 +1593,7 @@
                             <label class="checkbox_label" for="toggle2content2product3">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -1638,7 +1607,7 @@
                             <label class="checkbox_label" for="toggle2content2product3">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -1652,7 +1621,7 @@
                             <label class="checkbox_label" for="toggle2content2product4">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -1666,7 +1635,7 @@
                             <label class="checkbox_label" for="toggle2content2product5">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -1685,7 +1654,7 @@
                             <label class="checkbox_label" for="toggle2content3product1">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -1699,7 +1668,7 @@
                             <label class="checkbox_label" for="toggle2content3product2">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -1713,7 +1682,7 @@
                             <label class="checkbox_label" for="toggle2content3product3">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -1847,7 +1816,7 @@
                             <label class="checkbox_label" for="tab2toggle1content1product1">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -1861,7 +1830,7 @@
                             <label class="checkbox_label" for="tab2toggle1content1product2">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -1875,7 +1844,7 @@
                             <label class="checkbox_label" for="tab2toggle1content1product3">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -1889,7 +1858,7 @@
                             <label class="checkbox_label" for="tab2toggle1content1product4">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -1903,7 +1872,7 @@
                             <label class="checkbox_label" for="tab2toggle1content1product5">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -1917,7 +1886,7 @@
                             <label class="checkbox_label" for="tab2toggle1content1product6">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -1939,7 +1908,7 @@
                             <label class="checkbox_label" for="tab2toggle1content2product1">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -1953,7 +1922,7 @@
                             <label class="checkbox_label" for="tab2toggle1content2product2">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -1967,7 +1936,7 @@
                             <label class="checkbox_label" for="tab2toggle1content2product3">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -1981,7 +1950,7 @@
                             <label class="checkbox_label" for="tab2toggle1content2product4">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2002,7 +1971,7 @@
                             <label class="checkbox_label" for="tab2toggle1content3product1">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2016,7 +1985,7 @@
                             <label class="checkbox_label" for="tab2toggle1content3product2">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2030,7 +1999,7 @@
                             <label class="checkbox_label" for="tab2toggle1content3product3">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2058,7 +2027,7 @@
                             <label class="checkbox_label" for="tab2toggle2content1product1">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2078,7 +2047,7 @@
                             <label class="checkbox_label" for="tab2toggle2content2product1">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2092,7 +2061,7 @@
                             <label class="checkbox_label" for="tab2toggle2content2product2">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2106,7 +2075,7 @@
                             <label class="checkbox_label" for="tab2toggle2content2product3">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2120,7 +2089,7 @@
                             <label class="checkbox_label" for="tab2toggle2content2product4">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2134,7 +2103,7 @@
                             <label class="checkbox_label" for="tab2toggle2content2product5">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2153,7 +2122,7 @@
                             <label class="checkbox_label" for="tab2toggle2content3product1">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2167,7 +2136,7 @@
                             <label class="checkbox_label" for="tab2toggle2content3product2">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2181,7 +2150,7 @@
                             <label class="checkbox_label" for="tab2toggle2content3product3">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2316,7 +2285,7 @@
                             <label class="checkbox_label" for="tab3toggle1content1product1">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2330,7 +2299,7 @@
                             <label class="checkbox_label" for="tab3toggle1content1product2">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2344,7 +2313,7 @@
                             <label class="checkbox_label" for="tab3toggle1content1product3">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2358,7 +2327,7 @@
                             <label class="checkbox_label" for="tab3toggle1content1product4">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2372,7 +2341,7 @@
                             <label class="checkbox_label" for="tab3toggle1content1product5">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2386,7 +2355,7 @@
                             <label class="checkbox_label" for="tab3toggle1content1product6">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2408,7 +2377,7 @@
                             <label class="checkbox_label" for="tab3toggle1content2product1">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2422,7 +2391,7 @@
                             <label class="checkbox_label" for="tab3toggle1content2product2">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2436,7 +2405,7 @@
                             <label class="checkbox_label" for="tab3toggle1content2product3">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2450,7 +2419,7 @@
                             <label class="checkbox_label" for="tab3toggle1content2product4">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2471,7 +2440,7 @@
                             <label class="checkbox_label" for="tab3toggle1content3product1">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2485,7 +2454,7 @@
                             <label class="checkbox_label" for="tab3toggle1content3product2">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2499,7 +2468,7 @@
                             <label class="checkbox_label" for="tab3toggle1content3product3">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2527,7 +2496,7 @@
                             <label class="checkbox_label" for="tab3toggle2content1product1">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2547,7 +2516,7 @@
                             <label class="checkbox_label" for="tab3toggle2content2product1">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2561,7 +2530,7 @@
                             <label class="checkbox_label" for="tab3toggle2content2product2">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2575,7 +2544,7 @@
                             <label class="checkbox_label" for="tab3toggle2content2product3">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2589,7 +2558,7 @@
                             <label class="checkbox_label" for="tab3toggle2content2product4">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2603,7 +2572,7 @@
                             <label class="checkbox_label" for="tab3toggle2content2product5">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2622,7 +2591,7 @@
                             <label class="checkbox_label" for="tab3toggle2content3product1">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2636,7 +2605,7 @@
                             <label class="checkbox_label" for="tab3toggle2content3product2">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2650,7 +2619,7 @@
                             <label class="checkbox_label" for="tab3toggle2content3product3">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2784,7 +2753,7 @@
                             <label class="checkbox_label" for="tab4toggle1content1product1">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2798,7 +2767,7 @@
                             <label class="checkbox_label" for="tab4toggle1content1product2">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2812,7 +2781,7 @@
                             <label class="checkbox_label" for="tab4toggle1content1product3">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2826,7 +2795,7 @@
                             <label class="checkbox_label" for="tab4toggle1content1product4">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2840,7 +2809,7 @@
                             <label class="checkbox_label" for="tab4toggle1content1product5">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2854,7 +2823,7 @@
                             <label class="checkbox_label" for="tab4toggle1content1product6">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2876,7 +2845,7 @@
                             <label class="checkbox_label" for="tab4toggle1content2product1">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2890,7 +2859,7 @@
                             <label class="checkbox_label" for="tab4toggle1content2product2">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2904,7 +2873,7 @@
                             <label class="checkbox_label" for="tab4toggle1content2product3">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2918,7 +2887,7 @@
                             <label class="checkbox_label" for="tab4toggle1content2product4">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2939,7 +2908,7 @@
                             <label class="checkbox_label" for="tab4toggle1content3product1">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2953,7 +2922,7 @@
                             <label class="checkbox_label" for="tab4toggle1content3product2">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2967,7 +2936,7 @@
                             <label class="checkbox_label" for="tab4toggle1content3product3">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -2995,7 +2964,7 @@
                             <label class="checkbox_label" for="tab4toggle2content1product1">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -3015,7 +2984,7 @@
                             <label class="checkbox_label" for="tab4toggle2content2product1">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -3029,7 +2998,7 @@
                             <label class="checkbox_label" for="tab4toggle2content2product2">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -3043,7 +3012,7 @@
                             <label class="checkbox_label" for="tab4toggle2content2product3">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -3057,7 +3026,7 @@
                             <label class="checkbox_label" for="tab4toggle2content2product4">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -3071,7 +3040,7 @@
                             <label class="checkbox_label" for="tab4toggle2content2product5">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -3090,7 +3059,7 @@
                             <label class="checkbox_label" for="tab4toggle2content3product1">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -3104,7 +3073,7 @@
                             <label class="checkbox_label" for="tab4toggle2content3product2">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -3118,7 +3087,7 @@
                             <label class="checkbox_label" for="tab4toggle2content3product3">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -3252,7 +3221,7 @@
                             <label class="checkbox_label" for="tab5toggle1content1product1">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -3266,7 +3235,7 @@
                             <label class="checkbox_label" for="tab5toggle1content1product2">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -3280,7 +3249,7 @@
                             <label class="checkbox_label" for="tab5toggle1content1product3">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -3294,7 +3263,7 @@
                             <label class="checkbox_label" for="tab5toggle1content1product4">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -3308,7 +3277,7 @@
                             <label class="checkbox_label" for="tab5toggle1content1product5">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -3322,7 +3291,7 @@
                             <label class="checkbox_label" for="tab5toggle1content1product6">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -3344,7 +3313,7 @@
                             <label class="checkbox_label" for="tab5toggle1content2product1">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -3358,7 +3327,7 @@
                             <label class="checkbox_label" for="tab5toggle1content2product2">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -3372,7 +3341,7 @@
                             <label class="checkbox_label" for="tab5toggle1content2product3">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -3386,7 +3355,7 @@
                             <label class="checkbox_label" for="tab5toggle1content2product4">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -3407,7 +3376,7 @@
                             <label class="checkbox_label" for="tab5toggle1content3product1">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -3421,7 +3390,7 @@
                             <label class="checkbox_label" for="tab5toggle1content3product2">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -3435,7 +3404,7 @@
                             <label class="checkbox_label" for="tab5toggle1content3product3">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -3463,7 +3432,7 @@
                             <label class="checkbox_label" for="tab5toggle2content1product1">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -3483,7 +3452,7 @@
                             <label class="checkbox_label" for="tab5toggle2content2product1">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -3497,7 +3466,7 @@
                             <label class="checkbox_label" for="tab5toggle2content2product2">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -3511,7 +3480,7 @@
                             <label class="checkbox_label" for="tab5toggle2content2product3">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -3525,7 +3494,7 @@
                             <label class="checkbox_label" for="tab5toggle2content2product4">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -3539,7 +3508,7 @@
                             <label class="checkbox_label" for="tab5toggle2content2product5">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -3558,7 +3527,7 @@
                             <label class="checkbox_label" for="tab5toggle2content3product1">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -3572,7 +3541,7 @@
                             <label class="checkbox_label" for="tab5toggle2content3product2">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -3586,7 +3555,7 @@
                             <label class="checkbox_label" for="tab5toggle2content3product3">
                                 <div class="max-w-[323px] w-full">
                                     <img class="px-[20px] md:px-[30px] bg-white"
-                                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/shelves.png') }}"
+                                        src="{{ asset('assets/images/shopKitchenCabinets/shelves.png') }}"
                                         alt="shelves">
                                 </div>
                             </label>
@@ -3649,7 +3618,7 @@
             </div>
             <div>
                 <img class="w-[13px] h-[13px] md:w-[50px] md:h-[50px]"
-                    src="{{ asset('frontend/assets/images/shopKitchenCabinets/plus.png') }}" alt="plus icon" />
+                    src="{{ asset('assets/images/shopKitchenCabinets/plus.png') }}" alt="plus icon" />
             </div>
         </div>
 
@@ -3766,7 +3735,7 @@
             </div>
             <div>
                 <img class="w-[13px] h-[13px] sm:w-[50px] sm:h-[50px]"
-                    src="{{ asset('frontend/assets/images/shopKitchenCabinets/plus.png') }}" alt="plus icon" />
+                    src="{{ asset('assets/images/shopKitchenCabinets/plus.png') }}" alt="plus icon" />
             </div>
         </div>
 
@@ -3775,7 +3744,7 @@
                 <input class="checkboxes" type="radio" name="radio7" id="image1">
                 <label class="checkbox_label" for="image1">
                     <img class="max-w-[790px] w-full"
-                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/Rey-Xpress-Vertical Grain.jpg') }}"
+                        src="{{ asset('assets/images/shopKitchenCabinets/Rey-Xpress-Vertical Grain.jpg') }}"
                         alt="one">
                 </label>
                 <h3 class="text-[12px] leading-[22px] md:text-[34px] md:leading-[60px]">Vertical Grain</h3>
@@ -3785,7 +3754,7 @@
                 <input class="checkboxes" type="radio" name="radio7" id="image2">
                 <label class="checkbox_label" for="image2">
                     <img class="max-w-[790px] w-full"
-                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/Rey-Xpress-Horizontal-Grain.jpg') }}"
+                        src="{{ asset('assets/images/shopKitchenCabinets/Rey-Xpress-Horizontal-Grain.jpg') }}"
                         alt="two">
                 </label>
                 <h3 class="text-[12px] leading-[22px] md:text-[34px] md:leading-[60px]">Horizontal Grain</h3>
@@ -3812,7 +3781,7 @@
             </div>
             <div>
                 <img class="w-[13px] h-[13px] sm:w-[50px] sm:h-[50px]"
-                    src="{{ asset('frontend/assets/images/shopKitchenCabinets/plus.png') }}" alt="plus icon" />
+                    src="{{ asset('assets/images/shopKitchenCabinets/plus.png') }}" alt="plus icon" />
             </div>
         </div>
 
@@ -3821,7 +3790,7 @@
                 <input class="checkboxes" type="radio" name="radio8" id="checkbox1">
                 <label class="checkbox_label" for="checkbox1">
                     <img class="max-w-[170px] md:max-w-[500px] w-full"
-                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/secion8/Rey-Xpress-Left-Side-Finished.svg') }}"
+                        src="{{ asset('assets/images/shopKitchenCabinets/secion8/Rey-Xpress-Left-Side-Finished.svg') }}"
                         alt="one">
                 </label>
                 <h3 class="text-[12px] leading-[22px] md:text-[34px] md:leading-[60px]">Left Side Finished</h3>
@@ -3831,7 +3800,7 @@
                 <input class="checkboxes" type="radio" name="radio8" id="checkbox2">
                 <label class="checkbox_label" for="checkbox2">
                     <img class="max-w-[170px] md:max-w-[500px] w-full"
-                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/secion8/Rey-Xpress-Right-Side-Finished.svg') }}"
+                        src="{{ asset('assets/images/shopKitchenCabinets/secion8/Rey-Xpress-Right-Side-Finished.svg') }}"
                         alt="two">
                 </label>
                 <h3 class="text-[12px] leading-[22px] md:text-[34px] md:leading-[60px]">Right Side Finished</h3>
@@ -3842,7 +3811,7 @@
                 <input class="checkboxes" type="radio" name="radio8" id="checkbox3">
                 <label class="checkbox_label" for="checkbox3">
                     <img class="max-w-[170px] md:max-w-[500px] w-full"
-                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/secion8/Rey-Xpress-Both-Sides-Finished.svg') }}"
+                        src="{{ asset('assets/images/shopKitchenCabinets/secion8/Rey-Xpress-Both-Sides-Finished.svg') }}"
                         alt="Three">
                 </label>
                 <h3 class="text-[12px] leading-[22px] md:text-[34px] md:leading-[60px]">Both Left/Right Side Finished
@@ -3868,7 +3837,7 @@
             </div>
             <div>
                 <img class="w-[13px] h-[13px] sm:w-[50px] sm:h-[50px]"
-                    src="{{ asset('frontend/assets/images/shopKitchenCabinets/plus.png') }}" alt="plus icon" />
+                    src="{{ asset('assets/images/shopKitchenCabinets/plus.png') }}" alt="plus icon" />
             </div>
         </div>
 
@@ -3877,7 +3846,7 @@
                 <input class="checkboxes" type="radio" name="radio9" id="checkboxs1">
                 <label class="checkbox_label" for="checkboxs1">
                     <img class="max-w-[790px] w-full max-[500px]:h-[138px] object-cover"
-                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/section9/Rey-Xpress-Left-Hinge.svg') }}"
+                        src="{{ asset('assets/images/shopKitchenCabinets/section9/Rey-Xpress-Left-Hinge.svg') }}"
                         alt="one">
                 </label>
                 <h3 class="text-[12px] leading-[22px] md:text-[34px] md:leading-[60px]">Left Hinge</h3>
@@ -3887,7 +3856,7 @@
                 <input class="checkboxes" type="radio" name="radio9" id="checkboxs2">
                 <label class="checkbox_label" for="checkboxs2">
                     <img class="max-w-[790px] w-full max-[500px]:h-[138px] object-cover"
-                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/section9/Rey-Xpress-Right-Hinge.svg') }}"
+                        src="{{ asset('assets/images/shopKitchenCabinets/section9/Rey-Xpress-Right-Hinge.svg') }}"
                         alt="two">
                 </label>
                 <h3 class="text-[12px] leading-[22px] md:text-[34px] md:leading-[60px]">Right Hinge</h3>
@@ -3914,7 +3883,7 @@
             </div>
             <div>
                 <img class="w-[13px] h-[13px] sm:w-[50px] sm:h-[50px]"
-                    src="{{ asset('frontend/assets/images/shopKitchenCabinets/plus.png') }}" alt="plus icon" />
+                    src="{{ asset('assets/images/shopKitchenCabinets/plus.png') }}" alt="plus icon" />
             </div>
         </div>
 
@@ -3923,7 +3892,7 @@
                 <input class="checkboxes" type="radio" name="radio10" id="standard">
                 <label class="checkbox_label" for="standard">
                     <img class="max-w-[170px] md:max-w-[380px] w-full"
-                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/section10/Rey-Xpress-Standard-No-Toekick.svg') }}"
+                        src="{{ asset('assets/images/shopKitchenCabinets/section10/Rey-Xpress-Standard-No-Toekick.svg') }}"
                         alt="one">
                 </label>
                 <h3 class="text-[11px] mt-[5px] leading-[12px] md:text-[34px] md:leading-[60px]">Standard No Toekick
@@ -3934,7 +3903,7 @@
                 <input class="checkboxes" type="radio" name="radio10" id="recessed">
                 <label class="checkbox_label" for="recessed">
                     <img class="max-w-[170px] md:max-w-[380px] w-full"
-                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/section10/Rey-Xpress-Recessed-Toekick.svg') }}"
+                        src="{{ asset('assets/images/shopKitchenCabinets/section10/Rey-Xpress-Recessed-Toekick.svg') }}"
                         alt="two">
                 </label>
                 <h3 class="text-[11px] mt-[5px] leading-[12px] md:text-[34px] md:leading-[60px]">Recessed Toekick</h3>
@@ -3945,7 +3914,7 @@
                 <input class="checkboxes" type="radio" name="radio10" id="adjustable">
                 <label class="checkbox_label" for="adjustable">
                     <img class="max-w-[170px] md:max-w-[380px] w-full object-cover"
-                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/section10/Rey-Xpress-Legs-With-Toekick.svg') }}"
+                        src="{{ asset('assets/images/shopKitchenCabinets/section10/Rey-Xpress-Legs-With-Toekick.svg') }}"
                         alt="two">
                 </label>
                 <h3
@@ -3958,7 +3927,7 @@
                 <input class="checkboxes" type="radio" name="radio10" id="separate">
                 <label class="checkbox_label" for="separate">
                     <img class="max-w-[170px] md:max-w-[380px] w-full object-cover"
-                        src="{{ asset('frontend/assets/images/shopKitchenCabinets/section10/Rey-Xpress-Seperate-Base-Toekick.svg') }}"
+                        src="{{ asset('assets/images/shopKitchenCabinets/section10/Rey-Xpress-Seperate-Base-Toekick.svg') }}"
                         alt="two">
                 </label>
                 <h3
@@ -3988,7 +3957,7 @@
         <!-- add to cart body section  -->
         <div class="bg-[#f5f4f3] flex xl:justify-between justify-center items-center xl:flex-row flex-col relative">
             <img class="md:hidden w-[18px] h-[18px] cursor-pointer absolute top-[24px] right-[18px]"
-                src="{{ asset('frontend/assets/images/shopKitchenCabinets/plus-summary.png') }}" alt="plus">
+                src="{{ asset('assets/images/shopKitchenCabinets/plus-summary.png') }}" alt="plus">
             <div class="xl:w-full">
                 <p
                     class="sm:hidden mt-[23px] ml-[18px] font-[700] text-[16px] leading-[24px] md:text-[42px] md:leading-[41px]">
@@ -3998,7 +3967,7 @@
                 <div class="Container">
                     <div class="ImageWrapper">
                         <img class="AnimatedImage"
-                            src="{{ asset('frontend/assets/images/shopKitchenCabinets/add to cart.png') }}"
+                            src="{{ asset('assets/images/shopKitchenCabinets/add to cart.png') }}"
                             alt="add to cart">
                     </div>
                 </div>
@@ -4009,8 +3978,7 @@
 
 
                 <img class="max-md:hidden  w-[48px] h-[48px] ml-[70px] mb-[60px] cursor-pointer"
-                    src="{{ asset('frontend/assets/images/shopKitchenCabinets/plus-summary.png') }}"
-                    alt="plus">
+                    src="{{ asset('assets/images/shopKitchenCabinets/plus-summary.png') }}" alt="plus">
             </div>
 
 
@@ -4165,7 +4133,7 @@
                 final.</p>
 
             <img class="max-w-[92px] md:max-w-[245px]"
-                src="{{ asset('frontend/assets/images/shopKitchenCabinets/Rey-Xpress-High-Quality-Products.svg') }}"
+                src="{{ asset('assets/images/shopKitchenCabinets/Rey-Xpress-High-Quality-Products.svg') }}"
                 alt="brand">
 
             <p class="mt-[12px] md:mt-[36px]">Crafted with quality to withstand a lifetime of daily use.</p>

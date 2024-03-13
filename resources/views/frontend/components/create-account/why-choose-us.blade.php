@@ -15,8 +15,7 @@
         <div class="choose_us_card">
             <div class="cardImageCenter">
                 <div class="choose_us_card_image">
-                    <img src="{{ asset('frontend/assets/images/createAccount/Rey-Xpress-Great-Pricing.svg') }}"
-                        alt="bg" />
+                    <img src="{{ asset('assets/images/createAccount/Rey-Xpress-Great-Pricing.svg') }}" alt="bg" />
                 </div>
             </div>
             <div class="choose_us_card_text">
@@ -28,7 +27,7 @@
         <div class="choose_us_card">
             <div class="cardImageCenter">
                 <div class="choose_us_card_image">
-                    <img src="{{ asset('frontend/assets/images/createAccount/Rey-Xpress-Customer-Service.svg') }}"
+                    <img src="{{ asset('assets/images/createAccount/Rey-Xpress-Customer-Service.svg') }}"
                         alt="bg" />
                 </div>
             </div>
@@ -45,8 +44,7 @@
             <div class="cardImageCenter">
                 <div class="choose_us_card_image">
                     <img class="experience_image"
-                        src="{{ asset('frontend/assets/images/createAccount/Rey-Xpress-Experience.svg') }}"
-                        alt="bg" />
+                        src="{{ asset('assets/images/createAccount/Rey-Xpress-Experience.svg') }}" alt="bg" />
                 </div>
             </div>
             <div class="choose_us_card_text">
@@ -61,8 +59,7 @@
         <div class="choose_us_card">
             <div class="cardImageCenter">
                 <div class="choose_us_card_image">
-                    <img src="{{ asset('frontend/assets/images/createAccount/Rey-Xpress-Incentives.svg') }}"
-                        alt="bg" />
+                    <img src="{{ asset('assets/images/createAccount/Rey-Xpress-Incentives.svg') }}" alt="bg" />
                 </div>
             </div>
             <div class="choose_us_card_text">

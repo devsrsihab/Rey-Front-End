@@ -10,13 +10,12 @@
 
                     <button id="prev_btn" class="ctrl-btn pro-prev pr-[7px] lg:pr-[14px]">
                         <img name="arrows" class="btn_image w-[35px] sm:w-[70px] sm:mt-[8px]  cursor-pointer"
-                            src="{{ asset('frontend/assets/images/productDetails/Arrow_Left.svg') }}" alt="leftArrow" />
+                            src="{{ asset('assets/images/productDetails/Arrow_Left.svg') }}" alt="leftArrow" />
                     </button>
 
                     <button id="next_btn" class="ctrl-btn pro-next">
                         <img name="arrows" class="btn_image w-[35px] sm:w-[70px] cursor-pointer"
-                            src="{{ asset('frontend/assets/images/productDetails/Arrow_Right.svg') }}"
-                            alt="rightArrow" />
+                            src="{{ asset('assets/images/productDetails/Arrow_Right.svg') }}" alt="rightArrow" />
                     </button>
                 </div>
             </div>
@@ -30,8 +29,7 @@
                         <div
                             class="flex mx-auto max-w-[375px] max-h-[480px] mb-[26px] w-full bg-[#f5f4f4] justify-center items-center">
                             <img class="bg-[#f5f4f4] w-full max-w-[290px] sm:max-w-[375px]"
-                                src="{{ asset('frontend/assets/images/productDetails/cards/Asset 1.png') }}"
-                                alt="asset1" />
+                                src="{{ asset('assets/images/productDetails/cards/Asset 1.png') }}" alt="asset1" />
                         </div>
                         <div class="text whitespace-normal">
                             <p class="sm:text-[28px] sm:leading-[41px] text-[13px] leading-[16px] font-[700]">Base
@@ -49,8 +47,7 @@
                         <div
                             class="flex mx-auto max-w-[375px] max-h-[480px] mb-[26px] w-full bg-[#f5f4f4] justify-center items-center">
                             <img class="bg-[#f5f4f4] w-full max-w-[290px] sm:max-w-[375px]"
-                                src="{{ asset('frontend/assets/images/productDetails/cards/Asset 1.png') }}"
-                                alt="asset1" />
+                                src="{{ asset('assets/images/productDetails/cards/Asset 1.png') }}" alt="asset1" />
                         </div>
                         <div class="text whitespace-normal">
                             <p class="sm:text-[28px] sm:leading-[41px] text-[13px] leading-[16px] font-[700]">Base
@@ -68,8 +65,7 @@
                         <div
                             class="flex mx-auto max-w-[375px] max-h-[480px] mb-[26px] w-full bg-[#f5f4f4] justify-center items-center">
                             <img class="bg-[#f5f4f4] w-full max-w-[290px] sm:max-w-[375px]"
-                                src="{{ asset('frontend/assets/images/productDetails/cards/Asset 1.png') }}"
-                                alt="asset1" />
+                                src="{{ asset('assets/images/productDetails/cards/Asset 1.png') }}" alt="asset1" />
                         </div>
                         <div class="text whitespace-normal">
                             <p class="sm:text-[28px] sm:leading-[41px] text-[13px] leading-[16px] font-[700]">Base
@@ -87,8 +83,7 @@
                         <div
                             class="flex mx-auto max-w-[375px] max-h-[480px] mb-[26px] w-full bg-[#f5f4f4] justify-center items-center">
                             <img class="bg-[#f5f4f4] w-full max-w-[290px] sm:max-w-[375px]"
-                                src="{{ asset('frontend/assets/images/productDetails/cards/Asset 1.png') }}"
-                                alt="asset1" />
+                                src="{{ asset('assets/images/productDetails/cards/Asset 1.png') }}" alt="asset1" />
                         </div>
                         <div class="text whitespace-normal">
                             <p class="sm:text-[28px] sm:leading-[41px] text-[13px] leading-[16px] font-[700]">Base
@@ -106,8 +101,7 @@
                         <div
                             class="flex mx-auto max-w-[375px] max-h-[480px] mb-[26px] w-full bg-[#f5f4f4] justify-center items-center">
                             <img class="bg-[#f5f4f4] w-full max-w-[290px] sm:max-w-[375px]"
-                                src="{{ asset('frontend/assets/images/productDetails/cards/Asset 1.png') }}"
-                                alt="asset1" />
+                                src="{{ asset('assets/images/productDetails/cards/Asset 1.png') }}" alt="asset1" />
                         </div>
                         <div class="text whitespace-normal">
                             <p class="sm:text-[28px] sm:leading-[41px] text-[13px] leading-[16px] font-[700]">Base
@@ -125,8 +119,7 @@
                         <div
                             class="flex mx-auto max-w-[375px] max-h-[480px] mb-[26px] w-full bg-[#f5f4f4] justify-center items-center">
                             <img class="bg-[#f5f4f4] w-full max-w-[290px] sm:max-w-[375px]"
-                                src="{{ asset('frontend/assets/images/productDetails/cards/Asset 1.png') }}"
-                                alt="asset1" />
+                                src="{{ asset('assets/images/productDetails/cards/Asset 1.png') }}" alt="asset1" />
                         </div>
                         <div class="text whitespace-normal">
                             <p class="sm:text-[28px] sm:leading-[41px] text-[13px] leading-[16px] font-[700]">Base
@@ -144,8 +137,7 @@
                         <div
                             class="flex mx-auto max-w-[375px] max-h-[480px] mb-[26px] w-full bg-[#f5f4f4] justify-center items-center">
                             <img class="bg-[#f5f4f4] w-full max-w-[290px] sm:max-w-[375px]"
-                                src="{{ asset('frontend/assets/images/productDetails/cards/Asset 1.png') }}"
-                                alt="asset1" />
+                                src="{{ asset('assets/images/productDetails/cards/Asset 1.png') }}" alt="asset1" />
                         </div>
                         <div class="text whitespace-normal">
                             <p class="sm:text-[28px] sm:leading-[41px] text-[13px] leading-[16px] font-[700]">Base
@@ -163,8 +155,7 @@
                         <div
                             class="flex mx-auto max-w-[375px] max-h-[480px] mb-[26px] w-full bg-[#f5f4f4] justify-center items-center">
                             <img class="bg-[#f5f4f4] w-full max-w-[290px] sm:max-w-[375px]"
-                                src="{{ asset('frontend/assets/images/productDetails/cards/Asset 1.png') }}"
-                                alt="asset1" />
+                                src="{{ asset('assets/images/productDetails/cards/Asset 1.png') }}" alt="asset1" />
                         </div>
                         <div class="text whitespace-normal">
                             <p class="sm:text-[28px] sm:leading-[41px] text-[13px] leading-[16px] font-[700]">Base
@@ -182,8 +173,7 @@
                         <div
                             class="flex mx-auto max-w-[375px] max-h-[480px] mb-[26px] w-full bg-[#f5f4f4] justify-center items-center">
                             <img class="bg-[#f5f4f4] w-full max-w-[290px] sm:max-w-[375px]"
-                                src="{{ asset('frontend/assets/images/productDetails/cards/Asset 1.png') }}"
-                                alt="asset1" />
+                                src="{{ asset('assets/images/productDetails/cards/Asset 1.png') }}" alt="asset1" />
                         </div>
                         <div class="text whitespace-normal">
                             <p class="sm:text-[28px] sm:leading-[41px] text-[13px] leading-[16px] font-[700]">Base
@@ -201,8 +191,7 @@
                         <div
                             class="flex mx-auto max-w-[375px] max-h-[480px] mb-[26px] w-full bg-[#f5f4f4] justify-center items-center">
                             <img class="bg-[#f5f4f4] w-full max-w-[290px] sm:max-w-[375px]"
-                                src="{{ asset('frontend/assets/images/productDetails/cards/Asset 1.png') }}"
-                                alt="asset1" />
+                                src="{{ asset('assets/images/productDetails/cards/Asset 1.png') }}" alt="asset1" />
                         </div>
                         <div class="text whitespace-normal">
                             <p class="sm:text-[28px] sm:leading-[41px] text-[13px] leading-[16px] font-[700]">Base

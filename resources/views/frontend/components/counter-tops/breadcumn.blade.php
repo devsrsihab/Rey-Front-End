@@ -46,7 +46,7 @@
                         resistant to scratches, stains, and heat, making it a great option for a kitchen with heavy
                         usage. To order simply follow the instructions below.
                     </article>
-                    <img src="{{ asset('frontend/assets/images/counter/counter-logo.png') }}" alt="Ad image">
+                    <img src="{{ asset('assets/images/counter/counter-logo.png') }}" alt="Ad image">
                 </div>
             </section>
 

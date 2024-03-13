@@ -46,7 +46,7 @@
                         dividing systems for drawers. Outstanding soft closing and motion technologies, that help your
                         cabinets function worry-free for their lifetime.
                     </article>
-                    <img src="{{ asset('frontend/assets/images/fitting/blum-ad.png') }}" alt="Ad image">
+                    <img src="{{ asset('assets/images/fitting/blum-ad.png') }}" alt="Ad image">
                 </div>
             </section>
 

@@ -1,7 +1,7 @@
 @extends('frontend.layouts.app-navbar')
 @section('title', 'Tutorials')
 @push('css')
-    <link rel="stylesheet" href="{{ asset('frontend/assets/css/tutorials-page.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/css/tutorials-page.css') }}" />
     <style>
         ul.list {
 
@@ -11,24 +11,24 @@
 
 
         #drawers-section {
-            background-image: url('{{ asset('frontend/assets/images/tutorials-page/drawers-mobile.png') }}');
+            background-image: url('{{ asset('assets/images/tutorials-page/drawers-mobile.png') }}');
         }
 
         /* Change background image for screens 640px and larger */
         @media (min-width: 640px) {
             #drawers-section {
-                background-image: url('{{ asset('frontend/assets/images/tutorials-page/order4.png') }}');
+                background-image: url('{{ asset('assets/images/tutorials-page/order4.png') }}');
             }
         }
 
         #base-section {
-            background-image: url('{{ asset('frontend/assets/images/tutorials-page/orde10-mobile.png') }}');
+            background-image: url('{{ asset('assets/images/tutorials-page/orde10-mobile.png') }}');
         }
 
         /* Change background image for screens 640px and larger */
         @media (min-width: 640px) {
             #base-section {
-                background-image: url('{{ asset('frontend/assets/images/tutorials-page/order10.png') }}');
+                background-image: url('{{ asset('assets/images/tutorials-page/order10.png') }}');
             }
         }
     </style>
@@ -40,7 +40,7 @@
     @include('frontend.components.tutorials.main')
     @include('frontend.components.global.CTA')
     @include('frontend.components.global.finishing', [
-        'finishing_bg' => 'frontend/assets/images/tutorials-page/footer-end.png',
+        'finishing_bg' => 'assets/images/tutorials-page/footer-end.png',
         'finishing_title' => 'Shop',
     ])
 @endsection

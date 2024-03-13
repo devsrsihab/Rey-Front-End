@@ -20,7 +20,7 @@
                             <input class="checkboxes" type="radio" name="radio1" id="radio1image1" />
                             <label class="checkbox_label" for="radio1image1">
                                 <img class="w-full object-cover"
-                                    src="{{ asset('frontend/assets/images/organizers/products/organizer-product1.png') }}"
+                                    src="{{ asset('assets/images/organizers/products/organizer-product1.png') }}"
                                     alt="door" />
                             </label>
                             <h3
@@ -34,7 +34,7 @@
                             <input class="checkboxes" type="radio" name="radio1" id="radio1image2" />
                             <label class="checkbox_label" for="radio1image2">
                                 <img class="w-full object-cover"
-                                    src="{{ asset('frontend/assets/images/organizers/products/organizer-product2.png') }}"
+                                    src="{{ asset('assets/images/organizers/products/organizer-product2.png') }}"
                                     alt="door" />
                             </label>
                             <h3
@@ -48,7 +48,7 @@
                             <input class="checkboxes" type="radio" name="radio1" id="radio1image3" />
                             <label class="checkbox_label" for="radio1image3">
                                 <img class="w-full object-cover"
-                                    src="{{ asset('frontend/assets/images/organizers/products/organizer-product3.png') }}"
+                                    src="{{ asset('assets/images/organizers/products/organizer-product3.png') }}"
                                     alt="door" />
                             </label>
                             <h3
@@ -62,7 +62,7 @@
                             <input class="checkboxes" type="radio" name="radio1" id="radio1image4" />
                             <label class="checkbox_label" for="radio1image4">
                                 <img class="w-full object-cover"
-                                    src="{{ asset('frontend/assets/images/organizers/products/organizer-product4.png') }}"
+                                    src="{{ asset('assets/images/organizers/products/organizer-product4.png') }}"
                                     alt="door" />
                             </label>
                             <h3
@@ -76,7 +76,7 @@
                             <input class="checkboxes" type="radio" name="radio1" id="radio1image5" />
                             <label class="checkbox_label" for="radio1image5">
                                 <img class="w-full object-cover"
-                                    src="{{ asset('frontend/assets/images/organizers/products/organizer-product5.png') }}"
+                                    src="{{ asset('assets/images/organizers/products/organizer-product5.png') }}"
                                     alt="door" />
                             </label>
                             <h3
@@ -90,7 +90,7 @@
                             <input class="checkboxes" type="radio" name="radio1" id="radio1image6" />
                             <label class="checkbox_label" for="radio1image6">
                                 <img class="w-full object-cover"
-                                    src="{{ asset('frontend/assets/images/organizers/products/organizer-product6.png') }}"
+                                    src="{{ asset('assets/images/organizers/products/organizer-product6.png') }}"
                                     alt="door" />
                             </label>
                             <h3
@@ -104,7 +104,7 @@
                             <input class="checkboxes" type="radio" name="radio1" id="radio1image7" />
                             <label class="checkbox_label" for="radio1image7">
                                 <img class="w-full object-cover"
-                                    src="{{ asset('frontend/assets/images/organizers/products/organizer-product7.png') }}"
+                                    src="{{ asset('assets/images/organizers/products/organizer-product7.png') }}"
                                     alt="door" />
                             </label>
                             <h3
@@ -134,7 +134,7 @@
             <section class="mt-[12px] lg:mt-[47px] bg-[#f5f4f3] p-[30px] lg:p-[70px] relative">
                 <div class="flex xl:justify-between justify-center items-center xl:flex-row flex-col relative">
                     <img class="md:hidden w-[18px] h-[18px] cursor-pointer absolute top-[24px] right-[18px]"
-                        src="{{ asset('frontend/assets/images/plus.png') }}" alt="plus">
+                        src="{{ asset('assets/images/plus.png') }}" alt="plus">
                     <div class="w-full">
                         <p
                             class="sm:hidden mt-[23px] ml-[18px] font-[700] text-[16px] leading-[24px] lg:text-[42px] lg:leading-[41px]">
@@ -142,12 +142,11 @@
 
                         <div class="flex justify-center items-center">
                             <div class="imageHoverContainer">
-                                <img src="{{ asset('frontend/assets/images/organizers/cart-image.png') }}"
-                                    alt="add to cart">
+                                <img src="{{ asset('assets/images/organizers/cart-image.png') }}" alt="add to cart">
                             </div>
                         </div>
                         <img class="max-lg:hidden w-[48px] h-[48px] mt-[60px] cursor-pointer"
-                            src="{{ asset('frontend/assets/images/plus.png') }}" alt="plus">
+                            src="{{ asset('assets/images/plus.png') }}" alt="plus">
 
                     </div>
 
@@ -221,7 +220,7 @@
                 <section class="flex justify-between max-md:flex-col max-md:gap-[12px] pb-[150px]">
                     <div class="max-w-[650px] w-full lg:px-[25px]">
                         <img class="lg:max-w-[247px] max-w-[120px] w-full"
-                            src="{{ asset('frontend/assets/images/fitting/Rey-Xpress-High-Quality-Products.svg') }}"
+                            src="{{ asset('assets/images/fitting/Rey-Xpress-High-Quality-Products.svg') }}"
                             alt="high-quality-product">
                         <p class="font24 my-[12px] lg:my-[25px]">Crafted with quality to withstand a lifetime of daily
                             use.</p>
@@ -248,7 +247,7 @@
                 <div class="absolute md:bottom-0 md:mb-[-135px] max-xl:mb-[-50px] left-1/2 -translate-x-1/2">
                     <a href="#">
                         <img class="w-[100px] md:w-[270px]"
-                            src="{{ asset('frontend/assets/images/fitting/Rey-Xpress-Button-Add-Item-Black.svg') }}"
+                            src="{{ asset('assets/images/fitting/Rey-Xpress-Button-Add-Item-Black.svg') }}"
                             alt="add a item" />
                     </a>
                 </div>

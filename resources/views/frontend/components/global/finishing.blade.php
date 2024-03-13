@@ -5,7 +5,7 @@
             <button
                 class="ml-auto text-[10px] leading-[22px] md:text-[27px] md:leading-[60px] flex items-center gap-2 justify-end">
                 Next
-                <img class="w-[10px] md:w-[27px]" src="{{ asset('frontend/assets/images/Arrow_Right_White.svg') }}"
+                <img class="w-[10px] md:w-[27px]" src="{{ asset('assets/images/Arrow_Right_White.svg') }}"
                     alt="right arrow" />
             </button>
 
