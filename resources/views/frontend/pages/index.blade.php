@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('frontend.layouts.app')
 @section('title', 'Home')
 @section('content')
     <main class="flex max-[768px]:flex-col">

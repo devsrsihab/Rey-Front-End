@@ -1,4 +1,4 @@
-@extends('layouts.app-navbar')
+@extends('frontend.layouts.app-navbar')
 @section('title', 'Rey-Xpress')
 
 @push('css')

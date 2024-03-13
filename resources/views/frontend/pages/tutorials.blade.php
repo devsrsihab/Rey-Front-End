@@ -1,4 +1,4 @@
-@extends('layouts.app-navbar')
+@extends('frontend.layouts.app-navbar')
 @section('title', 'Tutorials')
 @push('css')
     <link rel="stylesheet" href="{{ asset('frontend/assets/css/tutorials-page.css') }}" />

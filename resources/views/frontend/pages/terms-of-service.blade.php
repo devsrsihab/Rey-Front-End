@@ -1,4 +1,4 @@
-@extends('layouts.app-navbar')
+@extends('frontend.layouts.app-navbar')
 @section('title', 'TERMS OF SERVICE')
 @push('css')
     <link rel="stylesheet" href="{{ asset('frontend/assets/css/termsAndPolicies.css') }}" />
