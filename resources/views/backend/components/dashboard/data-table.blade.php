@@ -33,11 +33,11 @@
                                     <i class="ph-pen me-2"></i>
                                     Edit 
                                 </a>
-                                <a href="#" class="dropdown-item">
+                                <a href="{{ url('admin/dashboard/view') }}" class="dropdown-item">
                                     <i class="ph-eye me-2"></i>
                                     View 
                                 </a>
-                                <a href="#" class="text-danger dropdown-item">
+                                <a   class="deleteBtn text-danger dropdown-item">
                                     <i class="ph-trash me-2"></i>
                                     Remove
                                 </a>

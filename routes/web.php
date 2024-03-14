@@ -84,6 +84,9 @@ Route::prefix('admin')->group(function () {
   Route::get('/dashboard/edit', function () {
     return view('backend.pages.dashboard.edit');
 });
+  Route::get('/dashboard/view', function () {
+    return view('backend.pages.dashboard.view');
+});
 
 
 });

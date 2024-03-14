@@ -12,6 +12,10 @@
 	<link href="{{ asset('backend/assets/css/ltr/all.min.css') }}" id="stylesheet" rel="stylesheet" type="text/css">
 	<!-- /global stylesheets -->
 
+	<!-- external file -->
+	@stack('css')
+	<!-- /external file -->
+
 </head>
 
 <body>
@@ -68,10 +72,12 @@
 	<script src="{{ asset('backend/assets/js/vendor/visualization/d3/d3_tooltip.js') }}"></script>
 
 	<script src="{{ asset('backend/assets/js/app.js') }}"></script>
-	{{-- <script src="{{ asset('backend/assets/demo/pages/dashboard.js') }}"></script> --}}
-
 	<script src="{{ asset('backend/assets/js/vendor/tables/datatables/datatables.min.js') }}"></script>
 	<script src="{{ asset('backend/assets/demo/pages/datatables_basic.js') }}"></script>
 	<!-- /theme JS files -->
+
+	<!-- external file -->
+	@stack('js')
+	<!-- /external file -->
 </body>
 </html>
