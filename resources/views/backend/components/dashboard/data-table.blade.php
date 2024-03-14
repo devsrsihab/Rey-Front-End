@@ -29,7 +29,7 @@
                             </a>
 
                             <div class="dropdown-menu">
-                                <a href="#" class="dropdown-item">
+                                <a href="{{ url('admin/dashboard/edit') }}" class="dropdown-item">
                                     <i class="ph-pen me-2"></i>
                                     Edit 
                                 </a>
