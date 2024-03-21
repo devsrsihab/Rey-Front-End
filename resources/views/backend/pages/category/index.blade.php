@@ -11,7 +11,7 @@
 @endsection
 {{-- page content --}}
 @section('content')
-    @include('backend.components.dashboard.data-table')
+    @include('backend.components.category.data-table')
 @endsection
 
 

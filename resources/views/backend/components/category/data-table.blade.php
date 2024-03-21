@@ -1,6 +1,17 @@
     <!-- data table -->
     <div class="card">
-
+        <div class="card-header">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1 class="h3">All categories</h1>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="{{ route('categories.create') }}" class="btn btn-primary btn-lg">
+                        <span>Add New category</span>
+                    </a>
+                </div>
+            </div>
+        </div>
         <table class="table datatable-basic table-hover">
             <thead>
                 <tr>
@@ -24,17 +35,17 @@
                             <a href="#" class="text-body dropdown-toggle" data-bs-toggle="dropdown">
                                 <i class="ph-gear"></i>
                             </a>
-
                             <div class="dropdown-menu">
-                                <a href="{{ url('admin/dashboard/edit') }}" class="dropdown-item">
+                                <a href="{{ route('categories.edit', ['id' => 1]) }}" class="dropdown-item">
                                     <i class="ph-pen me-2"></i>
-                                    Edit 
+                                    Edit
                                 </a>
-                                <a href="{{ url('admin/dashboard/view') }}" class="dropdown-item">
+                                <a href="{{ route('categories.show', ['id' => 1]) }}" class="dropdown-item">
                                     <i class="ph-eye me-2"></i>
-                                    View 
+                                    View
                                 </a>
-                                <a   class="deleteBtn text-danger dropdown-item">
+                                <a href="{{ route('categories.destroy', ['id' => 1]) }}"
+                                    class="deleteBtn text-danger dropdown-item">
                                     <i class="ph-trash me-2"></i>
                                     Remove
                                 </a>
