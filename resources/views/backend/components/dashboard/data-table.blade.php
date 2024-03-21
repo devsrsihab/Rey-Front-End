@@ -1,8 +1,5 @@
     <!-- data table -->
     <div class="card">
-        <div class="card-header">
-            <h5 class="mb-0">Hover rows</h5>
-        </div>
 
         <table class="table datatable-basic table-hover">
             <thead>
@@ -27,17 +24,16 @@
                             <a href="#" class="text-body dropdown-toggle" data-bs-toggle="dropdown">
                                 <i class="ph-gear"></i>
                             </a>
-
                             <div class="dropdown-menu">
-                                <a href="{{ url('admin/dashboard/edit') }}" class="dropdown-item">
+                                <a href="{{ route('categories.edit',['id' => 1]) }}" class="dropdown-item">
                                     <i class="ph-pen me-2"></i>
                                     Edit 
                                 </a>
-                                <a href="{{ url('admin/dashboard/view') }}" class="dropdown-item">
+                                <a href="{{ route('categories.show',['id' => 1]) }}" class="dropdown-item">
                                     <i class="ph-eye me-2"></i>
                                     View 
                                 </a>
-                                <a   class="deleteBtn text-danger dropdown-item">
+                                <a href="{{ route('categories.destroy',['id' => 1]) }}"  class="deleteBtn text-danger dropdown-item">
                                     <i class="ph-trash me-2"></i>
                                     Remove
                                 </a>

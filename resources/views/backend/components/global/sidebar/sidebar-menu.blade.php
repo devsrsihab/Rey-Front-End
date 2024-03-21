@@ -6,7 +6,7 @@
 							<i class="ph-dots-three sidebar-resize-show"></i>
 						</li>
 						<li class="nav-item">
-							<a href="{{ url('admin/dashboard') }}" class="nav-link active">
+							<a href="{{ url('admin/dashboard') }}" class="nav-link {{ request()->is('admin/dashboard') ? 'active' : '' }}">
 								<i class="ph-house"></i>
 								<span>
 									Dashboard
@@ -14,14 +14,14 @@
 								</span>
 							</a>
 						</li>
-						<li class="nav-item nav-item-submenu">
+						<li class="nav-item nav-item-submenu {{ request()->is('admin/categories') ? 'nav-item-expanded nav-item-open' : '' }}">
 							<a href="#" class="nav-link">
 								<i class="ph-clipboard-text"></i>
 								<span>Product</span>
 							</a>
-							<ul class="nav-group-sub collapse">
-								<li class="nav-item"><a href="#" class="nav-link">Categories</a></li>
-	
+							<ul class="nav-group-sub collapse {{ request()->is('admin/categories') ? 'show' : '' }}">
+								<li class="nav-item">
+								<a href="{{ route('categories.index') }}" class="nav-link {{ request()->is('admin/categories') ? 'active' : '' }}">Categories</a></li>
 							</ul>
 						</li>
 					</ul>

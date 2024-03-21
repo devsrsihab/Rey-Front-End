@@ -33,7 +33,7 @@
 			<!-- Inner content -->
 			<div class="content-inner">
 
-				@include('backend.components.global.page-header')
+				@yield('page-header')
 
 				<!-- Content area -->
 				<div class="content">
