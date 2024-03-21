@@ -2,92 +2,34 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\FrontendController;
+use App\Http\Controllers\ShopController;
 
+// Frontend routes
+Route::get('/', [FrontendController::class, 'index']);
+Route::get('/home', [FrontendController::class, 'home'])->name('frontend.home');
 
-Route::get('/', function () {
-    return view('frontend.pages.index');
-});
-
-// shop routes start
-Route::get('/shop', function () {
-    return view('frontend.pages.shop');
-});
-Route::get('/shop/vanities', function () {
-    return view('frontend.pages.vanities');
-});
-Route::get('/shop/doors', function () {
-    return view('frontend.pages.doors');
-});
-Route::get('/shop/drawers', function () {
-    return view('frontend.pages.drawers');
-});
-Route::get('/shop/fittings', function () {
-    return view('frontend.pages.fittings');
-});
-Route::get('/shop/kitchen-organizers', function () {
-    return view('frontend.pages.kitchen-organizers');
-});
-Route::get('/shop/cabinet-handles', function () {
-    return view('frontend.pages.cabinet-handles');
-});
-Route::get('/shop/crown-moulding', function () {
-    return view('frontend.pages.crown-moulding');
-});
-Route::get('/shop/counter-tops', function () {
-    return view('frontend.pages.counter-tops');
-});
-Route::get('/shop-kitchen-cabinets', function () {
-    return view('frontend.pages.shop-kitchen-cabinets');
-});
-// shop routes end
-Route::get('/company-policies', function () {
-    return view('frontend.pages.company-policies');
-});
-Route::get('/terms-of-service', function () {
-    return view('frontend.pages.terms-of-service');
-});
-Route::get('/projects', function () {
-    return view('frontend.pages.projects');
-});
-Route::get('/contact', function () {
-    return view('frontend.pages.contact');
-});
-Route::get('/tutorials', function () {
-    return view('frontend.pages.tutorials');
-});
-Route::get('/why-rey', function () {
-    return view('frontend.pages.why-rey');
-});
-Route::get('/home', function () {
-    return view('frontend.pages.home');
-});
-Route::get('/products-and-finishes', function () {
-    return view('frontend.pages.products-and-finishes
-    ');
-});
-Route::get('/create-account', function () {
-    return view('frontend.pages.create-account');
-});
-Route::get('/product-details', function () {
-    return view('frontend.pages.product-details');
+// Shop routes
+Route::prefix('shop')->group(function () {
+    Route::get('/', [ShopController::class, 'index'])->name('frontend.shop');
+    Route::get('/vanities', [ShopController::class, 'vanities'])->name('frontend.shop.vanities');
+    Route::get('/doors', [ShopController::class, 'doors'])->name('frontend.shop.doors');
+    Route::get('/drawers', [ShopController::class, 'drawers'])->name('frontend.shop.drawers');
+    Route::get('/fittings', [ShopController::class, 'fittings'])->name('frontend.shop.fittings');
+    Route::get('/kitchen-organizers', [ShopController::class, 'kitchenOrganizers'])->name('frontend.shop.kitchen_organizers');
+    Route::get('/cabinet-handles', [ShopController::class, 'cabinetHandles'])->name('frontend.shop.cabinet_handles');
+    Route::get('/crown-moulding', [ShopController::class, 'crownMoulding'])->name('frontend.shop.crown_moulding');
+    Route::get('/counter-tops', [ShopController::class, 'counterTops'])->name('frontend.shop.counter_tops');
+    Route::get('/kitchen-cabinets', [ShopController::class, 'kitchenCabinets'])->name('frontend.shop.kitchen_cabinets');
 });
 
-
-// admin routes
-Route::prefix('admin')->group(function () {
-  Route::get('/', function () {
-    return view('backend.pages.dashboard.index');
-});
-  Route::get('/dashboard', function () {
-    return view('backend.pages.dashboard.index');
-});
-  Route::get('/dashboard/edit', function () {
-    return view('backend.pages.dashboard.edit');
-});
-  Route::get('/dashboard/view', function () {
-    return view('backend.pages.dashboard.view');
-});
-
-
-});
-
+// Other frontend pages (Example for one route)
+Route::get('/products-and-finishes', [FrontendController::class, 'productsFinishes'])->name('frontend.products_and_finishes');
+Route::get('/company-policies', [FrontendController::class, 'companyPolicies'])->name('frontend.company_policies');
+Route::get('/terms-of-service', [FrontendController::class, 'termsSfService'])->name('frontend.terms_of_service');
+Route::get('/why-rey', [FrontendController::class, 'whyRey'])->name('frontend.why_rey');
+Route::get('/tutorials', [FrontendController::class, 'tutorials'])->name('frontend.tutorials');
+Route::get('/contact', [FrontendController::class, 'contact'])->name('frontend.contact');
+Route::get('/create-account', [FrontendController::class, 'createAccount'])->name('frontend.create_account');
+Route::get('/projects', [FrontendController::class, 'projects'])->name('frontend.projects');
+Route::get('/product-details', [FrontendController::class, 'productDetails'])->name('frontend.product_details');
