@@ -16,11 +16,11 @@
 						</li>
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link">
-								<i class="ph-note-blank"></i>
-								<span>Starter kit</span>
+								<i class="ph-clipboard-text"></i>
+								<span>Product</span>
 							</a>
 							<ul class="nav-group-sub collapse">
-								<li class="nav-item"><a href="#" class="nav-link">Static layout</a></li>
+								<li class="nav-item"><a href="#" class="nav-link">Categories</a></li>
 	
 							</ul>
 						</li>

@@ -1,0 +1,38 @@
+<html lang="en">
+    <body>
+        <script>
+            const popupposts = [
+                "771",
+                "741",
+                "663",
+                "775",
+                "245",
+                "767",
+            ]; /* Enter your popup IDs here, in the order you want them to show up */
+
+            const showPopupById = function (popupId) {
+                elementorProFrontend.modules.popup.showPopup({
+                    id: popupId,
+                });
+            };
+            const elements = document.querySelectorAll(".showpopup");
+
+            const popupIdLength = popupposts.length;
+            const elementsLength = elements.length;
+
+            console.log(
+                "ids=>",
+                popupIdLength,
+                "elemtn length=>",
+                elementsLength
+            );
+
+            elements.forEach(function (element, index) {
+                element.addEventListener("mouseenter", function () {
+                    console.log(popupposts[index]);
+                    showPopupById(popupposts[index]);
+                });
+            });
+        </script>
+    </body>
+</html>
