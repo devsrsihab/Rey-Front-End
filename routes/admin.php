@@ -19,7 +19,7 @@ Route::middleware(['web'])->group(function () {
     Route::controller(CategoryController::class)->group(function () {
         Route::get('/categories/edit/{id}', 'edit')->name('categories.edit');
         Route::get('/categories/{id}', 'show')->name('categories.show');
-        Route::get('/categories/destroy/{id}', 'destroy')->name('categories.destroy');
+        // Route::delete('/categories/destroy/{id}', 'destroy')->name('categories.destroy');
     });
 });
 

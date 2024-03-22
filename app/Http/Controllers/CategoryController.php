@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Product;
 use App\Models\Category;
 use Illuminate\Support\Str;
 use Illuminate\Http\Request;
@@ -234,24 +235,23 @@ class CategoryController extends Controller
      */
     public function destroy($id)
     {
-        dd('category destroy method');
+        // dd('category destroy method');
         $category = Category::findOrFail($id);
-        $category->attributes()->detach();
 
-        // Category Translations Delete
-        foreach ($category->category_translations as $key => $category_translation) {
-            $category_translation->delete();
-        }
+        // Check if an image file is provided and update it
+        $imageFile       = $category->image;
+        $imageFolder     = 'categories';
+        $imageName       = ImageManager::delete($imageFile, $imageFolder);
+        $category->image = $imageName;
 
         foreach (Product::where('category_id', $category->id)->get() as $product) {
             $product->category_id = null;
             $product->save();
         }
 
-        CategoryUtility::delete_category($id);
-        Cache::forget('featured_categories');
+        // Delete the category
+        $category->delete();
 
-        flash(translate('Category has been deleted successfully'))->success();
-        return redirect()->route('categories.index');
+       return redirect()->route('categories.index');
     }
 }

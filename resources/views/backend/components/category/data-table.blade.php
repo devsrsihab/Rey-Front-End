@@ -43,9 +43,9 @@
                         <td>{{ $category->level }}</td>
                         <td>
                             @if ($category->image != null)
-   
-                            <img src="{{ asset('uploads/images/categories/' . $category->image) }}" alt="{{ $category->image }}" style="width:100px; height:50px; max-widht:100%; max-height:100%; object-fit:cover " >
-
+                                <img src="{{ asset('uploads/images/categories/' . $category->image) }}"
+                                    alt="{{ $category->image }}"
+                                    style="width:100px; height:50px; max-widht:100%; max-height:100%; object-fit:cover ">
                             @else
                                 —
                             @endif
@@ -56,19 +56,27 @@
                                     <i class="ph-gear"></i>
                                 </a>
                                 <div class="dropdown-menu">
-                                    <a href="{{route('categories.edit', ['id'=>$category->id] )}}" class="dropdown-item">
+                                    <a href="{{ route('categories.edit', ['id' => $category->id]) }}"
+                                        class="dropdown-item">
                                         <i class="ph-pen me-2"></i>
                                         Edit
                                     </a>
-                                    <a href="{{ route('categories.show', ['id' => $category->id]) }}" class="dropdown-item">
+                                    <a href="{{ route('categories.show', ['id' => $category->id]) }}"
+                                        class="dropdown-item">
                                         <i class="ph-eye me-2"></i>
                                         View
                                     </a>
-                                    <a href="{{ route('categories.destroy', ['id' => $category->id]) }}"
-                                        class="deleteBtn text-danger dropdown-item">
-                                        <i class="ph-trash me-2"></i>
-                                        Remove
-                                    </a>
+
+                                    <form style="cursor: pointer" class="deleteForm" action="{{ route('categories.destroy', $category->id) }}" method="POST">
+                                        @csrf
+                                        @method('DELETE')
+                                        <a class=" text-danger dropdown-item">
+                                            <i class="ph-trash me-2"></i>
+                                            Remove
+                                        </a>
+                                    </form>
+
+
                                 </div>
                             </div>
                         </td>

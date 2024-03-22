@@ -9,7 +9,6 @@
 
     <!-- Global stylesheets -->
     <link href="{{ asset('backend/assets/fonts/inter/inter.css') }}" rel="stylesheet" type="text/css">
-    <link href="{{ asset('backend/assets/toastr/toastr.min.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ asset('backend/assets/icons/phosphor/styles.min.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ asset('backend/assets/css/ltr/all.min.css') }}" id="stylesheet" rel="stylesheet" type="text/css">
     <!-- /global stylesheets -->
@@ -71,8 +70,8 @@
     <script src="{{ asset('backend/assets/js/jquery/jquery.min.js') }}"></script>
     <script src="{{ asset('backend/assets/js/vendor/visualization/d3/d3.min.js') }}"></script>
     <script src="{{ asset('backend/assets/js/vendor/visualization/d3/d3_tooltip.js') }}"></script>
+    <script src="{{ asset('backend/assets/js/axios/axios.min.js') }}"></script>
     <script src="{{ asset('backend/assets/js/app.js') }}"></script>
-    <script src="{{ asset('backend/assets/toastr/toastr.min.js') }}"></script>
 
     <!-- /theme JS files -->
 
