@@ -51,22 +51,25 @@
                                     data-placeholder="Choose ..." data-live-search="true">
                                     <option value="0">No Parent</option>
                                     @foreach ($categories as $cat)
-                                        <option value="{{ $cat->id }}"
-                                            {{ $category->parent_id == $cat->id ? 'selected' : '' }}>
-                                            {{ $cat->name }}
-                                        </option>
-                                        @if ($cat->childrenCategories->count() > 0)
-                                            @foreach ($cat->childrenCategories as $subCat)
-                                                <option value="{{ $subCat->id }}"
-                                                    {{ $category->parent_id == $subCat->id ? 'selected' : '' }}>
-                                                    &nbsp;&nbsp;&nbsp;&nbsp;{{ $subCat->name }}
-                                                </option>
-                                            @endforeach
+                                        @if ($category->id != $cat->id)
+                                            <option value="{{ $cat->id }}"
+                                                {{ $category->parent_id == $cat->id ? 'selected' : '' }}>
+                                                {{ $cat->name }}
+                                            </option>
+                                            @if ($cat->childrenCategories->count() > 0)
+                                                @foreach ($cat->childrenCategories as $subCat)
+                                                    <option value="{{ $subCat->id }}"
+                                                        {{ $category->parent_id == $subCat->id ? 'selected' : '' }}>
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;{{ $subCat->name }}
+                                                    </option>
+                                                @endforeach
+                                            @endif
                                         @endif
                                     @endforeach
                                 </select>
                             </div>
                         </div>
+
 
                         <div class="form-group row mb-3">
                             <label class="col-md-3 col-form-label">Ordering Number:</label>
@@ -76,18 +79,6 @@
                                 <small>Higher number has high priority</small>
                             </div>
                         </div>
-
-                        {{-- <div class="form-group row mb-3">
-                            <label class="col-md-3 col-form-label" for="image">Category Image:
-                                <br />
-                                <small>360x360</small>
-                            </label>
-                            <div class="col-md-9">
-                                <!-- Category Image uploader -->
-                                <input type="file" name="image" id="image" class="file-input">
-                                <!-- /Category Image uploader -->
-                            </div>
-                        </div> --}}
 
                         <div class="form-group row mb-3">
                             <label class="col-md-3 col-form-label">Category Image:</label>

@@ -6,6 +6,7 @@ use App\Models\Category;
 use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 use App\helpers\ImageManager;
+use Illuminate\Validation\Rule;
 use Brian2694\Toastr\Facades\Toastr;
 use Illuminate\Support\Facades\Validator;
 
@@ -134,8 +135,6 @@ class CategoryController extends Controller
      */
     public function edit(Request $request, $id)
     {
-
-
         $category = Category::findOrFail($id);
         $categories = Category::where('parent_id', 0)
             ->with('childrenCategories')
@@ -152,66 +151,80 @@ class CategoryController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
-    {
-        $category = Category::findOrFail($id);
-        if($request->lang == env("DEFAULT_LANGUAGE")){
+        public function update(Request $request, $id)
+        {
+            // Find the category by its ID
+            $category = Category::findOrFail($id);
+
+            // Define custom validation rules
+            $rules = [
+                'name' => 'required|max:255|unique:categories,name,' . $category->id,
+                'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048', // Modified to be nullable for update
+                'parent_id' => [
+                    'required',
+                    Rule::notIn([$id]), // Ensure that the selected parent_id is different from the category ID
+                ],
+            ];
+
+            // Define custom validation messages
+            $messages = [
+                'name.required' => 'The category name is required.',
+                'name.max' => 'The category name must not exceed 255 characters.',
+                'name.unique' => 'The category name has already been taken.',
+                'image.image' => 'The uploaded file must be an image.',
+                'image.mimes' => 'Only JPEG, PNG, JPG, and GIF images are allowed.',
+                'image.max' => 'The image size must not exceed 2MB.',
+                'parent_id.required' => 'Please select a parent category.',
+                'parent_id.not_in' => 'Parent category cannot be the same as the category itself.',
+            ];
+
+            // Perform validation
+            $validator = Validator::make($request->all(), $rules, $messages);
+
+            // Check if validation fails
+            if ($validator->fails()) {
+                return redirect()->back()->withErrors($validator)->withInput();
+            }
+
+            // Update the fields based on the request data
             $category->name = $request->name;
-        }
-        if($request->order_level != null) {
-            $category->order_level = $request->order_level;
-        }
-        $category->digital = $request->digital;
-        $category->banner = $request->banner;
-        $category->icon = $request->icon;
-        $category->cover_image = $request->cover_image;
-        $category->meta_title = $request->meta_title;
-        $category->meta_description = $request->meta_description;
+            $category->order_level = $request->order_level ?? 0; // Default to 0 if order_level is not provided
+            $category->meta_title = $request->meta_title;
+            $category->meta_description = $request->meta_description;
 
-        $previous_level = $category->level;
+            // Check if an image file is provided and update it
+            if ($request->hasFile('image')) {
+                $imageFile = $request->file('image');
+                $imageFolder = 'categories';
+                $imageName = ImageManager::update($imageFile, $imageFolder);
+                $category->image = $imageName;
+            }
 
-        if ($request->parent_id != "0") {
-            $category->parent_id = $request->parent_id;
+            // Update parent category
+            if ($request->parent_id != "0") {
+                $category->parent_id = $request->parent_id;
+                $parent = Category::find($request->parent_id);
+                $category->level = $parent->level + 1;
+            } else {
+                $category->parent_id = 0;
+                $category->level = 0;
+            }
 
-            $parent = Category::find($request->parent_id);
-            $category->level = $parent->level + 1 ;
-        }
-        else{
-            $category->parent_id = 0;
-            $category->level = 0;
-        }
+            // Slug
+            if ($request->slug != null) {
+                $category->slug = strtolower($request->slug);
+            } else {
+                $category->slug = preg_replace('/[^A-Za-z0-9\-]/', '', str_replace(' ', '-', $request->name)) . '-' . Str::random(5);
+            }
 
-        if($category->level > $previous_level){
-            CategoryUtility::move_level_down($category->id);
-        }
-        elseif ($category->level < $previous_level) {
-            CategoryUtility::move_level_up($category->id);
-        }
+            // Save the updated category
+            $category->save();
 
-        if ($request->slug != null) {
-            $category->slug = strtolower($request->slug);
-        }
-        else {
-            $category->slug = preg_replace('/[^A-Za-z0-9\-]/', '', str_replace(' ', '-', $request->name)).'-'.Str::random(5);
+            // Redirect back with success message
+            return back();
         }
 
 
-        if ($request->commision_rate != null) {
-            $category->commision_rate = $request->commision_rate;
-        }
-
-        $category->save();
-
-        $category->attributes()->sync($request->filtering_attributes);
-
-        $category_translation = CategoryTranslation::firstOrNew(['lang' => $request->lang, 'category_id' => $category->id]);
-        $category_translation->name = $request->name;
-        $category_translation->save();
-
-        Cache::forget('featured_categories');
-        flash(translate('Category has been updated successfully'))->success();
-        return back();
-    }
 
     /**
      * Remove the specified resource from storage.

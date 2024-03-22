@@ -44,7 +44,7 @@
                         <td>
                             @if ($category->image != null)
    
-                            <img src="{{ asset('uploads/images/categories/' . $category->image) }}" alt="{{ $category->image }}" style="width:100px; height:50px; max-widht:100%; max-height:100%" >
+                            <img src="{{ asset('uploads/images/categories/' . $category->image) }}" alt="{{ $category->image }}" style="width:100px; height:50px; max-widht:100%; max-height:100%; object-fit:cover " >
 
                             @else
                                 —
