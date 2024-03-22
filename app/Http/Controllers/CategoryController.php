@@ -1,9 +1,13 @@
-<?php
+<?Php
 
 namespace App\Http\Controllers;
 
 use App\Models\Category;
+use Illuminate\Support\Str;
 use Illuminate\Http\Request;
+use App\helpers\ImageManager;
+use Brian2694\Toastr\Facades\Toastr;
+
 
 class CategoryController extends Controller
 {
@@ -31,12 +35,11 @@ class CategoryController extends Controller
      */
     public function create()
     {
-        // $categories = Category::where('parent_id', 0)
-        //     ->where('digital', 0)
-        //     ->with('childrenCategories')
-        //     ->get();
+        $categories = Category::where('parent_id', 0)
+            ->with('childrenCategories')
+            ->get();
 
-        return view('backend.pages.category.create');
+        return view('backend.pages.category.create', compact('categories'));
     }
 
     /**
@@ -47,16 +50,19 @@ class CategoryController extends Controller
      */
     public function store(Request $request)
     {
+
         $category = new Category;
         $category->name = $request->name;
         $category->order_level = 0;
         if($request->order_level != null) {
             $category->order_level = $request->order_level;
         }
-        $category->digital = $request->digital;
-        $category->banner = $request->banner;
-        $category->icon = $request->icon;
-        $category->cover_image = $request->cover_image;
+        $imageFile       = $request->file('image');
+        $imageFolder     = 'categories';
+        $imageName       = ImageManager::upload($imageFile, $imageFolder);
+        // dd($imageName);
+        $category->image = $imageName;
+
         $category->meta_title = $request->meta_title;
         $category->meta_description = $request->meta_description;
 
@@ -79,13 +85,8 @@ class CategoryController extends Controller
 
         $category->save();
 
-        $category->attributes()->sync($request->filtering_attributes);
+        // Toastr::success('Messages in here', 'Title', ["positionClass" => "toast-top-center"]);
 
-        $category_translation = CategoryTranslation::firstOrNew(['lang' => env('DEFAULT_LANGUAGE'), 'category_id' => $category->id]);
-        $category_translation->name = $request->name;
-        $category_translation->save();
-
-        flash(translate('Category has been inserted successfully'))->success();
         return redirect()->route('categories.index');
     }
 

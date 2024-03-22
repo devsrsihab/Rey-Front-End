@@ -11,6 +11,7 @@
 @endsection
 {{-- page content --}}
 @section('content')
+   
     @include('backend.components.category.data-table')
 @endsection
 
@@ -18,7 +19,8 @@
 
 @push('js')
 	<script src="{{ asset('backend/assets/sweetalert2/sweetalert2.min.js') }}"></script>
-
+	<script src="{{ asset('backend/assets/js/vendor/tables/datatables/datatables.min.js') }}"></script>
+	<script src="{{ asset('backend/assets/demo/pages/datatables_basic.js') }}"></script>
     {{-- <script>
         // Select all elements with the class 'deleteBtn' as a NodeList
         const deleteBtns = document.querySelectorAll('.deleteBtn');

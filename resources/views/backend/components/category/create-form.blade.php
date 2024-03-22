@@ -1,3 +1,19 @@
+@extends('backend.layouts.app')
+@section('title', 'Dahsboard')
+
+@push('css')
+    <link href="{{ asset('backend/assets/sweetalert2/sweetalert2.min.css') }}" rel="stylesheet" type="text/css">
+@endpush
+
+{{-- page header --}}
+@section('page-header')
+    @include('backend.components.global.page-header', [
+        'title' => 'Category',
+        'subtitle' => 'Category Create',
+    ])
+@endsection
+{{-- page content --}}
+@section('content')
     <!-- create form -->
     <div class="row">
         <div class="col-lg-8 mx-auto">
@@ -7,71 +23,75 @@
                 </div>
 
                 <div class="card-body border-top">
-                    <form action="#" autocomplete="off">
-                        <div class="mb-3">
-                            <label class="form-label">Name:</label>
-                            <input type="text" class="form-control" placeholder="Eugene Kopyov">
+                    <form action="{{ route('categories.store') }}" method="POST" enctype="multipart/form-data">
+                        @csrf
+                        <div class="form-group row mb-3">
+                            <label class="col-md-3 col-form-label">Name:</label>
+                            <div class="col-md-9">
+                                <input type="text" name="name" class="form-control" placeholder="Name">
+                            </div>
+
                         </div>
 
+                        <div class="form-group row mb-3">
+                            <label class="col-md-3 col-form-label">Parent Category</label>
+                            <div class="col-md-9">
+                                <select class="select2 form-control aiz-selectpicker" name="parent_id" data-toggle="select2"
+                                    data-placeholder="Choose ..." data-live-search="true">
+                                    <option value="0">No Parent</option>
+                                    @foreach ($categories as $category)
+                                        <option value="{{ $category->id }}">
+                                            {{ $category->name }}
 
-                        <div class="mb-3">
-                            <label class="form-label">Your state:</label>
-                            <select class="form-control form-control-select2">
-                                <optgroup label="Alaskan/Hawaiian Time Zone">
-                                    <option value="AK">Alaska</option>
-                                    <option value="HI">Hawaii</option>
-                                </optgroup>
-                                <optgroup label="Pacific Time Zone">
-                                    <option value="CA">California</option>
-                                    <option value="NV">Nevada</option>
-                                    <option value="WA">Washington</option>
-                                </optgroup>
-                                <optgroup label="Mountain Time Zone">
-                                    <option value="AZ">Arizona</option>
-                                    <option value="CO">Colorado</option>
-                                    <option value="WY">Wyoming</option>
-                                </optgroup>
-                                <optgroup label="Central Time Zone">
-                                    <option value="AL">Alabama</option>
-                                    <option value="AR">Arkansas</option>
-                                    <option value="KY">Kentucky</option>
-                                </optgroup>
-                                <optgroup label="Eastern Time Zone">
-                                    <option value="CT">Connecticut</option>
-                                    <option value="DE">Delaware</option>
-                                    <option value="FL">Florida</option>
-                                </optgroup>
-                            </select>
-                        </div>
-
-                        <div class="mb-3">
-                            <label class="form-label">Gender:</label>
-                            <div>
-                                <label class="form-check form-check-inline">
-                                    <input type="radio" class="form-check-input" name="gender" checked>
-                                    <span class="form-check-label">Male</span>
-                                </label>
-
-                                <label class="form-check form-check-inline">
-                                    <input type="radio" class="form-check-input" name="gender">
-                                    <span class="form-check-label">Female</span>
-                                </label>
+                                        </option>
+                                        @foreach ($category->childrenCategories as $childCategory)
+                                            @include('backend.components.category.child-category', [
+                                                'child_category' => $childCategory,
+                                            ])
+                                        @endforeach
+                                    @endforeach
+                                </select>
                             </div>
                         </div>
 
-                        <div class="mb-3">
-                            <label class="form-label">Your avatar:</label>
-                            <input type="file" class="form-control">
-                            <div class="form-text text-muted">Accepted formats: gif, png, jpg. Max file size 2Mb</div>
+
+                        <div class="form-group row mb-3">
+                            <label class="col-md-3 col-form-label">Ordering Number:</label>
+                            <div class="col-md-9">
+                                <input type="text" name="order_level" class="form-control" id="order_level"
+                                    placeholder="Order Leve">
+                                <small>Higher number has high priority</small>
+
+                            </div>
+
+                        </div>
+                        <div class="form-group row mb-3">
+                            <label class="col-md-3 col-form-label" for="image">Category Image:
+                                <br />
+                                <small>360x360</small></label>
+                            <div class="col-md-9">
+                                <!-- Category Image uploader -->
+                                <input type="file" name="image" id="image" class="file-input">
+                                <!-- /Category Image uploader -->
+                            </div>
+                        </div>
+                        <div class="form-group row mb-3">
+                            <label for="meta_title" class="col-md-3 col-form-label">Meta Title</label>
+                            <div class="col-md-9">
+                                <input type="text" id="meta_title" class="form-control" name="meta_title"
+                                    placeholder="Meta Title">
+                            </div>
                         </div>
 
-                        <div class="mb-3">
-                            <label class="form-label">Your message:</label>
-                            <textarea rows="3" cols="3" class="form-control" placeholder="Enter your message here"></textarea>
+                        <div class="form-group row mb-3">
+                            <label for="meta_description" class="col-md-3 col-form-label">{Meta Description</label>
+                            <div class="col-md-9">
+                                <textarea id="meta_description" name="meta_description" rows="5" class="form-control"></textarea>
+                            </div>
                         </div>
 
-                        <div class="text-end">
-                            <button type="submit" class="btn btn-primary">Submit <i
+                        <div class="text-end mt-5">
+                            <button type="submit" class="btn btn-success">Submit <i
                                     class="ph-paper-plane-tilt ms-2"></i></button>
                         </div>
                     </form>
@@ -79,5 +99,61 @@
             </div>
         </div>
     </div>
-
     <!-- /create form -->
+@endsection
+
+
+
+@push('js')
+    <script src="{{ asset('backend/assets/sweetalert2/sweetalert2.min.js') }}"></script>
+    <script src="{{ asset('backend/assets/demo/pages/uploader_bootstrap.js') }}"></script>
+    <script src="{{ asset('backend/assets/js/vendor/uploaders/fileinput/fileinput.min.js') }}"></script>
+    <script src="{{ asset('backend/assets/js/vendor/uploaders/fileinput/plugins/sortable.min.js') }}"></script>
+    <script src="{{ asset('backend/assets/demo/demo_configurator.js') }}"></script>
+
+    {{-- <script>
+        // Select all elements with the class 'deleteBtn' as a NodeList
+        const deleteBtns = document.querySelectorAll('.deleteBtn');
+
+        // Iterate over the NodeList with .forEach
+        deleteBtns.forEach((btn) => {
+            btn.addEventListener('click', () => {
+                console.log('clicked');
+
+                const swalWithBootstrapButtons = Swal.mixin({
+                    customClass: {
+                        confirmButton: "btn btn-success",
+                        cancelButton: "btn btn-danger"
+                    },
+                    buttonsStyling: false
+                });
+                swalWithBootstrapButtons.fire({
+                    title: "Are you sure?",
+                    text: "You won't be able to revert this!",
+                    icon: "warning",
+                    showCancelButton: true,
+                    confirmButtonText: "Yes, delete it!",
+                    cancelButtonText: "No, cancel!",
+                    reverseButtons: true
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        swalWithBootstrapButtons.fire({
+                            title: "Deleted!",
+                            text: "Your file has been deleted.",
+                            icon: "success"
+                        });
+                    } else if (
+                        /* Read more about handling dismissals below */
+                        result.dismiss === Swal.DismissReason.cancel
+                    ) {
+                        swalWithBootstrapButtons.fire({
+                            title: "Cancelled",
+                            text: "Your imaginary file is safe :)",
+                            icon: "error"
+                        });
+                    }
+                });
+            });
+        });
+    </script> --}}
+@endpush
