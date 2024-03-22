@@ -11,18 +11,24 @@ class ImageManager
 
     public static function upload(UploadedFile $file, $folder = '')
     {
-        // Ensure the directory exists
-        $directory = self::$storagePath . $folder;
+           // Define the base path for the uploads relative to the public directory
+            $basePath = 'uploads/images/'; // This path is relative to the public directory
 
-        if (!Storage::disk('public')->exists($directory)) {
-            Storage::disk('public')->makeDirectory($directory);
-        }
+            // Ensure the directory exists
+            $directory = public_path($basePath . $folder);
 
-        // $fileName = uniqid() . '.' . $file->getClientOriginalExtension();
-        $fileName = Carbon::now()->format('Y-m-d_H-i-s') . '.' . $file->getClientOriginalExtension();
-        $file->storeAs($directory, $fileName);
+            if (!file_exists($directory)) {
+                mkdir($directory, 0755, true);
+            }
 
-        return $fileName;
+            // Generate the file name
+            $fileName = Carbon::now()->format('Y-m-d_H-i-s') . '.' . $file->getClientOriginalExtension();
+
+            // Move the file to the target directory
+            $file->move($directory, $fileName);
+
+            // Return just the file name
+            return $fileName;
     }
 
     public static function update(UploadedFile $file, $folder = '', $existingFileName = null)
@@ -38,6 +44,21 @@ class ImageManager
     {
         $directory = self::$storagePath . $folder;
         Storage::disk('public')->delete($directory . '/' . $fileName);
+    }
+
+    public static function show($fileName, $folder = '')
+    {
+        $directory = self::$storagePath . $folder;
+        $filePath = $directory . '/' . $fileName;
+
+        if (Storage::disk('public')->exists($filePath)) {
+            $fileContents = Storage::disk('public')->get($filePath);
+            $fileType = Storage::disk('public')->mimeType($filePath);
+
+            return response($fileContents)->header('Content-Type', $fileType);
+        }
+
+        return abort(404);
     }
 
 }

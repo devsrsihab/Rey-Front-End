@@ -7,6 +7,7 @@ use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 use App\helpers\ImageManager;
 use Brian2694\Toastr\Facades\Toastr;
+use Illuminate\Support\Facades\Validator;
 
 
 class CategoryController extends Controller
@@ -50,44 +51,68 @@ class CategoryController extends Controller
      */
     public function store(Request $request)
     {
+            // Define custom validation rules
+            $rules = [
+                'name' => 'required|max:255|unique:categories',
+                'image' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048', // Example rules for image upload
+            ];
 
-        $category = new Category;
-        $category->name = $request->name;
-        $category->order_level = 0;
-        if($request->order_level != null) {
-            $category->order_level = $request->order_level;
-        }
-        $imageFile       = $request->file('image');
-        $imageFolder     = 'categories';
-        $imageName       = ImageManager::upload($imageFile, $imageFolder);
-        // dd($imageName);
-        $category->image = $imageName;
+            // Define custom validation messages
+            $messages = [
+                'name.required' => 'The category name is required.',
+                'name.max' => 'The category name must not exceed 255 characters.',
+                'name.unique' => 'The category name has already been taken.',
+                'image.required' => 'category image is required.',
+                'image.image' => 'The uploaded file must be an image.',
+                'image.mimes' => 'Only JPEG, PNG, JPG, and GIF images are allowed.',
+                'image.max' => 'The image size must not exceed 2MB.',
+            ];
 
-        $category->meta_title = $request->meta_title;
-        $category->meta_description = $request->meta_description;
+            // Perform validation
+            $validator = Validator::make($request->all(), $rules, $messages);
 
-        if ($request->parent_id != "0") {
-            $category->parent_id = $request->parent_id;
+            // Check if validation fails
+            if ($validator->fails()) {
+                return redirect()->back()->withErrors($validator)->withInput();
+            }
 
-            $parent = Category::find($request->parent_id);
-            $category->level = $parent->level + 1 ;
-        }
+            $category = new Category;
+            $category->name = $request->name;
+            $category->order_level = 0;
+            if($request->order_level != null) {
+                $category->order_level = $request->order_level;
+            }
+            $imageFile       = $request->file('image');
+            $imageFolder     = 'categories';
+            $imageName       = ImageManager::upload($imageFile, $imageFolder);
+            // dd($imageName);
+            $category->image = $imageName;
 
-        if ($request->slug != null) {
-            $category->slug = preg_replace('/[^A-Za-z0-9\-]/', '', str_replace(' ', '-', $request->slug));
-        }
-        else {
-            $category->slug = preg_replace('/[^A-Za-z0-9\-]/', '', str_replace(' ', '-', $request->name)).'-'.Str::random(5);
-        }
-        if ($request->commision_rate != null) {
-            $category->commision_rate = $request->commision_rate;
-        }
+            $category->meta_title = $request->meta_title;
+            $category->meta_description = $request->meta_description;
 
-        $category->save();
+            if ($request->parent_id != "0") {
+                $category->parent_id = $request->parent_id;
 
-        // Toastr::success('Messages in here', 'Title', ["positionClass" => "toast-top-center"]);
+                $parent = Category::find($request->parent_id);
+                $category->level = $parent->level + 1 ;
+            }
 
-        return redirect()->route('categories.index');
+            if ($request->slug != null) {
+                $category->slug = preg_replace('/[^A-Za-z0-9\-]/', '', str_replace(' ', '-', $request->slug));
+            }
+            else {
+                $category->slug = preg_replace('/[^A-Za-z0-9\-]/', '', str_replace(' ', '-', $request->name)).'-'.Str::random(5);
+            }
+            if ($request->commision_rate != null) {
+                $category->commision_rate = $request->commision_rate;
+            }
+
+            $category->save();
+
+            // Toastr::success('Messages in here', 'Title', ["positionClass" => "toast-top-center"]);
+
+            return redirect()->route('categories.index');
     }
 
     /**

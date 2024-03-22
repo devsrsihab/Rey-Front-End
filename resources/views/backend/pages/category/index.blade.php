@@ -12,7 +12,7 @@
 {{-- page content --}}
 @section('content')
    
-    @include('backend.components.category.data-table')
+@include('backend.components.category.data-table')
 @endsection
 
 

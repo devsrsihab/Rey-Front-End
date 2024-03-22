@@ -21,16 +21,26 @@
                 <div class="card-header">
                     <h5 class="mb-0">Create Category</h5>
                 </div>
+                @if ($errors->any())
+                    <div class="alert alert-danger">
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                @endif
 
                 <div class="card-body border-top">
                     <form action="{{ route('categories.store') }}" method="POST" enctype="multipart/form-data">
+                        @method('post')
                         @csrf
                         <div class="form-group row mb-3">
                             <label class="col-md-3 col-form-label">Name:</label>
                             <div class="col-md-9">
-                                <input type="text" name="name" class="form-control" placeholder="Name">
+                                <input type="text" name="name" class="form-control" placeholder="Name"
+                                    value="{{ old('name') }}">
                             </div>
-
                         </div>
 
                         <div class="form-group row mb-3">
@@ -40,53 +50,48 @@
                                     data-placeholder="Choose ..." data-live-search="true">
                                     <option value="0">No Parent</option>
                                     @foreach ($categories as $category)
-                                        <option value="{{ $category->id }}">
+                                        <option value="{{ $category->id }}"
+                                            {{ old('parent_id') == $category->id ? 'selected' : '' }}>
                                             {{ $category->name }}
-
                                         </option>
-                                        @foreach ($category->childrenCategories as $childCategory)
-                                            @include('backend.components.category.child-category', [
-                                                'child_category' => $childCategory,
-                                            ])
-                                        @endforeach
                                     @endforeach
                                 </select>
                             </div>
                         </div>
 
-
                         <div class="form-group row mb-3">
                             <label class="col-md-3 col-form-label">Ordering Number:</label>
                             <div class="col-md-9">
                                 <input type="text" name="order_level" class="form-control" id="order_level"
-                                    placeholder="Order Leve">
+                                    placeholder="Order Leve" value="{{ old('order_level') }}">
                                 <small>Higher number has high priority</small>
-
                             </div>
-
                         </div>
+
                         <div class="form-group row mb-3">
                             <label class="col-md-3 col-form-label" for="image">Category Image:
                                 <br />
-                                <small>360x360</small></label>
+                                <small>360x360</small>
+                            </label>
                             <div class="col-md-9">
                                 <!-- Category Image uploader -->
                                 <input type="file" name="image" id="image" class="file-input">
                                 <!-- /Category Image uploader -->
                             </div>
                         </div>
+
                         <div class="form-group row mb-3">
                             <label for="meta_title" class="col-md-3 col-form-label">Meta Title</label>
                             <div class="col-md-9">
                                 <input type="text" id="meta_title" class="form-control" name="meta_title"
-                                    placeholder="Meta Title">
+                                    placeholder="Meta Title" value="{{ old('meta_title') }}">
                             </div>
                         </div>
 
                         <div class="form-group row mb-3">
-                            <label for="meta_description" class="col-md-3 col-form-label">{Meta Description</label>
+                            <label for="meta_description" class="col-md-3 col-form-label">Meta Description</label>
                             <div class="col-md-9">
-                                <textarea id="meta_description" name="meta_description" rows="5" class="form-control"></textarea>
+                                <textarea id="meta_description" name="meta_description" rows="5" class="form-control">{{ old('meta_description') }}</textarea>
                             </div>
                         </div>
 
@@ -100,6 +105,7 @@
         </div>
     </div>
     <!-- /create form -->
+
 @endsection
 
 
