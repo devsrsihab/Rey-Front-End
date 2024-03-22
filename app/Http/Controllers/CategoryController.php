@@ -99,16 +99,9 @@ class CategoryController extends Controller
                 $parent = Category::find($request->parent_id);
                 $category->level = $parent->level + 1 ;
             }
+                $category->slug = $request->slug ? Str::slug($request->slug) : Str::slug($request->name) . '-' . Str::random(5);
 
-            if ($request->slug != null) {
-                $category->slug = preg_replace('/[^A-Za-z0-9\-]/', '', str_replace(' ', '-', $request->slug));
-            }
-            else {
-                $category->slug = preg_replace('/[^A-Za-z0-9\-]/', '', str_replace(' ', '-', $request->name)).'-'.Str::random(5);
-            }
-            if ($request->commision_rate != null) {
-                $category->commision_rate = $request->commision_rate;
-            }
+
 
             $category->save();
 
@@ -125,7 +118,13 @@ class CategoryController extends Controller
      */
     public function show($id)
     {
-        dd('category show method');
+        $category = Category::findOrFail($id);
+        $categories = Category::where('parent_id', 0)
+            ->with('childrenCategories')
+            ->orderBy('name','asc')
+            ->get();
+
+        return view('backend.pages.category.show', compact('category', 'categories'));
     }
 
     /**
