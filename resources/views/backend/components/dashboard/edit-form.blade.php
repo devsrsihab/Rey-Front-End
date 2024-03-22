@@ -1,81 +1,153 @@
-    <!-- edit form -->
-    <div class="card px-4">
-        <div class="card-header">
-            <h5 class="mb-0">Basic layout</h5>
-        </div>
+@extends('backend.layouts.app')
+@section('title', 'Dahsboard')
 
-        <div class="card-body border-top">
-            <form action="#">
-                <div class="mb-3">
-                    <label class="form-label">Name:</label>
-                    <input type="text" class="form-control" placeholder="Eugene Kopyov">
+@push('css')
+    <link href="{{ asset('backend/assets/sweetalert2/sweetalert2.min.css') }}" rel="stylesheet" type="text/css">
+@endpush
+
+{{-- page header --}}
+@section('page-header')
+    @include('backend.components.global.page-header', [
+        'title' => 'Category',
+        'subtitle' => 'Category Create',
+    ])
+@endsection
+{{-- page content --}}
+@section('content')
+    <!-- update form -->
+    <div class="row">
+        <div class="col-lg-8 mx-auto">
+            <div class="card px-4">
+                <div class="card-header">
+                    <h5 class="mb-0">Update Category</h5>
                 </div>
-
-                <div class="mb-3">
-                    <label class="form-label">Password:</label>
-                    <input type="password" class="form-control" placeholder="Your strong password">
-                </div>
-
-                <div class="mb-3">
-                    <label class="form-label">Your state:</label>
-                    <select class="form-control form-control-select2">
-                        <optgroup label="Alaskan/Hawaiian Time Zone">
-                            <option value="AK">Alaska</option>
-                            <option value="HI">Hawaii</option>
-                        </optgroup>
-                        <optgroup label="Pacific Time Zone">
-                            <option value="CA">California</option>
-                            <option value="NV">Nevada</option>
-                            <option value="WA">Washington</option>
-                        </optgroup>
-                        <optgroup label="Mountain Time Zone">
-                            <option value="AZ">Arizona</option>
-                            <option value="CO">Colorado</option>
-                            <option value="WY">Wyoming</option>
-                        </optgroup>
-                        <optgroup label="Central Time Zone">
-                            <option value="AL">Alabama</option>
-                            <option value="AR">Arkansas</option>
-                            <option value="KY">Kentucky</option>
-                        </optgroup>
-                        <optgroup label="Eastern Time Zone">
-                            <option value="CT">Connecticut</option>
-                            <option value="DE">Delaware</option>
-                            <option value="FL">Florida</option>
-                        </optgroup>
-                    </select>
-                </div>
-
-                <div class="mb-3">
-                    <label class="form-label">Gender:</label>
-                    <div>
-                        <label class="form-check form-check-inline">
-                            <input type="radio" class="form-check-input" name="gender" checked>
-                            <span class="form-check-label">Male</span>
-                        </label>
-
-                        <label class="form-check form-check-inline">
-                            <input type="radio" class="form-check-input" name="gender">
-                            <span class="form-check-label">Female</span>
-                        </label>
+                @if ($errors->any())
+                    <div class="alert alert-danger">
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
                     </div>
-                </div>
+                @endif
 
-                <div class="mb-3">
-                    <label class="form-label">Your avatar:</label>
-                    <input type="file" class="form-control">
-                    <div class="form-text text-muted">Accepted formats: gif, png, jpg. Max file size 2Mb</div>
-                </div>
+                <div class="card-body border-top">
+                    <form action="{{ route('categories.update', $category->id) }}" method="POST"
+                        enctype="multipart/form-data">
+                        @method('PATCH')
+                        @csrf
+                        <div class="form-group row mb-3">
+                            <label class="col-md-3 col-form-label">Name:</label>
+                            <div class="col-md-9">
+                                <input type="text" name="name" class="form-control" placeholder="Name"
+                                    value="{{ $category->name }}">
+                            </div>
+                        </div>
 
-                <div class="mb-3">
-                    <label class="form-label">Your message:</label>
-                    <textarea rows="3" cols="3" class="form-control" placeholder="Enter your message here"></textarea>
-                </div>
+                        <div class="form-group row mb-3">
+                            <label class="col-md-3 col-form-label">Parent Category</label>
+                            <div class="col-md-9">
+                                <select class="select2 form-control aiz-selectpicker" name="parent_id" data-toggle="select2"
+                                    data-placeholder="Choose ..." data-live-search="true">
+                                    <option value="0">No Parent</option>
+                                    @foreach ($categories as $cat)
+                                        <option value="{{ $cat->id }}"
+                                            {{ $category->parent_id == $cat->id ? 'selected' : '' }}>
+                                            {{ $cat->name }}
+                                        </option>
+                                        @if ($cat->childrenCategories->count() > 0)
+                                            @foreach ($cat->childrenCategories as $subCat)
+                                                <option value="{{ $subCat->id }}"
+                                                    {{ $category->parent_id == $subCat->id ? 'selected' : '' }}>
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;{{ $subCat->name }}
+                                                </option>
+                                            @endforeach
+                                        @endif
+                                    @endforeach
+                                </select>
+                            </div>
+                        </div>
 
-                <div class="text-end">
-                    <button type="submit" class="btn btn-primary">Submit <i class="ph-paper-plane-tilt ms-2"></i></button>
+                        <div class="form-group row mb-3">
+                            <label class="col-md-3 col-form-label">Ordering Number:</label>
+                            <div class="col-md-9">
+                                <input type="text" name="order_level" class="form-control" id="order_level"
+                                    placeholder="Order Leve" value="{{ $category->order_level }}">
+                                <small>Higher number has high priority</small>
+                            </div>
+                        </div>
+
+                        {{-- <div class="form-group row mb-3">
+                            <label class="col-md-3 col-form-label" for="image">Category Image:
+                                <br />
+                                <small>360x360</small>
+                            </label>
+                            <div class="col-md-9">
+                                <!-- Category Image uploader -->
+                                <input type="file" name="image" id="image" class="file-input">
+                                <!-- /Category Image uploader -->
+                            </div>
+                        </div> --}}
+
+                        <div class="form-group row mb-3">
+                            <label class="col-md-3 col-form-label">Category Image:</label>
+                            <div class="col-md-9">
+                                @if ($category->image)
+                                    <div class="mt-3">
+                                        <img src="{{ asset('uploads/images/categories/' . $category->image) }}"
+                                            alt="Category Image" class="img-fluid rounded" style="max-height: 200px;">
+                                    </div>
+                                @else
+                                    <div class="mt-3">
+                                        <span class="text-muted">No image uploaded</span>
+                                    </div>
+                                @endif
+                                <div class="custom-file">
+                                    <!-- Category Image uploader -->
+                                    <input type="file" name="image" id="image" class="file-input">
+                                    <!-- /Category Image uploader -->
+                                    <small class="text-muted">Recommended size: 360x360 pixels</small>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="form-group row mb-3">
+                            <label for="meta_title" class="col-md-3 col-form-label">Meta Title</label>
+                            <div class="col-md-9">
+                                <input type="text" id="meta_title" class="form-control" name="meta_title"
+                                    placeholder="Meta Title" value="{{ $category->meta_title }}">
+                            </div>
+                        </div>
+
+                        <div class="form-group row mb-3">
+                            <label for="meta_description" class="col-md-3 col-form-label">Meta Description</label>
+                            <div class="col-md-9">
+                                <textarea id="meta_description" name="meta_description" rows="5" class="form-control">{{ $category->meta_description }}</textarea>
+                            </div>
+                        </div>
+
+                        <div class="text-end mt-5">
+                            <button type="submit" class="btn btn-success">Submit <i
+                                    class="ph-paper-plane-tilt ms-2"></i></button>
+                        </div>
+                    </form>
                 </div>
-            </form>
+            </div>
         </div>
     </div>
-    <!-- /edit form -->
+    <!-- /update form -->
+
+
+@endsection
+
+
+
+@push('js')
+    <script src="{{ asset('backend/assets/sweetalert2/sweetalert2.min.js') }}"></script>
+    <script src="{{ asset('backend/assets/demo/pages/uploader_bootstrap.js') }}"></script>
+    <script src="{{ asset('backend/assets/js/vendor/uploaders/fileinput/fileinput.min.js') }}"></script>
+    <script src="{{ asset('backend/assets/js/vendor/uploaders/fileinput/plugins/sortable.min.js') }}"></script>
+    <script src="{{ asset('backend/assets/demo/demo_configurator.js') }}"></script>
+@endpush

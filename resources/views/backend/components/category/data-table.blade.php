@@ -50,23 +50,21 @@
                                 —
                             @endif
                         </td>
-
-
                         <td class="align-middle">
                             <div class="dropdown">
                                 <a href="#" class="text-body dropdown-toggle" data-bs-toggle="dropdown">
                                     <i class="ph-gear"></i>
                                 </a>
                                 <div class="dropdown-menu">
-                                    <a href="{{ route('categories.edit', ['id' => 1]) }}" class="dropdown-item">
+                                    <a href="{{route('categories.edit', ['id'=>$category->id] )}}" class="dropdown-item">
                                         <i class="ph-pen me-2"></i>
                                         Edit
                                     </a>
-                                    <a href="{{ route('categories.show', ['id' => 1]) }}" class="dropdown-item">
+                                    <a href="{{ route('categories.show', ['id' => $category->id]) }}" class="dropdown-item">
                                         <i class="ph-eye me-2"></i>
                                         View
                                     </a>
-                                    <a href="{{ route('categories.destroy', ['id' => 1]) }}"
+                                    <a href="{{ route('categories.destroy', ['id' => $category->id]) }}"
                                         class="deleteBtn text-danger dropdown-item">
                                         <i class="ph-trash me-2"></i>
                                         Remove

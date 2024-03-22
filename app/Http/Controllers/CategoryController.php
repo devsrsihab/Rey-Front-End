@@ -134,17 +134,15 @@ class CategoryController extends Controller
      */
     public function edit(Request $request, $id)
     {
-        dd('category edit method');
-        $lang = $request->lang;
+
+
         $category = Category::findOrFail($id);
         $categories = Category::where('parent_id', 0)
-            ->where('digital', $category->digital)
             ->with('childrenCategories')
-            ->whereNotIn('id', CategoryUtility::children_ids($category->id, true))->where('id', '!=' , $category->id)
             ->orderBy('name','asc')
             ->get();
 
-        return view('backend.product.categories.edit', compact('category', 'categories', 'lang'));
+        return view('backend.pages.category.edit', compact('category', 'categories'));
     }
 
     /**
