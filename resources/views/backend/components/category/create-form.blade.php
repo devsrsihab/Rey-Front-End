@@ -54,6 +54,9 @@
                                             {{ old('parent_id') == $category->id ? 'selected' : '' }}>
                                             {{ $category->name }}
                                         </option>
+                                        @foreach ($category->childrenCategories as $childCategory)
+                                            @include('backend.components.category.child-category', ['child_category' => $childCategory])
+                                        @endforeach
                                     @endforeach
                                 </select>
                             </div>
@@ -62,7 +65,7 @@
                         <div class="form-group row mb-3">
                             <label class="col-md-3 col-form-label">Ordering Number:</label>
                             <div class="col-md-9">
-                                <input type="text" name="order_level" class="form-control" id="order_level"
+                                <input type="number" name="order_level" class="form-control" id="order_level"
                                     placeholder="Order Leve" value="{{ old('order_level') }}">
                                 <small>Higher number has high priority</small>
                             </div>
