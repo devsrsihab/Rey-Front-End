@@ -47,26 +47,26 @@
                         <div class="form-group row mb-3">
                             <label class="col-md-3 col-form-label">Parent Category</label>
                             <div class="col-md-9">
-                                <select class="select2 form-control aiz-selectpicker" name="parent_id" data-toggle="select2"
-                                    data-placeholder="Choose ..." data-live-search="true">
+                                <select class="select2 form-control aiz-selectpicker" name="parent_id" data-toggle="select2" data-placeholder="Choose ..." data-live-search="true">
                                     <option value="0">No Parent</option>
                                     @foreach ($categories as $cat)
                                         @if ($category->id != $cat->id)
-                                            <option value="{{ $cat->id }}"
-                                                {{ $category->parent_id == $cat->id ? 'selected' : '' }}>
+                                            <option value="{{ $cat->id }}" {{ $category->parent_id == $cat->id ? 'selected' : '' }}>
                                                 {{ $cat->name }}
                                             </option>
                                             @if ($cat->childrenCategories->count() > 0)
                                                 @foreach ($cat->childrenCategories as $subCat)
-                                                    <option value="{{ $subCat->id }}"
-                                                        {{ $category->parent_id == $subCat->id ? 'selected' : '' }}>
-                                                        &nbsp;&nbsp;&nbsp;&nbsp;{{ $subCat->name }}
+                                                    @if ($category->id != $subCat->id) <!-- Check if the current subcategory is not the same as the current category -->
+                                                    <option value="{{ $subCat->id }}" {{ $category->parent_id == $subCat->id ? 'selected' : '' }}>
+                                                        --{{ $subCat->name }}
                                                     </option>
+                                                    @endif
                                                 @endforeach
                                             @endif
                                         @endif
                                     @endforeach
                                 </select>
+
                             </div>
                         </div>
 

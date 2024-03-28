@@ -16,7 +16,7 @@
 @section('content')
     <!-- create form -->
     <div class="row">
-        <div class="col-lg-8 mx-auto">
+        <div class="col mx-auto">
             <div class="card px-4">
                 <div class="card-header">
                     <h5 class="mb-0">Create Category</h5>
@@ -35,20 +35,22 @@
                     <form action="{{ route('categories.store') }}" method="POST" enctype="multipart/form-data">
                         @method('post')
                         @csrf
+
                         <div class="form-group row mb-3">
-                            <label class="col-md-3 col-form-label">Name:</label>
+                            <label for="name" class="col-md-3 col-form-label">Name:</label>
                             <div class="col-md-9">
-                                <input type="text" name="name" class="form-control" placeholder="Name"
-                                    value="{{ old('name') }}">
+                                <input id="name" type="text" name="name"  class="form-control" placeholder="Name"
+                                       value="{{ old('name') }}">
                             </div>
                         </div>
 
                         <div class="form-group row mb-3">
-                            <label class="col-md-3 col-form-label">Parent Category</label>
+                            <label for="select_parent" class="col-md-3 col-form-label">Parent Category</label>
                             <div class="col-md-9">
-                                <select class="select2 form-control aiz-selectpicker" name="parent_id" data-toggle="select2"
-                                    data-placeholder="Choose ..." data-live-search="true">
-                                    <option value="0">No Parent</option>
+                                <select id="select_parent" class="form-select form-select-lg" name="parent_id"
+                                        data-toggle="select2"
+                                        data-placeholder="Choose ..." data-live-search="true">
+                                    <option  value="0">No Parent</option>
                                     @foreach ($categories as $category)
                                         <option value="{{ $category->id }}"
                                             {{ old('parent_id') == $category->id ? 'selected' : '' }}>
@@ -63,22 +65,31 @@
                         </div>
 
                         <div class="form-group row mb-3">
-                            <label class="col-md-3 col-form-label">Ordering Number:</label>
+                            <label for="order_level" class="col-md-3 col-form-label">Ordering Number:</label>
                             <div class="col-md-9">
                                 <input type="number" name="order_level" class="form-control" id="order_level"
-                                    placeholder="Order Leve" value="{{ old('order_level') }}">
+                                       placeholder="Order Leve" value="{{ old('order_level') }}">
                                 <small>Higher number has high priority</small>
                             </div>
                         </div>
 
                         <div class="form-group row mb-3">
-                            <label class="col-md-3 col-form-label" for="image">Category Image:
-                                <br />
+                            <label for=price class="col-md-3 col-form-label">Price:</label>
+                            <div class="col-md-9">
+                                <input type="number" name="price" class="form-control" id="price"
+                                       placeholder="0" value="{{ old('price') }}">
+                                <small>If this category have price</small>
+                            </div>
+                        </div>
+
+                        <div class="form-group row mb-3">
+                            <label class="col-md-3 col-form-label" >Category Image:
+                                <br/>
                                 <small>360x360</small>
                             </label>
                             <div class="col-md-9">
                                 <!-- Category Image uploader -->
-                                <input type="file" name="image" id="image" class="file-input">
+                                <input type="file" name="image"  class="file-input">
                                 <!-- /Category Image uploader -->
                             </div>
                         </div>
@@ -87,14 +98,15 @@
                             <label for="meta_title" class="col-md-3 col-form-label">Meta Title</label>
                             <div class="col-md-9">
                                 <input type="text" id="meta_title" class="form-control" name="meta_title"
-                                    placeholder="Meta Title" value="{{ old('meta_title') }}">
+                                       placeholder="Meta Title" value="{{ old('meta_title') }}">
                             </div>
                         </div>
 
                         <div class="form-group row mb-3">
                             <label for="meta_description" class="col-md-3 col-form-label">Meta Description</label>
                             <div class="col-md-9">
-                                <textarea id="meta_description" name="meta_description" rows="5" class="form-control">{{ old('meta_description') }}</textarea>
+                                <textarea id="meta_description" name="meta_description" rows="5"
+                                          class="form-control">{{ old('meta_description') }}</textarea>
                             </div>
                         </div>
 

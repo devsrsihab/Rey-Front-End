@@ -18,6 +18,7 @@ return new class extends Migration
             $table->string('name', 50);
             $table->integer('order_level')->default(0);
             $table->string('image', 100)->nullable();
+            $table->double('price')->nullable();;
             $table->string('slug')->nullable()->index();
             $table->string('meta_title', 255)->nullable();
             $table->text('meta_description')->nullable();
